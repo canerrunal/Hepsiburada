@@ -1,0 +1,24 @@
+{
+  "profile": "moda",
+  "name": "Hepsiburada Moda",
+  "reportTitle": "Hepsiburada Moda Çok Satanlar",
+  "telegramTitle": "Hepsiburada Moda Günlük Raporu",
+  "sourceLabel": "Hepsiburada Moda / Çok Satanlar",
+  "query": "sneaker",
+  "sort": "cok-satanlar",
+  "maxProducts": 300,
+  "minimumProducts": 200,
+  "maxPagesPerSegment": 20,
+  "dailyFullDetailTopN": 300,
+  "dailyRotatingDetailN": 0,
+  "detailConcurrency": 3,
+  "requestDelayMs": 1500,
+  "timezone": "Europe/Istanbul",
+  "dailyRunTime": "23:00",
+  "searchSegments": [
+    { "name": "moda-vitrini", "url": "https://www.hepsiburada.com/ara?q=sneaker", "query": "sneaker" },
+    { "name": "kadin-giyim", "url": "https://www.hepsiburada.com/ara?q=kad%C4%B1n+elbise", "query": "kadın elbise" },
+    { "name": "erkek-giyim", "url": "https://www.hepsiburada.com/ara?q=erkek+ti%C5%9F%C3%B6rt", "query": "erkek tişört" },
+    { "name": "cocuk-giyim", "url": "https://www.hepsiburada.com/ara?q=%C3%A7ocuk+giyim", "query": "çocuk giyim" }
+  ]
+}

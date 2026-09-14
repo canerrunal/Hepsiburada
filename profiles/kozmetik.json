@@ -1,0 +1,24 @@
+{
+  "profile": "kozmetik",
+  "name": "Hepsiburada Kozmetik",
+  "reportTitle": "Hepsiburada Kozmetik Çok Satanlar",
+  "telegramTitle": "Hepsiburada Kozmetik Günlük Raporu",
+  "sourceLabel": "Hepsiburada Kozmetik / Çok Satanlar",
+  "query": "nemlendirici",
+  "sort": "cok-satanlar",
+  "maxProducts": 300,
+  "minimumProducts": 200,
+  "maxPagesPerSegment": 20,
+  "dailyFullDetailTopN": 300,
+  "dailyRotatingDetailN": 0,
+  "detailConcurrency": 3,
+  "requestDelayMs": 1500,
+  "timezone": "Europe/Istanbul",
+  "dailyRunTime": "00:00",
+  "searchSegments": [
+    { "name": "kozmetik-vitrini", "url": "https://www.hepsiburada.com/ara?q=nemlendirici", "query": "nemlendirici" },
+    { "name": "cilt-bakimi", "url": "https://www.hepsiburada.com/ara?q=serum", "query": "serum" },
+    { "name": "makyaj", "url": "https://www.hepsiburada.com/ara?q=rimel", "query": "rimel" },
+    { "name": "sac-bakimi", "url": "https://www.hepsiburada.com/ara?q=sa%C3%A7+ya%C4%9F%C4%B1", "query": "saç yağı" }
+  ]
+}

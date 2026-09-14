@@ -1,0 +1,14 @@
+{
+  "dailyPages": 2,
+  "deepPages": 10,
+  "deepCycleDays": 10,
+  "vitrinPerCategory": 40,
+  "vitrinTargetPerCategory": 1000,
+  "detailDailyPerShard": 100,
+  "detailRotationPerShard": 700,
+  "detailFollowUpPerShard": 700,
+  "detailConcurrency": 5,
+  "detailCoverageMemoryDays": 365,
+  "requestDelayMs": 1500,
+  "shards": 4
+}

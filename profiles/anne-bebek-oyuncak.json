@@ -1,0 +1,24 @@
+{
+  "profile": "anne-bebek-oyuncak",
+  "name": "Hepsiburada Anne Bebek Oyuncak",
+  "reportTitle": "Hepsiburada Anne Bebek Oyuncak Çok Satanlar",
+  "telegramTitle": "Hepsiburada Anne Bebek Oyuncak Günlük Raporu",
+  "sourceLabel": "Hepsiburada Anne Bebek / Çok Satanlar",
+  "query": "bebek bezi",
+  "sort": "cok-satanlar",
+  "maxProducts": 300,
+  "minimumProducts": 200,
+  "maxPagesPerSegment": 20,
+  "dailyFullDetailTopN": 300,
+  "dailyRotatingDetailN": 0,
+  "detailConcurrency": 3,
+  "requestDelayMs": 1500,
+  "timezone": "Europe/Istanbul",
+  "dailyRunTime": "00:30",
+  "searchSegments": [
+    { "name": "anne-bebek-vitrini", "url": "https://www.hepsiburada.com/ara?q=bebek+bezi", "query": "bebek bezi" },
+    { "name": "mama", "url": "https://www.hepsiburada.com/ara?q=devam+s%C3%BCt%C3%BC", "query": "devam sütü" },
+    { "name": "oyuncak", "url": "https://www.hepsiburada.com/ara?q=oyuncak", "query": "oyuncak" },
+    { "name": "bebek-giyim", "url": "https://www.hepsiburada.com/ara?q=bebek+giyim", "query": "bebek giyim" }
+  ]
+}

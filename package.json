@@ -1,0 +1,17 @@
+{
+  "name": "hepsiburada-urun-veri-havuzu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hepsiburada kategori ve ürün veri havuzu (Trendyol mimarisi)",
+  "scripts": {
+    "discover": "node scripts/discover_hepsiburada_taxonomy.cjs",
+    "collect": "node scripts/collect.cjs",
+    "collect:elektronik": "node scripts/collect.cjs --profile elektronik",
+    "collect:moda": "node scripts/collect.cjs --profile moda",
+    "collect:supermarket": "node scripts/collect.cjs --profile supermarket",
+    "collect:kozmetik": "node scripts/collect.cjs --profile kozmetik",
+    "collect:anne-bebek-oyuncak": "node scripts/collect.cjs --profile anne-bebek-oyuncak",
+    "quality": "node scripts/quality_check.cjs",
+    "test": "node --test scripts/discover_hepsiburada_taxonomy.test.cjs scripts/quality_check.test.cjs"
+  }
+}

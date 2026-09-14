@@ -1,0 +1,24 @@
+{
+  "profile": "supermarket",
+  "name": "Hepsiburada Süpermarket",
+  "reportTitle": "Hepsiburada Süpermarket Çok Satanlar",
+  "telegramTitle": "Hepsiburada Süpermarket Günlük Raporu",
+  "sourceLabel": "Hepsiburada Süpermarket / Çok Satanlar",
+  "query": "deterjan",
+  "sort": "cok-satanlar",
+  "maxProducts": 300,
+  "minimumProducts": 200,
+  "maxPagesPerSegment": 20,
+  "dailyFullDetailTopN": 300,
+  "dailyRotatingDetailN": 0,
+  "detailConcurrency": 3,
+  "requestDelayMs": 1500,
+  "timezone": "Europe/Istanbul",
+  "dailyRunTime": "23:30",
+  "searchSegments": [
+    { "name": "supermarket-vitrini", "url": "https://www.hepsiburada.com/ara?q=deterjan", "query": "deterjan" },
+    { "name": "gida", "url": "https://www.hepsiburada.com/ara?q=%C3%A7ay", "query": "çay" },
+    { "name": "temizlik", "url": "https://www.hepsiburada.com/ara?q=bula%C5%9F%C4%B1k+tableti", "query": "bulaşık tableti" },
+    { "name": "kisisel-bakim-temel", "url": "https://www.hepsiburada.com/ara?q=%C5%9Fampuan", "query": "şampuan" }
+  ]
+}

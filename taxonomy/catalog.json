@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-14",
+  "status": "BLOCKED_HTTP_403",
+  "count": 5,
+  "categories": [
+    {
+      "id": "",
+      "parent_id": "",
+      "name": "elektronik",
+      "url": "https://www.hepsiburada.com/ara?q=telefon",
+      "level": 1,
+      "path": "elektronik"
+    },
+    {
+      "id": "",
+      "parent_id": "",
+      "name": "moda",
+      "url": "https://www.hepsiburada.com/ara?q=sneaker",
+      "level": 1,
+      "path": "moda"
+    },
+    {
+      "id": "",
+      "parent_id": "",
+      "name": "supermarket",
+      "url": "https://www.hepsiburada.com/ara?q=deterjan",
+      "level": 1,
+      "path": "supermarket"
+    },
+    {
+      "id": "",
+      "parent_id": "",
+      "name": "kozmetik",
+      "url": "https://www.hepsiburada.com/ara?q=nemlendirici",
+      "level": 1,
+      "path": "kozmetik"
+    },
+    {
+      "id": "",
+      "parent_id": "",
+      "name": "anne bebek oyuncak",
+      "url": "https://www.hepsiburada.com/ara?q=bebek+bezi",
+      "level": 1,
+      "path": "anne-bebek-oyuncak"
+    }
+  ]
+}

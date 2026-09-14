@@ -1,0 +1,9 @@
+.DS_Store
+.runtime/
+*.tmp
+*.log
+node_modules/
+categories/*/data/listing-cache.json
+data/listing-cache.json
+taxonomy/snapshots/
+categories/*/snapshots/

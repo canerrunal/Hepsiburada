@@ -1,0 +1,24 @@
+{
+  "profile": "elektronik",
+  "name": "Hepsiburada Elektronik",
+  "reportTitle": "Hepsiburada Elektronik Çok Satanlar",
+  "telegramTitle": "Hepsiburada Elektronik Günlük Raporu",
+  "sourceLabel": "Hepsiburada Elektronik / Çok Satanlar",
+  "query": "telefon",
+  "sort": "cok-satanlar",
+  "maxProducts": 300,
+  "minimumProducts": 200,
+  "maxPagesPerSegment": 20,
+  "dailyFullDetailTopN": 300,
+  "dailyRotatingDetailN": 0,
+  "detailConcurrency": 3,
+  "requestDelayMs": 1500,
+  "timezone": "Europe/Istanbul",
+  "dailyRunTime": "22:30",
+  "searchSegments": [
+    { "name": "elektronik-vitrini", "url": "https://www.hepsiburada.com/ara?q=telefon", "query": "telefon" },
+    { "name": "bilgisayar", "url": "https://www.hepsiburada.com/ara?q=bilgisayar", "query": "bilgisayar" },
+    { "name": "kulaklik", "url": "https://www.hepsiburada.com/ara?q=kulakl%C4%B1k", "query": "kulaklık" },
+    { "name": "televizyon", "url": "https://www.hepsiburada.com/ara?q=televizyon", "query": "televizyon" }
+  ]
+}
