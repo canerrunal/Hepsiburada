@@ -1,6 +1,892 @@
 id,parent_id,name,url,level,path
-"","","elektronik","https://www.hepsiburada.com/ara?q=telefon","1","elektronik"
-"","","moda","https://www.hepsiburada.com/ara?q=sneaker","1","moda"
-"","","supermarket","https://www.hepsiburada.com/ara?q=deterjan","1","supermarket"
-"","","kozmetik","https://www.hepsiburada.com/ara?q=nemlendirici","1","kozmetik"
-"","","anne bebek oyuncak","https://www.hepsiburada.com/ara?q=bebek+bezi","1","anne-bebek-oyuncak"
+2147483639,,"Anne, Bebek, Oyuncak",https://www.hepsiburada.com/anne-bebek-oyuncak-c-2147483639,1,"Anne, Bebek, Oyuncak"
+2147483638,,Elektronik,https://www.hepsiburada.com/ev-elektronik-urunleri-c-2147483638,1,Elektronik
+60002028,,"Ev, Yasam, Kirtasiye, Ofis",https://www.hepsiburada.com/ev-dekorasyon-c-60002028,1,"Ev, Yasam, Kirtasiye, Ofis"
+60001501,,"Kitap, Muzik, Film, Hobi",https://www.hepsiburada.com/kitaplar-filmler-muzikler-c-60001501,1,"Kitap, Muzik, Film, Hobi"
+60001547,,"Kozmetik, Kisisel Bakim",https://www.hepsiburada.com/kozmetik-kisisel-bakim-urunleri-c-60001547,1,"Kozmetik, Kisisel Bakim"
+2147483636,,Moda,https://www.hepsiburada.com/giyim-ayakkabi-c-2147483636,1,Moda
+60002705,,"Oto, Bahce, Yapi Market",https://www.hepsiburada.com/yapi-market-bahce-oto-c-60002705,1,"Oto, Bahce, Yapi Market"
+60001546,,"Spor, Outdoor",https://www.hepsiburada.com/spor-outdoor-urunleri-c-60001546,1,"Spor, Outdoor"
+2147483619,,"Supermarket, Pet Shop",https://www.hepsiburada.com/supermarket-c-2147483619,1,"Supermarket, Pet Shop"
+60006532,2147483639,3 tekerlekli bisiklet,https://www.hepsiburada.com/3-tekerlekli-bisiklet-c-60006532,2,"Anne, Bebek, Oyuncak > 3 tekerlekli bisiklet"
+60002062,2147483639,Bebek Aktivite ve Eğlence,https://www.hepsiburada.com/bebek-aktivite-oyun-malzemeleri-c-60002062,2,"Anne, Bebek, Oyuncak > Bebek Aktivite ve Eğlence"
+305668,2147483639,Bebek Arabası,https://www.hepsiburada.com/bebek-arabasi-pusetleri-c-305668,2,"Anne, Bebek, Oyuncak > Bebek Arabası"
+60002069,2147483639,Bebek Arabası Aksesuarları,https://www.hepsiburada.com/bebek-arabasi-aksesuarlari-c-60002069,2,"Anne, Bebek, Oyuncak > Bebek Arabası Aksesuarları"
+80383015,2147483639,Bebek Bakım ve Sağlık,https://www.hepsiburada.com/bebek-bakim-ve-saglik-c-80383015,2,"Anne, Bebek, Oyuncak > Bebek Bakım ve Sağlık"
+80383031,2147483639,Bebek Banyo ve Tuvalet,https://www.hepsiburada.com/bebek-banyo-ve-tuvalet-c-80383031,2,"Anne, Bebek, Oyuncak > Bebek Banyo ve Tuvalet"
+60002072,2147483639,Bebek Beslenme,https://www.hepsiburada.com/bebek-beslenme-urunleri-c-60002072,2,"Anne, Bebek, Oyuncak > Bebek Beslenme"
+301128,2147483639,Bebek Güvenlik,https://www.hepsiburada.com/bebek-guvenlik-malzemeleri-c-301128,2,"Anne, Bebek, Oyuncak > Bebek Güvenlik"
+305641,2147483639,Bebek Hediyelik,https://www.hepsiburada.com/bebek-hediyelikleri-c-305641,2,"Anne, Bebek, Oyuncak > Bebek Hediyelik"
+301127,2147483639,Bebek Odası ve Tekstili,https://www.hepsiburada.com/bebek-cocuk-odalari-c-301127,2,"Anne, Bebek, Oyuncak > Bebek Odası ve Tekstili"
+80383003,2147483639,Bebek Taşıma,https://www.hepsiburada.com/bebek-tasima-c-80383003,2,"Anne, Bebek, Oyuncak > Bebek Taşıma"
+23020380,2147483639,Emzirme ve Anne Sağlık,https://www.hepsiburada.com/emzirme-urunleri-c-23020380,2,"Anne, Bebek, Oyuncak > Emzirme ve Anne Sağlık"
+60000710,2147483639,Giyim,https://www.hepsiburada.com/anne-bebek-giyim-urunleri-c-60000710,2,"Anne, Bebek, Oyuncak > Giyim"
+301132,2147483639,Mama Sandalyesi ve Aksesuarı,https://www.hepsiburada.com/mama-sandalyeleri-c-301132,2,"Anne, Bebek, Oyuncak > Mama Sandalyesi ve Aksesuarı"
+305661,2147483639,Oto Koltuğu & Aksesuarı,https://www.hepsiburada.com/ana-kucagi-oto-koltuklari-c-305661,2,"Anne, Bebek, Oyuncak > Oto Koltuğu & Aksesuarı"
+23017045,2147483639,Oyun Parkı ve Park Yatak,https://www.hepsiburada.com/oyun-parklari-c-23017045,2,"Anne, Bebek, Oyuncak > Oyun Parkı ve Park Yatak"
+23031884,2147483639,Oyuncak,https://www.hepsiburada.com/oyuncaklar-c-23031884,2,"Anne, Bebek, Oyuncak > Oyuncak"
+80383012,2147483639,Puset Oyuncağı,https://www.hepsiburada.com/puset-oyuncagi-c-80383012,2,"Anne, Bebek, Oyuncak > Puset Oyuncağı"
+80138066,2147483639,aktivite masasi,https://www.hepsiburada.com/aktivite-masasi-c-80138066,2,"Anne, Bebek, Oyuncak > aktivite masasi"
+306860,2147483639,akulu pedalli araclar,https://www.hepsiburada.com/akulu-pedalli-araclar-c-306860,2,"Anne, Bebek, Oyuncak > akulu pedalli araclar"
+80567048,2147483639,amigurumi,https://www.hepsiburada.com/amigurumi-c-80567048,2,"Anne, Bebek, Oyuncak > amigurumi"
+80483224,2147483639,ates olcerler,https://www.hepsiburada.com/ates-olcerler-c-80483224,2,"Anne, Bebek, Oyuncak > ates olcerler"
+297993,2147483639,bebek aktivite setleri,https://www.hepsiburada.com/bebek-aktivite-setleri-c-297993,2,"Anne, Bebek, Oyuncak > bebek aktivite setleri"
+301143,2147483639,bebek bakim cantalari,https://www.hepsiburada.com/bebek-bakim-cantalari-c-301143,2,"Anne, Bebek, Oyuncak > bebek bakim cantalari"
+80383033,2147483639,bebek kuveti,https://www.hepsiburada.com/bebek-kuveti-c-80383033,2,"Anne, Bebek, Oyuncak > bebek kuveti"
+23021010,2147483639,bebek pisik kremi yaglari,https://www.hepsiburada.com/bebek-pisik-kremi-yaglari-c-23021010,2,"Anne, Bebek, Oyuncak > bebek pisik kremi yaglari"
+23032031,2147483639,bebek salincaklari,https://www.hepsiburada.com/bebek-salincaklari-c-23032031,2,"Anne, Bebek, Oyuncak > bebek salincaklari"
+60002087,2147483639,bebek telsiz kamera dedektorler,https://www.hepsiburada.com/bebek-telsiz-kamera-dedektorler-c-60002087,2,"Anne, Bebek, Oyuncak > bebek telsiz kamera dedektorler"
+301154,2147483639,bebek telsizi,https://www.hepsiburada.com/bebek-telsizi-c-301154,2,"Anne, Bebek, Oyuncak > bebek telsizi"
+297986,2147483639,bebek yapi oyuncaklari,https://www.hepsiburada.com/bebek-yapi-oyuncaklari-c-297986,2,"Anne, Bebek, Oyuncak > bebek yapi oyuncaklari"
+23011486,2147483639,bebek yataklari,https://www.hepsiburada.com/bebek-yataklari-c-23011486,2,"Anne, Bebek, Oyuncak > bebek yataklari"
+301133,2147483639,bebek yurutecleri,https://www.hepsiburada.com/bebek-yurutecleri-c-301133,2,"Anne, Bebek, Oyuncak > bebek yurutecleri"
+303171,2147483639,buhar makineleri,https://www.hepsiburada.com/buhar-makineleri-c-303171,2,"Anne, Bebek, Oyuncak > buhar makineleri"
+80383025,2147483639,burun aspiratoru,https://www.hepsiburada.com/burun-aspiratoru-c-80383025,2,"Anne, Bebek, Oyuncak > burun aspiratoru"
+80383014,2147483639,catlak kremi,https://www.hepsiburada.com/catlak-kremi-c-80383014,2,"Anne, Bebek, Oyuncak > catlak kremi"
+80138060,2147483639,cocuk patenleri,https://www.hepsiburada.com/cocuk-patenleri-c-80138060,2,"Anne, Bebek, Oyuncak > cocuk patenleri"
+60006531,2147483639,cocuk puzzle,https://www.hepsiburada.com/cocuk-puzzle-c-60006531,2,"Anne, Bebek, Oyuncak > cocuk puzzle"
+60006533,2147483639,cocuk scooter,https://www.hepsiburada.com/cocuk-scooter-c-60006533,2,"Anne, Bebek, Oyuncak > cocuk scooter"
+60002385,2147483639,egitici oyuncaklari,https://www.hepsiburada.com/egitici-oyuncaklari-c-60002385,2,"Anne, Bebek, Oyuncak > egitici oyuncaklari"
+60006479,2147483639,et bebekler,https://www.hepsiburada.com/et-bebekler-c-60006479,2,"Anne, Bebek, Oyuncak > et bebekler"
+301138,2147483639,gogus pompalari,https://www.hepsiburada.com/gogus-pompalari-c-301138,2,"Anne, Bebek, Oyuncak > gogus pompalari"
+80136013,2147483639,haciyatmaz,https://www.hepsiburada.com/haciyatmaz-c-80136013,2,"Anne, Bebek, Oyuncak > haciyatmaz"
+60002063,2147483639,hoppala kangurular,https://www.hepsiburada.com/hoppala-kangurular-c-60002063,2,"Anne, Bebek, Oyuncak > hoppala kangurular"
+80123021,2147483639,kinetik kum,https://www.hepsiburada.com/kinetik-kum-c-80123021,2,"Anne, Bebek, Oyuncak > kinetik kum"
+80383038,2147483639,klozet adaptoru,https://www.hepsiburada.com/klozet-adaptoru-c-80383038,2,"Anne, Bebek, Oyuncak > klozet adaptoru"
+26012215,2147483639,nebulizatorler,https://www.hepsiburada.com/nebulizatorler-c-26012215,2,"Anne, Bebek, Oyuncak > nebulizatorler"
+295870,2147483639,oyun cadiri evleri,https://www.hepsiburada.com/oyun-cadiri-evleri-c-295870,2,"Anne, Bebek, Oyuncak > oyun cadiri evleri"
+60006677,2147483639,oyuncak arabalar,https://www.hepsiburada.com/oyuncak-arabalar-c-60006677,2,"Anne, Bebek, Oyuncak > oyuncak arabalar"
+23020686,2147483639,oyuncak kutulari,https://www.hepsiburada.com/oyuncak-kutulari-c-23020686,2,"Anne, Bebek, Oyuncak > oyuncak kutulari"
+10430,2147483639,pedalli surumeli arabalar,https://www.hepsiburada.com/pedalli-surumeli-arabalar-c-10430,2,"Anne, Bebek, Oyuncak > pedalli surumeli arabalar"
+23020733,2147483639,pelus oyuncaklar,https://www.hepsiburada.com/pelus-oyuncaklar-c-23020733,2,"Anne, Bebek, Oyuncak > pelus oyuncaklar"
+80136017,2147483639,slime,https://www.hepsiburada.com/slime-c-80136017,2,"Anne, Bebek, Oyuncak > slime"
+80383004,2147483639,sling,https://www.hepsiburada.com/sling-c-80383004,2,"Anne, Bebek, Oyuncak > sling"
+17071,2147483638,Elektrikli Ev Aletleri,https://www.hepsiburada.com/elektrikli-ev-aletleri-c-17071,2,Elektronik > Elektrikli Ev Aletleri
+60002911,2147483638,Ev Gereçleri,https://www.hepsiburada.com/ev-gerecleri-c-60002911,2,Elektronik > Ev Gereçleri
+161876,2147483638,Isıtma ve Soğutma,https://www.hepsiburada.com/isitma-sogutma-urunleri-c-161876,2,Elektronik > Isıtma ve Soğutma
+60004557,2147483638,bluetooth hoparlorler,https://www.hepsiburada.com/bluetooth-hoparlorler-c-60004557,2,Elektronik > bluetooth hoparlorler
+80160034,2147483638,buharli temizleyici,https://www.hepsiburada.com/buharli-temizleyici-c-80160034,2,Elektronik > buharli temizleyici
+80857514,2147483638,cam silme robotu,https://www.hepsiburada.com/cam-silme-robotu-c-80857514,2,Elektronik > cam silme robotu
+157192,2147483638,canak antenler,https://www.hepsiburada.com/canak-antenler-c-157192,2,Elektronik > canak antenler
+60002912,2147483638,cop kovalari,https://www.hepsiburada.com/cop-kovalari-c-60002912,2,Elektronik > cop kovalari
+80160032,2147483638,dikey supurge,https://www.hepsiburada.com/dikey-supurge-c-80160032,2,Elektronik > dikey supurge
+162152,2147483638,dikis makinalari,https://www.hepsiburada.com/dikis-makinalari-c-162152,2,Elektronik > dikis makinalari
+13003234,2147483638,gece lambalari,https://www.hepsiburada.com/gece-lambalari-c-13003234,2,Elektronik > gece lambalari
+161837,2147483638,guvenlik kameralari,https://www.hepsiburada.com/guvenlik-kameralari-c-161837,2,Elektronik > guvenlik kameralari
+17793,2147483638,hali yikama makinalari,https://www.hepsiburada.com/hali-yikama-makinalari-c-17793,2,Elektronik > hali yikama makinalari
+80162058,2147483638,hava temizleme cihazi,https://www.hepsiburada.com/hava-temizleme-cihazi-c-80162058,2,Elektronik > hava temizleme cihazi
+17175,2147483638,hava temizleme nem alma cihazlari,https://www.hepsiburada.com/hava-temizleme-nem-alma-cihazlari-c-17175,2,Elektronik > hava temizleme nem alma cihazlari
+157410,2147483638,kablo soketler,https://www.hepsiburada.com/kablo-soketler-c-157410,2,Elektronik > kablo soketler
+60007380,2147483638,kamera sistemleri,https://www.hepsiburada.com/kamera-sistemleri-c-60007380,2,Elektronik > kamera sistemleri
+17453,2147483638,klimalar,https://www.hepsiburada.com/klimalar-c-17453,2,Elektronik > klimalar
+17723,2147483638,kombiler,https://www.hepsiburada.com/kombiler-c-17723,2,Elektronik > kombiler
+163192,2147483638,led tv televizyonlar,https://www.hepsiburada.com/led-tv-televizyonlar-c-163192,2,Elektronik > led tv televizyonlar
+157193,2147483638,lnbler,https://www.hepsiburada.com/lnbler-c-157193,2,Elektronik > lnbler
+80162059,2147483638,nem alma cihazi,https://www.hepsiburada.com/nem-alma-cihazi-c-80162059,2,Elektronik > nem alma cihazi
+60002196,2147483638,pazar arabalari,https://www.hepsiburada.com/pazar-arabalari-c-60002196,2,Elektronik > pazar arabalari
+80757006,2147483638,playstation 5 konsol,https://www.hepsiburada.com/playstation-5-konsol-c-80757006,2,Elektronik > playstation 5 konsol
+80160033,2147483638,robot supurge,https://www.hepsiburada.com/robot-supurge-c-80160033,2,Elektronik > robot supurge
+318242,2147483638,saatler,https://www.hepsiburada.com/saatler-c-318242,2,Elektronik > saatler
+159445,2147483638,sarjli supurgeler,https://www.hepsiburada.com/sarjli-supurgeler-c-159445,2,Elektronik > sarjli supurgeler
+17201,2147483638,ses goruntu sistemleri,https://www.hepsiburada.com/ses-goruntu-sistemleri-c-17201,2,Elektronik > ses goruntu sistemleri
+17434,2147483638,sofbenler,https://www.hepsiburada.com/sofbenler-c-17434,2,Elektronik > sofbenler
+60008218,2147483638,soundbar,https://www.hepsiburada.com/soundbar-c-60008218,2,Elektronik > soundbar
+155123,2147483638,supurgeler,https://www.hepsiburada.com/supurgeler-c-155123,2,Elektronik > supurgeler
+17769,2147483638,termosifonlar,https://www.hepsiburada.com/termosifonlar-c-17769,2,Elektronik > termosifonlar
+17539,2147483638,tv aski aparatlari,https://www.hepsiburada.com/tv-aski-aparatlari-c-17539,2,Elektronik > tv aski aparatlari
+153271,2147483638,utu masasi aksesuarlari,https://www.hepsiburada.com/utu-masasi-aksesuarlari-c-153271,2,Elektronik > utu masasi aksesuarlari
+155122,2147483638,utuler,https://www.hepsiburada.com/utuler-c-155122,2,Elektronik > utuler
+155057,2147483638,uydu alicilari,https://www.hepsiburada.com/uydu-alicilari-c-155057,2,Elektronik > uydu alicilari
+154297,2147483638,uydu kablolari,https://www.hepsiburada.com/uydu-kablolari-c-154297,2,Elektronik > uydu kablolari
+154296,2147483638,uydu yon bulucular,https://www.hepsiburada.com/uydu-yon-bulucular-c-154296,2,Elektronik > uydu yon bulucular
+157396,2147483638,uzaktan kumandalar,https://www.hepsiburada.com/uzaktan-kumandalar-c-157396,2,Elektronik > uzaktan kumandalar
+17412,2147483638,vantilatorler,https://www.hepsiburada.com/vantilatorler-c-17412,2,Elektronik > vantilatorler
+13003201,60002028,Aydınlatma,https://www.hepsiburada.com/elektrik-aydinlatma-urunleri-c-13003201,2,"Ev, Yasam, Kirtasiye, Ofis > Aydınlatma"
+455418,60002028,Banyo & Mutfak,https://www.hepsiburada.com/banyolar-c-455418,2,"Ev, Yasam, Kirtasiye, Ofis > Banyo & Mutfak"
+18021300,60002028,Dekorasyon,https://www.hepsiburada.com/dekorasyon-c-18021300,2,"Ev, Yasam, Kirtasiye, Ofis > Dekorasyon"
+2147483618,60002028,Ev Tekstili,https://www.hepsiburada.com/ev-tekstili-c-2147483618,2,"Ev, Yasam, Kirtasiye, Ofis > Ev Tekstili"
+18021299,60002028,Mobilya,https://www.hepsiburada.com/mobilyalar-c-18021299,2,"Ev, Yasam, Kirtasiye, Ofis > Mobilya"
+80227101,60002028,Montaj Hizmeti,https://www.hepsiburada.com/montaj-hizmeti-c-80227101,2,"Ev, Yasam, Kirtasiye, Ofis > Montaj Hizmeti"
+13006543,60002028,aplikler,https://www.hepsiburada.com/aplikler-c-13006543,2,"Ev, Yasam, Kirtasiye, Ofis > aplikler"
+13003223,60002028,avizeler,https://www.hepsiburada.com/avizeler-c-13003223,2,"Ev, Yasam, Kirtasiye, Ofis > avizeler"
+18021622,60002028,ayakkabiliklar,https://www.hepsiburada.com/ayakkabiliklar-c-18021622,2,"Ev, Yasam, Kirtasiye, Ofis > ayakkabiliklar"
+60005015,60002028,balonlar,https://www.hepsiburada.com/balonlar-c-60005015,2,"Ev, Yasam, Kirtasiye, Ofis > balonlar"
+18021947,60002028,banyo bataryalari,https://www.hepsiburada.com/banyo-bataryalari-c-18021947,2,"Ev, Yasam, Kirtasiye, Ofis > banyo bataryalari"
+18021983,60002028,banyo lavabo bataryalari,https://www.hepsiburada.com/banyo-lavabo-bataryalari-c-18021983,2,"Ev, Yasam, Kirtasiye, Ofis > banyo lavabo bataryalari"
+457065,60002028,banyo mobilyalari,https://www.hepsiburada.com/banyo-mobilyalari-c-457065,2,"Ev, Yasam, Kirtasiye, Ofis > banyo mobilyalari"
+60006510,60002028,boy aynasi,https://www.hepsiburada.com/boy-aynasi-c-60006510,2,"Ev, Yasam, Kirtasiye, Ofis > boy aynasi"
+18043090,60002028,calisma masalari,https://www.hepsiburada.com/calisma-masalari-c-18043090,2,"Ev, Yasam, Kirtasiye, Ofis > calisma masalari"
+18021928,60002028,camasir sepetleri,https://www.hepsiburada.com/camasir-sepetleri-c-18021928,2,"Ev, Yasam, Kirtasiye, Ofis > camasir sepetleri"
+60005008,60002028,cok amacli dolaplar,https://www.hepsiburada.com/cok-amacli-dolaplar-c-60005008,2,"Ev, Yasam, Kirtasiye, Ofis > cok amacli dolaplar"
+18021459,60002028,dekoratif masa saatleri,https://www.hepsiburada.com/dekoratif-masa-saatleri-c-18021459,2,"Ev, Yasam, Kirtasiye, Ofis > dekoratif masa saatleri"
+60005229,60002028,dekoratif saksilar,https://www.hepsiburada.com/dekoratif-saksilar-c-60005229,2,"Ev, Yasam, Kirtasiye, Ofis > dekoratif saksilar"
+18021972,60002028,dus basliklari,https://www.hepsiburada.com/dus-basliklari-c-18021972,2,"Ev, Yasam, Kirtasiye, Ofis > dus basliklari"
+18021971,60002028,dus setleri,https://www.hepsiburada.com/dus-setleri-c-18021971,2,"Ev, Yasam, Kirtasiye, Ofis > dus setleri"
+18021979,60002028,dusakabinler,https://www.hepsiburada.com/dusakabinler-c-18021979,2,"Ev, Yasam, Kirtasiye, Ofis > dusakabinler"
+18042736,60002028,duvar kagitlari,https://www.hepsiburada.com/duvar-kagitlari-c-18042736,2,"Ev, Yasam, Kirtasiye, Ofis > duvar kagitlari"
+60000815,60002028,duvar panelleri,https://www.hepsiburada.com/duvar-panelleri-c-60000815,2,"Ev, Yasam, Kirtasiye, Ofis > duvar panelleri"
+462096,60002028,havlupanlar,https://www.hepsiburada.com/havlupanlar-c-462096,2,"Ev, Yasam, Kirtasiye, Ofis > havlupanlar"
+18021981,60002028,jakuziler,https://www.hepsiburada.com/jakuziler-c-18021981,2,"Ev, Yasam, Kirtasiye, Ofis > jakuziler"
+18021342,60002028,kitaplik,https://www.hepsiburada.com/kitaplik-c-18021342,2,"Ev, Yasam, Kirtasiye, Ofis > kitaplik"
+18021958,60002028,klozet kapaklari,https://www.hepsiburada.com/klozet-kapaklari-c-18021958,2,"Ev, Yasam, Kirtasiye, Ofis > klozet kapaklari"
+18021930,60002028,klozetler,https://www.hepsiburada.com/klozetler-c-18021930,2,"Ev, Yasam, Kirtasiye, Ofis > klozetler"
+18021424,60002028,komodinler,https://www.hepsiburada.com/komodinler-c-18021424,2,"Ev, Yasam, Kirtasiye, Ofis > komodinler"
+13003232,60002028,lambaderler,https://www.hepsiburada.com/lambaderler-c-13003232,2,"Ev, Yasam, Kirtasiye, Ofis > lambaderler"
+60004458,60002028,lavabolar,https://www.hepsiburada.com/lavabolar-c-60004458,2,"Ev, Yasam, Kirtasiye, Ofis > lavabolar"
+13006524,60002028,led ampuller,https://www.hepsiburada.com/led-ampuller-c-13006524,2,"Ev, Yasam, Kirtasiye, Ofis > led ampuller"
+80340130,60002028,makyaj masasi,https://www.hepsiburada.com/makyaj-masasi-c-80340130,2,"Ev, Yasam, Kirtasiye, Ofis > makyaj masasi"
+13003235,60002028,masa lambalari,https://www.hepsiburada.com/masa-lambalari-c-13003235,2,"Ev, Yasam, Kirtasiye, Ofis > masa lambalari"
+18021949,60002028,mutfak evye bataryalari,https://www.hepsiburada.com/mutfak-evye-bataryalari-c-18021949,2,"Ev, Yasam, Kirtasiye, Ofis > mutfak evye bataryalari"
+510001,60002028,nevresim takimlari,https://www.hepsiburada.com/nevresim-takimlari-c-510001,2,"Ev, Yasam, Kirtasiye, Ofis > nevresim takimlari"
+9010093,60002028,paspaslar,https://www.hepsiburada.com/paspaslar-c-9010093,2,"Ev, Yasam, Kirtasiye, Ofis > paspaslar"
+13006546,60002028,projektorler,https://www.hepsiburada.com/projektorler-c-13006546,2,"Ev, Yasam, Kirtasiye, Ofis > projektorler"
+60002952,60002028,raflar,https://www.hepsiburada.com/raflar-c-60002952,2,"Ev, Yasam, Kirtasiye, Ofis > raflar"
+18021929,60002028,rezervuar ic takimlar,https://www.hepsiburada.com/rezervuar-ic-takimlar-c-18021929,2,"Ev, Yasam, Kirtasiye, Ofis > rezervuar ic takimlar"
+18021426,60002028,sandalyeler,https://www.hepsiburada.com/sandalyeler-c-18021426,2,"Ev, Yasam, Kirtasiye, Ofis > sandalyeler"
+60000525,60002028,serit led,https://www.hepsiburada.com/serit-led-c-60000525,2,"Ev, Yasam, Kirtasiye, Ofis > serit led"
+18021425,60002028,sifonyerler,https://www.hepsiburada.com/sifonyerler-c-18021425,2,"Ev, Yasam, Kirtasiye, Ofis > sifonyerler"
+18021320,60002028,tablolar,https://www.hepsiburada.com/tablolar-c-18021320,2,"Ev, Yasam, Kirtasiye, Ofis > tablolar"
+9011674,60002028,takim banyo paspaslari,https://www.hepsiburada.com/takim-banyo-paspaslari-c-9011674,2,"Ev, Yasam, Kirtasiye, Ofis > takim banyo paspaslari"
+60000666,60002028,tavan vantilatoru,https://www.hepsiburada.com/tavan-vantilatoru-c-60000666,2,"Ev, Yasam, Kirtasiye, Ofis > tavan vantilatoru"
+18021358,60002028,vazolar,https://www.hepsiburada.com/vazolar-c-18021358,2,"Ev, Yasam, Kirtasiye, Ofis > vazolar"
+60001290,60002028,yapay cicekler,https://www.hepsiburada.com/yapay-cicekler-c-60001290,2,"Ev, Yasam, Kirtasiye, Ofis > yapay cicekler"
+510008,60002028,yastiklar,https://www.hepsiburada.com/yastiklar-c-510008,2,"Ev, Yasam, Kirtasiye, Ofis > yastiklar"
+511123,60002028,yataklar,https://www.hepsiburada.com/yataklar-c-511123,2,"Ev, Yasam, Kirtasiye, Ofis > yataklar"
+80275209,60002028,yolluk,https://www.hepsiburada.com/yolluk-c-80275209,2,"Ev, Yasam, Kirtasiye, Ofis > yolluk"
+18021617,60002028,zigon sehpalar,https://www.hepsiburada.com/zigon-sehpalar-c-18021617,2,"Ev, Yasam, Kirtasiye, Ofis > zigon sehpalar"
+2147483640,60001501,Film,https://www.hepsiburada.com/filmler-c-2147483640,2,"Kitap, Muzik, Film, Hobi > Film"
+2147483641,60001501,Müzik & Müzik Aletleri,https://www.hepsiburada.com/muzik-c-2147483641,2,"Kitap, Muzik, Film, Hobi > Müzik & Müzik Aletleri"
+408010,60001501,akordiyonlar,https://www.hepsiburada.com/akordiyonlar-c-408010,2,"Kitap, Muzik, Film, Hobi > akordiyonlar"
+234464,60001501,ales kitaplari,https://www.hepsiburada.com/ales-kitaplari-c-234464,2,"Kitap, Muzik, Film, Hobi > ales kitaplari"
+1515050,60001501,atasozleri deyimler sozlukleri,https://www.hepsiburada.com/atasozleri-deyimler-sozlukleri-c-1515050,2,"Kitap, Muzik, Film, Hobi > atasozleri deyimler sozlukleri"
+411157,60001501,baglama telleri,https://www.hepsiburada.com/baglama-telleri-c-411157,2,"Kitap, Muzik, Film, Hobi > baglama telleri"
+402814,60001501,baglamalar,https://www.hepsiburada.com/baglamalar-c-402814,2,"Kitap, Muzik, Film, Hobi > baglamalar"
+80530105,60001501,balon makinesi,https://www.hepsiburada.com/balon-makinesi-c-80530105,2,"Kitap, Muzik, Film, Hobi > balon makinesi"
+1514630,60001501,biyoloji kitaplari,https://www.hepsiburada.com/biyoloji-kitaplari-c-1514630,2,"Kitap, Muzik, Film, Hobi > biyoloji kitaplari"
+9914,60001501,cocuk kitaplari,https://www.hepsiburada.com/cocuk-kitaplari-c-9914,2,"Kitap, Muzik, Film, Hobi > cocuk kitaplari"
+60005890,60001501,cumbusler,https://www.hepsiburada.com/cumbusler-c-60005890,2,"Kitap, Muzik, Film, Hobi > cumbusler"
+402837,60001501,darbukalar,https://www.hepsiburada.com/darbukalar-c-402837,2,"Kitap, Muzik, Film, Hobi > darbukalar"
+10787,60001501,davullar,https://www.hepsiburada.com/davullar-c-10787,2,"Kitap, Muzik, Film, Hobi > davullar"
+10785,60001501,defler,https://www.hepsiburada.com/defler-c-10785,2,"Kitap, Muzik, Film, Hobi > defler"
+15043649,60001501,e kitap okuma araclari,https://www.hepsiburada.com/e-kitap-okuma-araclari-c-15043649,2,"Kitap, Muzik, Film, Hobi > e kitap okuma araclari"
+411248,60001501,flutler,https://www.hepsiburada.com/flutler-c-411248,2,"Kitap, Muzik, Film, Hobi > flutler"
+1514685,60001501,ingilizce kitaplar,https://www.hepsiburada.com/ingilizce-kitaplar-c-1514685,2,"Kitap, Muzik, Film, Hobi > ingilizce kitaplar"
+411210,60001501,kavallar,https://www.hepsiburada.com/kavallar-c-411210,2,"Kitap, Muzik, Film, Hobi > kavallar"
+9915,60001501,kaynak kitaplari,https://www.hepsiburada.com/kaynak-kitaplari-c-9915,2,"Kitap, Muzik, Film, Hobi > kaynak kitaplari"
+411243,60001501,kemaneler,https://www.hepsiburada.com/kemaneler-c-411243,2,"Kitap, Muzik, Film, Hobi > kemaneler"
+411241,60001501,kemenceler,https://www.hepsiburada.com/kemenceler-c-411241,2,"Kitap, Muzik, Film, Hobi > kemenceler"
+2147483645,60001501,kitaplar,https://www.hepsiburada.com/kitaplar-c-2147483645,2,"Kitap, Muzik, Film, Hobi > kitaplar"
+411214,60001501,klarnet,https://www.hepsiburada.com/klarnet-c-411214,2,"Kitap, Muzik, Film, Hobi > klarnet"
+80530132,60001501,konnektor jak,https://www.hepsiburada.com/konnektor-jak-c-80530132,2,"Kitap, Muzik, Film, Hobi > konnektor jak"
+60003643,60001501,kpss genel kultur yetenek konu anlatimli kitaplar,https://www.hepsiburada.com/kpss-genel-kultur-yetenek-konu-anlatimli-kitaplar-c-60003643,2,"Kitap, Muzik, Film, Hobi > kpss genel kultur yetenek konu anlatimli kitaplar"
+410756,60001501,mandolinler,https://www.hepsiburada.com/mandolinler-c-410756,2,"Kitap, Muzik, Film, Hobi > mandolinler"
+1514631,60001501,matematik kitaplari,https://www.hepsiburada.com/matematik-kitaplari-c-1514631,2,"Kitap, Muzik, Film, Hobi > matematik kitaplari"
+402930,60001501,melodikalar,https://www.hepsiburada.com/melodikalar-c-402930,2,"Kitap, Muzik, Film, Hobi > melodikalar"
+411213,60001501,meyler,https://www.hepsiburada.com/meyler-c-411213,2,"Kitap, Muzik, Film, Hobi > meyler"
+405134,60001501,mikrofonlar,https://www.hepsiburada.com/mikrofonlar-c-405134,2,"Kitap, Muzik, Film, Hobi > mikrofonlar"
+411247,60001501,mixer,https://www.hepsiburada.com/mixer-c-411247,2,"Kitap, Muzik, Film, Hobi > mixer"
+405379,60001501,muzik keyboard,https://www.hepsiburada.com/muzik-keyboard-c-405379,2,"Kitap, Muzik, Film, Hobi > muzik keyboard"
+411501,60001501,neyler,https://www.hepsiburada.com/neyler-c-411501,2,"Kitap, Muzik, Film, Hobi > neyler"
+19018195,60001501,orglar,https://www.hepsiburada.com/orglar-c-19018195,2,"Kitap, Muzik, Film, Hobi > orglar"
+406932,60001501,pikaplar,https://www.hepsiburada.com/pikaplar-c-406932,2,"Kitap, Muzik, Film, Hobi > pikaplar"
+80371044,60001501,plak,https://www.hepsiburada.com/plak-c-80371044,2,"Kitap, Muzik, Film, Hobi > plak"
+411217,60001501,saksafonlar,https://www.hepsiburada.com/saksafonlar-c-411217,2,"Kitap, Muzik, Film, Hobi > saksafonlar"
+80525103,60001501,santur,https://www.hepsiburada.com/santur-c-80525103,2,"Kitap, Muzik, Film, Hobi > santur"
+60002234,60001501,trampetler,https://www.hepsiburada.com/trampetler-c-60002234,2,"Kitap, Muzik, Film, Hobi > trampetler"
+411216,60001501,trompetler,https://www.hepsiburada.com/trompetler-c-411216,2,"Kitap, Muzik, Film, Hobi > trompetler"
+1514681,60001501,tum dersler kitaplari,https://www.hepsiburada.com/tum-dersler-kitaplari-c-1514681,2,"Kitap, Muzik, Film, Hobi > tum dersler kitaplari"
+1514634,60001501,turkce kitaplari,https://www.hepsiburada.com/turkce-kitaplari-c-1514634,2,"Kitap, Muzik, Film, Hobi > turkce kitaplari"
+1515048,60001501,turkce sozluk kitaplari,https://www.hepsiburada.com/turkce-sozluk-kitaplari-c-1515048,2,"Kitap, Muzik, Film, Hobi > turkce sozluk kitaplari"
+10784,60001501,ud,https://www.hepsiburada.com/ud-c-10784,2,"Kitap, Muzik, Film, Hobi > ud"
+1515095,60001501,yazim imla kilavuzlari kitaplari,https://www.hepsiburada.com/yazim-imla-kilavuzlari-kitaplari-c-1515095,2,"Kitap, Muzik, Film, Hobi > yazim imla kilavuzlari kitaplari"
+411211,60001501,zurnalar,https://www.hepsiburada.com/zurnalar-c-411211,2,"Kitap, Muzik, Film, Hobi > zurnalar"
+2147483603,60001547,Kozmetik,https://www.hepsiburada.com/kozmetik-c-2147483603,2,"Kozmetik, Kisisel Bakim > Kozmetik"
+2147483633,60001547,Sağlık / Kişisel Bakım,https://www.hepsiburada.com/saglik-kisisel-bakim-urunleri-c-2147483633,2,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım"
+80216054,60001547,agda makinesi,https://www.hepsiburada.com/agda-makinesi-c-80216054,2,"Kozmetik, Kisisel Bakim > agda makinesi"
+26012119,60001547,dis ipleri,https://www.hepsiburada.com/dis-ipleri-c-26012119,2,"Kozmetik, Kisisel Bakim > dis ipleri"
+26012145,60001547,epilatorler,https://www.hepsiburada.com/epilatorler-c-26012145,2,"Kozmetik, Kisisel Bakim > epilatorler"
+26012244,60001547,hasta bezleri,https://www.hepsiburada.com/hasta-bezleri-c-26012244,2,"Kozmetik, Kisisel Bakim > hasta bezleri"
+60003905,60001547,ipl lazerler,https://www.hepsiburada.com/ipl-lazerler-c-60003905,2,"Kozmetik, Kisisel Bakim > ipl lazerler"
+32010907,60001547,jel sabunlar,https://www.hepsiburada.com/jel-sabunlar-c-32010907,2,"Kozmetik, Kisisel Bakim > jel sabunlar"
+26012198,60001547,kayganlastirici jeller,https://www.hepsiburada.com/kayganlastirici-jeller-c-26012198,2,"Kozmetik, Kisisel Bakim > kayganlastirici jeller"
+80759000,60001547,kolajen,https://www.hepsiburada.com/kolajen-c-80759000,2,"Kozmetik, Kisisel Bakim > kolajen"
+26012186,60001547,masaj aletleri,https://www.hepsiburada.com/masaj-aletleri-c-26012186,2,"Kozmetik, Kisisel Bakim > masaj aletleri"
+32010986,60001547,mascaralar,https://www.hepsiburada.com/mascaralar-c-32010986,2,"Kozmetik, Kisisel Bakim > mascaralar"
+32010894,60001547,nemlendiriciler,https://www.hepsiburada.com/nemlendiriciler-c-32010894,2,"Kozmetik, Kisisel Bakim > nemlendiriciler"
+80058002,60001547,omega 3 balik yaglari,https://www.hepsiburada.com/omega-3-balik-yaglari-c-80058002,2,"Kozmetik, Kisisel Bakim > omega 3 balik yaglari"
+26012230,60001547,ortopedik dizlikler,https://www.hepsiburada.com/ortopedik-dizlikler-c-26012230,2,"Kozmetik, Kisisel Bakim > ortopedik dizlikler"
+60004286,60001547,ortopedik terlikler,https://www.hepsiburada.com/ortopedik-terlikler-c-60004286,2,"Kozmetik, Kisisel Bakim > ortopedik terlikler"
+341406,60001547,parfumler,https://www.hepsiburada.com/parfumler-c-341406,2,"Kozmetik, Kisisel Bakim > parfumler"
+26012177,60001547,pedometreler adimsayarlar,https://www.hepsiburada.com/pedometreler-adimsayarlar-c-26012177,2,"Kozmetik, Kisisel Bakim > pedometreler adimsayarlar"
+26012196,60001547,prezervatifler,https://www.hepsiburada.com/prezervatifler-c-26012196,2,"Kozmetik, Kisisel Bakim > prezervatifler"
+26012284,60001547,sac boyalari beyazlik giderici urunler,https://www.hepsiburada.com/sac-boyalari-beyazlik-giderici-urunler-c-26012284,2,"Kozmetik, Kisisel Bakim > sac boyalari beyazlik giderici urunler"
+26012128,60001547,sac kurutma makineleri,https://www.hepsiburada.com/sac-kurutma-makineleri-c-26012128,2,"Kozmetik, Kisisel Bakim > sac kurutma makineleri"
+26012161,60001547,sac sakal kesme tuy temizleme makineleri,https://www.hepsiburada.com/sac-sakal-kesme-tuy-temizleme-makineleri-c-26012161,2,"Kozmetik, Kisisel Bakim > sac sakal kesme tuy temizleme makineleri"
+26012129,60001547,sac sekillendirme cihazlari,https://www.hepsiburada.com/sac-sekillendirme-cihazlari-c-26012129,2,"Kozmetik, Kisisel Bakim > sac sekillendirme cihazlari"
+26012282,60001547,sampuanlar,https://www.hepsiburada.com/sampuanlar-c-26012282,2,"Kozmetik, Kisisel Bakim > sampuanlar"
+26012290,60001547,sekillendirici kremler waxlar,https://www.hepsiburada.com/sekillendirici-kremler-waxlar-c-26012290,2,"Kozmetik, Kisisel Bakim > sekillendirici kremler waxlar"
+27073740,60001547,shaker,https://www.hepsiburada.com/shaker-c-27073740,2,"Kozmetik, Kisisel Bakim > shaker"
+26012174,60001547,tansiyon aletleri,https://www.hepsiburada.com/tansiyon-aletleri-c-26012174,2,"Kozmetik, Kisisel Bakim > tansiyon aletleri"
+80647033,60001547,tekerlekli sandalye,https://www.hepsiburada.com/tekerlekli-sandalye-c-80647033,2,"Kozmetik, Kisisel Bakim > tekerlekli sandalye"
+26012156,60001547,tiras makineleri,https://www.hepsiburada.com/tiras-makineleri-c-26012156,2,"Kozmetik, Kisisel Bakim > tiras makineleri"
+26000873,60001547,tirnak makasi,https://www.hepsiburada.com/tirnak-makasi-c-26000873,2,"Kozmetik, Kisisel Bakim > tirnak makasi"
+80216061,60001547,topuk torpusu,https://www.hepsiburada.com/topuk-torpusu-c-80216061,2,"Kozmetik, Kisisel Bakim > topuk torpusu"
+80216050,60001547,tuy dokucu krem,https://www.hepsiburada.com/tuy-dokucu-krem-c-80216050,2,"Kozmetik, Kisisel Bakim > tuy dokucu krem"
+26012237,60001547,varis coraplari,https://www.hepsiburada.com/varis-coraplari-c-26012237,2,"Kozmetik, Kisisel Bakim > varis coraplari"
+60003470,60001547,yara bantlari,https://www.hepsiburada.com/yara-bantlari-c-60003470,2,"Kozmetik, Kisisel Bakim > yara bantlari"
+60007347,2147483636,Bebek,https://www.hepsiburada.com/bebek-kiyafetleri-giyim-c-60007347,2,Moda > Bebek
+12087177,2147483636,Erkek,https://www.hepsiburada.com/erkek-giyim-modelleri-c-12087177,2,Moda > Erkek
+60000117,2147483636,ayakkabi,https://www.hepsiburada.com/ayakkabi-c-60000117,2,Moda > ayakkabi
+60000116,2147483636,bayan ayakkabilar,https://www.hepsiburada.com/bayan-ayakkabilar-c-60000116,2,Moda > bayan ayakkabilar
+60003855,2147483636,bayan babetler,https://www.hepsiburada.com/bayan-babetler-c-60003855,2,Moda > bayan babetler
+60000119,2147483636,bayan botlar,https://www.hepsiburada.com/bayan-botlar-c-60000119,2,Moda > bayan botlar
+60000056,2147483636,bayan ceketler,https://www.hepsiburada.com/bayan-ceketler-c-60000056,2,Moda > bayan ceketler
+12087178,2147483636,bayan giyim modelleri,https://www.hepsiburada.com/bayan-giyim-modelleri-c-12087178,2,Moda > bayan giyim modelleri
+60000721,2147483636,bayan montlar,https://www.hepsiburada.com/bayan-montlar-c-60000721,2,Moda > bayan montlar
+60000123,2147483636,bayan sneakers,https://www.hepsiburada.com/bayan-sneakers-c-60000123,2,Moda > bayan sneakers
+12101382,2147483636,bayan sweatshirt,https://www.hepsiburada.com/bayan-sweatshirt-c-12101382,2,Moda > bayan sweatshirt
+12087202,2147483636,elbiseler,https://www.hepsiburada.com/elbiseler-c-12087202,2,Moda > elbiseler
+60000758,2147483636,erkek ceketler,https://www.hepsiburada.com/erkek-ceketler-c-60000758,2,Moda > erkek ceketler
+60004641,2147483636,erkek giyim urunleri,https://www.hepsiburada.com/erkek-giyim-urunleri-c-60004641,2,Moda > erkek giyim urunleri
+60000065,2147483636,erkek hirkalar,https://www.hepsiburada.com/erkek-hirkalar-c-60000065,2,Moda > erkek hirkalar
+12087282,2147483636,erkek pantolonlar,https://www.hepsiburada.com/erkek-pantolonlar-c-12087282,2,Moda > erkek pantolonlar
+60000693,2147483636,erkek slip boxerlar,https://www.hepsiburada.com/erkek-slip-boxerlar-c-60000693,2,Moda > erkek slip boxerlar
+12087279,2147483636,erkek t shirt,https://www.hepsiburada.com/erkek-t-shirt-c-12087279,2,Moda > erkek t shirt
+60000728,2147483636,kulotlu coraplar,https://www.hepsiburada.com/kulotlu-coraplar-c-60000728,2,Moda > kulotlu coraplar
+60000146,2147483636,sirt cantasi,https://www.hepsiburada.com/sirt-cantasi-c-60000146,2,Moda > sirt cantasi
+60003869,2147483636,topuklu ayakkabilar,https://www.hepsiburada.com/topuklu-ayakkabilar-c-60003869,2,Moda > topuklu ayakkabilar
+60002723,2147483636,Çocuk,https://www.hepsiburada.com/cocuk-giyim-kiyafetleri-c-60002723,2,Moda > Çocuk
+80857437,60002705,4 mevsim lastikler,https://www.hepsiburada.com/4-mevsim-lastikler-c-80857437,2,"Oto, Bahce, Yapi Market > 4 mevsim lastikler"
+2147483601,60002705,Bahçe,https://www.hepsiburada.com/bahce-malzemeleri-c-2147483601,2,"Oto, Bahce, Yapi Market > Bahçe"
+80857387,60002705,Hizmetler,https://www.hepsiburada.com/hizmetler-c-80857387,2,"Oto, Bahce, Yapi Market > Hizmetler"
+60008737,60002705,Motosiklet,https://www.hepsiburada.com/motosiklet-c-60008737,2,"Oto, Bahce, Yapi Market > Motosiklet"
+2147483631,60002705,Oto Aksesuar,https://www.hepsiburada.com/oto-aksesuarlari-c-2147483631,2,"Oto, Bahce, Yapi Market > Oto Aksesuar"
+2147483620,60002705,Yapı Market / Hırdavat,https://www.hepsiburada.com/yapi-market-hirdavatlar-c-2147483620,2,"Oto, Bahce, Yapi Market > Yapı Market / Hırdavat"
+17288,60002705,akim korumali prizler,https://www.hepsiburada.com/akim-korumali-prizler-c-17288,2,"Oto, Bahce, Yapi Market > akim korumali prizler"
+20033705,60002705,aku sarj cihazlari,https://www.hepsiburada.com/aku-sarj-cihazlari-c-20033705,2,"Oto, Bahce, Yapi Market > aku sarj cihazlari"
+60003762,60002705,akuler,https://www.hepsiburada.com/akuler-c-60003762,2,"Oto, Bahce, Yapi Market > akuler"
+13003091,60002705,akulu vidalama aletleri,https://www.hepsiburada.com/akulu-vidalama-aletleri-c-13003091,2,"Oto, Bahce, Yapi Market > akulu vidalama aletleri"
+26027,60002705,arac ici kameralar,https://www.hepsiburada.com/arac-ici-kameralar-c-26027,2,"Oto, Bahce, Yapi Market > arac ici kameralar"
+20035765,60002705,arac supurgeleri,https://www.hepsiburada.com/arac-supurgeleri-c-20035765,2,"Oto, Bahce, Yapi Market > arac supurgeleri"
+80405015,60002705,atv motor,https://www.hepsiburada.com/atv-motor-c-80405015,2,"Oto, Bahce, Yapi Market > atv motor"
+60000864,60002705,avuc taslamalar,https://www.hepsiburada.com/avuc-taslamalar-c-60000864,2,"Oto, Bahce, Yapi Market > avuc taslamalar"
+20024981,60002705,bagaj cantalari,https://www.hepsiburada.com/bagaj-cantalari-c-20024981,2,"Oto, Bahce, Yapi Market > bagaj cantalari"
+34001208,60002705,bahce salincaklari,https://www.hepsiburada.com/bahce-salincaklari-c-34001208,2,"Oto, Bahce, Yapi Market > bahce salincaklari"
+34001202,60002705,bahce sandalyeleri,https://www.hepsiburada.com/bahce-sandalyeleri-c-34001202,2,"Oto, Bahce, Yapi Market > bahce sandalyeleri"
+13003267,60002705,batarya musluklari,https://www.hepsiburada.com/batarya-musluklari-c-13003267,2,"Oto, Bahce, Yapi Market > batarya musluklari"
+34001225,60002705,benzinli agac kesme makineleri,https://www.hepsiburada.com/benzinli-agac-kesme-makineleri-c-34001225,2,"Oto, Bahce, Yapi Market > benzinli agac kesme makineleri"
+34001221,60002705,benzinli tirpanlar,https://www.hepsiburada.com/benzinli-tirpanlar-c-34001221,2,"Oto, Bahce, Yapi Market > benzinli tirpanlar"
+20024895,60002705,cam filmleri,https://www.hepsiburada.com/cam-filmleri-c-20024895,2,"Oto, Bahce, Yapi Market > cam filmleri"
+60005076,60002705,cicek tohumlari,https://www.hepsiburada.com/cicek-tohumlari-c-60005076,2,"Oto, Bahce, Yapi Market > cicek tohumlari"
+450871,60002705,cim bicme makineleri,https://www.hepsiburada.com/cim-bicme-makineleri-c-450871,2,"Oto, Bahce, Yapi Market > cim bicme makineleri"
+13003082,60002705,el aletleri,https://www.hepsiburada.com/el-aletleri-c-13003082,2,"Oto, Bahce, Yapi Market > el aletleri"
+80405009,60002705,elektrikli motosiklet,https://www.hepsiburada.com/elektrikli-motosiklet-c-80405009,2,"Oto, Bahce, Yapi Market > elektrikli motosiklet"
+34001271,60002705,gunes enerjili bahce aydinlatmalari,https://www.hepsiburada.com/gunes-enerjili-bahce-aydinlatmalari-c-34001271,2,"Oto, Bahce, Yapi Market > gunes enerjili bahce aydinlatmalari"
+13003347,60002705,hirdavat urunleri,https://www.hepsiburada.com/hirdavat-urunleri-c-13003347,2,"Oto, Bahce, Yapi Market > hirdavat urunleri"
+34001258,60002705,hortumlar toplama urunleri,https://www.hepsiburada.com/hortumlar-toplama-urunleri-c-34001258,2,"Oto, Bahce, Yapi Market > hortumlar toplama urunleri"
+80408116,60002705,intercom,https://www.hepsiburada.com/intercom-c-80408116,2,"Oto, Bahce, Yapi Market > intercom"
+60002013,60002705,is ayakkabilari cizmeleri,https://www.hepsiburada.com/is-ayakkabilari-cizmeleri-c-60002013,2,"Oto, Bahce, Yapi Market > is ayakkabilari cizmeleri"
+60002015,60002705,is guvenlik eldivenleri,https://www.hepsiburada.com/is-guvenlik-eldivenleri-c-60002015,2,"Oto, Bahce, Yapi Market > is guvenlik eldivenleri"
+26039,60002705,jant kapaklari,https://www.hepsiburada.com/jant-kapaklari-c-26039,2,"Oto, Bahce, Yapi Market > jant kapaklari"
+20006830,60002705,jantlar,https://www.hepsiburada.com/jantlar-c-20006830,2,"Oto, Bahce, Yapi Market > jantlar"
+13003121,60002705,jeneratorler,https://www.hepsiburada.com/jeneratorler-c-13003121,2,"Oto, Bahce, Yapi Market > jeneratorler"
+60008179,60002705,kartonpiyer,https://www.hepsiburada.com/kartonpiyer-c-60008179,2,"Oto, Bahce, Yapi Market > kartonpiyer"
+13003124,60002705,kaynak makineleri,https://www.hepsiburada.com/kaynak-makineleri-c-13003124,2,"Oto, Bahce, Yapi Market > kaynak makineleri"
+60007070,60002705,lastik tamir kiti,https://www.hepsiburada.com/lastik-tamir-kiti-c-60007070,2,"Oto, Bahce, Yapi Market > lastik tamir kiti"
+13003177,60002705,lehim havyalari,https://www.hepsiburada.com/lehim-havyalari-c-13003177,2,"Oto, Bahce, Yapi Market > lehim havyalari"
+13003186,60002705,lokma takimlari,https://www.hepsiburada.com/lokma-takimlari-c-13003186,2,"Oto, Bahce, Yapi Market > lokma takimlari"
+34001281,60002705,mangallar,https://www.hepsiburada.com/mangallar-c-34001281,2,"Oto, Bahce, Yapi Market > mangallar"
+13003095,60002705,matkaplar,https://www.hepsiburada.com/matkaplar-c-13003095,2,"Oto, Bahce, Yapi Market > matkaplar"
+13003350,60002705,merdivenler,https://www.hepsiburada.com/merdivenler-c-13003350,2,"Oto, Bahce, Yapi Market > merdivenler"
+26050,60002705,oto amfileri,https://www.hepsiburada.com/oto-amfileri-c-26050,2,"Oto, Bahce, Yapi Market > oto amfileri"
+20035777,60002705,oto paspaslari,https://www.hepsiburada.com/oto-paspaslari-c-20035777,2,"Oto, Bahce, Yapi Market > oto paspaslari"
+26080,60002705,oto teyp,https://www.hepsiburada.com/oto-teyp-c-26080,2,"Oto, Bahce, Yapi Market > oto teyp"
+13003158,60002705,penseler,https://www.hepsiburada.com/penseler-c-13003158,2,"Oto, Bahce, Yapi Market > penseler"
+60002661,60002705,priz anahtarlar,https://www.hepsiburada.com/priz-anahtarlar-c-60002661,2,"Oto, Bahce, Yapi Market > priz anahtarlar"
+34001265,60002705,saksilar,https://www.hepsiburada.com/saksilar-c-34001265,2,"Oto, Bahce, Yapi Market > saksilar"
+60004415,60002705,sapanlar,https://www.hepsiburada.com/sapanlar-c-60004415,2,"Oto, Bahce, Yapi Market > sapanlar"
+80857264,60002705,sarj istasyonu,https://www.hepsiburada.com/sarj-istasyonu-c-80857264,2,"Oto, Bahce, Yapi Market > sarj istasyonu"
+80405010,60002705,scooter motor,https://www.hepsiburada.com/scooter-motor-c-80405010,2,"Oto, Bahce, Yapi Market > scooter motor"
+60003680,60002705,silecekler,https://www.hepsiburada.com/silecekler-c-60003680,2,"Oto, Bahce, Yapi Market > silecekler"
+13003356,60002705,sinek perdeleri,https://www.hepsiburada.com/sinek-perdeleri-c-13003356,2,"Oto, Bahce, Yapi Market > sinek perdeleri"
+9015285,60002705,sinek sivrisinek kovucular,https://www.hepsiburada.com/sinek-sivrisinek-kovucular-c-9015285,2,"Oto, Bahce, Yapi Market > sinek sivrisinek kovucular"
+13003364,60002705,su aritma cihazlari,https://www.hepsiburada.com/su-aritma-cihazlari-c-13003364,2,"Oto, Bahce, Yapi Market > su aritma cihazlari"
+452384,60002705,su motorlari pompalar,https://www.hepsiburada.com/su-motorlari-pompalar-c-452384,2,"Oto, Bahce, Yapi Market > su motorlari pompalar"
+13003164,60002705,testereler,https://www.hepsiburada.com/testereler-c-13003164,2,"Oto, Bahce, Yapi Market > testereler"
+26008,60002705,yangin sondurme tupleri,https://www.hepsiburada.com/yangin-sondurme-tupleri-c-26008,2,"Oto, Bahce, Yapi Market > yangin sondurme tupleri"
+60003997,60002705,yangin sonduruculer,https://www.hepsiburada.com/yangin-sonduruculer-c-60003997,2,"Oto, Bahce, Yapi Market > yangin sonduruculer"
+451862,60002705,yuksek basincli bahce yikama makineleri,https://www.hepsiburada.com/yuksek-basincli-bahce-yikama-makineleri-c-451862,2,"Oto, Bahce, Yapi Market > yuksek basincli bahce yikama makineleri"
+2147483604,60001546,Outdoor,https://www.hepsiburada.com/outdoor-urunleri-c-2147483604,2,"Spor, Outdoor > Outdoor"
+2147483635,60001546,Spor / Fitness,https://www.hepsiburada.com/spor-fitness-urunleri-c-2147483635,2,"Spor, Outdoor > Spor / Fitness"
+80717014,60001546,airsoft,https://www.hepsiburada.com/airsoft-c-80717014,2,"Spor, Outdoor > airsoft"
+60006259,60001546,akilli elektrikli scooterlar,https://www.hepsiburada.com/akilli-elektrikli-scooterlar-c-60006259,2,"Spor, Outdoor > akilli elektrikli scooterlar"
+80738004,60001546,askeri giyim ve malzemeler,https://www.hepsiburada.com/askeri-giyim-ve-malzemeler-c-80738004,2,"Spor, Outdoor > askeri giyim ve malzemeler"
+1804088,60001546,bandanalar,https://www.hepsiburada.com/bandanalar-c-1804088,2,"Spor, Outdoor > bandanalar"
+27081598,60001546,barfiks sinav barlari,https://www.hepsiburada.com/barfiks-sinav-barlari-c-27081598,2,"Spor, Outdoor > barfiks sinav barlari"
+27045326,60001546,basketbol ayakkabilari,https://www.hepsiburada.com/basketbol-ayakkabilari-c-27045326,2,"Spor, Outdoor > basketbol ayakkabilari"
+19020,60001546,basketbol toplari,https://www.hepsiburada.com/basketbol-toplari-c-19020,2,"Spor, Outdoor > basketbol toplari"
+1300939,60001546,bavullar valizler,https://www.hepsiburada.com/bavullar-valizler-c-1300939,2,"Spor, Outdoor > bavullar valizler"
+17421,60001546,besiktas formalari,https://www.hepsiburada.com/besiktas-formalari-c-17421,2,"Spor, Outdoor > besiktas formalari"
+22005313,60001546,cocuk bisikletleri,https://www.hepsiburada.com/cocuk-bisikletleri-c-22005313,2,"Spor, Outdoor > cocuk bisikletleri"
+353125,60001546,dag bisikletleri,https://www.hepsiburada.com/dag-bisikletleri-c-353125,2,"Spor, Outdoor > dag bisikletleri"
+387329,60001546,dambil setler,https://www.hepsiburada.com/dambil-setler-c-387329,2,"Spor, Outdoor > dambil setler"
+60000380,60001546,direnc lastikleri,https://www.hepsiburada.com/direnc-lastikleri-c-60000380,2,"Spor, Outdoor > direnc lastikleri"
+354989,60001546,durbunler,https://www.hepsiburada.com/durbunler-c-354989,2,"Spor, Outdoor > durbunler"
+369744,60001546,el yaylari,https://www.hepsiburada.com/el-yaylari-c-369744,2,"Spor, Outdoor > el yaylari"
+27026409,60001546,elektrikli bisikletler,https://www.hepsiburada.com/elektrikli-bisikletler-c-27026409,2,"Spor, Outdoor > elektrikli bisikletler"
+356600,60001546,elektronik optik pusulalar,https://www.hepsiburada.com/elektronik-optik-pusulalar-c-356600,2,"Spor, Outdoor > elektronik optik pusulalar"
+60008821,60001546,fenerbahce yeni sezon formasi,https://www.hepsiburada.com/fenerbahce-yeni-sezon-formasi-c-60008821,2,"Spor, Outdoor > fenerbahce yeni sezon formasi"
+356609,60001546,fenerler,https://www.hepsiburada.com/fenerler-c-356609,2,"Spor, Outdoor > fenerler"
+19021,60001546,futbol toplari,https://www.hepsiburada.com/futbol-toplari-c-19021,2,"Spor, Outdoor > futbol toplari"
+1308748,60001546,kamis olta takimlari,https://www.hepsiburada.com/kamis-olta-takimlari-c-1308748,2,"Spor, Outdoor > kamis olta takimlari"
+1307142,60001546,kamp masalari,https://www.hepsiburada.com/kamp-masalari-c-1307142,2,"Spor, Outdoor > kamp masalari"
+1301315,60001546,kamp matlari,https://www.hepsiburada.com/kamp-matlari-c-1301315,2,"Spor, Outdoor > kamp matlari"
+19190,60001546,kamp sandalyeleri,https://www.hepsiburada.com/kamp-sandalyeleri-c-19190,2,"Spor, Outdoor > kamp sandalyeleri"
+367284,60001546,kamp termoslari,https://www.hepsiburada.com/kamp-termoslari-c-367284,2,"Spor, Outdoor > kamp termoslari"
+19233,60001546,katlanabilir bisikletler,https://www.hepsiburada.com/katlanabilir-bisikletler-c-19233,2,"Spor, Outdoor > katlanabilir bisikletler"
+368028,60001546,kaykaylar,https://www.hepsiburada.com/kaykaylar-c-368028,2,"Spor, Outdoor > kaykaylar"
+60001997,60001546,kinesiology bantlari,https://www.hepsiburada.com/kinesiology-bantlari-c-60001997,2,"Spor, Outdoor > kinesiology bantlari"
+407474,60001546,kondisyon bisikletleri,https://www.hepsiburada.com/kondisyon-bisikletleri-c-407474,2,"Spor, Outdoor > kondisyon bisikletleri"
+19249,60001546,kosu bantlari,https://www.hepsiburada.com/kosu-bantlari-c-19249,2,"Spor, Outdoor > kosu bantlari"
+384555,60001546,kramponlar,https://www.hepsiburada.com/kramponlar-c-384555,2,"Spor, Outdoor > kramponlar"
+27012987,60001546,kum boks torbalari,https://www.hepsiburada.com/kum-boks-torbalari-c-27012987,2,"Spor, Outdoor > kum boks torbalari"
+374386,60001546,masaj koltuklari,https://www.hepsiburada.com/masaj-koltuklari-c-374386,2,"Spor, Outdoor > masaj koltuklari"
+22003663,60001546,outdoor ayakkabilar,https://www.hepsiburada.com/outdoor-ayakkabilar-c-22003663,2,"Spor, Outdoor > outdoor ayakkabilar"
+356946,60001546,outdoor batonlar,https://www.hepsiburada.com/outdoor-batonlar-c-356946,2,"Spor, Outdoor > outdoor batonlar"
+1301694,60001546,outdoor pantolonlar kapriler,https://www.hepsiburada.com/outdoor-pantolonlar-kapriler-c-1301694,2,"Spor, Outdoor > outdoor pantolonlar kapriler"
+368030,60001546,patenler,https://www.hepsiburada.com/patenler-c-368030,2,"Spor, Outdoor > patenler"
+1300223,60001546,sisme botlar,https://www.hepsiburada.com/sisme-botlar-c-1300223,2,"Spor, Outdoor > sisme botlar"
+1300149,60001546,sisme havuzlar,https://www.hepsiburada.com/sisme-havuzlar-c-1300149,2,"Spor, Outdoor > sisme havuzlar"
+19158,60001546,snorkeller,https://www.hepsiburada.com/snorkeller-c-19158,2,"Spor, Outdoor > snorkeller"
+369686,60001546,spor cantalari,https://www.hepsiburada.com/spor-cantalari-c-369686,2,"Spor, Outdoor > spor cantalari"
+21005100,60001546,suluklar mataralar,https://www.hepsiburada.com/suluklar-mataralar-c-21005100,2,"Spor, Outdoor > suluklar mataralar"
+355456,60001546,trampolinler,https://www.hepsiburada.com/trampolinler-c-355456,2,"Spor, Outdoor > trampolinler"
+352790,60001546,uyku tulumlari,https://www.hepsiburada.com/uyku-tulumlari-c-352790,2,"Spor, Outdoor > uyku tulumlari"
+27061482,60001546,yoga egzersiz pilates minderleri,https://www.hepsiburada.com/yoga-egzersiz-pilates-minderleri-c-27061482,2,"Spor, Outdoor > yoga egzersiz pilates minderleri"
+27047262,60001546,yuruyus kosu ayakkabilari,https://www.hepsiburada.com/yuruyus-kosu-ayakkabilari-c-27047262,2,"Spor, Outdoor > yuruyus kosu ayakkabilari"
+19043,60001546,yuzucu gozlukleri,https://www.hepsiburada.com/yuzucu-gozlukleri-c-19043,2,"Spor, Outdoor > yuzucu gozlukleri"
+22004232,60001546,zipkinlar zipkin uclari,https://www.hepsiburada.com/zipkinlar-zipkin-uclari-c-22004232,2,"Spor, Outdoor > zipkinlar zipkin uclari"
+80296002,2147483619,Hijyenik Pedler,https://www.hepsiburada.com/hijyenik-pedler-c-80296002,2,"Supermarket, Pet Shop > Hijyenik Pedler"
+28001547,2147483619,Kağıt Ürünleri,https://www.hepsiburada.com/kagit-urunleri-c-28001547,2,"Supermarket, Pet Shop > Kağıt Ürünleri"
+80754000,2147483619,Kurban,https://www.hepsiburada.com/kurbanlik-fiyatlari-c-80754000,2,"Supermarket, Pet Shop > Kurban"
+60001496,2147483619,Ofis Tüketim Malzemeleri,https://www.hepsiburada.com/ofis-tuketim-malzemeleri-c-60001496,2,"Supermarket, Pet Shop > Ofis Tüketim Malzemeleri"
+80365054,2147483619,aci sos,https://www.hepsiburada.com/aci-sos-c-80365054,2,"Supermarket, Pet Shop > aci sos"
+80461108,2147483619,aktar urunleri,https://www.hepsiburada.com/aktar-urunleri-c-80461108,2,"Supermarket, Pet Shop > aktar urunleri"
+60001206,2147483619,aluminyum folyolar,https://www.hepsiburada.com/aluminyum-folyolar-c-60001206,2,"Supermarket, Pet Shop > aluminyum folyolar"
+28001479,2147483619,baharatlar,https://www.hepsiburada.com/baharatlar-c-28001479,2,"Supermarket, Pet Shop > baharatlar"
+60001048,2147483619,bebek bezi,https://www.hepsiburada.com/bebek-bezi-c-60001048,2,"Supermarket, Pet Shop > bebek bezi"
+80015000,2147483619,biber salcasi,https://www.hepsiburada.com/biber-salcasi-c-80015000,2,"Supermarket, Pet Shop > biber salcasi"
+28002654,2147483619,bulasik makinasi tablet jeller,https://www.hepsiburada.com/bulasik-makinasi-tablet-jeller-c-28002654,2,"Supermarket, Pet Shop > bulasik makinasi tablet jeller"
+80366066,2147483619,bulasik makinesi tuzu,https://www.hepsiburada.com/bulasik-makinesi-tuzu-c-80366066,2,"Supermarket, Pet Shop > bulasik makinesi tuzu"
+80366067,2147483619,bulasik sungeri,https://www.hepsiburada.com/bulasik-sungeri-c-80366067,2,"Supermarket, Pet Shop > bulasik sungeri"
+60001208,2147483619,buzdolabi posetleri,https://www.hepsiburada.com/buzdolabi-posetleri-c-60001208,2,"Supermarket, Pet Shop > buzdolabi posetleri"
+60001322,2147483619,camasir leke cikaricilar,https://www.hepsiburada.com/camasir-leke-cikaricilar-c-60001322,2,"Supermarket, Pet Shop > camasir leke cikaricilar"
+60001088,2147483619,camasir makinasi sivi deterjanlari,https://www.hepsiburada.com/camasir-makinasi-sivi-deterjanlari-c-60001088,2,"Supermarket, Pet Shop > camasir makinasi sivi deterjanlari"
+28002240,2147483619,camasir makinasi toz deterjanlari,https://www.hepsiburada.com/camasir-makinasi-toz-deterjanlari-c-28002240,2,"Supermarket, Pet Shop > camasir makinasi toz deterjanlari"
+28002222,2147483619,camasir sulari,https://www.hepsiburada.com/camasir-sulari-c-28002222,2,"Supermarket, Pet Shop > camasir sulari"
+28001525,2147483619,deterjan temizlik urunleri,https://www.hepsiburada.com/deterjan-temizlik-urunleri-c-28001525,2,"Supermarket, Pet Shop > deterjan temizlik urunleri"
+28001469,2147483619,gida urunleri,https://www.hepsiburada.com/gida-urunleri-c-28001469,2,"Supermarket, Pet Shop > gida urunleri"
+60001269,2147483619,hasere olduruculer,https://www.hepsiburada.com/hasere-olduruculer-c-60001269,2,"Supermarket, Pet Shop > hasere olduruculer"
+80746000,2147483619,hijyen urunleri,https://www.hepsiburada.com/hijyen-urunleri-c-80746000,2,"Supermarket, Pet Shop > hijyen urunleri"
+80738003,2147483619,hurma,https://www.hepsiburada.com/hurma-c-80738003,2,"Supermarket, Pet Shop > hurma"
+28001517,2147483619,icecek urunleri,https://www.hepsiburada.com/icecek-urunleri-c-28001517,2,"Supermarket, Pet Shop > icecek urunleri"
+28001549,2147483619,kagit havlular,https://www.hepsiburada.com/kagit-havlular-c-28001549,2,"Supermarket, Pet Shop > kagit havlular"
+28001582,2147483619,kuru bakliyatlar,https://www.hepsiburada.com/kuru-bakliyatlar-c-28001582,2,"Supermarket, Pet Shop > kuru bakliyatlar"
+28001502,2147483619,kuru meyveler,https://www.hepsiburada.com/kuru-meyveler-c-28001502,2,"Supermarket, Pet Shop > kuru meyveler"
+80847003,2147483619,maden suyu,https://www.hepsiburada.com/maden-suyu-c-80847003,2,"Supermarket, Pet Shop > maden suyu"
+60003452,2147483619,makarnalar,https://www.hepsiburada.com/makarnalar-c-60003452,2,"Supermarket, Pet Shop > makarnalar"
+60006235,2147483619,meyveler,https://www.hepsiburada.com/meyveler-c-60006235,2,"Supermarket, Pet Shop > meyveler"
+60001323,2147483619,mop paspas yedek ekipmanlari,https://www.hepsiburada.com/mop-paspas-yedek-ekipmanlari-c-60001323,2,"Supermarket, Pet Shop > mop paspas yedek ekipmanlari"
+60001205,2147483619,mutfak sarf malzemeleri,https://www.hepsiburada.com/mutfak-sarf-malzemeleri-c-60001205,2,"Supermarket, Pet Shop > mutfak sarf malzemeleri"
+28003028,2147483619,oda kokulari koku gidericiler,https://www.hepsiburada.com/oda-kokulari-koku-gidericiler-c-28003028,2,"Supermarket, Pet Shop > oda kokulari koku gidericiler"
+28002376,2147483619,peynirler,https://www.hepsiburada.com/peynirler-c-28002376,2,"Supermarket, Pet Shop > peynirler"
+60002935,2147483619,salgam sulari,https://www.hepsiburada.com/salgam-sulari-c-60002935,2,"Supermarket, Pet Shop > salgam sulari"
+60001207,2147483619,strec filmler,https://www.hepsiburada.com/strec-filmler-c-60001207,2,"Supermarket, Pet Shop > strec filmler"
+28001552,2147483619,tuvalet kagitlari,https://www.hepsiburada.com/tuvalet-kagitlari-c-28001552,2,"Supermarket, Pet Shop > tuvalet kagitlari"
+28001484,2147483619,tuz,https://www.hepsiburada.com/tuz-c-28001484,2,"Supermarket, Pet Shop > tuz"
+17693,17071,Dikiş Makinaları & Aksesuarları,https://www.hepsiburada.com/dikis-makinesi-aksesuarlari-c-17693,3,Elektronik > Elektrikli Ev Aletleri > Dikiş Makinaları & Aksesuarları
+80857105,17071,Hepsiburada Koruma Paketi,https://www.hepsiburada.com/hepsiburada-koruma-paketi-c-80857105,3,Elektronik > Elektrikli Ev Aletleri > Hepsiburada Koruma Paketi
+60002190,60002911,Elbise Askıları,https://www.hepsiburada.com/elbise-askilari-c-60002190,3,Elektronik > Ev Gereçleri > Elbise Askıları
+60002915,60002911,Fırça ve Moplar,https://www.hepsiburada.com/firca-moplar-c-60002915,3,Elektronik > Ev Gereçleri > Fırça ve Moplar
+60002913,60002911,Oda Kokuları,https://www.hepsiburada.com/oda-kokulari-c-60002913,3,Elektronik > Ev Gereçleri > Oda Kokuları
+60002914,60002911,Plastik Temizlik Malzemeleri,https://www.hepsiburada.com/plastik-temizlik-malzemeleri-c-60002914,3,Elektronik > Ev Gereçleri > Plastik Temizlik Malzemeleri
+60003114,60002911,Pratik Ev Gereçleri,https://www.hepsiburada.com/pratik-ev-gerecleri-c-60003114,3,Elektronik > Ev Gereçleri > Pratik Ev Gereçleri
+60002917,60002911,Temizlik Bezleri,https://www.hepsiburada.com/temizlik-bezleri-c-60002917,3,Elektronik > Ev Gereçleri > Temizlik Bezleri
+153276,60002911,Çamaşır Kurutucular,https://www.hepsiburada.com/camasir-kurutucular-c-153276,3,Elektronik > Ev Gereçleri > Çamaşır Kurutucular
+80857397,60002911,"Çamaşır Topu, İp & Mandal",https://www.hepsiburada.com/camasir-topu-ip-mandal-c-80857397,3,"Elektronik > Ev Gereçleri > Çamaşır Topu, İp & Mandal"
+157284,161876,Hava Perdeleri,https://www.hepsiburada.com/hava-perdeleri-c-157284,3,Elektronik > Isıtma ve Soğutma > Hava Perdeleri
+80757002,161876,"Isıtma, Soğutma Hizmetleri",https://www.hepsiburada.com/isitma-sogutma-hizmetleri-c-80757002,3,"Elektronik > Isıtma ve Soğutma > Isıtma, Soğutma Hizmetleri"
+80419094,161876,"Isıtma, Soğutma Yedek Parçaları",https://www.hepsiburada.com/isitma-sogutma-yedek-parcalari-c-80419094,3,"Elektronik > Isıtma ve Soğutma > Isıtma, Soğutma Yedek Parçaları"
+8003156,161876,Portatif Soğutucular,https://www.hepsiburada.com/portatif-sogutucular-c-8003156,3,Elektronik > Isıtma ve Soğutma > Portatif Soğutucular
+60006329,161876,Termoboyler,https://www.hepsiburada.com/termoboyler-c-60006329,3,Elektronik > Isıtma ve Soğutma > Termoboyler
+80571072,157192,elektrik kablosu,https://www.hepsiburada.com/elektrik-kablosu-c-80571072,3,Elektronik > canak antenler > elektrik kablosu
+60004662,157192,vidalar civiler dubeller,https://www.hepsiburada.com/vidalar-civiler-dubeller-c-60004662,3,Elektronik > canak antenler > vidalar civiler dubeller
+80162060,17175,Aksesuarlar,https://www.hepsiburada.com/aksesuarlar-c-80162060,3,Elektronik > hava temizleme nem alma cihazlari > Aksesuarlar
+60005398,157410,hdmi kablolar,https://www.hepsiburada.com/hdmi-kablolar-c-60005398,3,Elektronik > kablo soketler > hdmi kablolar
+17011,163192,muzik setleri,https://www.hepsiburada.com/muzik-setleri-c-17011,3,Elektronik > led tv televizyonlar > muzik setleri
+60003054,80757006,Hobi Oyun Konsolları,https://www.hepsiburada.com/hobi-oyun-konsollari-c-60003054,3,Elektronik > playstation 5 konsol > Hobi Oyun Konsolları
+80757007,80757006,playstation 5 oyunlari,https://www.hepsiburada.com/playstation-5-oyunlari-c-80757007,3,Elektronik > playstation 5 konsol > playstation 5 oyunlari
+80757008,80757006,ps 5 aksesuarlari,https://www.hepsiburada.com/ps-5-aksesuarlari-c-80757008,3,Elektronik > playstation 5 konsol > ps 5 aksesuarlari
+60008293,318242,1 gram altin,https://www.hepsiburada.com/1-gram-altin-c-60008293,3,Elektronik > saatler > 1 gram altin
+25008465,318242,Duvar Saatleri,https://www.hepsiburada.com/duvar-saatleri-c-25008465,3,Elektronik > saatler > Duvar Saatleri
+25008402,318242,Kol Saatleri,https://www.hepsiburada.com/kol-saatleri-c-25008402,3,Elektronik > saatler > Kol Saatleri
+25008463,318242,Köstekli Cep Saatleri,https://www.hepsiburada.com/kostekli-saat-c-25008463,3,Elektronik > saatler > Köstekli Cep Saatleri
+25008464,318242,Masa Saatleri,https://www.hepsiburada.com/masa-saatleri-c-25008464,3,Elektronik > saatler > Masa Saatleri
+2147483632,318242,Saat/Gözlük/Aksesuar,https://www.hepsiburada.com/saat-gozluk-aksesuarlari-c-2147483632,3,Elektronik > saatler > Saat/Gözlük/Aksesuar
+60003676,318242,akilli saatler,https://www.hepsiburada.com/akilli-saatler-c-60003676,3,Elektronik > saatler > akilli saatler
+2147483617,318242,altin taki mucevherler,https://www.hepsiburada.com/altin-taki-mucevherler-c-2147483617,3,Elektronik > saatler > altin taki mucevherler
+60005201,318242,android telefonlar,https://www.hepsiburada.com/android-telefonlar-c-60005201,3,Elektronik > saatler > android telefonlar
+60002211,318242,aycicek yaglari,https://www.hepsiburada.com/aycicek-yaglari-c-60002211,3,Elektronik > saatler > aycicek yaglari
+60000163,318242,bayan cantalari,https://www.hepsiburada.com/bayan-cantalari-c-60000163,3,Elektronik > saatler > bayan cantalari
+60000053,318242,bayan kazaklar,https://www.hepsiburada.com/bayan-kazaklar-c-60000053,3,Elektronik > saatler > bayan kazaklar
+19111,318242,besiktas urunleri,https://www.hepsiburada.com/besiktas-urunleri-c-19111,3,Elektronik > saatler > besiktas urunleri
+2147483646,318242,bilgisayarlar,https://www.hepsiburada.com/bilgisayarlar-c-2147483646,3,Elektronik > saatler > bilgisayarlar
+22156,318242,bulasik makineleri,https://www.hepsiburada.com/bulasik-makineleri-c-22156,3,Elektronik > saatler > bulasik makineleri
+22154,318242,buzdolaplari,https://www.hepsiburada.com/buzdolaplari-c-22154,3,Elektronik > saatler > buzdolaplari
+155121,318242,camasir makineleri,https://www.hepsiburada.com/camasir-makineleri-c-155121,3,Elektronik > saatler > camasir makineleri
+22005,318242,cay makineleri,https://www.hepsiburada.com/cay-makineleri-c-22005,3,Elektronik > saatler > cay makineleri
+371965,318242,cep telefonlari,https://www.hepsiburada.com/cep-telefonlari-c-371965,3,Elektronik > saatler > cep telefonlari
+60000125,318242,erkek botlar,https://www.hepsiburada.com/erkek-botlar-c-60000125,3,Elektronik > saatler > erkek botlar
+60000066,318242,erkek kazaklar,https://www.hepsiburada.com/erkek-kazaklar-c-60000066,3,Elektronik > saatler > erkek kazaklar
+60000759,318242,erkek montlar,https://www.hepsiburada.com/erkek-montlar-c-60000759,3,Elektronik > saatler > erkek montlar
+12102800,318242,erkek sweatshirt,https://www.hepsiburada.com/erkek-sweatshirt-c-12102800,3,Elektronik > saatler > erkek sweatshirt
+12140708,318242,erkek takim elbiseler,https://www.hepsiburada.com/erkek-takim-elbiseler-c-12140708,3,Elektronik > saatler > erkek takim elbiseler
+12087197,318242,etekler,https://www.hepsiburada.com/etekler-c-12087197,3,Elektronik > saatler > etekler
+27074921,318242,fenerium,https://www.hepsiburada.com/fenerium-c-27074921,3,Elektronik > saatler > fenerium
+22017,318242,fritozler,https://www.hepsiburada.com/fritozler-c-22017,3,Elektronik > saatler > fritozler
+23000,318242,galatasaray store urunleri,https://www.hepsiburada.com/galatasaray-store-urunleri-c-23000,3,Elektronik > saatler > galatasaray store urunleri
+60005202,318242,iphone ios telefonlar,https://www.hepsiburada.com/iphone-ios-telefonlar-c-60005202,3,Elektronik > saatler > iphone ios telefonlar
+22348,318242,kahve makineleri,https://www.hepsiburada.com/kahve-makineleri-c-22348,3,Elektronik > saatler > kahve makineleri
+98,318242,laptop notebook dizustu bilgisayarlar,https://www.hepsiburada.com/laptop-notebook-dizustu-bilgisayarlar-c-98,3,Elektronik > saatler > laptop notebook dizustu bilgisayarlar
+60002948,318242,mutfak masa takimlari,https://www.hepsiburada.com/mutfak-masa-takimlari-c-60002948,3,Elektronik > saatler > mutfak masa takimlari
+259720,318242,oto lastikler,https://www.hepsiburada.com/oto-lastikler-c-259720,3,Elektronik > saatler > oto lastikler
+28001320,318242,ramazan paketi,https://www.hepsiburada.com/ramazan-paketi-c-28001320,3,Elektronik > saatler > ramazan paketi
+80857019,318242,resat altin,https://www.hepsiburada.com/resat-altin-c-80857019,3,Elektronik > saatler > resat altin
+384551,318242,spor ayakkabilar,https://www.hepsiburada.com/spor-ayakkabilar-c-384551,3,Elektronik > saatler > spor ayakkabilar
+3008012,318242,tablet,https://www.hepsiburada.com/tablet-c-3008012,3,Elektronik > saatler > tablet
+2147483642,318242,telefonlar,https://www.hepsiburada.com/telefonlar-c-2147483642,3,Elektronik > saatler > telefonlar
+352444,318242,trabzonspor urunleri,https://www.hepsiburada.com/trabzonspor-urunleri-c-352444,3,Elektronik > saatler > trabzonspor urunleri
+60000720,318242,trenckotlar,https://www.hepsiburada.com/trenckotlar-c-60000720,3,Elektronik > saatler > trenckotlar
+12095591,318242,tunikler,https://www.hepsiburada.com/tunikler-c-12095591,3,Elektronik > saatler > tunikler
+60008247,318242,yarim altin,https://www.hepsiburada.com/yarim-altin-c-60008247,3,Elektronik > saatler > yarim altin
+80256006,17201,Ek Güvence Paketleri,https://www.hepsiburada.com/ek-guvence-paketleri-c-80256006,3,Elektronik > ses goruntu sistemleri > Ek Güvence Paketleri
+80857072,17201,Ek Güvence Paketleri Televizyon,https://www.hepsiburada.com/ek-guvence-paketleri-televizyon-c-80857072,3,Elektronik > ses goruntu sistemleri > Ek Güvence Paketleri Televizyon
+155056,17201,Uydu Alıcısı Aksesuarları,https://www.hepsiburada.com/uydu-alicisi-aksesuarlari-c-155056,3,Elektronik > ses goruntu sistemleri > Uydu Alıcısı Aksesuarları
+80160031,155123,Sulu Süpürge,https://www.hepsiburada.com/sulu-supurge-c-80160031,3,Elektronik > supurgeler > Sulu Süpürge
+17712,155123,Süpürge Aksesuarları,https://www.hepsiburada.com/supurge-aksesuarlari-c-17712,3,Elektronik > supurgeler > Süpürge Aksesuarları
+80160029,155123,Toz Torbalı Süpürge,https://www.hepsiburada.com/toz-torbali-supurge-c-80160029,3,Elektronik > supurgeler > Toz Torbalı Süpürge
+80160030,155123,Toz Torbasız Süpürge,https://www.hepsiburada.com/toz-torbasiz-supurge-c-80160030,3,Elektronik > supurgeler > Toz Torbasız Süpürge
+80162057,155122,Buhar Kazanlı Ütü,https://www.hepsiburada.com/buhar-kazanli-utu-c-80162057,3,Elektronik > utuler > Buhar Kazanlı Ütü
+80162056,155122,Buharlı Ütü,https://www.hepsiburada.com/buharli-utu-c-80162056,3,Elektronik > utuler > Buharlı Ütü
+10007302,2147483640,Animasyon / Çizgi Film,https://www.hepsiburada.com/animasyon-cizgi-filmler-c-10007302,3,"Kitap, Muzik, Film, Hobi > Film > Animasyon / Çizgi Film"
+177407,2147483640,Belgesel,https://www.hepsiburada.com/belgesel-filmleri-c-177407,3,"Kitap, Muzik, Film, Hobi > Film > Belgesel"
+176839,2147483640,Eğitim / Sağlık,https://www.hepsiburada.com/egitim-saglik-filmleri-c-176839,3,"Kitap, Muzik, Film, Hobi > Film > Eğitim / Sağlık"
+10005596,2147483640,Film Figür / Aksesuarları,https://www.hepsiburada.com/film-figur-aksesuarlari-c-10005596,3,"Kitap, Muzik, Film, Hobi > Film > Film Figür / Aksesuarları"
+10007318,2147483640,Müzik / Sahne,https://www.hepsiburada.com/muzik-sahne-filmleri-c-10007318,3,"Kitap, Muzik, Film, Hobi > Film > Müzik / Sahne"
+10007953,2147483640,Poster,https://www.hepsiburada.com/poster-c-10007953,3,"Kitap, Muzik, Film, Hobi > Film > Poster"
+177278,2147483640,Spor / Yoga / Hobi,https://www.hepsiburada.com/spor-yoga-hobi-dvd-setleri-c-177278,3,"Kitap, Muzik, Film, Hobi > Film > Spor / Yoga / Hobi"
+10007286,2147483640,Yabancı Film,https://www.hepsiburada.com/yabanci-filmler-c-10007286,3,"Kitap, Muzik, Film, Hobi > Film > Yabancı Film"
+178174,2147483640,Yerli Film,https://www.hepsiburada.com/yerli-filmler-c-178174,3,"Kitap, Muzik, Film, Hobi > Film > Yerli Film"
+60007251,2147483640,ev sinema sistemleri,https://www.hepsiburada.com/ev-sinema-sistemleri-c-60007251,3,"Kitap, Muzik, Film, Hobi > Film > ev sinema sistemleri"
+19018197,408010,klasik gitarlar,https://www.hepsiburada.com/klasik-gitarlar-c-19018197,3,"Kitap, Muzik, Film, Hobi > akordiyonlar > klasik gitarlar"
+213021,234464,Ders Sınav Kitapları,https://www.hepsiburada.com/ders-sinav-kitaplari-c-213021,3,"Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları"
+234462,234464,dgs kitaplari,https://www.hepsiburada.com/dgs-kitaplari-c-234462,3,"Kitap, Muzik, Film, Hobi > ales kitaplari > dgs kitaplari"
+234456,234464,kpss kitaplari,https://www.hepsiburada.com/kpss-kitaplari-c-234456,3,"Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari"
+60001365,402814,Telli Çalgılar,https://www.hepsiburada.com/telli-calgilar-c-60001365,3,"Kitap, Muzik, Film, Hobi > baglamalar > Telli Çalgılar"
+80530104,80530105,"Sahne Işıklandırma, Şov",https://www.hepsiburada.com/sahne-isiklandirma-sov-c-80530104,3,"Kitap, Muzik, Film, Hobi > balon makinesi > Sahne Işıklandırma, Şov"
+60000822,9914,muzik albumleri,https://www.hepsiburada.com/muzik-albumleri-c-60000822,3,"Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri"
+400250,10785,Vurmali Çalgılar,https://www.hepsiburada.com/vurmali-calgilar-c-400250,3,"Kitap, Muzik, Film, Hobi > defler > Vurmali Çalgılar"
+60001735,2147483645,Aile & Çocuk Bakımı,https://www.hepsiburada.com/aile-kitaplari-c-60001735,3,"Kitap, Muzik, Film, Hobi > kitaplar > Aile & Çocuk Bakımı"
+15033031,2147483645,Akademik,https://www.hepsiburada.com/akademik-kitaplar-c-15033031,3,"Kitap, Muzik, Film, Hobi > kitaplar > Akademik"
+80224072,2147483645,Aktivite & Eğitici Kitaplar,https://www.hepsiburada.com/aktivite-egitici-kitaplar-c-80224072,3,"Kitap, Muzik, Film, Hobi > kitaplar > Aktivite & Eğitici Kitaplar"
+1501689,2147483645,"Araştırma ,Tarih & Siyaset",https://www.hepsiburada.com/arastirma-inceleme-c-1501689,3,"Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset"
+10004,2147483645,Dergi,https://www.hepsiburada.com/dergiler-c-10004,3,"Kitap, Muzik, Film, Hobi > kitaplar > Dergi"
+80196008,2147483645,Dijital Yayınlar,https://www.hepsiburada.com/dijital-yayinlar-c-80196008,3,"Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar"
+80196010,2147483645,Din ve Mitoloji,https://www.hepsiburada.com/din-ve-mitoloji-c-80196010,3,"Kitap, Muzik, Film, Hobi > kitaplar > Din ve Mitoloji"
+1501753,2147483645,Edebiyat,https://www.hepsiburada.com/edebiyat-kitaplari-c-1501753,3,"Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat"
+15033037,2147483645,Eğitim,https://www.hepsiburada.com/egitim-kitaplari-c-15033037,3,"Kitap, Muzik, Film, Hobi > kitaplar > Eğitim"
+9959,2147483645,Gezi & Turizm,https://www.hepsiburada.com/turizm-gezi-kitaplari-c-9959,3,"Kitap, Muzik, Film, Hobi > kitaplar > Gezi & Turizm"
+215402,2147483645,Hobi,https://www.hepsiburada.com/hobi-kitaplari-c-215402,3,"Kitap, Muzik, Film, Hobi > kitaplar > Hobi"
+80857054,2147483645,Kitap Okuma Aksesuarları,https://www.hepsiburada.com/kitap-okuma-aksesuarlari-c-80857054,3,"Kitap, Muzik, Film, Hobi > kitaplar > Kitap Okuma Aksesuarları"
+9925,2147483645,Kişisel Gelişim & Psikoloji,https://www.hepsiburada.com/kisisel-gelisim-kitaplari-kitaplari-c-9925,3,"Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji"
+60002402,2147483645,Online Eğitim,https://www.hepsiburada.com/online-egitim-c-60002402,3,"Kitap, Muzik, Film, Hobi > kitaplar > Online Eğitim"
+80220105,2147483645,Sanat,https://www.hepsiburada.com/sanat-c-80220105,3,"Kitap, Muzik, Film, Hobi > kitaplar > Sanat"
+80196007,2147483645,"Sağlık, Spor ve Diyet",https://www.hepsiburada.com/saglik-spor-ve-diyet-c-80196007,3,"Kitap, Muzik, Film, Hobi > kitaplar > Sağlık, Spor ve Diyet"
+60001648,2147483645,Sesli Kitaplar,https://www.hepsiburada.com/sesli-kitaplar-c-60001648,3,"Kitap, Muzik, Film, Hobi > kitaplar > Sesli Kitaplar"
+15039802,2147483645,Yabancı Dil Kitaplar (Foreign Languages),https://www.hepsiburada.com/ithal-kitaplar-c-15039802,3,"Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages)"
+9992,2147483645,Yemek,https://www.hepsiburada.com/yemek-gurme-icecek-kitaplari-c-9992,3,"Kitap, Muzik, Film, Hobi > kitaplar > Yemek"
+213862,2147483645,ders kitaplari yardimci kitaplar,https://www.hepsiburada.com/ders-kitaplari-yardimci-kitaplar-c-213862,3,"Kitap, Muzik, Film, Hobi > kitaplar > ders kitaplari yardimci kitaplar"
+10796,2147483645,poster,https://www.hepsiburada.com/poster-c-10796,3,"Kitap, Muzik, Film, Hobi > kitaplar > poster"
+80196009,2147483645,Çizgi Roman & Mizah,https://www.hepsiburada.com/cizgi-roman-mizah-c-80196009,3,"Kitap, Muzik, Film, Hobi > kitaplar > Çizgi Roman & Mizah"
+80196011,2147483645,"İş, Ekonomi & Pazarlama",https://www.hepsiburada.com/is-ekonomi-pazarlama-c-80196011,3,"Kitap, Muzik, Film, Hobi > kitaplar > İş, Ekonomi & Pazarlama"
+1514628,1514631,fizik kitaplari,https://www.hepsiburada.com/fizik-kitaplari-c-1514628,3,"Kitap, Muzik, Film, Hobi > matematik kitaplari > fizik kitaplari"
+411209,402930,Nefesli Çalgılar,https://www.hepsiburada.com/nefesli-calgilar-c-411209,3,"Kitap, Muzik, Film, Hobi > melodikalar > Nefesli Çalgılar"
+60001362,405379,Stüdyo & DJ Ekipmanları,https://www.hepsiburada.com/profesyonel-muzik-ses-sistemler-c-60001362,3,"Kitap, Muzik, Film, Hobi > muzik keyboard > Stüdyo & DJ Ekipmanları"
+19018196,405379,gitarlar,https://www.hepsiburada.com/gitarlar-c-19018196,3,"Kitap, Muzik, Film, Hobi > muzik keyboard > gitarlar"
+411237,405379,yayli calgilar,https://www.hepsiburada.com/yayli-calgilar-c-411237,3,"Kitap, Muzik, Film, Hobi > muzik keyboard > yayli calgilar"
+411138,406932,muzik ekipman aksesuarlari,https://www.hepsiburada.com/muzik-ekipman-aksesuarlari-c-411138,3,"Kitap, Muzik, Film, Hobi > pikaplar > muzik ekipman aksesuarlari"
+80530127,406932,tuslu calgilar,https://www.hepsiburada.com/tuslu-calgilar-c-80530127,3,"Kitap, Muzik, Film, Hobi > pikaplar > tuslu calgilar"
+1501702,1514681,roman kitaplari,https://www.hepsiburada.com/roman-kitaplari-c-1501702,3,"Kitap, Muzik, Film, Hobi > tum dersler kitaplari > roman kitaplari"
+1503568,1514634,yds kitaplari,https://www.hepsiburada.com/yds-kitaplari-c-1503568,3,"Kitap, Muzik, Film, Hobi > turkce kitaplari > yds kitaplari"
+80371041,1515048,lgs,https://www.hepsiburada.com/lgs-c-80371041,3,"Kitap, Muzik, Film, Hobi > turkce sozluk kitaplari > lgs"
+9916,1515095,Sözlük İmla Kitapları,https://www.hepsiburada.com/sozluk-imla-kilavuzlari-kitaplari-c-9916,3,"Kitap, Muzik, Film, Hobi > yazim imla kilavuzlari kitaplari > Sözlük İmla Kitapları"
+9957,1515095,ansiklopediler,https://www.hepsiburada.com/ansiklopediler-c-9957,3,"Kitap, Muzik, Film, Hobi > yazim imla kilavuzlari kitaplari > ansiklopediler"
+32010977,2147483603,rujlar,https://www.hepsiburada.com/rujlar-c-32010977,3,"Kozmetik, Kisisel Bakim > Kozmetik > rujlar"
+60004068,2147483633,Ayak & Tırnak Bakımı,https://www.hepsiburada.com/ayak-bakim-urunleri-c-60004068,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Ayak & Tırnak Bakımı"
+26012354,2147483633,Duş ve Banyo Ürünleri,https://www.hepsiburada.com/dus-banyo-urunleri-c-26012354,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Duş ve Banyo Ürünleri"
+80111004,2147483633,Güzellik Salonu & Kuaför Ürünleri,https://www.hepsiburada.com/guzellik-salonu-kuafor-malzemeleri-c-80111004,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Güzellik Salonu & Kuaför Ürünleri"
+80134000,2147483633,"Hotel, Restoran & Cafe İhtiyaçları",https://www.hepsiburada.com/hotel-restoran-cafe-ihtiyaclari-c-80134000,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Hotel, Restoran & Cafe İhtiyaçları"
+26012115,2147483633,Kadın Pedleri & Hijyen Ürünleri,https://www.hepsiburada.com/kadin-bakim-urunleri-c-26012115,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Kadın Pedleri & Hijyen Ürünleri"
+80433054,2147483633,Kişisel Bakım & Tıraş Makinesi Yedek Parçaları,https://www.hepsiburada.com/tiras-makinesi-yedek-parcalari-c-80433054,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Kişisel Bakım & Tıraş Makinesi Yedek Parçaları"
+60005107,2147483633,Kişisel Bakım Aletleri,https://www.hepsiburada.com/kisisel-bakim-aletleri-c-60005107,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Kişisel Bakım Aletleri"
+80114004,2147483633,"Masaj, Spa & Wellness",https://www.hepsiburada.com/masaj-spa-wellness-c-80114004,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Masaj, Spa & Wellness"
+339715,2147483633,Medikal Ürünler,https://www.hepsiburada.com/medikal-urunler-c-339715,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Medikal Ürünler"
+26012170,2147483633,Sağlık Ürünleri,https://www.hepsiburada.com/saglik-urunleri-c-26012170,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Sağlık Ürünleri"
+354020,2147483633,Sporcu Besinleri & Suplementer,https://www.hepsiburada.com/sporcu-besinleri-c-354020,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Sporcu Besinleri & Suplementer"
+80381011,2147483633,Yetişkin Ürünler +18,https://www.hepsiburada.com/yetiskin-urunler-18-c-80381011,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > Yetişkin Ürünler +18"
+26012117,2147483633,dis fircalari,https://www.hepsiburada.com/dis-fircalari-c-26012117,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > dis fircalari"
+32010888,2147483633,el tirnak bakim urunleri,https://www.hepsiburada.com/el-tirnak-bakim-urunleri-c-32010888,3,"Kozmetik, Kisisel Bakim > Sağlık / Kişisel Bakım > el tirnak bakim urunleri"
+80216058,80216054,agda aksesuarlari,https://www.hepsiburada.com/agda-aksesuarlari-c-80216058,3,"Kozmetik, Kisisel Bakim > agda makinesi > agda aksesuarlari"
+26012146,80216054,agda epilasyon sonrasi bakim urunleri,https://www.hepsiburada.com/agda-epilasyon-sonrasi-bakim-urunleri-c-26012146,3,"Kozmetik, Kisisel Bakim > agda makinesi > agda epilasyon sonrasi bakim urunleri"
+32010891,32010907,Temizleyiciler Tonikler,https://www.hepsiburada.com/temizleyiciler-tonikler-c-32010891,3,"Kozmetik, Kisisel Bakim > jel sabunlar > Temizleyiciler Tonikler"
+32010965,32010986,Göz Makyajı Ürünleri,https://www.hepsiburada.com/goz-makyaji-urunleri-c-32010965,3,"Kozmetik, Kisisel Bakim > mascaralar > Göz Makyajı Ürünleri"
+32010885,32010894,Yüz Bakım Ürünleri,https://www.hepsiburada.com/yuz-bakim-urunleri-c-32010885,3,"Kozmetik, Kisisel Bakim > nemlendiriciler > Yüz Bakım Ürünleri"
+32010683,341406,Erkek Parfüm,https://www.hepsiburada.com/erkek-parfumler-c-32010683,3,"Kozmetik, Kisisel Bakim > parfumler > Erkek Parfüm"
+32010684,341406,Kadın Parfüm,https://www.hepsiburada.com/kadin-parfumler-c-32010684,3,"Kozmetik, Kisisel Bakim > parfumler > Kadın Parfüm"
+80590045,341406,cocuk parfum,https://www.hepsiburada.com/cocuk-parfum-c-80590045,3,"Kozmetik, Kisisel Bakim > parfumler > cocuk parfum"
+80857230,341406,luks parfum,https://www.hepsiburada.com/luks-parfum-c-80857230,3,"Kozmetik, Kisisel Bakim > parfumler > luks parfum"
+32010925,341406,vucut nemlendiriciler,https://www.hepsiburada.com/vucut-nemlendiriciler-c-32010925,3,"Kozmetik, Kisisel Bakim > parfumler > vucut nemlendiriciler"
+60004670,26012177,akilli bileklikler,https://www.hepsiburada.com/akilli-bileklikler-c-60004670,3,"Kozmetik, Kisisel Bakim > pedometreler adimsayarlar > akilli bileklikler"
+6000694,27073740,glutensiz urunler,https://www.hepsiburada.com/glutensiz-urunler-c-6000694,3,"Kozmetik, Kisisel Bakim > shaker > glutensiz urunler"
+28002842,27073740,organik urunler,https://www.hepsiburada.com/organik-urunler-c-28002842,3,"Kozmetik, Kisisel Bakim > shaker > organik urunler"
+26012213,80647033,hava nemlendirme cihazlarioksimetreler,https://www.hepsiburada.com/hava-nemlendirme-cihazlarioksimetreler-c-26012213,3,"Kozmetik, Kisisel Bakim > tekerlekli sandalye > hava nemlendirme cihazlarioksimetreler"
+80111009,26000873,el ayak bakim urunleri,https://www.hepsiburada.com/el-ayak-bakim-urunleri-c-80111009,3,"Kozmetik, Kisisel Bakim > tirnak makasi > el ayak bakim urunleri"
+32010975,26000873,ojeler,https://www.hepsiburada.com/ojeler-c-32010975,3,"Kozmetik, Kisisel Bakim > tirnak makasi > ojeler"
+26012361,80216061,Manikür Pedikür Malzemeleri,https://www.hepsiburada.com/manikur-pedikur-malzemeleri-c-26012361,3,"Kozmetik, Kisisel Bakim > topuk torpusu > Manikür Pedikür Malzemeleri"
+332758,80216061,tirnak bakim seti,https://www.hepsiburada.com/tirnak-bakim-seti-c-332758,3,"Kozmetik, Kisisel Bakim > topuk torpusu > tirnak bakim seti"
+340062,80216061,tirnak torpusu,https://www.hepsiburada.com/tirnak-torpusu-c-340062,3,"Kozmetik, Kisisel Bakim > topuk torpusu > tirnak torpusu"
+26012147,80216050,Tüy Dökücü Sarartıcı Ürünler,https://www.hepsiburada.com/tuy-dokucu-sarartici-urunler-c-26012147,3,"Kozmetik, Kisisel Bakim > tuy dokucu krem > Tüy Dökücü Sarartıcı Ürünler"
+26012217,26012237,Ortopedi Ürünleri,https://www.hepsiburada.com/ortopedi-urunleri-c-26012217,3,"Kozmetik, Kisisel Bakim > varis coraplari > Ortopedi Ürünleri"
+23017924,60003470,bebek temizleme pamugu,https://www.hepsiburada.com/bebek-temizleme-pamugu-c-23017924,3,"Kozmetik, Kisisel Bakim > yara bantlari > bebek temizleme pamugu"
+26012179,60003470,İlk Yardim Ürünleri,https://www.hepsiburada.com/ilk-yardim-urunleri-c-26012179,3,"Kozmetik, Kisisel Bakim > yara bantlari > İlk Yardim Ürünleri"
+12087354,60007347,Aksesuar,https://www.hepsiburada.com/bebek-aksesuarlari-c-12087354,3,Moda > Bebek > Aksesuar
+12061876,60007347,Alt Üst Takım,https://www.hepsiburada.com/bebek-takimi-c-12061876,3,Moda > Bebek > Alt Üst Takım
+80529024,60007347,Body,https://www.hepsiburada.com/body-c-80529024,3,Moda > Bebek > Body
+12087343,60007347,Elbise,https://www.hepsiburada.com/bebek-elbiseleri-c-12087343,3,Moda > Bebek > Elbise
+12087342,60007347,Etek,https://www.hepsiburada.com/bebek-etekleri-c-12087342,3,Moda > Bebek > Etek
+12048280,60007347,Eşofman,https://www.hepsiburada.com/bebek-esofmanlari-c-12048280,3,Moda > Bebek > Eşofman
+12045570,60007347,Gömlek,https://www.hepsiburada.com/bebek-gomlekleri-c-12045570,3,Moda > Bebek > Gömlek
+80529021,60007347,Hastane Çıkışı,https://www.hepsiburada.com/hastane-cikisi-c-80529021,3,Moda > Bebek > Hastane Çıkışı
+12046626,60007347,Hırka,https://www.hepsiburada.com/bebek-hirkasi-c-12046626,3,Moda > Bebek > Hırka
+80369019,60007347,Kazak,https://www.hepsiburada.com/bebek-kazak-c-80369019,3,Moda > Bebek > Kazak
+80529022,60007347,Kozmonot,https://www.hepsiburada.com/kozmonot-c-80529022,3,Moda > Bebek > Kozmonot
+80529020,60007347,Kundak,https://www.hepsiburada.com/kundak-c-80529020,3,Moda > Bebek > Kundak
+80438041,60007347,Mayo & Bikini,https://www.hepsiburada.com/mayo-bikini-c-80438041,3,Moda > Bebek > Mayo & Bikini
+12045538,60007347,Mont,https://www.hepsiburada.com/bebek-montlari-c-12045538,3,Moda > Bebek > Mont
+1127969,60007347,Pantolon,https://www.hepsiburada.com/bebek-pantolonlari-c-1127969,3,Moda > Bebek > Pantolon
+80857296,60007347,Panço,https://www.hepsiburada.com/panco-c-80857296,3,Moda > Bebek > Panço
+60000161,60007347,Patik & Ayakkabı,https://www.hepsiburada.com/patik-ayakkabi-c-60000161,3,Moda > Bebek > Patik & Ayakkabı
+12106318,60007347,Sweatshirt,https://www.hepsiburada.com/bebek-sweatshirt-c-12106318,3,Moda > Bebek > Sweatshirt
+12087345,60007347,T-Shirt & Bluz,https://www.hepsiburada.com/bebek-t-shirt-c-12087345,3,Moda > Bebek > T-Shirt & Bluz
+12087201,60007347,Tayt,https://www.hepsiburada.com/bebek-taytlari-c-12087201,3,Moda > Bebek > Tayt
+80529023,60007347,Tulum,https://www.hepsiburada.com/tulum-c-80529023,3,Moda > Bebek > Tulum
+80073000,60007347,Yağmurluk,https://www.hepsiburada.com/bebek-yagmurluk-c-80073000,3,Moda > Bebek > Yağmurluk
+80529026,60007347,Yelek,https://www.hepsiburada.com/yelek-c-80529026,3,Moda > Bebek > Yelek
+80529019,60007347,Zıbın,https://www.hepsiburada.com/zibin-c-80529019,3,Moda > Bebek > Zıbın
+12087352,60007347,İç Giyim,https://www.hepsiburada.com/bebek-ic-giyim-c-12087352,3,Moda > Bebek > İç Giyim
+80529025,60007347,Şort,https://www.hepsiburada.com/sort-c-80529025,3,Moda > Bebek > Şort
+60001104,12087177,Aksesuar,https://www.hepsiburada.com/erkek-aksesuarlari-c-60001104,3,Moda > Erkek > Aksesuar
+60001586,12087177,İç Giyim,https://www.hepsiburada.com/erkek-ic-giyim-urunleri-c-60001586,3,Moda > Erkek > İç Giyim
+60000118,60000117,Ayakkabı Bakım & Aksesuar,https://www.hepsiburada.com/bakim-koruma-c-60000118,3,Moda > ayakkabi > Ayakkabı Bakım & Aksesuar
+60000126,60000117,Günlük Ayakkabı,https://www.hepsiburada.com/erkek-gunluk-ayakkabilar-c-60000126,3,Moda > ayakkabi > Günlük Ayakkabı
+60003835,60000117,Klasik Ayakkabı,https://www.hepsiburada.com/erkek-klasik-ayakkabilar-c-60003835,3,Moda > ayakkabi > Klasik Ayakkabı
+60003836,60000117,Loafer,https://www.hepsiburada.com/loafer-c-60003836,3,Moda > ayakkabi > Loafer
+60003918,60000117,Outdoor / Trekking,https://www.hepsiburada.com/erkek-trekking-ayakkabilar-c-60003918,3,Moda > ayakkabi > Outdoor / Trekking
+60003837,60000117,Oxford,https://www.hepsiburada.com/oxford-ayakkabi-c-60003837,3,Moda > ayakkabi > Oxford
+80857394,60000117,Panduf & Ev Ayakkabısı,https://www.hepsiburada.com/panduf-ev-ayakkabisi-c-80857394,3,Moda > ayakkabi > Panduf & Ev Ayakkabısı
+60003843,60000117,Sandalet,https://www.hepsiburada.com/erkek-sandalet-c-60003843,3,Moda > ayakkabi > Sandalet
+204249,60000117,Sneakers,https://www.hepsiburada.com/erkek-sneakers-ayakkabi-c-204249,3,Moda > ayakkabi > Sneakers
+60000803,60000117,Terlik,https://www.hepsiburada.com/erkek-terlikler-c-60000803,3,Moda > ayakkabi > Terlik
+60000800,60000116,Abiye Ayakkabı,https://www.hepsiburada.com/abiye-ayakkabi-c-60000800,3,Moda > bayan ayakkabilar > Abiye Ayakkabı
+60003919,60000116,Bakım & Aksesuar,https://www.hepsiburada.com/ayakkabi-bakim-koruma-c-60003919,3,Moda > bayan ayakkabilar > Bakım & Aksesuar
+60003860,60000116,Ev Ayakkabısı,https://www.hepsiburada.com/bayan-ev-ayakkabilari-c-60003860,3,Moda > bayan ayakkabilar > Ev Ayakkabısı
+60003863,60000116,Sandalet,https://www.hepsiburada.com/bayan-sandaletler-c-60003863,3,Moda > bayan ayakkabilar > Sandalet
+60003913,60000116,Terlik,https://www.hepsiburada.com/bayan-terlikler-c-60003913,3,Moda > bayan ayakkabilar > Terlik
+60003945,60000116,Trekking,https://www.hepsiburada.com/bayan-trekking-ayakkabilar-c-60003945,3,Moda > bayan ayakkabilar > Trekking
+60000121,60000116,bayan gunluk ayakkabilar,https://www.hepsiburada.com/bayan-gunluk-ayakkabilar-c-60000121,3,Moda > bayan ayakkabilar > bayan gunluk ayakkabilar
+60003941,60000116,bayan spor ayakkabilar,https://www.hepsiburada.com/bayan-spor-ayakkabilar-c-60003941,3,Moda > bayan ayakkabilar > bayan spor ayakkabilar
+60003851,60000116,Çizme,https://www.hepsiburada.com/cizmeler-c-60003851,3,Moda > bayan ayakkabilar > Çizme
+60001127,12087178,Aksesuar,https://www.hepsiburada.com/bayan-aksesuarlar-c-60001127,3,Moda > bayan giyim modelleri > Aksesuar
+12087217,12087178,Büyük Beden,https://www.hepsiburada.com/buyuk-beden-c-12087217,3,Moda > bayan giyim modelleri > Büyük Beden
+60004640,12087178,Giyim,https://www.hepsiburada.com/bayan-giyim-urunleri-c-60004640,3,Moda > bayan giyim modelleri > Giyim
+18001,12087178,Hamile Giyim,https://www.hepsiburada.com/hamile-giyim-c-18001,3,Moda > bayan giyim modelleri > Hamile Giyim
+60005259,12087178,Plaj Giyim,https://www.hepsiburada.com/plaj-giyim-urunleri-c-60005259,3,Moda > bayan giyim modelleri > Plaj Giyim
+60006034,12087178,Tesettür Giyim,https://www.hepsiburada.com/tesettur-giyim-c-60006034,3,Moda > bayan giyim modelleri > Tesettür Giyim
+60001585,12087178,İç Giyim,https://www.hepsiburada.com/ic-giyim-urunleri-c-60001585,3,Moda > bayan giyim modelleri > İç Giyim
+80857368,60004641,Alt Üst Takım,https://www.hepsiburada.com/alt-ust-takim-c-80857368,3,Moda > erkek giyim urunleri > Alt Üst Takım
+60000676,60004641,Eşofman,https://www.hepsiburada.com/erkek-esofmanlar-c-60000676,3,Moda > erkek giyim urunleri > Eşofman
+80519085,60004641,Hac & Umre Kıyafetleri,https://www.hepsiburada.com/hac-umre-kiyafetleri-c-80519085,3,Moda > erkek giyim urunleri > Hac & Umre Kıyafetleri
+60000070,60004641,Kaban & Parka,https://www.hepsiburada.com/erkek-kabanlar-c-60000070,3,Moda > erkek giyim urunleri > Kaban & Parka
+60000756,60004641,Kot Pantolon,https://www.hepsiburada.com/erkek-denim-pantolonlar-c-60000756,3,Moda > erkek giyim urunleri > Kot Pantolon
+12087307,60004641,Mayo Şort,https://www.hepsiburada.com/sort-mayo-c-12087307,3,Moda > erkek giyim urunleri > Mayo Şort
+60003800,60004641,Süveter,https://www.hepsiburada.com/erkek-suveter-c-60003800,3,Moda > erkek giyim urunleri > Süveter
+60000761,60004641,Yağmurluk,https://www.hepsiburada.com/yagmurluklar-c-60000761,3,Moda > erkek giyim urunleri > Yağmurluk
+12067637,60004641,Yelek,https://www.hepsiburada.com/erkek-yelekler-c-12067637,3,Moda > erkek giyim urunleri > Yelek
+12087280,60004641,erkek gomlekleri,https://www.hepsiburada.com/erkek-gomlekleri-c-12087280,3,Moda > erkek giyim urunleri > erkek gomlekleri
+60002383,60004641,erkek spor ayakkabilari,https://www.hepsiburada.com/erkek-spor-ayakkabilari-c-60002383,3,Moda > erkek giyim urunleri > erkek spor ayakkabilari
+60000754,60004641,Şortlar,https://www.hepsiburada.com/erkek-sortlar-c-60000754,3,Moda > erkek giyim urunleri > Şortlar
+205454,60002723,Erkek Çocuk,https://www.hepsiburada.com/erkek-cocuk-c-205454,3,Moda > Çocuk > Erkek Çocuk
+60002732,60002723,cocuk elbiseler,https://www.hepsiburada.com/cocuk-elbiseler-c-60002732,3,Moda > Çocuk > cocuk elbiseler
+316326,60002723,cocuk parti kostumu aksesuarlari,https://www.hepsiburada.com/cocuk-parti-kostumu-aksesuarlari-c-316326,3,Moda > Çocuk > cocuk parti kostumu aksesuarlari
+60002738,60002723,cocuk sortlar,https://www.hepsiburada.com/cocuk-sortlar-c-60002738,3,Moda > Çocuk > cocuk sortlar
+60004845,60002723,cocuk takimlari,https://www.hepsiburada.com/cocuk-takimlari-c-60004845,3,Moda > Çocuk > cocuk takimlari
+205504,60002723,erkek cocuk giyim,https://www.hepsiburada.com/erkek-cocuk-giyim-c-205504,3,Moda > Çocuk > erkek cocuk giyim
+205474,60002723,kiz cocuk,https://www.hepsiburada.com/kiz-cocuk-c-205474,3,Moda > Çocuk > kiz cocuk
+22007482,2147483604,GPS & Navigasyon,https://www.hepsiburada.com/elektronik-optik-gps-durbunler-c-22007482,3,"Spor, Outdoor > Outdoor > GPS & Navigasyon"
+22003834,2147483604,Kara & Balık Av Malzemeleri,https://www.hepsiburada.com/kara-balik-av-malzemeleri-c-22003834,3,"Spor, Outdoor > Outdoor > Kara & Balık Av Malzemeleri"
+80096006,2147483604,Kış Sporları,https://www.hepsiburada.com/kis-sporlari-c-80096006,3,"Spor, Outdoor > Outdoor > Kış Sporları"
+22006250,2147483604,Outdoor Giyim-Ayakkabı,https://www.hepsiburada.com/outdoor-giyim-ayakkabilar-c-22006250,3,"Spor, Outdoor > Outdoor > Outdoor Giyim-Ayakkabı"
+80678116,2147483604,Outdoor Optik,https://www.hepsiburada.com/outdoor-optik-c-80678116,3,"Spor, Outdoor > Outdoor > Outdoor Optik"
+22004138,2147483604,Tekne & Tekne Malzemeleri,https://www.hepsiburada.com/tekne-tekne-malzemeleri-c-22004138,3,"Spor, Outdoor > Outdoor > Tekne & Tekne Malzemeleri"
+19102,2147483604,cadirlar,https://www.hepsiburada.com/cadirlar-c-19102,3,"Spor, Outdoor > Outdoor > cadirlar"
+22001904,2147483604,outdoor mont ceketler,https://www.hepsiburada.com/outdoor-mont-ceketler-c-22001904,3,"Spor, Outdoor > Outdoor > outdoor mont ceketler"
+1800549,2147483604,Şişme Su Aktivite Ürünleri,https://www.hepsiburada.com/sisme-su-urunleri-c-1800549,3,"Spor, Outdoor > Outdoor > Şişme Su Aktivite Ürünleri"
+27026003,2147483635,Bisiklet,https://www.hepsiburada.com/bisikletler-c-27026003,3,"Spor, Outdoor > Spor / Fitness > Bisiklet"
+353044,2147483635,Spor Branşları,https://www.hepsiburada.com/spor-branslari-c-353044,3,"Spor, Outdoor > Spor / Fitness > Spor Branşları"
+27007679,2147483635,Taraftar Ürünleri,https://www.hepsiburada.com/taraftar-urunleri-c-27007679,3,"Spor, Outdoor > Spor / Fitness > Taraftar Ürünleri"
+60004761,2147483635,Vücut Geliştirme Aletleri,https://www.hepsiburada.com/vucut-gelistirme-aletleri-c-60004761,3,"Spor, Outdoor > Spor / Fitness > Vücut Geliştirme Aletleri"
+387330,2147483635,agirlik eldivenleri kemerler,https://www.hepsiburada.com/agirlik-eldivenleri-kemerler-c-387330,3,"Spor, Outdoor > Spor / Fitness > agirlik eldivenleri kemerler"
+387327,2147483635,dambillar agirlik plakalari,https://www.hepsiburada.com/dambillar-agirlik-plakalari-c-387327,3,"Spor, Outdoor > Spor / Fitness > dambillar agirlik plakalari"
+27042554,2147483635,koruyucu bandajlar,https://www.hepsiburada.com/koruyucu-bandajlar-c-27042554,3,"Spor, Outdoor > Spor / Fitness > koruyucu bandajlar"
+60002470,2147483635,profesyonel fitness urunleri,https://www.hepsiburada.com/profesyonel-fitness-urunleri-c-60002470,3,"Spor, Outdoor > Spor / Fitness > profesyonel fitness urunleri"
+19002,19020,Basketbol Ürünleri,https://www.hepsiburada.com/basketbol-urunleri-c-19002,3,"Spor, Outdoor > basketbol toplari > Basketbol Ürünleri"
+9010094,19020,kaucuk kapi onu paspaslari,https://www.hepsiburada.com/kaucuk-kapi-onu-paspaslari-c-9010094,3,"Spor, Outdoor > basketbol toplari > kaucuk kapi onu paspaslari"
+60003896,1300939,erkek cantalar,https://www.hepsiburada.com/erkek-cantalar-c-60003896,3,"Spor, Outdoor > bavullar valizler > erkek cantalar"
+352914,22005313,outdoor cantalar,https://www.hepsiburada.com/outdoor-cantalar-c-352914,3,"Spor, Outdoor > cocuk bisikletleri > outdoor cantalar"
+1302043,22005313,outdoor giyim yagmurluklar,https://www.hepsiburada.com/outdoor-giyim-yagmurluklar-c-1302043,3,"Spor, Outdoor > cocuk bisikletleri > outdoor giyim yagmurluklar"
+27031194,353125,bisiklet aydinlatma ikazlari,https://www.hepsiburada.com/bisiklet-aydinlatma-ikazlari-c-27031194,3,"Spor, Outdoor > dag bisikletleri > bisiklet aydinlatma ikazlari"
+60007053,353125,bisiklet pedallari,https://www.hepsiburada.com/bisiklet-pedallari-c-60007053,3,"Spor, Outdoor > dag bisikletleri > bisiklet pedallari"
+60007055,353125,bisiklet zinciri,https://www.hepsiburada.com/bisiklet-zinciri-c-60007055,3,"Spor, Outdoor > dag bisikletleri > bisiklet zinciri"
+19044,60000380,Kondisyon Aletleri,https://www.hepsiburada.com/kondisyon-aletleri-c-19044,3,"Spor, Outdoor > direnc lastikleri > Kondisyon Aletleri"
+19031,60000380,Küçük Kondisyon Aletleri,https://www.hepsiburada.com/kucuk-kondisyon-aletleri-c-19031,3,"Spor, Outdoor > direnc lastikleri > Küçük Kondisyon Aletleri"
+369743,60000380,atlama ipleri,https://www.hepsiburada.com/atlama-ipleri-c-369743,3,"Spor, Outdoor > direnc lastikleri > atlama ipleri"
+369745,60000380,buk buk,https://www.hepsiburada.com/buk-buk-c-369745,3,"Spor, Outdoor > direnc lastikleri > buk buk"
+354988,354989,teleskop aksesuarlari,https://www.hepsiburada.com/teleskop-aksesuarlari-c-354988,3,"Spor, Outdoor > durbunler > teleskop aksesuarlari"
+27078135,60008821,fenerbahce aksesuarlari,https://www.hepsiburada.com/fenerbahce-aksesuarlari-c-27078135,3,"Spor, Outdoor > fenerbahce yeni sezon formasi > fenerbahce aksesuarlari"
+19001,19021,Futbol Malzemeleri,https://www.hepsiburada.com/futbol-malzemeleri-c-19001,3,"Spor, Outdoor > futbol toplari > Futbol Malzemeleri"
+403067,19021,futbol ayakkabilari,https://www.hepsiburada.com/futbol-ayakkabilari-c-403067,3,"Spor, Outdoor > futbol toplari > futbol ayakkabilari"
+19024,19021,kaleci malzemeleri,https://www.hepsiburada.com/kaleci-malzemeleri-c-19024,3,"Spor, Outdoor > futbol toplari > kaleci malzemeleri"
+1307055,1308748,Balık Av Malzemeleri,https://www.hepsiburada.com/balik-av-malzemeleri-c-1307055,3,"Spor, Outdoor > kamis olta takimlari > Balık Av Malzemeleri"
+22006803,19190,Oturma Dinlenme,https://www.hepsiburada.com/oturma-dinlenme-c-22006803,3,"Spor, Outdoor > kamp sandalyeleri > Oturma Dinlenme"
+19100,367284,Kamp Mutfak Ürünleri,https://www.hepsiburada.com/kamp-mutfak-urunleri-c-19100,3,"Spor, Outdoor > kamp termoslari > Kamp Mutfak Ürünleri"
+60001995,60001997,Sporcu Sağlığı Ürünleri,https://www.hepsiburada.com/sporcu-sagligi-urunleri-c-60001995,3,"Spor, Outdoor > kinesiology bantlari > Sporcu Sağlığı Ürünleri"
+60000689,60001997,bayan korseler,https://www.hepsiburada.com/bayan-korseler-c-60000689,3,"Spor, Outdoor > kinesiology bantlari > bayan korseler"
+26012203,60001997,sargi bezleri steril kompresler,https://www.hepsiburada.com/sargi-bezleri-steril-kompresler-c-26012203,3,"Spor, Outdoor > kinesiology bantlari > sargi bezleri steril kompresler"
+3013122,384555,ag modemler,https://www.hepsiburada.com/ag-modemler-c-3013122,3,"Spor, Outdoor > kramponlar > ag modemler"
+26012110,384555,agiz bakim urunleri,https://www.hepsiburada.com/agiz-bakim-urunleri-c-26012110,3,"Spor, Outdoor > kramponlar > agiz bakim urunleri"
+22018092,384555,aksiyon kameralari,https://www.hepsiburada.com/aksiyon-kameralari-c-22018092,3,"Spor, Outdoor > kramponlar > aksiyon kameralari"
+234329,384555,ankastre setler,https://www.hepsiburada.com/ankastre-setler-c-234329,3,"Spor, Outdoor > kramponlar > ankastre setler"
+60002029,384555,aynasiz kompakt slr makineler,https://www.hepsiburada.com/aynasiz-kompakt-slr-makineler-c-60002029,3,"Spor, Outdoor > kramponlar > aynasiz kompakt slr makineler"
+25008405,384555,bayan kol saatleri,https://www.hepsiburada.com/bayan-kol-saatleri-c-25008405,3,"Spor, Outdoor > kramponlar > bayan kol saatleri"
+26000865,384555,besin takviyeleri,https://www.hepsiburada.com/besin-takviyeleri-c-26000865,3,"Spor, Outdoor > kramponlar > besin takviyeleri"
+235604,384555,beyaz esya ankastreler,https://www.hepsiburada.com/beyaz-esya-ankastreler-c-235604,3,"Spor, Outdoor > kramponlar > beyaz esya ankastreler"
+60004956,384555,beyaz esya bakim urunleri,https://www.hepsiburada.com/beyaz-esya-bakim-urunleri-c-60004956,3,"Spor, Outdoor > kramponlar > beyaz esya bakim urunleri"
+60005511,384555,beyaz esya paketleri,https://www.hepsiburada.com/beyaz-esya-paketleri-c-60005511,3,"Spor, Outdoor > kramponlar > beyaz esya paketleri"
+42,384555,bilgisayar aksesuarlari,https://www.hepsiburada.com/bilgisayar-aksesuarlari-c-42,3,"Spor, Outdoor > kramponlar > bilgisayar aksesuarlari"
+8,384555,bilgisayar parcalari,https://www.hepsiburada.com/bilgisayar-parcalari-c-8,3,"Spor, Outdoor > kramponlar > bilgisayar parcalari"
+3000500,384555,bilgisayarlar,https://www.hepsiburada.com/bilgisayarlar-c-3000500,3,"Spor, Outdoor > kramponlar > bilgisayarlar"
+22003,384555,blenderlar,https://www.hepsiburada.com/blenderlar-c-22003,3,"Spor, Outdoor > kramponlar > blenderlar"
+16218,384555,bluetooth kulakliklar,https://www.hepsiburada.com/bluetooth-kulakliklar-c-16218,3,"Spor, Outdoor > kramponlar > bluetooth kulakliklar"
+371967,384555,cep telefonu aksesuarlari,https://www.hepsiburada.com/cep-telefonu-aksesuarlari-c-371967,3,"Spor, Outdoor > kramponlar > cep telefonu aksesuarlari"
+16102,384555,cep telefonu kiliflari,https://www.hepsiburada.com/cep-telefonu-kiliflari-c-16102,3,"Spor, Outdoor > kramponlar > cep telefonu kiliflari"
+3013120,384555,cevre birimleri,https://www.hepsiburada.com/cevre-birimleri-c-3013120,3,"Spor, Outdoor > kramponlar > cevre birimleri"
+32000005,384555,cilt bakim urunleri,https://www.hepsiburada.com/cilt-bakim-urunleri-c-32000005,3,"Spor, Outdoor > kramponlar > cilt bakim urunleri"
+26012178,384555,cinsel saglik aile planlamasi urunleri,https://www.hepsiburada.com/cinsel-saglik-aile-planlamasi-urunleri-c-26012178,3,"Spor, Outdoor > kramponlar > cinsel saglik aile planlamasi urunleri"
+22006,384555,davlumbazlar,https://www.hepsiburada.com/davlumbazlar-c-22006,3,"Spor, Outdoor > kramponlar > davlumbazlar"
+26012112,384555,deodorantlar,https://www.hepsiburada.com/deodorantlar-c-26012112,3,"Spor, Outdoor > kramponlar > deodorantlar"
+22266,384555,derin dondurucular,https://www.hepsiburada.com/derin-dondurucular-c-22266,3,"Spor, Outdoor > kramponlar > derin dondurucular"
+60003464,384555,dezenfektanlar,https://www.hepsiburada.com/dezenfektanlar-c-60003464,3,"Spor, Outdoor > kramponlar > dezenfektanlar"
+33000343,384555,diger oyun konsollari,https://www.hepsiburada.com/diger-oyun-konsollari-c-33000343,3,"Spor, Outdoor > kramponlar > diger oyun konsollari"
+248,384555,dijital fotograf makineleri,https://www.hepsiburada.com/dijital-fotograf-makineleri-c-248,3,"Spor, Outdoor > kramponlar > dijital fotograf makineleri"
+80753000,384555,dijital urunler,https://www.hepsiburada.com/dijital-urunler-c-80753000,3,"Spor, Outdoor > kramponlar > dijital urunler"
+60006033,384555,drone multikopter,https://www.hepsiburada.com/drone-multikopter-c-60006033,3,"Spor, Outdoor > kramponlar > drone multikopter"
+26012355,384555,dus banyo sabunlari,https://www.hepsiburada.com/dus-banyo-sabunlari-c-26012355,3,"Spor, Outdoor > kramponlar > dus banyo sabunlari"
+26012356,384555,dus jelleri,https://www.hepsiburada.com/dus-jelleri-c-26012356,3,"Spor, Outdoor > kramponlar > dus jelleri"
+155124,384555,dvd blu ray oynaticilar,https://www.hepsiburada.com/dvd-blu-ray-oynaticilar-c-155124,3,"Spor, Outdoor > kramponlar > dvd blu ray oynaticilar"
+80315023,384555,ekran koruyucu,https://www.hepsiburada.com/ekran-koruyucu-c-80315023,3,"Spor, Outdoor > kramponlar > ekran koruyucu"
+80571082,384555,elektrik tesisat malzemeleri,https://www.hepsiburada.com/elektrik-tesisat-malzemeleri-c-80571082,3,"Spor, Outdoor > kramponlar > elektrik tesisat malzemeleri"
+80168015,384555,elektrikli mutfak aleti yedek parca aksesuarlari,https://www.hepsiburada.com/elektrikli-mutfak-aleti-yedek-parca-aksesuarlari-c-80168015,3,"Spor, Outdoor > kramponlar > elektrikli mutfak aleti yedek parca aksesuarlari"
+22001,384555,elektrikli mutfak aletleri,https://www.hepsiburada.com/elektrikli-mutfak-aletleri-c-22001,3,"Spor, Outdoor > kramponlar > elektrikli mutfak aletleri"
+60003096,384555,endustriyel mutfak urunleri,https://www.hepsiburada.com/endustriyel-mutfak-urunleri-c-60003096,3,"Spor, Outdoor > kramponlar > endustriyel mutfak urunleri"
+80216049,384555,epilasyon agda,https://www.hepsiburada.com/epilasyon-agda-c-80216049,3,"Spor, Outdoor > kramponlar > epilasyon agda"
+25008404,384555,erkek kol saatleri,https://www.hepsiburada.com/erkek-kol-saatleri-c-25008404,3,"Spor, Outdoor > kramponlar > erkek kol saatleri"
+26012116,384555,erkek tiras urunleri,https://www.hepsiburada.com/erkek-tiras-urunleri-c-26012116,3,"Spor, Outdoor > kramponlar > erkek tiras urunleri"
+152492,384555,ev sinema sistemleri,https://www.hepsiburada.com/ev-sinema-sistemleri-c-152492,3,"Spor, Outdoor > kramponlar > ev sinema sistemleri"
+22016,384555,firinlar,https://www.hepsiburada.com/firinlar-c-22016,3,"Spor, Outdoor > kramponlar > firinlar"
+2147483606,384555,foto kameralari,https://www.hepsiburada.com/foto-kameralari-c-2147483606,3,"Spor, Outdoor > kramponlar > foto kameralari"
+60000190,384555,fotograf makinesi aksesuarlari,https://www.hepsiburada.com/fotograf-makinesi-aksesuarlari-c-60000190,3,"Spor, Outdoor > kramponlar > fotograf makinesi aksesuarlari"
+32010889,384555,gunes koruyucu urunler,https://www.hepsiburada.com/gunes-koruyucu-urunler-c-32010889,3,"Spor, Outdoor > kramponlar > gunes koruyucu urunler"
+161719,384555,guvenlik sistemleri,https://www.hepsiburada.com/guvenlik-sistemleri-c-161719,3,"Spor, Outdoor > kramponlar > guvenlik sistemleri"
+2147483605,384555,hobi eglence urunleri,https://www.hepsiburada.com/hobi-eglence-urunleri-c-2147483605,3,"Spor, Outdoor > kramponlar > hobi eglence urunleri"
+13003349,384555,is guvenlik urunleri,https://www.hepsiburada.com/is-guvenlik-urunleri-c-13003349,3,"Spor, Outdoor > kramponlar > is guvenlik urunleri"
+17343,384555,kablosuz ses goruntu aktaricilar,https://www.hepsiburada.com/kablosuz-ses-goruntu-aktaricilar-c-17343,3,"Spor, Outdoor > kramponlar > kablosuz ses goruntu aktaricilar"
+26012139,384555,kolonyalar,https://www.hepsiburada.com/kolonyalar-c-26012139,3,"Spor, Outdoor > kramponlar > kolonyalar"
+520,384555,kulakliklar,https://www.hepsiburada.com/kulakliklar-c-520,3,"Spor, Outdoor > kramponlar > kulakliklar"
+530175,384555,kulce ziynet cumhuriyet altinlari,https://www.hepsiburada.com/kulce-ziynet-cumhuriyet-altinlari-c-530175,3,"Spor, Outdoor > kramponlar > kulce ziynet cumhuriyet altinlari"
+153223,384555,kurutma makineleri,https://www.hepsiburada.com/kurutma-makineleri-c-153223,3,"Spor, Outdoor > kramponlar > kurutma makineleri"
+80813000,384555,kurutmali camasir makinesi,https://www.hepsiburada.com/kurutmali-camasir-makinesi-c-80813000,3,"Spor, Outdoor > kramponlar > kurutmali camasir makinesi"
+341425,384555,makyaj urunleri,https://www.hepsiburada.com/makyaj-urunleri-c-341425,3,"Spor, Outdoor > kramponlar > makyaj urunleri"
+34,384555,masaustu bilgisayarlar,https://www.hepsiburada.com/masaustu-bilgisayarlar-c-34,3,"Spor, Outdoor > kramponlar > masaustu bilgisayarlar"
+80271010,384555,media player,https://www.hepsiburada.com/media-player-c-80271010,3,"Spor, Outdoor > kramponlar > media player"
+22021,384555,mikrodalga firinlar,https://www.hepsiburada.com/mikrodalga-firinlar-c-22021,3,"Spor, Outdoor > kramponlar > mikrodalga firinlar"
+57,384555,monitorler,https://www.hepsiburada.com/monitorler-c-57,3,"Spor, Outdoor > kramponlar > monitorler"
+22500,384555,mutfak gerecleri,https://www.hepsiburada.com/mutfak-gerecleri-c-22500,3,"Spor, Outdoor > kramponlar > mutfak gerecleri"
+17499,384555,muzik sistemleri,https://www.hepsiburada.com/muzik-sistemleri-c-17499,3,"Spor, Outdoor > kramponlar > muzik sistemleri"
+80226061,384555,nintendo,https://www.hepsiburada.com/nintendo-c-80226061,3,"Spor, Outdoor > kramponlar > nintendo"
+22026,384555,ocaklar,https://www.hepsiburada.com/ocaklar-c-22026,3,"Spor, Outdoor > kramponlar > ocaklar"
+15312,384555,ofis mobilyalari,https://www.hepsiburada.com/ofis-mobilyalari-c-15312,3,"Spor, Outdoor > kramponlar > ofis mobilyalari"
+80327167,384555,on odemeli kart,https://www.hepsiburada.com/on-odemeli-kart-c-80327167,3,"Spor, Outdoor > kramponlar > on odemeli kart"
+60003581,384555,outdoor sualti fotograf makineleri,https://www.hepsiburada.com/outdoor-sualti-fotograf-makineleri-c-60003581,3,"Spor, Outdoor > kramponlar > outdoor sualti fotograf makineleri"
+60005206,384555,oyun figurleri,https://www.hepsiburada.com/oyun-figurleri-c-60005206,3,"Spor, Outdoor > kramponlar > oyun figurleri"
+86008,384555,oyuncular ozel bilgisayar bilesenleri,https://www.hepsiburada.com/oyuncular-ozel-bilgisayar-bilesenleri-c-86008,3,"Spor, Outdoor > kramponlar > oyuncular ozel bilgisayar bilesenleri"
+2147483602,384555,oyunlar oyun konsollari,https://www.hepsiburada.com/oyunlar-oyun-konsollari-c-2147483602,3,"Spor, Outdoor > kramponlar > oyunlar oyun konsollari"
+2147483616,384555,pet shop,https://www.hepsiburada.com/pet-shop-c-2147483616,3,"Spor, Outdoor > kramponlar > pet shop"
+80226063,384555,playstation 2,https://www.hepsiburada.com/playstation-2-c-80226063,3,"Spor, Outdoor > kramponlar > playstation 2"
+80226059,384555,playstation 3,https://www.hepsiburada.com/playstation-3-c-80226059,3,"Spor, Outdoor > kramponlar > playstation 3"
+80226057,384555,playstation 4,https://www.hepsiburada.com/playstation-4-c-80226057,3,"Spor, Outdoor > kramponlar > playstation 4"
+80757005,384555,playstation 5,https://www.hepsiburada.com/playstation-5-c-80757005,3,"Spor, Outdoor > kramponlar > playstation 5"
+285390,384555,projeksiyon sistemleri,https://www.hepsiburada.com/projeksiyon-sistemleri-c-285390,3,"Spor, Outdoor > kramponlar > projeksiyon sistemleri"
+80226062,384555,psp vita,https://www.hepsiburada.com/psp-vita-c-80226062,3,"Spor, Outdoor > kramponlar > psp vita"
+26012111,384555,sac bakim urunleri,https://www.hepsiburada.com/sac-bakim-urunleri-c-26012111,3,"Spor, Outdoor > kramponlar > sac bakim urunleri"
+3013119,384555,sarf malzemeleri,https://www.hepsiburada.com/sarf-malzemeleri-c-3013119,3,"Spor, Outdoor > kramponlar > sarf malzemeleri"
+16113,384555,sarj cihazlari,https://www.hepsiburada.com/sarj-cihazlari-c-16113,3,"Spor, Outdoor > kramponlar > sarj cihazlari"
+1100301,384555,slr fotograf makineleri,https://www.hepsiburada.com/slr-fotograf-makineleri-c-1100301,3,"Spor, Outdoor > kramponlar > slr fotograf makineleri"
+8001872,384555,sobalar isiticilar,https://www.hepsiburada.com/sobalar-isiticilar-c-8001872,3,"Spor, Outdoor > kramponlar > sobalar isiticilar"
+376097,384555,tasinabilir hoparlorler,https://www.hepsiburada.com/tasinabilir-hoparlorler-c-376097,3,"Spor, Outdoor > kramponlar > tasinabilir hoparlorler"
+60004584,384555,tasinabilir pilli sarj cihazlari,https://www.hepsiburada.com/tasinabilir-pilli-sarj-cihazlari-c-60004584,3,"Spor, Outdoor > kramponlar > tasinabilir pilli sarj cihazlari"
+29010123,384555,telefon kablolari,https://www.hepsiburada.com/telefon-kablolari-c-29010123,3,"Spor, Outdoor > kramponlar > telefon kablolari"
+371966,384555,telsiz masaustu telefonlar,https://www.hepsiburada.com/telsiz-masaustu-telefonlar-c-371966,3,"Spor, Outdoor > kramponlar > telsiz masaustu telefonlar"
+22014,384555,tost makineleri,https://www.hepsiburada.com/tost-makineleri-c-22014,3,"Spor, Outdoor > kramponlar > tost makineleri"
+8003673,384555,tv aksesuarlari,https://www.hepsiburada.com/tv-aksesuarlari-c-8003673,3,"Spor, Outdoor > kramponlar > tv aksesuarlari"
+3013121,384555,veri depolama urunleri,https://www.hepsiburada.com/veri-depolama-urunleri-c-3013121,3,"Spor, Outdoor > kramponlar > veri depolama urunleri"
+17076,384555,video kameralar,https://www.hepsiburada.com/video-kameralar-c-17076,3,"Spor, Outdoor > kramponlar > video kameralar"
+80226058,384555,xbox 360,https://www.hepsiburada.com/xbox-360-c-80226058,3,"Spor, Outdoor > kramponlar > xbox 360"
+80226056,384555,xbox one,https://www.hepsiburada.com/xbox-one-c-80226056,3,"Spor, Outdoor > kramponlar > xbox one"
+80766004,384555,xbox series s,https://www.hepsiburada.com/xbox-series-s-c-80766004,3,"Spor, Outdoor > kramponlar > xbox series s"
+80766000,384555,xbox series x,https://www.hepsiburada.com/xbox-series-x-c-80766000,3,"Spor, Outdoor > kramponlar > xbox series x"
+3013118,384555,yazicilar,https://www.hepsiburada.com/yazicilar-c-3013118,3,"Spor, Outdoor > kramponlar > yazicilar"
+41,384555,yazilim urunleri,https://www.hepsiburada.com/yazilim-urunleri-c-41,3,"Spor, Outdoor > kramponlar > yazilim urunleri"
+370052,27012987,Boks Ürünleri,https://www.hepsiburada.com/boks-urunleri-c-370052,3,"Spor, Outdoor > kum boks torbalari > Boks Ürünleri"
+1303339,22003663,outdoor coraplar tozluklar,https://www.hepsiburada.com/outdoor-coraplar-tozluklar-c-1303339,3,"Spor, Outdoor > outdoor ayakkabilar > outdoor coraplar tozluklar"
+1302737,22003663,outdoor sweatshirtler t shirtler,https://www.hepsiburada.com/outdoor-sweatshirtler-t-shirtler-c-1302737,3,"Spor, Outdoor > outdoor ayakkabilar > outdoor sweatshirtler t shirtler"
+356945,356946,Outdoor Tırmanış Ürünleri,https://www.hepsiburada.com/outdoor-tirmanis-urunleri-c-356945,3,"Spor, Outdoor > outdoor batonlar > Outdoor Tırmanış Ürünleri"
+80812007,1301694,kapri sort,https://www.hepsiburada.com/kapri-sort-c-80812007,3,"Spor, Outdoor > outdoor pantolonlar kapriler > kapri sort"
+22008966,1301694,outdoor yelekler,https://www.hepsiburada.com/outdoor-yelekler-c-22008966,3,"Spor, Outdoor > outdoor pantolonlar kapriler > outdoor yelekler"
+19050,368030,Scooter Patenler Kaykaylar,https://www.hepsiburada.com/scooter-patenler-kaykaylar-c-19050,3,"Spor, Outdoor > patenler > Scooter Patenler Kaykaylar"
+1300147,1300223,deniz yataklari,https://www.hepsiburada.com/deniz-yataklari-c-1300147,3,"Spor, Outdoor > sisme botlar > deniz yataklari"
+22004231,1300223,sisme can yelekleri,https://www.hepsiburada.com/sisme-can-yelekleri-c-22004231,3,"Spor, Outdoor > sisme botlar > sisme can yelekleri"
+60000546,369686,Spor Giyim Aksesuarları,https://www.hepsiburada.com/spor-giyim-aksesuarlari-c-60000546,3,"Spor, Outdoor > spor cantalari > Spor Giyim Aksesuarları"
+60001186,369686,fitness doga sporlari,https://www.hepsiburada.com/fitness-doga-sporlari-c-60001186,3,"Spor, Outdoor > spor cantalari > fitness doga sporlari"
+369685,369686,spor malzemeleri kiyafetleri,https://www.hepsiburada.com/spor-malzemeleri-kiyafetleri-c-369685,3,"Spor, Outdoor > spor cantalari > spor malzemeleri kiyafetleri"
+2147483643,21005100,Kırtasiye Ofis Ürünleri,https://www.hepsiburada.com/kirtasiye-ofis-urunleri-c-2147483643,3,"Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri"
+15344,21005100,Kırtasiye Ürünleri,https://www.hepsiburada.com/kirtasiye-urunleri-c-15344,3,"Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri"
+21005092,21005100,Okul Çantaları,https://www.hepsiburada.com/okul-cantalari-c-21005092,3,"Spor, Outdoor > suluklar mataralar > Okul Çantaları"
+80327224,21005100,a4 fotokopi kagidi,https://www.hepsiburada.com/a4-fotokopi-kagidi-c-80327224,3,"Spor, Outdoor > suluklar mataralar > a4 fotokopi kagidi"
+15488,21005100,anaokulu cantalari,https://www.hepsiburada.com/anaokulu-cantalari-c-15488,3,"Spor, Outdoor > suluklar mataralar > anaokulu cantalari"
+278279,21005100,beslenme cantalari,https://www.hepsiburada.com/beslenme-cantalari-c-278279,3,"Spor, Outdoor > suluklar mataralar > beslenme cantalari"
+21005097,21005100,boyalar boya kalemleri,https://www.hepsiburada.com/boyalar-boya-kalemleri-c-21005097,3,"Spor, Outdoor > suluklar mataralar > boyalar boya kalemleri"
+21005503,21005100,defter ajandalar,https://www.hepsiburada.com/defter-ajandalar-c-21005503,3,"Spor, Outdoor > suluklar mataralar > defter ajandalar"
+21031173,21005100,dolmakalemler,https://www.hepsiburada.com/dolmakalemler-c-21031173,3,"Spor, Outdoor > suluklar mataralar > dolmakalemler"
+21005289,21005100,etiket stickerlar,https://www.hepsiburada.com/etiket-stickerlar-c-21005289,3,"Spor, Outdoor > suluklar mataralar > etiket stickerlar"
+21031602,21005100,fosforlu kalemler,https://www.hepsiburada.com/fosforlu-kalemler-c-21031602,3,"Spor, Outdoor > suluklar mataralar > fosforlu kalemler"
+60001412,21005100,guzel yazi defterleri,https://www.hepsiburada.com/guzel-yazi-defterleri-c-60001412,3,"Spor, Outdoor > suluklar mataralar > guzel yazi defterleri"
+278416,21005100,ilkogretim cantalari,https://www.hepsiburada.com/ilkogretim-cantalari-c-278416,3,"Spor, Outdoor > suluklar mataralar > ilkogretim cantalari"
+15220,21005100,kalem cizim gerecleri,https://www.hepsiburada.com/kalem-cizim-gerecleri-c-15220,3,"Spor, Outdoor > suluklar mataralar > kalem cizim gerecleri"
+15089,21005100,kalemlikler,https://www.hepsiburada.com/kalemlikler-c-15089,3,"Spor, Outdoor > suluklar mataralar > kalemlikler"
+21005099,21005100,kalemlikler kalem kutulari,https://www.hepsiburada.com/kalemlikler-kalem-kutulari-c-21005099,3,"Spor, Outdoor > suluklar mataralar > kalemlikler kalem kutulari"
+21005094,21005100,kalemtraslar,https://www.hepsiburada.com/kalemtraslar-c-21005094,3,"Spor, Outdoor > suluklar mataralar > kalemtraslar"
+21005095,21005100,kaplama kagitlari,https://www.hepsiburada.com/kaplama-kagitlari-c-21005095,3,"Spor, Outdoor > suluklar mataralar > kaplama kagitlari"
+15085,21005100,keceli boyama kalemleri,https://www.hepsiburada.com/keceli-boyama-kalemleri-c-15085,3,"Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri"
+15440,21005100,kuru boyama kalemleri,https://www.hepsiburada.com/kuru-boyama-kalemleri-c-15440,3,"Spor, Outdoor > suluklar mataralar > kuru boyama kalemleri"
+273199,21005100,lise universite cantalari,https://www.hepsiburada.com/lise-universite-cantalari-c-273199,3,"Spor, Outdoor > suluklar mataralar > lise universite cantalari"
+80455056,21005100,mantar pano pano,https://www.hepsiburada.com/mantar-pano-pano-c-80455056,3,"Spor, Outdoor > suluklar mataralar > mantar pano pano"
+80147055,21005100,not defteri,https://www.hepsiburada.com/not-defteri-c-80147055,3,"Spor, Outdoor > suluklar mataralar > not defteri"
+60002748,21005100,okul cantasi,https://www.hepsiburada.com/okul-cantasi-c-60002748,3,"Spor, Outdoor > suluklar mataralar > okul cantasi"
+15530,21005100,projeksiyon cihazlari,https://www.hepsiburada.com/projeksiyon-cihazlari-c-15530,3,"Spor, Outdoor > suluklar mataralar > projeksiyon cihazlari"
+15008,21005100,projeksiyon perdeleri,https://www.hepsiburada.com/projeksiyon-perdeleri-c-15008,3,"Spor, Outdoor > suluklar mataralar > projeksiyon perdeleri"
+15459,21005100,spiralli defterler,https://www.hepsiburada.com/spiralli-defterler-c-15459,3,"Spor, Outdoor > suluklar mataralar > spiralli defterler"
+60002034,21005100,sunum planlama urunleri,https://www.hepsiburada.com/sunum-planlama-urunleri-c-60002034,3,"Spor, Outdoor > suluklar mataralar > sunum planlama urunleri"
+80438128,21005100,tahta kalemi,https://www.hepsiburada.com/tahta-kalemi-c-80438128,3,"Spor, Outdoor > suluklar mataralar > tahta kalemi"
+21037855,21005100,tukenmez kalemler,https://www.hepsiburada.com/tukenmez-kalemler-c-21037855,3,"Spor, Outdoor > suluklar mataralar > tukenmez kalemler"
+21031169,21005100,versatil kalemler kursun kalem,https://www.hepsiburada.com/versatil-kalemler-kursun-kalem-c-21031169,3,"Spor, Outdoor > suluklar mataralar > versatil kalemler kursun kalem"
+1302431,352790,Kamp Kampçılık Malzemeleri,https://www.hepsiburada.com/kamp-kampcilik-malzemeleri-c-1302431,3,"Spor, Outdoor > uyku tulumlari > Kamp Kampçılık Malzemeleri"
+22007826,352790,outdoor doga sporlari,https://www.hepsiburada.com/outdoor-doga-sporlari-c-22007826,3,"Spor, Outdoor > uyku tulumlari > outdoor doga sporlari"
+353045,27061482,Fitness Kondisyon Ürünleri,https://www.hepsiburada.com/fitness-kondisyon-urunleri-c-353045,3,"Spor, Outdoor > yoga egzersiz pilates minderleri > Fitness Kondisyon Ürünleri"
+60004554,27047262,erkek yuruyus kosu urunleri,https://www.hepsiburada.com/erkek-yuruyus-kosu-urunleri-c-60004554,3,"Spor, Outdoor > yuruyus kosu ayakkabilari > erkek yuruyus kosu urunleri"
+19007,19043,Yüzme Ürünleri,https://www.hepsiburada.com/yuzme-urunleri-c-19007,3,"Spor, Outdoor > yuzucu gozlukleri > Yüzme Ürünleri"
+22003835,22004232,Dalış Malzemeleri,https://www.hepsiburada.com/dalis-malzemeleri-c-22003835,3,"Spor, Outdoor > zipkinlar zipkin uclari > Dalış Malzemeleri"
+80365085,80296002,Günlük Ped,https://www.hepsiburada.com/gunluk-ped-c-80365085,3,"Supermarket, Pet Shop > Hijyenik Pedler > Günlük Ped"
+80365084,80296002,Ultra Hijyenik Ped,https://www.hepsiburada.com/ultra-hijyenik-ped-c-80365084,3,"Supermarket, Pet Shop > Hijyenik Pedler > Ultra Hijyenik Ped"
+28001550,28001547,Kağıt Mendil,https://www.hepsiburada.com/kagit-mendiller-c-28001550,3,"Supermarket, Pet Shop > Kağıt Ürünleri > Kağıt Mendil"
+80412021,28001547,Klozet Örtüsü,https://www.hepsiburada.com/klozet-ortusu-c-80412021,3,"Supermarket, Pet Shop > Kağıt Ürünleri > Klozet Örtüsü"
+28001551,28001547,Peçete,https://www.hepsiburada.com/kagit-peceteler-c-28001551,3,"Supermarket, Pet Shop > Kağıt Ürünleri > Peçete"
+60002056,60001496,Gıda Ürünleri,https://www.hepsiburada.com/ofis-gida-urunleri-c-60002056,3,"Supermarket, Pet Shop > Ofis Tüketim Malzemeleri > Gıda Ürünleri"
+60001497,60001496,Kağıt Ürünleri,https://www.hepsiburada.com/ofis-kagit-urunleri-c-60001497,3,"Supermarket, Pet Shop > Ofis Tüketim Malzemeleri > Kağıt Ürünleri"
+60001500,60001496,Ofis Sarf Malzemeleri,https://www.hepsiburada.com/ofis-sarf-malzemeleri-c-60001500,3,"Supermarket, Pet Shop > Ofis Tüketim Malzemeleri > Ofis Sarf Malzemeleri"
+60001498,60001496,Temizlik Ürünleri,https://www.hepsiburada.com/temizlik-urunleri-c-60001498,3,"Supermarket, Pet Shop > Ofis Tüketim Malzemeleri > Temizlik Ürünleri"
+60003418,60001496,İçecek Ürünleri,https://www.hepsiburada.com/ofis-icecek-urunleri-c-60003418,3,"Supermarket, Pet Shop > Ofis Tüketim Malzemeleri > İçecek Ürünleri"
+80412072,80365054,acuka kahvaltilik sos,https://www.hepsiburada.com/acuka-kahvaltilik-sos-c-80412072,3,"Supermarket, Pet Shop > aci sos > acuka kahvaltilik sos"
+23020713,60001048,Alt Açma Minderi,https://www.hepsiburada.com/bebek-alt-acma-setleri-c-23020713,3,"Supermarket, Pet Shop > bebek bezi > Alt Açma Minderi"
+60001049,60001048,Bebek Bezi,https://www.hepsiburada.com/bebek-bezleri-c-60001049,3,"Supermarket, Pet Shop > bebek bezi > Bebek Bezi"
+60003986,60001048,Bebek Temizlik ve Bakım,https://www.hepsiburada.com/bebek-temizlik-bakim-urunleri-c-60003986,3,"Supermarket, Pet Shop > bebek bezi > Bebek Temizlik ve Bakım"
+60001051,60001048,Islak Temizleme Mendili,https://www.hepsiburada.com/islak-temizleme-mendilleri-c-60001051,3,"Supermarket, Pet Shop > bebek bezi > Islak Temizleme Mendili"
+80412000,60001048,Mayo Bebek Bezi,https://www.hepsiburada.com/mayo-bebek-bezi-c-80412000,3,"Supermarket, Pet Shop > bebek bezi > Mayo Bebek Bezi"
+28001481,80015000,Salçalar,https://www.hepsiburada.com/salcalar-c-28001481,3,"Supermarket, Pet Shop > biber salcasi > Salçalar"
+28001480,80015000,konserveler,https://www.hepsiburada.com/konserveler-c-28001480,3,"Supermarket, Pet Shop > biber salcasi > konserveler"
+28003010,80015000,tursular,https://www.hepsiburada.com/tursular-c-28003010,3,"Supermarket, Pet Shop > biber salcasi > tursular"
+28002776,60001088,yumusaticilar,https://www.hepsiburada.com/yumusaticilar-c-28002776,3,"Supermarket, Pet Shop > camasir makinasi sivi deterjanlari > yumusaticilar"
+80364057,28002240,Makine Deterjanı,https://www.hepsiburada.com/makine-deterjani-c-80364057,3,"Supermarket, Pet Shop > camasir makinasi toz deterjanlari > Makine Deterjanı"
+28001941,28001525,Bulaşık Deterjanları,https://www.hepsiburada.com/bulasik-yikama-urunleri-c-28001941,3,"Supermarket, Pet Shop > deterjan temizlik urunleri > Bulaşık Deterjanları"
+28002071,28001525,Genel Temizlik,https://www.hepsiburada.com/genel-temizlik-urunleri-c-28002071,3,"Supermarket, Pet Shop > deterjan temizlik urunleri > Genel Temizlik"
+28002798,28001525,Temizlik Eldiveni,https://www.hepsiburada.com/temizlik-eldivenleri-c-28002798,3,"Supermarket, Pet Shop > deterjan temizlik urunleri > Temizlik Eldiveni"
+28002739,28001525,Temizlik Gereçleri,https://www.hepsiburada.com/ev-temizlik-gerecleri-c-28002739,3,"Supermarket, Pet Shop > deterjan temizlik urunleri > Temizlik Gereçleri"
+28001529,28001525,Çamaşır Deterjanları,https://www.hepsiburada.com/camasir-yikama-urunleri-c-28001529,3,"Supermarket, Pet Shop > deterjan temizlik urunleri > Çamaşır Deterjanları"
+60006947,28001469,Glutensiz Ürünler,https://www.hepsiburada.com/glutensiz-urunler-c-60006947,3,"Supermarket, Pet Shop > gida urunleri > Glutensiz Ürünler"
+28002972,28001469,Gurme Ürünler,https://www.hepsiburada.com/gurme-urunler-c-28002972,3,"Supermarket, Pet Shop > gida urunleri > Gurme Ürünler"
+80493040,28001469,Gıda Paketleri,https://www.hepsiburada.com/gida-paketleri-c-80493040,3,"Supermarket, Pet Shop > gida urunleri > Gıda Paketleri"
+80365057,28001469,"Hazır Yemek, Konserve",https://www.hepsiburada.com/hazir-yemek-konserve-c-80365057,3,"Supermarket, Pet Shop > gida urunleri > Hazır Yemek, Konserve"
+28001990,28001469,Hediyelik Çikolata,https://www.hepsiburada.com/hediyelik-cikolatalar-c-28001990,3,"Supermarket, Pet Shop > gida urunleri > Hediyelik Çikolata"
+28001474,28001469,Kahvaltılık,https://www.hepsiburada.com/kahvaltilik-urunler-c-28001474,3,"Supermarket, Pet Shop > gida urunleri > Kahvaltılık"
+80471017,28001469,Katkı Maddeleri,https://www.hepsiburada.com/katki-maddeleri-c-80471017,3,"Supermarket, Pet Shop > gida urunleri > Katkı Maddeleri"
+28001470,28001469,Kuru Gıda,https://www.hepsiburada.com/kuru-gida-urunleri-c-28001470,3,"Supermarket, Pet Shop > gida urunleri > Kuru Gıda"
+28001473,28001469,Kuruyemiş,https://www.hepsiburada.com/kuruyemisler-c-28001473,3,"Supermarket, Pet Shop > gida urunleri > Kuruyemiş"
+60005576,28001469,Manav,https://www.hepsiburada.com/manav-c-60005576,3,"Supermarket, Pet Shop > gida urunleri > Manav"
+80365058,28001469,"Unlu Mamül, Pasta",https://www.hepsiburada.com/unlu-mamul-pasta-c-80365058,3,"Supermarket, Pet Shop > gida urunleri > Unlu Mamül, Pasta"
+80365051,28001469,Yemek Sosları,https://www.hepsiburada.com/sos-surup-c-80365051,3,"Supermarket, Pet Shop > gida urunleri > Yemek Sosları"
+28001472,28001469,atistirmaliklar,https://www.hepsiburada.com/atistirmaliklar-c-28001472,3,"Supermarket, Pet Shop > gida urunleri > atistirmaliklar"
+60001330,28001469,sivi yaglar,https://www.hepsiburada.com/sivi-yaglar-c-60001330,3,"Supermarket, Pet Shop > gida urunleri > sivi yaglar"
+60006440,28001469,yumurta,https://www.hepsiburada.com/yumurta-c-60006440,3,"Supermarket, Pet Shop > gida urunleri > yumurta"
+60005577,28001469,Şarküteri,https://www.hepsiburada.com/sarkuteri-c-60005577,3,"Supermarket, Pet Shop > gida urunleri > Şarküteri"
+80746007,80746000,Bone,https://www.hepsiburada.com/bone-c-80746007,3,"Supermarket, Pet Shop > hijyen urunleri > Bone"
+80746005,80746000,Eldiven,https://www.hepsiburada.com/eldiven-c-80746005,3,"Supermarket, Pet Shop > hijyen urunleri > Eldiven"
+80746004,80746000,Galoş,https://www.hepsiburada.com/galos-c-80746004,3,"Supermarket, Pet Shop > hijyen urunleri > Galoş"
+80746001,80746000,Hijyen Aparatları,https://www.hepsiburada.com/hijyen-aparatlari-c-80746001,3,"Supermarket, Pet Shop > hijyen urunleri > Hijyen Aparatları"
+80746002,80746000,Maske,https://www.hepsiburada.com/maske-c-80746002,3,"Supermarket, Pet Shop > hijyen urunleri > Maske"
+80746003,80746000,Yatak Koruyucu,https://www.hepsiburada.com/yatak-koruyucu-c-80746003,3,"Supermarket, Pet Shop > hijyen urunleri > Yatak Koruyucu"
+80746006,80746000,Önlük,https://www.hepsiburada.com/onluk-c-80746006,3,"Supermarket, Pet Shop > hijyen urunleri > Önlük"
+28002163,28001517,Gazlı İçecek,https://www.hepsiburada.com/gazli-icecekler-c-28002163,3,"Supermarket, Pet Shop > icecek urunleri > Gazlı İçecek"
+60000261,28001517,Gazsız İçecek,https://www.hepsiburada.com/gazsiz-icecek-c-60000261,3,"Supermarket, Pet Shop > icecek urunleri > Gazsız İçecek"
+28001486,28001517,Kahve,https://www.hepsiburada.com/kahveler-c-28001486,3,"Supermarket, Pet Shop > icecek urunleri > Kahve"
+28001491,28001517,hazir kahveler,https://www.hepsiburada.com/hazir-kahveler-c-28001491,3,"Supermarket, Pet Shop > icecek urunleri > hazir kahveler"
+28001519,28001517,meyve sulari,https://www.hepsiburada.com/meyve-sulari-c-28001519,3,"Supermarket, Pet Shop > icecek urunleri > meyve sulari"
+28001523,28001517,su,https://www.hepsiburada.com/su-c-28001523,3,"Supermarket, Pet Shop > icecek urunleri > su"
+60001346,28001517,Çay,https://www.hepsiburada.com/caylar-c-60001346,3,"Supermarket, Pet Shop > icecek urunleri > Çay"
+80365052,28001517,İçecek Şurubu,https://www.hepsiburada.com/yemek-surup-c-80365052,3,"Supermarket, Pet Shop > icecek urunleri > İçecek Şurubu"
+22020,60006235,meyve sikacaklari,https://www.hepsiburada.com/meyve-sikacaklari-c-22020,3,"Supermarket, Pet Shop > meyveler > meyve sikacaklari"
+80521008,60001205,Alışveriş Torbası,https://www.hepsiburada.com/alisveris-torbasi-c-80521008,3,"Supermarket, Pet Shop > mutfak sarf malzemeleri > Alışveriş Torbası"
+80857015,60001205,Gıda Vakum Torbası,https://www.hepsiburada.com/gida-vakum-torbasi-c-80857015,3,"Supermarket, Pet Shop > mutfak sarf malzemeleri > Gıda Vakum Torbası"
+60002933,60001205,Kullan At Ürünler,https://www.hepsiburada.com/plastik-mutfak-malzemeleri-c-60002933,3,"Supermarket, Pet Shop > mutfak sarf malzemeleri > Kullan At Ürünler"
+80523016,60001205,Kuruyemiş Torbası,https://www.hepsiburada.com/kuruyemis-torbasi-c-80523016,3,"Supermarket, Pet Shop > mutfak sarf malzemeleri > Kuruyemiş Torbası"
+60002318,60001205,Pişirme Kağıdı,https://www.hepsiburada.com/pisirme-kagitlari-c-60002318,3,"Supermarket, Pet Shop > mutfak sarf malzemeleri > Pişirme Kağıdı"
+60002316,60001205,Çöp Torbası,https://www.hepsiburada.com/cop-torbalari-c-60002316,3,"Supermarket, Pet Shop > mutfak sarf malzemeleri > Çöp Torbası"
+80330139,60002935,kavanoz,https://www.hepsiburada.com/kavanoz-c-80330139,3,"Supermarket, Pet Shop > salgam sulari > kavanoz"
