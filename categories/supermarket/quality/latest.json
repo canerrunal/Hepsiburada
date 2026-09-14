@@ -4,5 +4,16 @@
   "minimumProducts": 200,
   "date": "2026-09-14",
   "generatedAt": "2026-09-14T11:48:48+03:00",
-  "blockError": null
+  "blockError": null,
+  "detailAttempted": 300,
+  "detailRefreshed": 300,
+  "detailFailed": 0,
+  "detailSuccessRate": 100.0,
+  "detailCoverage": {
+    "winner_merchant": 100.0,
+    "sellers_count": 100.0,
+    "review_count": 99.7,
+    "question_count": 99.7,
+    "minimum_price_30d": 100.0
+  }
 }
