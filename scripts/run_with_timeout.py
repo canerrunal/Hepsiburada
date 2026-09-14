@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Komutu süre sınırıyla çalıştır, 30sn'de bir heartbeat bas. Trendyol run_with_timeout.py'nin minimal karşılığı."""
+import os
+import signal
 import subprocess
 import sys
 import time
@@ -27,7 +29,27 @@ if not cleaned:
     sys.exit(2)
 
 start = time.time()
-proc = subprocess.Popen(cleaned)
+proc = subprocess.Popen(cleaned, start_new_session=True)
+
+
+def terminate_group(force=False):
+    try:
+        os.killpg(proc.pid, signal.SIGKILL if force else signal.SIGTERM)
+    except ProcessLookupError:
+        pass
+
+
+def handle_signal(signum, _frame):
+    terminate_group()
+    try:
+        proc.wait(timeout=10)
+    except subprocess.TimeoutExpired:
+        terminate_group(force=True)
+    raise SystemExit(128 + signum)
+
+
+signal.signal(signal.SIGINT, handle_signal)
+signal.signal(signal.SIGTERM, handle_signal)
 while proc.poll() is None:
     time.sleep(min(heartbeat, 5))
     elapsed = time.time() - start
@@ -35,6 +57,10 @@ while proc.poll() is None:
         print(f"HEARTBEAT elapsed={int(elapsed)}s", flush=True)
     if elapsed > timeout:
         print(f"TIMEOUT {timeout}s, süreç grubu kapatılıyor", file=sys.stderr, flush=True)
-        proc.kill()
+        terminate_group()
+        try:
+            proc.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            terminate_group(force=True)
         sys.exit(124)
 sys.exit(proc.returncode)

@@ -1,0 +1,173 @@
+{
+  "marketplace": "hepsiburada",
+  "generatedAt": "2026-09-14T21:03:29.812Z",
+  "observedDate": "2026-09-15",
+  "sourceCommit": "8d037cbf2f4568dafbb74846d067e71f61cbd82f",
+  "taxonomy": {
+    "status": "BLOCKED_HTTP_403",
+    "productCollectionStatus": "NOT_RUN",
+    "observedDate": "2026-09-14",
+    "categoryCount": 5,
+    "rootCategoryCount": 5,
+    "productMembershipRows": null
+  },
+  "profiles": [
+    {
+      "profile": "elektronik",
+      "status": "FAIL",
+      "observedDate": "2026-09-14",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
+      "nextScheduledTime": "22:30",
+      "productTarget": 1000,
+      "productCount": 0,
+      "detailSuccessRate": null,
+      "stockCoverage": null,
+      "sellerCoverage": null,
+      "errorCount": 1,
+      "quality": {
+        "status": "FAIL",
+        "productCount": 0,
+        "minimumProducts": 200,
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-14T22:33:17+03:00",
+        "blockError": "guvenlik-engeli"
+      }
+    },
+    {
+      "profile": "moda",
+      "status": "FAIL",
+      "observedDate": "2026-09-14",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
+      "nextScheduledTime": "23:00",
+      "productTarget": 1000,
+      "productCount": 0,
+      "detailSuccessRate": null,
+      "stockCoverage": null,
+      "sellerCoverage": null,
+      "errorCount": 1,
+      "quality": {
+        "status": "FAIL",
+        "productCount": 0,
+        "minimumProducts": 200,
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-14T23:03:19+03:00",
+        "blockError": "guvenlik-engeli"
+      }
+    },
+    {
+      "profile": "supermarket",
+      "status": "FAIL",
+      "observedDate": "2026-09-14",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
+      "nextScheduledTime": "23:30",
+      "productTarget": 1000,
+      "productCount": 0,
+      "detailSuccessRate": null,
+      "stockCoverage": null,
+      "sellerCoverage": null,
+      "errorCount": 1,
+      "quality": {
+        "status": "FAIL",
+        "productCount": 0,
+        "minimumProducts": 200,
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-14T23:33:23+03:00",
+        "blockError": "guvenlik-engeli"
+      }
+    },
+    {
+      "profile": "kozmetik",
+      "status": "PASS",
+      "observedDate": "2026-09-14",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": "2026-09-14T11:50:34+03:00",
+      "nextScheduledTime": "00:00",
+      "productTarget": 1000,
+      "productCount": 300,
+      "detailSuccessRate": 100,
+      "stockCoverage": null,
+      "sellerCoverage": null,
+      "errorCount": 0,
+      "quality": {
+        "status": "PASS",
+        "productCount": 300,
+        "minimumProducts": 200,
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-14T11:50:34+03:00",
+        "blockError": null,
+        "detailAttempted": 300,
+        "detailRefreshed": 300,
+        "detailFailed": 0,
+        "detailSuccessRate": 100,
+        "detailCoverage": {
+          "winner_merchant": 100,
+          "sellers_count": 100,
+          "review_count": 99,
+          "question_count": 99,
+          "minimum_price_30d": 100
+        }
+      }
+    },
+    {
+      "profile": "anne-bebek-oyuncak",
+      "status": "PASS",
+      "observedDate": "2026-09-14",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": "2026-09-14T11:52:18+03:00",
+      "nextScheduledTime": "00:30",
+      "productTarget": 1000,
+      "productCount": 300,
+      "detailSuccessRate": 100,
+      "stockCoverage": null,
+      "sellerCoverage": null,
+      "errorCount": 0,
+      "quality": {
+        "status": "PASS",
+        "productCount": 300,
+        "minimumProducts": 200,
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-14T11:52:18+03:00",
+        "blockError": null,
+        "detailAttempted": 300,
+        "detailRefreshed": 300,
+        "detailFailed": 0,
+        "detailSuccessRate": 100,
+        "detailCoverage": {
+          "winner_merchant": 99.7,
+          "sellers_count": 99.7,
+          "review_count": 99.7,
+          "question_count": 98.7,
+          "minimum_price_30d": 99.7
+        }
+      }
+    }
+  ],
+  "activeHermesJobs": [
+    {
+      "command": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python -u scripts/hb_taxonomy_crawl.py --seeds 5,6,7,8 --tag b"
+    },
+    {
+      "command": "/usr/bin/lockf -t 900 /tmp/hepsiburada-daily-global.lock /Users/canerunal/Documents/Hepsiburada/scripts/run_profile.sh kozmetik"
+    },
+    {
+      "command": "bash /Users/canerunal/Documents/Hepsiburada/scripts/run_profile.sh kozmetik"
+    },
+    {
+      "command": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python scripts/run_with_timeout.py --timeout 1200 --heartbeat 30 -- /usr/bin/python3 scripts/hb_collect_pw.py -"
+    },
+    {
+      "command": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python scripts/hb_collect_pw.py --profile kozmetik"
+    }
+  ],
+  "publication": {
+    "status": "not_configured"
+  },
+  "definitions": {
+    "productCount": "Unique product records in a profile snapshot.",
+    "productMembershipRows": "Category-product ranking memberships; not added to profile product count.",
+    "stale": "Snapshot date does not match observedDate or its quality status is not PASS."
+  }
+}

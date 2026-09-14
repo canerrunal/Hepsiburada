@@ -1,0 +1,13 @@
+{
+  "marketplace": "hepsiburada",
+  "date": "2026-09-15",
+  "status": "IN_PROGRESS",
+  "reason": "shard a tamamlanmadi",
+  "shards": {
+    "a": {
+      "status": "LIVE-CRAWL",
+      "count": 3976,
+      "queue": 0
+    }
+  }
+}

@@ -24,10 +24,14 @@ def main():
     args = ap.parse_args()
 
     out_root = ROOT if args.profile == "elektronik" else ROOT / "categories" / args.profile
-    latest = json.loads((out_root / "data" / "latest.json").read_text())
+    latest_path = out_root / "data" / "latest.candidate.json"
+    if not latest_path.exists():
+        latest_path = out_root / "data" / "latest.json"
+    latest = json.loads(latest_path.read_text())
     products = latest.get("products", [])
     done = {}
-    cands = [out_root / "data" / "latest.detailed.json"] + [
+    detailed_name = "latest.detailed.candidate.json" if latest_path.name == "latest.candidate.json" else "latest.detailed.json"
+    cands = [out_root / "data" / "latest.detailed.json", out_root / "data" / detailed_name] + [
         out_root / "data" / f"latest.detailed.shard-{s}.json" for s in range(args.of)]
     for cand in cands:
         if not cand.exists():
@@ -43,11 +47,11 @@ def main():
             pass
     merged = [done.get(p.get("sku") or p.get("url"), p) for p in products]
     ok = [m for m in merged if m.get("detail_ok")]
-    out = {"profile": args.profile, "date": latest.get("date"), "collectedAt": latest.get("collectedAt"),
+    out = {"marketplace": "hepsiburada", "profile": args.profile, "date": latest.get("date"), "collectedAt": latest.get("collectedAt"),
            "detailRunAt": stamp(), "count": len(merged), "products": merged}
-    (out_root / "data" / "latest.detailed.json").write_text(json.dumps(out, ensure_ascii=False, indent=2))
+    (out_root / "data" / detailed_name).write_text(json.dumps(out, ensure_ascii=False, indent=2))
 
-    hist_path = out_root / "data" / "history.csv"
+    hist_path = out_root / "data" / ("history.candidate.csv" if latest_path.name == "latest.candidate.json" else "history.csv")
     existing = set()
     if hist_path.exists():
         with open(hist_path, newline="") as f:

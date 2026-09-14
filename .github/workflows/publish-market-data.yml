@@ -6,8 +6,13 @@ on:
     paths:
       - categories/*/data/latest.json
       - categories/*/quality/latest.json
+      - data/latest.json
+      - quality/latest.json
       - taxonomy/catalog.json
+      - taxonomy/status.json
+      - taxonomy/snapshots/**
       - profiles/*.json
+      - dashboard/status.json
       - scripts/publish_website.cjs
   workflow_dispatch:
 

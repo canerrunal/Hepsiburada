@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hepsiburada Veri Merkezi</title>
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:#10131a; color:#eef2f7; }
+    body { max-width:1200px; margin:0 auto; padding:28px; }
+    h1 { margin:0 0 6px; } .muted { color:#9aa6b2; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:20px 0; }
+    .card { background:#191e28; border:1px solid #2b3442; border-radius:12px; padding:16px; }
+    .value { font-size:28px; font-weight:700; margin-top:8px; }
+    .status { display:inline-block; padding:4px 9px; border-radius:999px; font-size:12px; font-weight:700; }
+    .PASS { background:#164d35; color:#72e3a6; } .FAIL,.STALE,.INSUFFICIENT_SOURCE { background:#5a2529; color:#ff9b9b; }
+    .UNKNOWN,.IN_PROGRESS { background:#574819; color:#f6d878; }
+    table { width:100%; border-collapse:collapse; background:#191e28; border-radius:12px; overflow:hidden; }
+    th,td { text-align:left; padding:12px; border-bottom:1px solid #2b3442; } th { color:#9aa6b2; font-size:12px; }
+    code { color:#a9d5ff; } @media(max-width:700px){body{padding:16px} th:nth-child(n+4),td:nth-child(n+4){display:none}}
+  </style>
+</head>
+<body>
+  <h1>Hepsiburada Veri Merkezi</h1>
+  <div class="muted" id="meta">Durum yükleniyor…</div>
+  <section class="grid" id="summary"></section>
+  <h2>Profil havuzları</h2>
+  <table><thead><tr><th>Profil</th><th>Durum</th><th>Ürün</th><th>Detay</th><th>Stok</th><th>Gözlem tarihi</th></tr></thead><tbody id="profiles"></tbody></table>
+  <h2>Operasyon</h2>
+  <div class="card"><div class="muted">Aktif Hermes işleri</div><pre id="jobs">—</pre><div class="muted">Kaynak commit: <code id="commit">—</code></div></div>
+  <script>
+    const esc = (v) => String(v ?? '—').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+    const badge = (v) => `<span class="status ${esc(v)}">${esc(v)}</span>`;
+    fetch('status.json').then((r) => r.json()).then((d) => {
+      document.querySelector('#meta').textContent = `Gözlem: ${d.observedDate || '—'} · Üretim: ${d.generatedAt || '—'} · Yayın: ${d.publication?.status || '—'}`;
+      const t = d.taxonomy || {};
+      document.querySelector('#summary').innerHTML = [
+        ['Taxonomy', badge(t.status)], ['Ürün taraması', badge(t.productCollectionStatus)], ['Kategori', t.categoryCount], ['Kök kategori', t.rootCategoryCount], ['Üyelik satırı', t.productMembershipRows]
+      ].map(([k,v]) => `<div class="card"><div class="muted">${k}</div><div class="value">${v}</div></div>`).join('');
+      document.querySelector('#profiles').innerHTML = (d.profiles || []).map((p) => `<tr><td>${esc(p.profile)}</td><td>${badge(p.status)}</td><td>${esc(p.productCount)} / ${esc(p.productTarget)}</td><td>${esc(p.detailSuccessRate)}%</td><td>${esc(p.stockCoverage)}%</td><td>${esc(p.observedDate)}</td></tr>`).join('');
+      document.querySelector('#jobs').textContent = (d.activeHermesJobs || []).map((j) => j.command).join('\n') || 'Aktif iş yok';
+      document.querySelector('#commit').textContent = d.sourceCommit || '—';
+    }).catch((e) => { document.querySelector('#meta').textContent = `Durum okunamadı: ${e.message}`; });
+  </script>
+</body>
+</html>

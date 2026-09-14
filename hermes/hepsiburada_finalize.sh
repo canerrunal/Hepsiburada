@@ -6,7 +6,20 @@ PYTHON_BIN="/usr/bin/python3"
 HERMES_BIN="/Users/canerunal/.hermes/bin/hermes"
 TELEGRAM_TO="telegram:6180022743"
 cd "$PROJECT_DIR"
-/usr/bin/lockf -t 900 /tmp/hepsiburada-daily-global.lock "$NODE_BIN" scripts/publish_website.cjs
+
+quality_failed=0
+for profile in elektronik moda supermarket kozmetik anne-bebek-oyuncak; do
+  if ! "$NODE_BIN" scripts/quality_check.cjs --profile "$profile" --phase final; then
+    quality_failed=1
+  fi
+done
+"$NODE_BIN" scripts/build_dashboard_status.cjs
+
+if [[ "$quality_failed" -eq 0 ]]; then
+  /usr/bin/lockf -t 900 /tmp/hepsiburada-daily-global.lock "$NODE_BIN" scripts/publish_website.cjs
+else
+  echo "PUBLISH_SKIP quality gate başarısız; son geçerli snapshot korunuyor"
+fi
 
 digest="$("$PYTHON_BIN" - <<'PY'
 import json

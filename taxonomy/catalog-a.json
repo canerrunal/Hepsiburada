@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
   "status": "LIVE-CRAWL",
-  "count": 3915,
+  "count": 3976,
   "categories": [
     {
       "id": "2147483639",
@@ -19172,6 +19172,14 @@
       "path": "Oto, Bahce, Yapi Market > yangin sonduruculer > yapi guvenlik kilitleri > Topuzlu Kilitler"
     },
     {
+      "id": "28003118",
+      "parent_id": "60001344",
+      "name": "organik sut urunleri",
+      "url": "https://www.hepsiburada.com/organik-sut-urunleri-c-28003118",
+      "level": 5,
+      "path": "Anne, Bebek, Oyuncak > Bebek Beslenme > Biberon, Emzik ve Aksesuar > uht sutler > organik sut urunleri"
+    },
+    {
       "id": "28001809",
       "parent_id": "28001486",
       "name": "Espresso, Cappucino Kahve",
@@ -29380,6 +29388,14 @@
       "path": "Oto, Bahce, Yapi Market > bagaj cantalari > Seyahat Ürünleri > Koltuk Aksesuarları > Koltuk Çantaları"
     },
     {
+      "id": "560243",
+      "parent_id": "34001350",
+      "name": "kedi tasima seyahat cantalari",
+      "url": "https://www.hepsiburada.com/kedi-tasima-seyahat-cantalari-c-560243",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > benzinli agac kesme makineleri > Ağaç Kesme Makinesi Çeşitleri > Akülü > kedi tasima seyahat cantalari"
+    },
+    {
       "id": "60003717",
       "parent_id": "22530",
       "name": "Cezveler",
@@ -29514,6 +29530,470 @@
       "url": "https://www.hepsiburada.com/yapiskan-folyolar-c-60002666",
       "level": 5,
       "path": "Oto, Bahce, Yapi Market > hirdavat urunleri > Mobilya Hırdavatı > Mobilya Profilleri > yapiskan folyolar"
+    },
+    {
+      "id": "60008438",
+      "parent_id": "20016152",
+      "name": "Amortisör Takozu",
+      "url": "https://www.hepsiburada.com/araba-amortisor-takozu-c-60008438",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Amortisör Takozu"
+    },
+    {
+      "id": "60007182",
+      "parent_id": "20016152",
+      "name": "Amortisörler",
+      "url": "https://www.hepsiburada.com/amortisorler-c-60007182",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Amortisörler"
+    },
+    {
+      "id": "20044220",
+      "parent_id": "20016152",
+      "name": "Bagaj Amortisörleri",
+      "url": "https://www.hepsiburada.com/bagaj-amortisorleri-c-20044220",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Bagaj Amortisörleri"
+    },
+    {
+      "id": "60007134",
+      "parent_id": "20016152",
+      "name": "Bijon",
+      "url": "https://www.hepsiburada.com/bijon-c-60007134",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Bijon"
+    },
+    {
+      "id": "60007135",
+      "parent_id": "20016152",
+      "name": "Contalar",
+      "url": "https://www.hepsiburada.com/oto-contasi-c-60007135",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Contalar"
+    },
+    {
+      "id": "60007183",
+      "parent_id": "20016152",
+      "name": "Denge Kolu",
+      "url": "https://www.hepsiburada.com/denge-kolu-c-60007183",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Denge Kolu"
+    },
+    {
+      "id": "60008439",
+      "parent_id": "20016152",
+      "name": "Devir Sensörü",
+      "url": "https://www.hepsiburada.com/araba-devir-sensoru-c-60008439",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Devir Sensörü"
+    },
+    {
+      "id": "60007184",
+      "parent_id": "20016152",
+      "name": "Hortumlar",
+      "url": "https://www.hepsiburada.com/hortumlar-c-60007184",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Hortumlar"
+    },
+    {
+      "id": "60008440",
+      "parent_id": "20016152",
+      "name": "KM Teli",
+      "url": "https://www.hepsiburada.com/araba-km-teli-c-60008440",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > KM Teli"
+    },
+    {
+      "id": "60008441",
+      "parent_id": "20016152",
+      "name": "Kol Burcu",
+      "url": "https://www.hepsiburada.com/araba-kol-burcu-c-60008441",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Kol Burcu"
+    },
+    {
+      "id": "60008442",
+      "parent_id": "20016152",
+      "name": "Mafsal Istavrozu",
+      "url": "https://www.hepsiburada.com/araba-mafsal-istavrozu-c-60008442",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Mafsal Istavrozu"
+    },
+    {
+      "id": "60008443",
+      "parent_id": "20016152",
+      "name": "Makas Burcu",
+      "url": "https://www.hepsiburada.com/araba-makas-burcu-c-60008443",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Makas Burcu"
+    },
+    {
+      "id": "60008444",
+      "parent_id": "20016152",
+      "name": "Manifold",
+      "url": "https://www.hepsiburada.com/araba-manifold-c-60008444",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Manifold"
+    },
+    {
+      "id": "60008445",
+      "parent_id": "20016152",
+      "name": "Manifold Ayar Motoru",
+      "url": "https://www.hepsiburada.com/araba-manifolt-ayar-motoru-c-60008445",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Manifold Ayar Motoru"
+    },
+    {
+      "id": "60008446",
+      "parent_id": "20016152",
+      "name": "Mesafe Pulu",
+      "url": "https://www.hepsiburada.com/araba-mesafe-pulu-c-60008446",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Mesafe Pulu"
+    },
+    {
+      "id": "60007186",
+      "parent_id": "20016152",
+      "name": "Müşürler",
+      "url": "https://www.hepsiburada.com/musurler-c-60007186",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Müşürler"
+    },
+    {
+      "id": "60008448",
+      "parent_id": "20016152",
+      "name": "Pervane",
+      "url": "https://www.hepsiburada.com/araba-pervanesi-c-60008448",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Pervane"
+    },
+    {
+      "id": "60008449",
+      "parent_id": "20016152",
+      "name": "Pim Saplama",
+      "url": "https://www.hepsiburada.com/araba-pim-saplamasi-c-60008449",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Pim Saplama"
+    },
+    {
+      "id": "60008450",
+      "parent_id": "20016152",
+      "name": "Platin Seti",
+      "url": "https://www.hepsiburada.com/araba-platin-seti-c-60008450",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Platin Seti"
+    },
+    {
+      "id": "60008451",
+      "parent_id": "20016152",
+      "name": "Prizdirek Rulmanı",
+      "url": "https://www.hepsiburada.com/araba-prizdirek-rulmani-c-60008451",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Prizdirek Rulmanı"
+    },
+    {
+      "id": "60008452",
+      "parent_id": "20016152",
+      "name": "Rolanti Valfi",
+      "url": "https://www.hepsiburada.com/araba-rolanti-valfi-c-60008452",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Rolanti Valfi"
+    },
+    {
+      "id": "60008453",
+      "parent_id": "20016152",
+      "name": "Roll Körük",
+      "url": "https://www.hepsiburada.com/araba-roll-koruk-c-60008453",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Roll Körük"
+    },
+    {
+      "id": "60008454",
+      "parent_id": "20016152",
+      "name": "Römork Taşıyıcısı",
+      "url": "https://www.hepsiburada.com/araba-romork-tasiyicisi-c-60008454",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Römork Taşıyıcısı"
+    },
+    {
+      "id": "60007136",
+      "parent_id": "20016152",
+      "name": "Somunlar",
+      "url": "https://www.hepsiburada.com/somunlar-c-60007136",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Somunlar"
+    },
+    {
+      "id": "26048",
+      "parent_id": "20016152",
+      "name": "Stabilizör",
+      "url": "https://www.hepsiburada.com/stabilizorler-c-26048",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Stabilizör"
+    },
+    {
+      "id": "60007137",
+      "parent_id": "20016152",
+      "name": "Subaplar",
+      "url": "https://www.hepsiburada.com/araba-sibop-c-60007137",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Subaplar"
+    },
+    {
+      "id": "60008459",
+      "parent_id": "20016152",
+      "name": "Tapa",
+      "url": "https://www.hepsiburada.com/araba-tapasi-c-60008459",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Tapa"
+    },
+    {
+      "id": "60008467",
+      "parent_id": "20016152",
+      "name": "Tekerlek Sensörü",
+      "url": "https://www.hepsiburada.com/araba-tekerlek-sensoru-c-60008467",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Tekerlek Sensörü"
+    },
+    {
+      "id": "60008460",
+      "parent_id": "20016152",
+      "name": "Tel Halat",
+      "url": "https://www.hepsiburada.com/araba-tel-halat-c-60008460",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Tel Halat"
+    },
+    {
+      "id": "60008461",
+      "parent_id": "20016152",
+      "name": "Tel Halka",
+      "url": "https://www.hepsiburada.com/araba-tel-halka-c-60008461",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Tel Halka"
+    },
+    {
+      "id": "60008462",
+      "parent_id": "20016152",
+      "name": "Termostat",
+      "url": "https://www.hepsiburada.com/araba-termostati-c-60008462",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Termostat"
+    },
+    {
+      "id": "60008463",
+      "parent_id": "20016152",
+      "name": "Termostat Contası",
+      "url": "https://www.hepsiburada.com/araba-termostat-contasi-c-60008463",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Termostat Contası"
+    },
+    {
+      "id": "60008464",
+      "parent_id": "20016152",
+      "name": "Termostat Gövdesi",
+      "url": "https://www.hepsiburada.com/araba-termostat-govdesi-c-60008464",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Termostat Gövdesi"
+    },
+    {
+      "id": "60008465",
+      "parent_id": "20016152",
+      "name": "Torsiyon Burcu",
+      "url": "https://www.hepsiburada.com/araba-torsiyon-burcu-c-60008465",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Torsiyon Burcu"
+    },
+    {
+      "id": "60008466",
+      "parent_id": "20016152",
+      "name": "Torsiyon Tamir Takımı",
+      "url": "https://www.hepsiburada.com/araba-torsiyon-tamir-takimi-c-60008466",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Torsiyon Tamir Takımı"
+    },
+    {
+      "id": "60008468",
+      "parent_id": "20016152",
+      "name": "Travers Takozu",
+      "url": "https://www.hepsiburada.com/araba-travers-takozu-c-60008468",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Travers Takozu"
+    },
+    {
+      "id": "60008469",
+      "parent_id": "20016152",
+      "name": "Tutucu",
+      "url": "https://www.hepsiburada.com/araba-tutucusu-c-60008469",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Tutucu"
+    },
+    {
+      "id": "60008470",
+      "parent_id": "20016152",
+      "name": "Türbin Ünitesi",
+      "url": "https://www.hepsiburada.com/araba-turbin-unitesi-c-60008470",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Türbin Ünitesi"
+    },
+    {
+      "id": "60008472",
+      "parent_id": "20016152",
+      "name": "Yaprak Yay Dayanağı",
+      "url": "https://www.hepsiburada.com/araba-yaprak-yay-dayanagi-c-60008472",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Yaprak Yay Dayanağı"
+    },
+    {
+      "id": "60007181",
+      "parent_id": "20016152",
+      "name": "Yaylar",
+      "url": "https://www.hepsiburada.com/suspansiyon-helezon-yaylari-c-60007181",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Yaylar"
+    },
+    {
+      "id": "60007187",
+      "parent_id": "20016152",
+      "name": "Zaman Saati",
+      "url": "https://www.hepsiburada.com/zaman-saati-c-60007187",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Zaman Saati"
+    },
+    {
+      "id": "60008447",
+      "parent_id": "20016152",
+      "name": "Ön Susturucu",
+      "url": "https://www.hepsiburada.com/araba-on-susturucu-c-60008447",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Ön Susturucu"
+    },
+    {
+      "id": "60008456",
+      "parent_id": "20016152",
+      "name": "Şaft Burcu",
+      "url": "https://www.hepsiburada.com/araba-saft-burcu-c-60008456",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Şaft Burcu"
+    },
+    {
+      "id": "60008455",
+      "parent_id": "20016152",
+      "name": "Şanzıman",
+      "url": "https://www.hepsiburada.com/araba-sanzimani-c-60008455",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Şanzıman"
+    },
+    {
+      "id": "60008457",
+      "parent_id": "20016152",
+      "name": "Şanzıman Keçe",
+      "url": "https://www.hepsiburada.com/araba-sanziman-kece-c-60008457",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Şanzıman Keçe"
+    },
+    {
+      "id": "60007180",
+      "parent_id": "20016152",
+      "name": "Şasiler",
+      "url": "https://www.hepsiburada.com/sasiler-c-60007180",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > araba valfi > Mekanik Aksamlar > Şasiler"
+    },
+    {
+      "id": "60000190",
+      "parent_id": "2147483606",
+      "name": "Aksesuarlar",
+      "url": "https://www.hepsiburada.com/fotograf-makinesi-aksesuarlari-c-60000190",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Foto Kameraları > Aksesuarlar"
+    },
+    {
+      "id": "80857395",
+      "parent_id": "2147483606",
+      "name": "Aksiyon Kamera Aksesuarları",
+      "url": "https://www.hepsiburada.com/aksiyon-kamera-aksesuarlari-c-80857395",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Foto Kameraları > Aksiyon Kamera Aksesuarları"
+    },
+    {
+      "id": "80438115",
+      "parent_id": "2147483606",
+      "name": "Drone Yedek Parçaları",
+      "url": "https://www.hepsiburada.com/drone-yedek-parcalari-c-80438115",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Foto Kameraları > Drone Yedek Parçaları"
+    },
+    {
+      "id": "22018092",
+      "parent_id": "2147483606",
+      "name": "aksiyon kameralari",
+      "url": "https://www.hepsiburada.com/aksiyon-kameralari-c-22018092",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Foto Kameraları > aksiyon kameralari"
+    },
+    {
+      "id": "60006033",
+      "parent_id": "2147483606",
+      "name": "drone multikopter",
+      "url": "https://www.hepsiburada.com/drone-multikopter-c-60006033",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Foto Kameraları > drone multikopter"
+    },
+    {
+      "id": "60002029",
+      "parent_id": "60002083",
+      "name": "Aynasız Kompakt SLR Makineler",
+      "url": "https://www.hepsiburada.com/aynasiz-kompakt-slr-makineler-c-60002029",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Fotoğraf Makinesi & Kamera > Aynasız Kompakt SLR Makineler"
+    },
+    {
+      "id": "248",
+      "parent_id": "60002083",
+      "name": "Dijital Fotoğraf Makineleri",
+      "url": "https://www.hepsiburada.com/dijital-fotograf-makineleri-c-248",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Fotoğraf Makinesi & Kamera > Dijital Fotoğraf Makineleri"
+    },
+    {
+      "id": "60006149",
+      "parent_id": "60002083",
+      "name": "Filmli Fotoğraf Makineleri",
+      "url": "https://www.hepsiburada.com/filmli-fotograf-makineleri-c-60006149",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Fotoğraf Makinesi & Kamera > Filmli Fotoğraf Makineleri"
+    },
+    {
+      "id": "60003581",
+      "parent_id": "60002083",
+      "name": "Outdoor / Sualtı Fotoğraf Makineleri",
+      "url": "https://www.hepsiburada.com/outdoor-sualti-fotograf-makineleri-c-60003581",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Fotoğraf Makinesi & Kamera > Outdoor / Sualtı Fotoğraf Makineleri"
+    },
+    {
+      "id": "1100301",
+      "parent_id": "60002083",
+      "name": "SLR Fotoğraf Makineleri",
+      "url": "https://www.hepsiburada.com/slr-fotograf-makineleri-c-1100301",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Fotoğraf Makinesi & Kamera > SLR Fotoğraf Makineleri"
+    },
+    {
+      "id": "60002059",
+      "parent_id": "60002083",
+      "name": "hafiza karti kart okuyuculari",
+      "url": "https://www.hepsiburada.com/hafiza-karti-kart-okuyuculari-c-60002059",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Fotoğraf Makinesi & Kamera > hafiza karti kart okuyuculari"
+    },
+    {
+      "id": "60002058",
+      "parent_id": "60002083",
+      "name": "lensler filtreler",
+      "url": "https://www.hepsiburada.com/lensler-filtreler-c-60002058",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > jant kapaklari > video kameralar > Fotoğraf Makinesi & Kamera > lensler filtreler"
     },
     {
       "id": "20024662",
@@ -31322,6 +31802,14 @@
       "url": "https://www.hepsiburada.com/elektrikli-zimpara-aksesuarlari-c-60004887",
       "level": 5,
       "path": "Oto, Bahce, Yapi Market > matkaplar > Elektrikli Aletler Aksesuarlar > Zımpara > elektrikli zimpara aksesuarlari"
+    },
+    {
+      "id": "60000178",
+      "parent_id": "60004413",
+      "name": "CD & DVD Çantaları",
+      "url": "https://www.hepsiburada.com/cd-dvd-cantalari-c-60000178",
+      "level": 5,
+      "path": "Oto, Bahce, Yapi Market > oto teyp > yazilabilir cdler > CD DVD Aksesuarları > CD & DVD Çantaları"
     }
   ]
 }

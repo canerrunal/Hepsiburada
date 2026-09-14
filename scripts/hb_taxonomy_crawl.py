@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Hepsiburada kategori agaci BFS crawler (Playwright headed Chromium).
+"""Hepsiburada kategori agaci BFS crawler (Playwright Chromium).
 
 Cikti: taxonomy/catalog.json, taxonomy/catalog.csv + resume state
 taxonomy/crawl-state.json. Kaldigi yerden devam eder.
@@ -15,6 +15,11 @@ import sys
 import time
 from collections import deque
 from pathlib import Path
+
+try:
+    from hb_playwright_config import add_browser_mode_args
+except ImportError:
+    from scripts.hb_playwright_config import add_browser_mode_args
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -58,6 +63,25 @@ def today():
     return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).strftime("%Y-%m-%d")
 
 
+def stamp():
+    return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).strftime("%Y-%m-%dT%H:%M:%S+03:00")
+
+
+def goto_with_retry(page, url, attempts=3):
+    last_error = None
+    for attempt in range(attempts):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            return
+        except Exception as error:
+            last_error = error
+            if "guvenlik" in str(error).lower():
+                raise
+            if attempt + 1 < attempts:
+                time.sleep(2 ** attempt)
+    raise last_error
+
+
 def _legacy_save(*a, **k):
     raise RuntimeError("save_now kullan")
 
@@ -71,6 +95,7 @@ def main():
     ap.add_argument("--max-pages", type=int, default=5000)
     ap.add_argument("--seeds", default="all")
     ap.add_argument("--tag", default="")
+    add_browser_mode_args(ap)
     args = ap.parse_args()
     TAX.mkdir(parents=True, exist_ok=True)
     suffix = f"-{args.tag}" if args.tag else ""
@@ -87,7 +112,8 @@ def main():
     # Tohumlar bastan seviye-1 kayitli (yanlis ebeveyn onler)
     for name, url in SEEDS:
         cid = url.rsplit("-c-", 1)[1]
-        cats[cid] = {"id": cid, "parent_id": "", "name": name, "url": url, "level": 1, "path": name}
+        cats[cid] = {"id": cid, "parent_id": "", "name": name, "url": url, "level": 1, "path": name,
+                     "path_ids": [cid], "root_id": cid, "root_name": name}
     if state_path.exists():
         try:
             s = json.loads(state_path.read_text())
@@ -115,15 +141,39 @@ def main():
     # Not: sadece kendi tohumlarim islenecek; diger tohum id'leri kesifte gorulurse
     # catalog'da seviye-1 durur, kuyruga eklenmez (asagida visited kontrolu).
     def save_now():
+        child_counts = {}
+        for row in cats.values():
+            parent_id = row.get("parent_id")
+            if parent_id:
+                child_counts[parent_id] = child_counts.get(parent_id, 0) + 1
+        for row in cats.values():
+            path_ids = row.get("path_ids") or [row["id"]]
+            row.update({
+                "full_path": row.get("path") or row.get("name"),
+                "path_ids": path_ids,
+                "path_slug": row.get("url", "").rstrip("/").rsplit("/", 1)[-1],
+                "root_id": row.get("root_id") or path_ids[0],
+                "root_name": row.get("root_name") or row.get("name"),
+                "has_children": child_counts.get(row["id"], 0) > 0,
+                "child_count": child_counts.get(row["id"], 0),
+                "source_url": row.get("url"),
+                "discovered_at": row.get("discovered_at") or stamp(),
+                "is_active": True,
+            })
         rows = sorted(cats.values(), key=lambda r: (r["level"], r["path"]))
         catalog_path.write_text(json.dumps(
             {"date": today(), "status": "LIVE-CRAWL", "count": len(rows), "categories": rows},
             ensure_ascii=False, indent=2))
         with open(csv_path, "w", newline="") as f:
             w = csv.writer(f)
-            w.writerow(["id", "parent_id", "name", "url", "level", "path"])
+            w.writerow(["id", "parent_id", "name", "url", "level", "path", "root_id", "root_name",
+                        "full_path", "path_ids", "path_slug", "has_children", "child_count", "source_url",
+                        "discovered_at", "is_active"])
             for r in rows:
-                w.writerow([r["id"], r["parent_id"], r["name"], r["url"], r["level"], r["path"]])
+                w.writerow([r["id"], r["parent_id"], r["name"], r["url"], r["level"], r["path"],
+                            r["root_id"], r["root_name"], r["full_path"], ">".join(r["path_ids"]),
+                            r["path_slug"], r["has_children"], r["child_count"], r["source_url"],
+                            r["discovered_at"], r["is_active"]])
         state_path.write_text(json.dumps(
             {"date": today(), "queued": list(queue), "visited_count": len(visited),
              "poison": sorted(poison)}, ensure_ascii=False))
@@ -131,70 +181,74 @@ def main():
     from playwright.sync_api import sync_playwright
     pages_done, blocks = 0, 0
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, args=["--disable-blink-features=AutomationControlled"])
-        ctx = browser.new_context(locale="tr-TR", user_agent=UA, viewport={"width": 1366, "height": 900})
-        page = ctx.new_page()
-        while queue and pages_done < args.max_pages:
-            cid, parent, name, url, level, path = queue.popleft()
-            if cid in visited or cid in poison:
-                continue
-            visited.add(cid)
-            try:
-                page.goto(url, wait_until="domcontentloaded", timeout=45000)
-                page.wait_for_timeout(4000)
-                if "Güvenlik" in (page.title() or ""):
-                    raise RuntimeError("guvenlik-engeli")
-                links = page.evaluate("""() => {
-                  const out = [];
-                  document.querySelectorAll('a[href]').forEach(a => {
-                    const h = a.getAttribute('href') || '';
-                    if (/-c-\\d+/.test(h)) out.push({text: (a.innerText||'').trim().slice(0,60), href: h});
-                  });
-                  return out;
-                }""")
-                blocks = 0
-                for l in links:
-                    c = canon(l["href"])
-                    if not c:
-                        continue
-                    nid, nurl = c
-                    if nid not in cats:
-                        nm = l["text"] if l["text"] and len(l["text"]) > 2 else nurl.rsplit("/", 1)[-1].rsplit("-c-", 1)[0].replace("-", " ")
-                        cats[nid] = {"id": nid, "parent_id": cid, "name": nm, "url": nurl,
-                                     "level": level + 1, "path": f"{path} > {nm}"}
-                    if nid not in visited:
-                        queue.append((nid, cid, cats[nid]["name"], nurl, level + 1, cats[nid]["path"]))
-                if cid not in cats:
-                    slug = url.rsplit("/", 1)[-1].rsplit("-c-", 1)[0].replace("-", " ")
-                    cats[cid] = {"id": cid, "parent_id": parent, "name": name or slug, "url": url,
-                                 "level": level, "path": path}
-                pages_done += 1
-                if pages_done % 20 == 0:
-                    save_now()
-                    print(f"CRAWL pages={pages_done} cats={len(cats)} queue={len(queue)}", flush=True)
-            except Exception as e:
-                if "guvenlik" in str(e):
-                    blocks += 1
-                    print(f"CRAWL_BLOCK {blocks}/3 {url[:70]}", flush=True)
-                    if blocks >= 2:
-                        # Ayni URL ikinci kez engellendi: zehirli say, atla ve devam et
-                        print(f"CRAWL_POISON atlandi {url[:70]}", flush=True)
-                        poison.add(cid)
-                        blocks = 0
-                        save_now()
-                        time.sleep(10)
-                        continue
-                    visited.discard(cid)
-                    queue.appendleft((cid, parent, name, url, level, path))
-                    if blocks >= 3:
-                        print("CRAWL duruyor (ust uste engel), state kaydedildi", flush=True)
-                        break
-                    time.sleep(20)
+        browser = p.chromium.launch(headless=args.headless, args=["--disable-blink-features=AutomationControlled"])
+        ctx = None
+        try:
+            ctx = browser.new_context(locale="tr-TR", user_agent=UA, viewport={"width": 1366, "height": 900})
+            page = ctx.new_page()
+            while queue and pages_done < args.max_pages:
+                cid, parent, name, url, level, path = queue.popleft()
+                if cid in visited or cid in poison:
                     continue
-                print(f"CRAWL_ERR {str(e)[:60]} {url[:60]}", flush=True)
-            time.sleep(2.5)
-        browser.close()
+                visited.add(cid)
+                try:
+                    goto_with_retry(page, url)
+                    page.wait_for_timeout(4000)
+                    if "Güvenlik" in (page.title() or ""):
+                        raise RuntimeError("guvenlik-engeli")
+                    links = page.evaluate("""() => Array.from(document.querySelectorAll('a[href]')).map(a => ({text: (a.innerText||'').trim().slice(0,60), href: a.getAttribute('href')||''}))""")
+                    blocks = 0
+                    for l in links:
+                        c = canon(l["href"])
+                        if not c:
+                            continue
+                        nid, nurl = c
+                        if nid not in cats:
+                            nm = l["text"] if len(l["text"]) > 2 else nurl.rsplit("/", 1)[-1].rsplit("-c-", 1)[0].replace("-", " ")
+                            parent_row = cats.get(cid, {})
+                            parent_ids = parent_row.get("path_ids") or [cid]
+                            parent_root = parent_row.get("root_id") or parent_ids[0]
+                            parent_root_name = parent_row.get("root_name") or parent_row.get("name")
+                            cats[nid] = {"id": nid, "parent_id": cid, "name": nm, "url": nurl,
+                                         "level": level + 1, "path": f"{path} > {nm}",
+                                         "path_ids": parent_ids + [nid], "root_id": parent_root,
+                                         "root_name": parent_root_name, "discovered_at": stamp()}
+                        if nid not in visited:
+                            queue.append((nid, cid, cats[nid]["name"], nurl, level + 1, cats[nid]["path"]))
+                    if cid not in cats:
+                        cats[cid] = {"id": cid, "parent_id": parent, "name": name, "url": url,
+                                     "level": level, "path": path, "path_ids": [cid],
+                                     "root_id": cid, "root_name": name, "discovered_at": stamp()}
+                    pages_done += 1
+                    if pages_done % 20 == 0:
+                        save_now()
+                        print(f"CRAWL pages={pages_done} cats={len(cats)} queue={len(queue)}", flush=True)
+                except Exception as e:
+                    if "guvenlik" in str(e):
+                        blocks += 1
+                        print(f"CRAWL_BLOCK {blocks}/3 {url[:70]}", flush=True)
+                        if blocks >= 2:
+                            poison.add(cid)
+                            blocks = 0
+                            save_now()
+                            time.sleep(10)
+                            continue
+                        visited.discard(cid)
+                        queue.appendleft((cid, parent, name, url, level, path))
+                        time.sleep(20)
+                        continue
+                    print(f"CRAWL_ERR {str(e)[:60]} {url[:60]}", flush=True)
+                time.sleep(2.5)
+        finally:
+            if ctx is not None:
+                ctx.close()
+            browser.close()
     save_now()
+    if not queue:
+        final_catalog = json.loads(catalog_path.read_text())
+        final_catalog["status"] = "COMPLETE"
+        final_catalog["completed_at"] = stamp()
+        catalog_path.write_text(json.dumps(final_catalog, ensure_ascii=False, indent=2))
     print(f"CRAWL_OK tag={args.tag or 'main'} pages={pages_done} cats={len(cats)} queue_left={len(queue)}")
     return 0
 

@@ -18,6 +18,7 @@ if [[ "${HEPSIBURADA_GLOBAL_LOCK_HELD:-0}" != "1" ]]; then
 fi
 
 cd "$PROJECT_DIR"
+export HB_HEADLESS="${HB_HEADLESS:-1}"
 
 echo "DAILY_RUN_START profile=$PROFILE time=$(TZ=Europe/Istanbul date +%FT%T%z)"
 
@@ -31,8 +32,10 @@ if ! run_collector; then
   sleep 120
   run_collector
 fi
-"$NODE_BIN" scripts/quality_check.cjs --profile "$PROFILE"
-
+if ! "$NODE_BIN" scripts/quality_check.cjs --profile "$PROFILE" --phase listing; then
+  echo "QUALITY_REJECT listing profile=$PROFILE; son geçerli latest korunuyor" >&2
+  exit 2
+fi
 echo "DETAIL_RUN_START profile=$PROFILE"
 if "$PYTHON_BIN" scripts/run_with_timeout.py --timeout 4200 --heartbeat 60 -- \
   "$PYTHON_BIN" scripts/hb_detail_pw.py --profile "$PROFILE"; then
@@ -40,6 +43,13 @@ if "$PYTHON_BIN" scripts/run_with_timeout.py --timeout 4200 --heartbeat 60 -- \
 else
   echo "Detay turu zaman asimi/hatasi: kalanlar yarin tamamlanir (resume)." >&2
   "$PYTHON_BIN" scripts/hb_detail_merge.py --profile "$PROFILE" --of 1 || true
+fi
+
+if ! "$NODE_BIN" scripts/quality_check.cjs --profile "$PROFILE" --phase final; then
+  echo "QUALITY_REJECT final profile=$PROFILE; latest korunuyor, yayın atlanıyor" >&2
+else
+  echo "QUALITY_PASS final profile=$PROFILE"
+  "$PYTHON_BIN" scripts/promote_snapshot.py --profile "$PROFILE"
 fi
 
 run_date=$(TZ=Europe/Istanbul date +%F)

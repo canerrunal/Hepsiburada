@@ -5,6 +5,8 @@
   "description": "Hepsiburada kategori ve ürün veri havuzu (Trendyol mimarisi)",
   "scripts": {
     "discover": "node scripts/discover_hepsiburada_taxonomy.cjs",
+    "taxonomy:collect": "python3 scripts/hb_taxonomy_collect.py --shard 0 --of 4",
+    "taxonomy:merge": "python3 scripts/hb_taxonomy_collect_merge.py --date $(TZ=Europe/Istanbul date +%F) --of 4",
     "collect": "node scripts/collect.cjs",
     "collect:elektronik": "node scripts/collect.cjs --profile elektronik",
     "collect:moda": "node scripts/collect.cjs --profile moda",
@@ -12,6 +14,7 @@
     "collect:kozmetik": "node scripts/collect.cjs --profile kozmetik",
     "collect:anne-bebek-oyuncak": "node scripts/collect.cjs --profile anne-bebek-oyuncak",
     "quality": "node scripts/quality_check.cjs",
-    "test": "node --test scripts/discover_hepsiburada_taxonomy.test.cjs scripts/quality_check.test.cjs"
+    "dashboard:status": "node scripts/build_dashboard_status.cjs",
+    "test": "node --test scripts/discover_hepsiburada_taxonomy.test.cjs scripts/quality_check.test.cjs scripts/dashboard_status.test.cjs"
   }
 }

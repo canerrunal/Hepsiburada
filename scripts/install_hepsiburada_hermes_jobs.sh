@@ -34,7 +34,7 @@ upsert_job() {
   fi
 }
 
-upsert_job "hepsiburada-discovery" "0 22 * * *" "hepsiburada_discovery.sh" "local"
+upsert_job "hepsiburada-discovery" "0 15 * * *" "hepsiburada_discovery.sh" "local"
 upsert_job "hepsiburada-elektronik" "30 22 * * *" "hepsiburada_elektronik.sh" "local"
 upsert_job "hepsiburada-moda" "0 23 * * *" "hepsiburada_moda.sh" "local"
 upsert_job "hepsiburada-supermarket" "30 23 * * *" "hepsiburada_supermarket.sh" "local"

@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "status": "LIVE-CRAWL",
-  "count": 4004,
+  "count": 4532,
   "categories": [
     {
       "id": "2147483639",
@@ -18244,6 +18244,2102 @@
       "path": "Supermarket, Pet Shop > icecek urunleri > Çay > Dökme Çay"
     },
     {
+      "id": "181057",
+      "parent_id": "10007303",
+      "name": "Astroloji Belgeselleri",
+      "url": "https://www.hepsiburada.com/astroloji-belgeselleri-c-181057",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Bilim Belgeselleri > Astroloji Belgeselleri"
+    },
+    {
+      "id": "177413",
+      "parent_id": "10007303",
+      "name": "Uzay Belgeselleri",
+      "url": "https://www.hepsiburada.com/uzay-belgeselleri-c-177413",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Bilim Belgeselleri > Uzay Belgeselleri"
+    },
+    {
+      "id": "10007298",
+      "parent_id": "10007294",
+      "name": "Araba Belgeselleri",
+      "url": "https://www.hepsiburada.com/araba-belgesel-filmleri-c-10007298",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Kültür / Sanat Belgeselleri > Araba Belgeselleri"
+    },
+    {
+      "id": "10007297",
+      "parent_id": "10007294",
+      "name": "Atatürk Belgeselleri",
+      "url": "https://www.hepsiburada.com/ataturk-belgesel-filmleri-c-10007297",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Kültür / Sanat Belgeselleri > Atatürk Belgeselleri"
+    },
+    {
+      "id": "10007296",
+      "parent_id": "10007294",
+      "name": "Savaş Belgeselleri",
+      "url": "https://www.hepsiburada.com/savas-belgesel-filmleri-c-10007296",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Kültür / Sanat Belgeselleri > Savaş Belgeselleri"
+    },
+    {
+      "id": "10007299",
+      "parent_id": "10007294",
+      "name": "TRT Belgeselleri",
+      "url": "https://www.hepsiburada.com/trt-belgesel-filmleri-c-10007299",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Kültür / Sanat Belgeselleri > TRT Belgeselleri"
+    },
+    {
+      "id": "10007295",
+      "parent_id": "10007294",
+      "name": "Tarihi Belgeseller",
+      "url": "https://www.hepsiburada.com/tarihi-belgesel-filmleri-c-10007295",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Kültür / Sanat Belgeselleri > Tarihi Belgeseller"
+    },
+    {
+      "id": "177418",
+      "parent_id": "10007300",
+      "name": "Hayvan Belgeselleri",
+      "url": "https://www.hepsiburada.com/hayvan-belgesel-filmleri-c-177418",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Vahşi Yaşam / Yeryüzü Belgeselleri > Hayvan Belgeselleri"
+    },
+    {
+      "id": "177419",
+      "parent_id": "10007300",
+      "name": "Sualtı Belgeselleri",
+      "url": "https://www.hepsiburada.com/sualti-belgesel-filmleri-c-177419",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Vahşi Yaşam / Yeryüzü Belgeselleri > Sualtı Belgeselleri"
+    },
+    {
+      "id": "10007301",
+      "parent_id": "10007300",
+      "name": "Yeryüzü Belgeselleri",
+      "url": "https://www.hepsiburada.com/yeryuzu-belgesel-filmleri-c-10007301",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > Vahşi Yaşam / Yeryüzü Belgeselleri > Yeryüzü Belgeselleri"
+    },
+    {
+      "id": "177414",
+      "parent_id": "10007304",
+      "name": "İnsan ve Genetik",
+      "url": "https://www.hepsiburada.com/insan-genetik-belgesel-filmleri-c-177414",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Belgesel > İnsan / Genetik Belgeselleri > İnsan ve Genetik"
+    },
+    {
+      "id": "177392",
+      "parent_id": "11017",
+      "name": "Dans / Oryantal",
+      "url": "https://www.hepsiburada.com/dans-oryantal-dvd-setleri-c-177392",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Müzik / Sahne > Gösteri Sanatları > Dans / Oryantal"
+    },
+    {
+      "id": "177399",
+      "parent_id": "11017",
+      "name": "Show / Şakalar / Gölge Oyunları",
+      "url": "https://www.hepsiburada.com/show-sakalar-golge-oyunlari-dvd-c-177399",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Müzik / Sahne > Gösteri Sanatları > Show / Şakalar / Gölge Oyunları"
+    },
+    {
+      "id": "186053",
+      "parent_id": "11017",
+      "name": "Stand Up",
+      "url": "https://www.hepsiburada.com/stand-up-gosterileri-c-186053",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Müzik / Sahne > Gösteri Sanatları > Stand Up"
+    },
+    {
+      "id": "177395",
+      "parent_id": "11017",
+      "name": "Tiyatro",
+      "url": "https://www.hepsiburada.com/tiyatro-kabare-dvd-c-177395",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > Film > Müzik / Sahne > Gösteri Sanatları > Tiyatro"
+    },
+    {
+      "id": "1514949",
+      "parent_id": "1500000",
+      "name": "1.Sınıf",
+      "url": "https://www.hepsiburada.com/acik-ogretim-1sinif-kitaplari-c-1514949",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > Açıköğretim Kitapları ve Setleri > 1.Sınıf"
+    },
+    {
+      "id": "1514950",
+      "parent_id": "1500000",
+      "name": "2.Sınıf",
+      "url": "https://www.hepsiburada.com/acik-ogretim-2-sinif-kitaplari-c-1514950",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > Açıköğretim Kitapları ve Setleri > 2.Sınıf"
+    },
+    {
+      "id": "1514951",
+      "parent_id": "1500000",
+      "name": "3.Sınıf",
+      "url": "https://www.hepsiburada.com/acik-ogretim-3-sinif-kitaplari-c-1514951",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > Açıköğretim Kitapları ve Setleri > 3.Sınıf"
+    },
+    {
+      "id": "1514952",
+      "parent_id": "1500000",
+      "name": "4.Sınıf",
+      "url": "https://www.hepsiburada.com/acik-ogretim-4-sinif-kitaplari-c-1514952",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > Açıköğretim Kitapları ve Setleri > 4.Sınıf"
+    },
+    {
+      "id": "80167005",
+      "parent_id": "80168002",
+      "name": "TEOG 1",
+      "url": "https://www.hepsiburada.com/teog-1-c-80167005",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TEOG Kitapları > TEOG 1"
+    },
+    {
+      "id": "80167006",
+      "parent_id": "80168002",
+      "name": "TEOG 1- 2",
+      "url": "https://www.hepsiburada.com/teog-1-2-c-80167006",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TEOG Kitapları > TEOG 1- 2"
+    },
+    {
+      "id": "80167004",
+      "parent_id": "80168002",
+      "name": "TEOG 2",
+      "url": "https://www.hepsiburada.com/teog-2-c-80167004",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TEOG Kitapları > TEOG 2"
+    },
+    {
+      "id": "80298198",
+      "parent_id": "80298195",
+      "name": "Edebiyat & Coğrafya",
+      "url": "https://www.hepsiburada.com/yks-edebiyat-cografya-c-80298198",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TYT & AYT > Edebiyat & Coğrafya"
+    },
+    {
+      "id": "80298200",
+      "parent_id": "80298195",
+      "name": "Fen Bilimleri",
+      "url": "https://www.hepsiburada.com/yks-matematik-fen-bilimleri-c-80298200",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TYT & AYT > Fen Bilimleri"
+    },
+    {
+      "id": "80298197",
+      "parent_id": "80298195",
+      "name": "Matematik",
+      "url": "https://www.hepsiburada.com/yks-matematik-c-80298197",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TYT & AYT > Matematik"
+    },
+    {
+      "id": "80298199",
+      "parent_id": "80298195",
+      "name": "Sosyal Bilimler",
+      "url": "https://www.hepsiburada.com/yks-sosyal-bilimler-c-80298199",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TYT & AYT > Sosyal Bilimler"
+    },
+    {
+      "id": "80298196",
+      "parent_id": "80298195",
+      "name": "Temel Yeterlilik Testi",
+      "url": "https://www.hepsiburada.com/temel-yeterlilik-testi-c-80298196",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > TYT & AYT > Temel Yeterlilik Testi"
+    },
+    {
+      "id": "1518809",
+      "parent_id": "1518794",
+      "name": "LYS",
+      "url": "https://www.hepsiburada.com/lys-kitaplari-c-1518809",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > YGS ve LYS Kitapları > LYS"
+    },
+    {
+      "id": "1518802",
+      "parent_id": "1518794",
+      "name": "YGS",
+      "url": "https://www.hepsiburada.com/ygs-kitaplari-c-1518802",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > YGS ve LYS Kitapları > YGS"
+    },
+    {
+      "id": "1518795",
+      "parent_id": "1518794",
+      "name": "YGS - LYS",
+      "url": "https://www.hepsiburada.com/ygs-lys-kitaplari-c-1518795",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > Ders Sınav Kitapları > YGS ve LYS Kitapları > YGS - LYS"
+    },
+    {
+      "id": "60003664",
+      "parent_id": "60003640",
+      "name": "Cep Kitapları",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-cep-kitaplari-c-60003664",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > Cep Kitapları"
+    },
+    {
+      "id": "60003668",
+      "parent_id": "60003640",
+      "name": "DVD Eğitim Setleri",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-dvd-egitim-setleri-c-60003668",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > DVD Eğitim Setleri"
+    },
+    {
+      "id": "60003652",
+      "parent_id": "60003640",
+      "name": "Deneme",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-cozumlu-deneme-kitaplari-c-60003652",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > Deneme"
+    },
+    {
+      "id": "60003672",
+      "parent_id": "60003640",
+      "name": "KPSS Setler",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-egitim-setleri-c-60003672",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > KPSS Setler"
+    },
+    {
+      "id": "60003644",
+      "parent_id": "60003640",
+      "name": "Konu Anlatımlı",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-konu-anlatimli-kitaplar-c-60003644",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > Konu Anlatımlı"
+    },
+    {
+      "id": "60003648",
+      "parent_id": "60003640",
+      "name": "Soru Bankası",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-soru-bankasi-kitaplari-c-60003648",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > Soru Bankası"
+    },
+    {
+      "id": "60003656",
+      "parent_id": "60003640",
+      "name": "Yaprak Testler",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-yaprak-testler-c-60003656",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > Yaprak Testler"
+    },
+    {
+      "id": "60003660",
+      "parent_id": "60003640",
+      "name": "Çıkmış Sorular",
+      "url": "https://www.hepsiburada.com/kpss-egitim-bilimleri-cikmis-sorular-c-60003660",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Eğitim Bilimleri > Çıkmış Sorular"
+    },
+    {
+      "id": "60003666",
+      "parent_id": "60003642",
+      "name": "Cep Kitapları",
+      "url": "https://www.hepsiburada.com/kpss-a-grubu-cep-kitaplari-c-60003666",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > KPSS A Grubu > Cep Kitapları"
+    },
+    {
+      "id": "60003670",
+      "parent_id": "60003642",
+      "name": "DVD Eğitim Setleri",
+      "url": "https://www.hepsiburada.com/kpss-a-grubu-dvd-egitim-setleri-c-60003670",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > KPSS A Grubu > DVD Eğitim Setleri"
+    },
+    {
+      "id": "60003654",
+      "parent_id": "60003642",
+      "name": "Deneme",
+      "url": "https://www.hepsiburada.com/kpss-a-grubu-deneme-kitaplari-c-60003654",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > KPSS A Grubu > Deneme"
+    },
+    {
+      "id": "60003650",
+      "parent_id": "60003642",
+      "name": "Soru Bankası",
+      "url": "https://www.hepsiburada.com/kpss-a-grubu-soru-bankasi-kitaplari-c-60003650",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > KPSS A Grubu > Soru Bankası"
+    },
+    {
+      "id": "60003658",
+      "parent_id": "60003642",
+      "name": "Yaprak Testler",
+      "url": "https://www.hepsiburada.com/kpss-a-grubu-yaprak-testler-c-60003658",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > KPSS A Grubu > Yaprak Testler"
+    },
+    {
+      "id": "60003646",
+      "parent_id": "60003642",
+      "name": "kpss a grubu konu anlatimli kitaplar",
+      "url": "https://www.hepsiburada.com/kpss-a-grubu-konu-anlatimli-kitaplar-c-60003646",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > KPSS A Grubu > kpss a grubu konu anlatimli kitaplar"
+    },
+    {
+      "id": "60003662",
+      "parent_id": "60003642",
+      "name": "Çıkmış Sorular",
+      "url": "https://www.hepsiburada.com/kpss-a-grubu-cikmis-sorular-c-60003662",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > KPSS A Grubu > Çıkmış Sorular"
+    },
+    {
+      "id": "60003665",
+      "parent_id": "60003641",
+      "name": "Cep Kitapları",
+      "url": "https://www.hepsiburada.com/kpss-lise-onlisans-cep-kitaplari-c-60003665",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Lise - Önlisans > Cep Kitapları"
+    },
+    {
+      "id": "60003653",
+      "parent_id": "60003641",
+      "name": "Deneme",
+      "url": "https://www.hepsiburada.com/kpss-lise-onlisans-deneme-kitaplari-c-60003653",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Lise - Önlisans > Deneme"
+    },
+    {
+      "id": "60003673",
+      "parent_id": "60003641",
+      "name": "KPSS Setler",
+      "url": "https://www.hepsiburada.com/kpss-lise-onlisans-setleri-c-60003673",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Lise - Önlisans > KPSS Setler"
+    },
+    {
+      "id": "60003645",
+      "parent_id": "60003641",
+      "name": "Konu Anlatımlı",
+      "url": "https://www.hepsiburada.com/kpss-lise-onlisans-konu-anlatimli-kitaplar-c-60003645",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Lise - Önlisans > Konu Anlatımlı"
+    },
+    {
+      "id": "60003649",
+      "parent_id": "60003641",
+      "name": "Soru Bankası",
+      "url": "https://www.hepsiburada.com/kpss-lise-onlisans-soru-bankalari-c-60003649",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Lise - Önlisans > Soru Bankası"
+    },
+    {
+      "id": "60003657",
+      "parent_id": "60003641",
+      "name": "Yaprak Testler",
+      "url": "https://www.hepsiburada.com/kpss-lise-onlisans-yaprak-testleri-c-60003657",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Lise - Önlisans > Yaprak Testler"
+    },
+    {
+      "id": "60003661",
+      "parent_id": "60003641",
+      "name": "Çıkmış Sorular",
+      "url": "https://www.hepsiburada.com/kpss-lise-onlisans-cikmis-sorular-c-60003661",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > ales kitaplari > kpss kitaplari > Lise - Önlisans > Çıkmış Sorular"
+    },
+    {
+      "id": "403150",
+      "parent_id": "10751",
+      "name": "Alaturka",
+      "url": "https://www.hepsiburada.com/alaturka-muzik-albumleri-c-403150",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Alaturka"
+    },
+    {
+      "id": "400594",
+      "parent_id": "10751",
+      "name": "Arabesk",
+      "url": "https://www.hepsiburada.com/arabesk-muzik-albumleri-c-400594",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Arabesk"
+    },
+    {
+      "id": "10768",
+      "parent_id": "10751",
+      "name": "Enstrümantal Türk Müziği",
+      "url": "https://www.hepsiburada.com/enstrumantal-turk-muzigi-c-10768",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Enstrümantal Türk Müziği"
+    },
+    {
+      "id": "10766",
+      "parent_id": "10751",
+      "name": "Etnik Müzik",
+      "url": "https://www.hepsiburada.com/etnik-muzik-albumleri-c-10766",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Etnik Müzik"
+    },
+    {
+      "id": "10752",
+      "parent_id": "10751",
+      "name": "Fantazi",
+      "url": "https://www.hepsiburada.com/fantazi-muzik-c-10752",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Fantazi"
+    },
+    {
+      "id": "10753",
+      "parent_id": "10751",
+      "name": "Film Müziği",
+      "url": "https://www.hepsiburada.com/turk-film-muzikleri-c-10753",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Film Müziği"
+    },
+    {
+      "id": "10754",
+      "parent_id": "10751",
+      "name": "Halk Müziği",
+      "url": "https://www.hepsiburada.com/halk-muzigi-c-10754",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Halk Müziği"
+    },
+    {
+      "id": "10755",
+      "parent_id": "10751",
+      "name": "Jazz / New Age / Klasik",
+      "url": "https://www.hepsiburada.com/jazz-new-age-klasik-muzik-c-10755",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Jazz / New Age / Klasik"
+    },
+    {
+      "id": "403489",
+      "parent_id": "10751",
+      "name": "Klasik Müzik",
+      "url": "https://www.hepsiburada.com/turk-klasik-muzik-c-403489",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Klasik Müzik"
+    },
+    {
+      "id": "401202",
+      "parent_id": "10751",
+      "name": "Müzikal",
+      "url": "https://www.hepsiburada.com/turk-muzikal-albumleri-c-401202",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Müzikal"
+    },
+    {
+      "id": "10757",
+      "parent_id": "10751",
+      "name": "Oryantal",
+      "url": "https://www.hepsiburada.com/oryantaller-c-10757",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Oryantal"
+    },
+    {
+      "id": "10756",
+      "parent_id": "10751",
+      "name": "Oyun Havaları",
+      "url": "https://www.hepsiburada.com/oyun-havalari-c-10756",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Oyun Havaları"
+    },
+    {
+      "id": "10759",
+      "parent_id": "10751",
+      "name": "Pop",
+      "url": "https://www.hepsiburada.com/turk-pop-muzik-c-10759",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Pop"
+    },
+    {
+      "id": "402979",
+      "parent_id": "10751",
+      "name": "Rap / Hip-Hop",
+      "url": "https://www.hepsiburada.com/turk-rap-hip-hop-albumleri-c-402979",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Rap / Hip-Hop"
+    },
+    {
+      "id": "10760",
+      "parent_id": "10751",
+      "name": "Rock / Blues / Alternatif",
+      "url": "https://www.hepsiburada.com/rock-blues-alternatif-muzik-c-10760",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Rock / Blues / Alternatif"
+    },
+    {
+      "id": "10761",
+      "parent_id": "10751",
+      "name": "Sanat Müziği",
+      "url": "https://www.hepsiburada.com/sanat-muzigi-c-10761",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Sanat Müziği"
+    },
+    {
+      "id": "10762",
+      "parent_id": "10751",
+      "name": "Sufi",
+      "url": "https://www.hepsiburada.com/sufi-c-10762",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Sufi"
+    },
+    {
+      "id": "10764",
+      "parent_id": "10751",
+      "name": "Tango / Kanto",
+      "url": "https://www.hepsiburada.com/turk-tango-kanto-albumleri-c-10764",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Tango / Kanto"
+    },
+    {
+      "id": "10765",
+      "parent_id": "10751",
+      "name": "Çocuk",
+      "url": "https://www.hepsiburada.com/cocuk-muzik-albumleri-c-10765",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Çocuk"
+    },
+    {
+      "id": "10769",
+      "parent_id": "10751",
+      "name": "Özel Albümler",
+      "url": "https://www.hepsiburada.com/ozel-turk-albumleri-c-10769",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Özel Albümler"
+    },
+    {
+      "id": "10758",
+      "parent_id": "10751",
+      "name": "Özgün / Protest",
+      "url": "https://www.hepsiburada.com/ozgun-protest-muzik-c-10758",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Özgün / Protest"
+    },
+    {
+      "id": "10763",
+      "parent_id": "10751",
+      "name": "Şiir",
+      "url": "https://www.hepsiburada.com/siir-albumleri-c-10763",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Türk Sanatçılar > Şiir"
+    },
+    {
+      "id": "10777",
+      "parent_id": "10770",
+      "name": "Blues",
+      "url": "https://www.hepsiburada.com/blues-muzikler-c-10777",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Blues"
+    },
+    {
+      "id": "400738",
+      "parent_id": "10770",
+      "name": "Club",
+      "url": "https://www.hepsiburada.com/club-muzik-c-400738",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Club"
+    },
+    {
+      "id": "405330",
+      "parent_id": "10770",
+      "name": "Disney",
+      "url": "https://www.hepsiburada.com/disney-muzik-c-405330",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Disney"
+    },
+    {
+      "id": "400614",
+      "parent_id": "10770",
+      "name": "Enstrümantal Müzik",
+      "url": "https://www.hepsiburada.com/enstrumantal-muzik-c-400614",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Enstrümantal Müzik"
+    },
+    {
+      "id": "400049",
+      "parent_id": "10770",
+      "name": "Etnik Müzik",
+      "url": "https://www.hepsiburada.com/etnik-muzik-c-400049",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Etnik Müzik"
+    },
+    {
+      "id": "10775",
+      "parent_id": "10770",
+      "name": "Film Müzikleri",
+      "url": "https://www.hepsiburada.com/yabanci-film-muzikleri-c-10775",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Film Müzikleri"
+    },
+    {
+      "id": "10795",
+      "parent_id": "10770",
+      "name": "Folk",
+      "url": "https://www.hepsiburada.com/folk-muzik-c-10795",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Folk"
+    },
+    {
+      "id": "400684",
+      "parent_id": "10770",
+      "name": "Greek Müzik",
+      "url": "https://www.hepsiburada.com/greek-muzik-c-400684",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Greek Müzik"
+    },
+    {
+      "id": "10774",
+      "parent_id": "10770",
+      "name": "Jazz",
+      "url": "https://www.hepsiburada.com/jazz-muzik-c-10774",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Jazz"
+    },
+    {
+      "id": "10773",
+      "parent_id": "10770",
+      "name": "Klasik",
+      "url": "https://www.hepsiburada.com/yabanci-klasik-muzik-c-10773",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Klasik"
+    },
+    {
+      "id": "10798",
+      "parent_id": "10770",
+      "name": "Latin",
+      "url": "https://www.hepsiburada.com/latin-muzik-c-10798",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Latin"
+    },
+    {
+      "id": "404800",
+      "parent_id": "10770",
+      "name": "Müzik DVD / Blu-Ray",
+      "url": "https://www.hepsiburada.com/muzik-cd-dvd-blu-ray-c-404800",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Müzik DVD / Blu-Ray"
+    },
+    {
+      "id": "401246",
+      "parent_id": "10770",
+      "name": "Müzikal",
+      "url": "https://www.hepsiburada.com/muzikal-muzik-c-401246",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Müzikal"
+    },
+    {
+      "id": "10776",
+      "parent_id": "10770",
+      "name": "Newage",
+      "url": "https://www.hepsiburada.com/newage-muzik-c-10776",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Newage"
+    },
+    {
+      "id": "401249",
+      "parent_id": "10770",
+      "name": "Nostalgie",
+      "url": "https://www.hepsiburada.com/nostalji-muzik-c-401249",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Nostalgie"
+    },
+    {
+      "id": "10771",
+      "parent_id": "10770",
+      "name": "Pop",
+      "url": "https://www.hepsiburada.com/yabanci-pop-c-10771",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Pop"
+    },
+    {
+      "id": "10778",
+      "parent_id": "10770",
+      "name": "Rap",
+      "url": "https://www.hepsiburada.com/rap-muzik-c-10778",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Rap"
+    },
+    {
+      "id": "10779",
+      "parent_id": "10770",
+      "name": "Reagge",
+      "url": "https://www.hepsiburada.com/reagge-muzik-c-10779",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Reagge"
+    },
+    {
+      "id": "10772",
+      "parent_id": "10770",
+      "name": "Rock",
+      "url": "https://www.hepsiburada.com/yabanci-rock-muzik-c-10772",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > cocuk kitaplari > muzik albumleri > Yabancı Sanatçılar > Rock"
+    },
+    {
+      "id": "411207",
+      "parent_id": "411206",
+      "name": "Akustik Davullar",
+      "url": "https://www.hepsiburada.com/akustik-davullar-c-411207",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > defler > Vurmali Çalgılar > Bateri > Akustik Davullar"
+    },
+    {
+      "id": "411208",
+      "parent_id": "411206",
+      "name": "Dijital Davullar",
+      "url": "https://www.hepsiburada.com/dijital-davullar-c-411208",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > defler > Vurmali Çalgılar > Bateri > Dijital Davullar"
+    },
+    {
+      "id": "80383001",
+      "parent_id": "80690018",
+      "name": "biberon emzik ve aksesuar",
+      "url": "https://www.hepsiburada.com/biberon-emzik-ve-aksesuar-c-80383001",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Aile & Çocuk Bakımı > Bebek Bakımı > biberon emzik ve aksesuar"
+    },
+    {
+      "id": "1501754",
+      "parent_id": "15033032",
+      "name": "Edebiyat Bilimi",
+      "url": "https://www.hepsiburada.com/edebiyat-bilimi-kitaplari-c-1501754",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Edebiyat > Edebiyat Bilimi"
+    },
+    {
+      "id": "1501756",
+      "parent_id": "15033032",
+      "name": "Edebiyat Tarihi",
+      "url": "https://www.hepsiburada.com/edebiyat-tarihi-kitaplari-c-1501756",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Edebiyat > Edebiyat Tarihi"
+    },
+    {
+      "id": "1515737",
+      "parent_id": "9943",
+      "name": "19. Yüzyıl Felsefesi",
+      "url": "https://www.hepsiburada.com/19-yuzyil-felsefesi-kitaplari-c-1515737",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > 19. Yüzyıl Felsefesi"
+    },
+    {
+      "id": "1515553",
+      "parent_id": "9943",
+      "name": "Ahlak Felsefesi",
+      "url": "https://www.hepsiburada.com/ahlak-felsefesi-kitaplari-c-1515553",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Ahlak Felsefesi"
+    },
+    {
+      "id": "1515710",
+      "parent_id": "9943",
+      "name": "Aydınlanma Çağı Felsefesi",
+      "url": "https://www.hepsiburada.com/aydinlanma-cagi-felsefesi-kitaplari-c-1515710",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Aydınlanma Çağı Felsefesi"
+    },
+    {
+      "id": "1515549",
+      "parent_id": "9943",
+      "name": "Batı Felsefesi",
+      "url": "https://www.hepsiburada.com/bati-felsefesi-kitaplari-c-1515549",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Batı Felsefesi"
+    },
+    {
+      "id": "1515557",
+      "parent_id": "9943",
+      "name": "Bilim Felsefesi",
+      "url": "https://www.hepsiburada.com/bilim-felsefesi-kitaplari-c-1515557",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Bilim Felsefesi"
+    },
+    {
+      "id": "1515562",
+      "parent_id": "9943",
+      "name": "Din Felsefesi",
+      "url": "https://www.hepsiburada.com/din-felsefesi-kitaplari-c-1515562",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Din Felsefesi"
+    },
+    {
+      "id": "1515548",
+      "parent_id": "9943",
+      "name": "Doğu Felsefesi",
+      "url": "https://www.hepsiburada.com/dogu-felsefesi-kitaplari-c-1515548",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Doğu Felsefesi"
+    },
+    {
+      "id": "1515699",
+      "parent_id": "9943",
+      "name": "Eski Yunan Felsefesi",
+      "url": "https://www.hepsiburada.com/eski-yunan-felsefesi-kitaplari-c-1515699",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Eski Yunan Felsefesi"
+    },
+    {
+      "id": "1515554",
+      "parent_id": "9943",
+      "name": "Felsefe Kaynak ve Başvuru",
+      "url": "https://www.hepsiburada.com/felsefe-kaynak-basvuru-kitaplari-c-1515554",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Felsefe Kaynak ve Başvuru"
+    },
+    {
+      "id": "1515700",
+      "parent_id": "9943",
+      "name": "Felsefe Setleri",
+      "url": "https://www.hepsiburada.com/felsefe-setleri-kitaplari-c-1515700",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Felsefe Setleri"
+    },
+    {
+      "id": "1515568",
+      "parent_id": "9943",
+      "name": "Mantık - Bilgi Felsefesi",
+      "url": "https://www.hepsiburada.com/mantik-bilgi-felsefesi-kitaplari-c-1515568",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Mantık - Bilgi Felsefesi"
+    },
+    {
+      "id": "1515559",
+      "parent_id": "9943",
+      "name": "Marksist Felsefe",
+      "url": "https://www.hepsiburada.com/marksist-felsefe-kitaplari-c-1515559",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Marksist Felsefe"
+    },
+    {
+      "id": "1515711",
+      "parent_id": "9943",
+      "name": "Rönesans Felsefesi",
+      "url": "https://www.hepsiburada.com/ronesans-felsefesi-kitaplari-c-1515711",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Rönesans Felsefesi"
+    },
+    {
+      "id": "1515552",
+      "parent_id": "9943",
+      "name": "Siyaset Felsefesi",
+      "url": "https://www.hepsiburada.com/siyaset-felsefesi-kitaplari-c-1515552",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Siyaset Felsefesi"
+    },
+    {
+      "id": "1515556",
+      "parent_id": "9943",
+      "name": "Tarih Felsefesi",
+      "url": "https://www.hepsiburada.com/tarih-felsefesi-kitaplari-c-1515556",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Tarih Felsefesi"
+    },
+    {
+      "id": "1515558",
+      "parent_id": "9943",
+      "name": "Toplum Felsefesi",
+      "url": "https://www.hepsiburada.com/toplum-felsefesi-kitaplari-c-1515558",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Toplum Felsefesi"
+    },
+    {
+      "id": "1515555",
+      "parent_id": "9943",
+      "name": "Varoluş Felsefesi",
+      "url": "https://www.hepsiburada.com/varolus-felsefesi-kitaplari-c-1515555",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Felsefe > Varoluş Felsefesi"
+    },
+    {
+      "id": "1506180",
+      "parent_id": "1504149",
+      "name": "Adli Bilimler",
+      "url": "https://www.hepsiburada.com/adli-bilimler-kitaplari-c-1506180",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Adli Bilimler"
+    },
+    {
+      "id": "1504150",
+      "parent_id": "1504149",
+      "name": "Anayasa Hukuku",
+      "url": "https://www.hepsiburada.com/anayasa-hukuku-kitaplari-c-1504150",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Anayasa Hukuku"
+    },
+    {
+      "id": "1504162",
+      "parent_id": "1504149",
+      "name": "Bankacılık Hukuku",
+      "url": "https://www.hepsiburada.com/bankacilik-hukuku-kitaplari-c-1504162",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Bankacılık Hukuku"
+    },
+    {
+      "id": "1505088",
+      "parent_id": "1504149",
+      "name": "Basın - Yayın Hukuku",
+      "url": "https://www.hepsiburada.com/basin-yayin-hukuku-kitaplari-c-1505088",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Basın - Yayın Hukuku"
+    },
+    {
+      "id": "1506132",
+      "parent_id": "1504149",
+      "name": "Bilişim Hukuku",
+      "url": "https://www.hepsiburada.com/bilisim-hukuku-kitaplari-c-1506132",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Bilişim Hukuku"
+    },
+    {
+      "id": "1504168",
+      "parent_id": "1504149",
+      "name": "Borçlar Hukuku",
+      "url": "https://www.hepsiburada.com/borclar-hukuku-kitaplari-c-1504168",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Borçlar Hukuku"
+    },
+    {
+      "id": "1504512",
+      "parent_id": "1504149",
+      "name": "Cep Kanunları",
+      "url": "https://www.hepsiburada.com/cep-kanunlari-kitaplari-c-1504512",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Cep Kanunları"
+    },
+    {
+      "id": "1504264",
+      "parent_id": "1504149",
+      "name": "Ceza Hukuku",
+      "url": "https://www.hepsiburada.com/ceza-hukuku-kitaplari-c-1504264",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Ceza Hukuku"
+    },
+    {
+      "id": "1504410",
+      "parent_id": "1504149",
+      "name": "Ceza Muhakemesi / Yargılaması Hukuku",
+      "url": "https://www.hepsiburada.com/ceza-muhakemesi-yargilamasi-hukuku-kitaplari-c-1504410",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Ceza Muhakemesi / Yargılaması Hukuku"
+    },
+    {
+      "id": "1504439",
+      "parent_id": "1504149",
+      "name": "Devlet Personel Hukuku",
+      "url": "https://www.hepsiburada.com/devlet-personel-hukuku-kitaplari-c-1504439",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Devlet Personel Hukuku"
+    },
+    {
+      "id": "1504446",
+      "parent_id": "1504149",
+      "name": "Fikri Mülkiyet Hukuku",
+      "url": "https://www.hepsiburada.com/fikri-mulkiyet-hukuku-kitaplari-c-1504446",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Fikri Mülkiyet Hukuku"
+    },
+    {
+      "id": "1504465",
+      "parent_id": "1504149",
+      "name": "Gayrimenkul Hukuku",
+      "url": "https://www.hepsiburada.com/gayrimenkul-hukuku-kitaplari-c-1504465",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Gayrimenkul Hukuku"
+    },
+    {
+      "id": "1504549",
+      "parent_id": "1504149",
+      "name": "Genel Hukuk",
+      "url": "https://www.hepsiburada.com/genel-hukuk-kitaplari-c-1504549",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Genel Hukuk"
+    },
+    {
+      "id": "1506244",
+      "parent_id": "1504149",
+      "name": "Kadastro Hukuku",
+      "url": "https://www.hepsiburada.com/kadastro-hukuku-kitaplari-c-1506244",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Kadastro Hukuku"
+    },
+    {
+      "id": "1506290",
+      "parent_id": "1504149",
+      "name": "Kamu Yönetim Hukuku",
+      "url": "https://www.hepsiburada.com/kamu-yonetim-hukuku-kitaplari-c-1506290",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Kamu Yönetim Hukuku"
+    },
+    {
+      "id": "1506136",
+      "parent_id": "1504149",
+      "name": "Kooperatifler Hukuku",
+      "url": "https://www.hepsiburada.com/kooperatifler-hukuku-kitaplari-c-1506136",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Kooperatifler Hukuku"
+    },
+    {
+      "id": "1506312",
+      "parent_id": "1504149",
+      "name": "Kıymetli Evrak Hukuku",
+      "url": "https://www.hepsiburada.com/kiymetli-evrak-hukuku-kitaplari-c-1506312",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Kıymetli Evrak Hukuku"
+    },
+    {
+      "id": "1504268",
+      "parent_id": "1504149",
+      "name": "Medeni Hukuk",
+      "url": "https://www.hepsiburada.com/medeni-hukuk-kitaplari-c-1504268",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Medeni Hukuk"
+    },
+    {
+      "id": "1507257",
+      "parent_id": "1504149",
+      "name": "Rekabet Hukuku",
+      "url": "https://www.hepsiburada.com/rekabet-hukuku-kitaplari-c-1507257",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Rekabet Hukuku"
+    },
+    {
+      "id": "1506245",
+      "parent_id": "1504149",
+      "name": "Siyaset Bilimi",
+      "url": "https://www.hepsiburada.com/siyaset-bilimi-kitaplari-c-1506245",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Siyaset Bilimi"
+    },
+    {
+      "id": "1504270",
+      "parent_id": "1504149",
+      "name": "Ticaret Hukuku",
+      "url": "https://www.hepsiburada.com/ticaret-hukuku-kitaplari-c-1504270",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Ticaret Hukuku"
+    },
+    {
+      "id": "1506246",
+      "parent_id": "1504149",
+      "name": "Tüketici Hukuku",
+      "url": "https://www.hepsiburada.com/tuketici-hukuku-kitaplari-c-1506246",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Tüketici Hukuku"
+    },
+    {
+      "id": "1504272",
+      "parent_id": "1504149",
+      "name": "Tıp Hukuku",
+      "url": "https://www.hepsiburada.com/tip-hukuku-kitaplari-c-1504272",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Tıp Hukuku"
+    },
+    {
+      "id": "1506021",
+      "parent_id": "1504149",
+      "name": "Uluslararası Hukuk",
+      "url": "https://www.hepsiburada.com/uluslararasi-hukuk-kitaplari-c-1506021",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Uluslararası Hukuk"
+    },
+    {
+      "id": "1506233",
+      "parent_id": "1504149",
+      "name": "Vakıflar - Dernekler Hukuku",
+      "url": "https://www.hepsiburada.com/vakiflar-dernekler-hukuku-kitaplari-c-1506233",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Vakıflar - Dernekler Hukuku"
+    },
+    {
+      "id": "1513891",
+      "parent_id": "1504149",
+      "name": "Vergi Hukuku",
+      "url": "https://www.hepsiburada.com/vergi-hukuku-kitaplari-c-1513891",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Vergi Hukuku"
+    },
+    {
+      "id": "1506274",
+      "parent_id": "1504149",
+      "name": "Yerel Yönetimler Hukuku",
+      "url": "https://www.hepsiburada.com/yerel-yonetimler-hukuku-kitaplari-c-1506274",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Yerel Yönetimler Hukuku"
+    },
+    {
+      "id": "1504579",
+      "parent_id": "1504149",
+      "name": "İcra ve İflas Hukuku",
+      "url": "https://www.hepsiburada.com/icra-iflas-hukuku-kitaplari-c-1504579",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > İcra ve İflas Hukuku"
+    },
+    {
+      "id": "1504669",
+      "parent_id": "1504149",
+      "name": "İdare Hukuku",
+      "url": "https://www.hepsiburada.com/idare-hukuku-kitaplari-c-1504669",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > İdare Hukuku"
+    },
+    {
+      "id": "1504902",
+      "parent_id": "1504149",
+      "name": "İmar - İnşaat - İhale Hukuku",
+      "url": "https://www.hepsiburada.com/imar-insaat-ihale-hukuku-kitaplari-c-1504902",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > İmar - İnşaat - İhale Hukuku"
+    },
+    {
+      "id": "1507291",
+      "parent_id": "1504149",
+      "name": "İnsan Hakları Hukuku",
+      "url": "https://www.hepsiburada.com/insan-haklari-hukuku-kitaplari-c-1507291",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > İnsan Hakları Hukuku"
+    },
+    {
+      "id": "1505108",
+      "parent_id": "1504149",
+      "name": "İş Hukuku",
+      "url": "https://www.hepsiburada.com/is-hukuku-kitaplari-c-1505108",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > İş Hukuku"
+    },
+    {
+      "id": "1506020",
+      "parent_id": "1504149",
+      "name": "Şirketler Hukuku",
+      "url": "https://www.hepsiburada.com/sirketler-hukuku-kitaplari-c-1506020",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Akademik > Hukuk > Şirketler Hukuku"
+    },
+    {
+      "id": "1501691",
+      "parent_id": "15033040",
+      "name": "A.B.D",
+      "url": "https://www.hepsiburada.com/amerikan-kitaplari-c-1501691",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > A.B.D"
+    },
+    {
+      "id": "1502110",
+      "parent_id": "15033040",
+      "name": "Antropoloji - Etnoloji",
+      "url": "https://www.hepsiburada.com/antropoloji-etnoloji-kitaplari-c-1502110",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Antropoloji - Etnoloji"
+    },
+    {
+      "id": "1501690",
+      "parent_id": "15033040",
+      "name": "Avrupa Birliği",
+      "url": "https://www.hepsiburada.com/avrupa-birligi-kitaplari-c-1501690",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Avrupa Birliği"
+    },
+    {
+      "id": "1502107",
+      "parent_id": "15033040",
+      "name": "Demokrasi",
+      "url": "https://www.hepsiburada.com/demokrasi-kitaplari-c-1502107",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Demokrasi"
+    },
+    {
+      "id": "1501694",
+      "parent_id": "15033040",
+      "name": "Dünya Ülkeleri",
+      "url": "https://www.hepsiburada.com/dunya-ulkeleri-kitaplari-c-1501694",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Dünya Ülkeleri"
+    },
+    {
+      "id": "1502098",
+      "parent_id": "15033040",
+      "name": "Etnik ve Dini Gruplar",
+      "url": "https://www.hepsiburada.com/etnik-dini-grup-kitaplari-c-1502098",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Etnik ve Dini Gruplar"
+    },
+    {
+      "id": "1501771",
+      "parent_id": "15033040",
+      "name": "Kişiler Üzerine Araştırmalar",
+      "url": "https://www.hepsiburada.com/kisiler-uzerine-arastirma-kitaplari-c-1501771",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Kişiler Üzerine Araştırmalar"
+    },
+    {
+      "id": "1502100",
+      "parent_id": "15033040",
+      "name": "Kıbrıs",
+      "url": "https://www.hepsiburada.com/kibris-kitaplari-c-1502100",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Kıbrıs"
+    },
+    {
+      "id": "1502104",
+      "parent_id": "15033040",
+      "name": "Laiklik",
+      "url": "https://www.hepsiburada.com/laiklik-kitaplari-c-1502104",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Laiklik"
+    },
+    {
+      "id": "1502102",
+      "parent_id": "15033040",
+      "name": "Mafya - Terörizm",
+      "url": "https://www.hepsiburada.com/mafya-terorizm-kitaplari-c-1502102",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Mafya - Terörizm"
+    },
+    {
+      "id": "1502101",
+      "parent_id": "15033040",
+      "name": "Orta Doğu",
+      "url": "https://www.hepsiburada.com/orta-dogu-kitaplari-c-1502101",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Orta Doğu"
+    },
+    {
+      "id": "1502103",
+      "parent_id": "15033040",
+      "name": "Petrol ve Enerji",
+      "url": "https://www.hepsiburada.com/petrol-enerji-kitaplari-c-1502103",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Petrol ve Enerji"
+    },
+    {
+      "id": "1501696",
+      "parent_id": "15033040",
+      "name": "Tarihi Olaylar Üzerine Araştırmalar",
+      "url": "https://www.hepsiburada.com/tarihi-arastirma-kitaplari-c-1501696",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Tarihi Olaylar Üzerine Araştırmalar"
+    },
+    {
+      "id": "1501695",
+      "parent_id": "15033040",
+      "name": "Toplum Hayatı / Toplumsal Konular",
+      "url": "https://www.hepsiburada.com/toplumsal-kitaplar-c-1501695",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Toplum Hayatı / Toplumsal Konular"
+    },
+    {
+      "id": "1501692",
+      "parent_id": "15033040",
+      "name": "Türkiye Üzerine Araştırmalar",
+      "url": "https://www.hepsiburada.com/turkiye-uzerine-arastirma-kitaplari-c-1501692",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Türkiye Üzerine Araştırmalar"
+    },
+    {
+      "id": "1502106",
+      "parent_id": "15033040",
+      "name": "Yönetim / Devlet Üzerine",
+      "url": "https://www.hepsiburada.com/yonetim-devlet-kitaplari-c-1502106",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Yönetim / Devlet Üzerine"
+    },
+    {
+      "id": "1501746",
+      "parent_id": "15033040",
+      "name": "Örgütler & Gizli Servisler",
+      "url": "https://www.hepsiburada.com/orgutler-gizli-servisler-kitaplari-c-1501746",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Araştırma Kitapları > Örgütler & Gizli Servisler"
+    },
+    {
+      "id": "1501618",
+      "parent_id": "9946",
+      "name": "Atatürkçülük",
+      "url": "https://www.hepsiburada.com/ataturkculuk-kitaplari-c-1501618",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > Atatürkçülük"
+    },
+    {
+      "id": "1501622",
+      "parent_id": "9946",
+      "name": "Kapitalizm / Kapitalizm Üzerine",
+      "url": "https://www.hepsiburada.com/kapitalizm-kitaplari-c-1501622",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > Kapitalizm / Kapitalizm Üzerine"
+    },
+    {
+      "id": "60001729",
+      "parent_id": "9946",
+      "name": "Siyaset Sosyolojisi",
+      "url": "https://www.hepsiburada.com/siyaset-sosyolojisi-kitaplari-c-60001729",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > Siyaset Sosyolojisi"
+    },
+    {
+      "id": "1501621",
+      "parent_id": "9946",
+      "name": "Siyasi Partiler Üzerine",
+      "url": "https://www.hepsiburada.com/siyasi-parti-kitaplari-c-1501621",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > Siyasi Partiler Üzerine"
+    },
+    {
+      "id": "1501681",
+      "parent_id": "9946",
+      "name": "Türk ve Dünya Siyaseti",
+      "url": "https://www.hepsiburada.com/turk-dunya-siyaset-kitaplari-c-1501681",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > Türk ve Dünya Siyaseti"
+    },
+    {
+      "id": "1501623",
+      "parent_id": "9946",
+      "name": "Uluslararası İlişkiler & Dış Politika",
+      "url": "https://www.hepsiburada.com/uluslararasi-iliskiler-dis-politika-kitaplari-c-1501623",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > Uluslararası İlişkiler & Dış Politika"
+    },
+    {
+      "id": "1501620",
+      "parent_id": "9946",
+      "name": "İdeolojiler",
+      "url": "https://www.hepsiburada.com/ideolojiler-c-1501620",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > İdeolojiler"
+    },
+    {
+      "id": "1501619",
+      "parent_id": "9946",
+      "name": "İnsan Hakları",
+      "url": "https://www.hepsiburada.com/insan-haklari-kitaplari-c-1501619",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Siyaset & İdeolojiler > İnsan Hakları"
+    },
+    {
+      "id": "1511073",
+      "parent_id": "9939",
+      "name": "Antik - İlkçağ Tarihi",
+      "url": "https://www.hepsiburada.com/antik-ilkcag-tarihi-kitaplari-c-1511073",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Antik - İlkçağ Tarihi"
+    },
+    {
+      "id": "1512341",
+      "parent_id": "9939",
+      "name": "Dinler Tarihi",
+      "url": "https://www.hepsiburada.com/dinler-tarihi-kitaplari-c-1512341",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Dinler Tarihi"
+    },
+    {
+      "id": "1510778",
+      "parent_id": "9939",
+      "name": "Dünya Tarihi",
+      "url": "https://www.hepsiburada.com/dunya-tarihi-kitaplari-c-1510778",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Dünya Tarihi"
+    },
+    {
+      "id": "1511162",
+      "parent_id": "9939",
+      "name": "Ortaçağ Tarihi",
+      "url": "https://www.hepsiburada.com/ortacag-tarihi-kitaplari-c-1511162",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Ortaçağ Tarihi"
+    },
+    {
+      "id": "1510777",
+      "parent_id": "9939",
+      "name": "Osmanlı Tarihi",
+      "url": "https://www.hepsiburada.com/osmanli-tarihi-kitaplari-c-1510777",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Osmanlı Tarihi"
+    },
+    {
+      "id": "1510774",
+      "parent_id": "9939",
+      "name": "Tarih",
+      "url": "https://www.hepsiburada.com/tarih-kitaplari-c-1510774",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Tarih"
+    },
+    {
+      "id": "1510775",
+      "parent_id": "9939",
+      "name": "Türk Tarihi",
+      "url": "https://www.hepsiburada.com/turk-tarihi-kitaplari-c-1510775",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Türk Tarihi"
+    },
+    {
+      "id": "1510776",
+      "parent_id": "9939",
+      "name": "Yakın Türkiye Tarihi",
+      "url": "https://www.hepsiburada.com/yakin-turkiye-tarihi-kitaplari-c-1510776",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Araştırma ,Tarih & Siyaset > Tarih > Yakın Türkiye Tarihi"
+    },
+    {
+      "id": "80235051",
+      "parent_id": "80235050",
+      "name": "Erkek",
+      "url": "https://www.hepsiburada.com/erkek-dergileri-c-80235051",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Erkek"
+    },
+    {
+      "id": "80235064",
+      "parent_id": "80235050",
+      "name": "Hobi",
+      "url": "https://www.hepsiburada.com/dijital-hobi-dergileri-c-80235064",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Hobi"
+    },
+    {
+      "id": "80235067",
+      "parent_id": "80235050",
+      "name": "Katalog",
+      "url": "https://www.hepsiburada.com/katalog-c-80235067",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Katalog"
+    },
+    {
+      "id": "80235066",
+      "parent_id": "80235050",
+      "name": "Kültür",
+      "url": "https://www.hepsiburada.com/kultur-c-80235066",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Kültür"
+    },
+    {
+      "id": "80235057",
+      "parent_id": "80235050",
+      "name": "Otomobil",
+      "url": "https://www.hepsiburada.com/otomobil-c-80235057",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Otomobil"
+    },
+    {
+      "id": "80235060",
+      "parent_id": "80235050",
+      "name": "Sağlık",
+      "url": "https://www.hepsiburada.com/saglik-dergileri-c-80235060",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Sağlık"
+    },
+    {
+      "id": "80235065",
+      "parent_id": "80235050",
+      "name": "Sektörel",
+      "url": "https://www.hepsiburada.com/sektorel-c-80235065",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Sektörel"
+    },
+    {
+      "id": "80235055",
+      "parent_id": "80235050",
+      "name": "Spor",
+      "url": "https://www.hepsiburada.com/spor-c-80235055",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Spor"
+    },
+    {
+      "id": "80235052",
+      "parent_id": "80235050",
+      "name": "Yaşam",
+      "url": "https://www.hepsiburada.com/yasam-c-80235052",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Yaşam"
+    },
+    {
+      "id": "80235062",
+      "parent_id": "80235050",
+      "name": "Çocuk",
+      "url": "https://www.hepsiburada.com/cocuk-dergileri-c-80235062",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Dijital Yayınlar > Dijital Dergiler > Çocuk"
+    },
+    {
+      "id": "1501517",
+      "parent_id": "9930",
+      "name": "Bilim Adamları",
+      "url": "https://www.hepsiburada.com/bilim-adamlari-kitaplari-c-1501517",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Biyografi > Bilim Adamları"
+    },
+    {
+      "id": "1501514",
+      "parent_id": "9930",
+      "name": "Devlet Adamları & Siyasetçiler",
+      "url": "https://www.hepsiburada.com/devlet-adamlari-siyasetci-kitaplari-c-1501514",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Biyografi > Devlet Adamları & Siyasetçiler"
+    },
+    {
+      "id": "1501544",
+      "parent_id": "9930",
+      "name": "Diger",
+      "url": "https://www.hepsiburada.com/diger-kitaplar-c-1501544",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Biyografi > Diger"
+    },
+    {
+      "id": "1501515",
+      "parent_id": "9930",
+      "name": "Liderler & Halk Kahramanları",
+      "url": "https://www.hepsiburada.com/liderler-halk-kahramanlari-kitaplari-c-1501515",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Biyografi > Liderler & Halk Kahramanları"
+    },
+    {
+      "id": "1501513",
+      "parent_id": "9930",
+      "name": "Sanatçı & Yazar Biyografileri",
+      "url": "https://www.hepsiburada.com/sanatci-yazar-biyografi-kitaplari-c-1501513",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Biyografi > Sanatçı & Yazar Biyografileri"
+    },
+    {
+      "id": "1501516",
+      "parent_id": "9930",
+      "name": "Sporcular & Oyuncular",
+      "url": "https://www.hepsiburada.com/sporcu-oyuncu-kitaplari-c-1501516",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Biyografi > Sporcular & Oyuncular"
+    },
+    {
+      "id": "1501766",
+      "parent_id": "1501757",
+      "name": "Alman-Avusturya Edebiyatı",
+      "url": "https://www.hepsiburada.com/alman-avusturya-edebiyati-c-1501766",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Dünya Edebiyatı > Alman-Avusturya Edebiyatı"
+    },
+    {
+      "id": "1501761",
+      "parent_id": "1501757",
+      "name": "Amerikan Edebiyatı",
+      "url": "https://www.hepsiburada.com/amerikan-edebiyati-c-1501761",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Dünya Edebiyatı > Amerikan Edebiyatı"
+    },
+    {
+      "id": "1501767",
+      "parent_id": "1501757",
+      "name": "Dünya Edebiyatı",
+      "url": "https://www.hepsiburada.com/dunya-edebiyati-c-1501767",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Dünya Edebiyatı > Dünya Edebiyatı"
+    },
+    {
+      "id": "1501763",
+      "parent_id": "1501757",
+      "name": "Fransız Edebiyatı",
+      "url": "https://www.hepsiburada.com/fransiz-edebiyati-c-1501763",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Dünya Edebiyatı > Fransız Edebiyatı"
+    },
+    {
+      "id": "1501765",
+      "parent_id": "1501757",
+      "name": "Latin Amerika Edebiyatı",
+      "url": "https://www.hepsiburada.com/latin-amerika-edebiyati-c-1501765",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Dünya Edebiyatı > Latin Amerika Edebiyatı"
+    },
+    {
+      "id": "1501762",
+      "parent_id": "1501757",
+      "name": "Rus Edebiyatı",
+      "url": "https://www.hepsiburada.com/rus-edebiyati-c-1501762",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Dünya Edebiyatı > Rus Edebiyatı"
+    },
+    {
+      "id": "1501760",
+      "parent_id": "1501757",
+      "name": "İngiliz Edebiyatı",
+      "url": "https://www.hepsiburada.com/ingiliz-edebiyati-c-1501760",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Dünya Edebiyatı > İngiliz Edebiyatı"
+    },
+    {
+      "id": "1501758",
+      "parent_id": "1501764",
+      "name": "Halk Edebiyatı",
+      "url": "https://www.hepsiburada.com/halk-edebiyat-kitaplari-c-1501758",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk Edebiyatı > Halk Edebiyatı"
+    },
+    {
+      "id": "1501759",
+      "parent_id": "1501764",
+      "name": "Klasik Türk (Divan) Edebiyatı",
+      "url": "https://www.hepsiburada.com/klasik-turk-divan-edebiyat-kitaplari-c-1501759",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk Edebiyatı > Klasik Türk (Divan) Edebiyatı"
+    },
+    {
+      "id": "1501780",
+      "parent_id": "1501772",
+      "name": "Alman-Avusturya Klasikleri",
+      "url": "https://www.hepsiburada.com/alman-avusturya-klasikleri-c-1501780",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk ve Dünya Klasikleri > Alman-Avusturya Klasikleri"
+    },
+    {
+      "id": "1501773",
+      "parent_id": "1501772",
+      "name": "Amerikan Klasikleri",
+      "url": "https://www.hepsiburada.com/amerikan-klasikleri-c-1501773",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk ve Dünya Klasikleri > Amerikan Klasikleri"
+    },
+    {
+      "id": "1501774",
+      "parent_id": "1501772",
+      "name": "Dünya Klasikleri",
+      "url": "https://www.hepsiburada.com/dunya-klasikleri-c-1501774",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk ve Dünya Klasikleri > Dünya Klasikleri"
+    },
+    {
+      "id": "1501775",
+      "parent_id": "1501772",
+      "name": "Fransız Klasikleri",
+      "url": "https://www.hepsiburada.com/fransiz-klasikleri-c-1501775",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk ve Dünya Klasikleri > Fransız Klasikleri"
+    },
+    {
+      "id": "1501779",
+      "parent_id": "1501772",
+      "name": "Rus Klasikleri",
+      "url": "https://www.hepsiburada.com/rus-klasikleri-c-1501779",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk ve Dünya Klasikleri > Rus Klasikleri"
+    },
+    {
+      "id": "1501777",
+      "parent_id": "1501772",
+      "name": "Türk Klasikleri",
+      "url": "https://www.hepsiburada.com/turk-klasikleri-c-1501777",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk ve Dünya Klasikleri > Türk Klasikleri"
+    },
+    {
+      "id": "1501776",
+      "parent_id": "1501772",
+      "name": "İngiliz Klasikleri",
+      "url": "https://www.hepsiburada.com/ingiliz-klasikleri-c-1501776",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Edebiyat > Türk ve Dünya Klasikleri > İngiliz Klasikleri"
+    },
+    {
+      "id": "211655",
+      "parent_id": "9934",
+      "name": "Database Kitapları",
+      "url": "https://www.hepsiburada.com/database-kitaplari-c-211655",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Database Kitapları"
+    },
+    {
+      "id": "211661",
+      "parent_id": "9934",
+      "name": "Diğer Kitaplar",
+      "url": "https://www.hepsiburada.com/diger-bilgisayar-kitaplari-c-211661",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Diğer Kitaplar"
+    },
+    {
+      "id": "211656",
+      "parent_id": "9934",
+      "name": "Donanım Kitapları",
+      "url": "https://www.hepsiburada.com/donanim-kitaplari-c-211656",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Donanım Kitapları"
+    },
+    {
+      "id": "211660",
+      "parent_id": "9934",
+      "name": "Güvenlik Kitapları",
+      "url": "https://www.hepsiburada.com/bilgisayar-guvenlik-kitaplari-c-211660",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Güvenlik Kitapları"
+    },
+    {
+      "id": "211662",
+      "parent_id": "9934",
+      "name": "Internet",
+      "url": "https://www.hepsiburada.com/internet-kitaplari-c-211662",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Internet"
+    },
+    {
+      "id": "211659",
+      "parent_id": "9934",
+      "name": "Microsoft Office",
+      "url": "https://www.hepsiburada.com/microsoft-office-kitaplari-c-211659",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Microsoft Office"
+    },
+    {
+      "id": "211654",
+      "parent_id": "9934",
+      "name": "Network Kitapları",
+      "url": "https://www.hepsiburada.com/network-kitaplari-c-211654",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Network Kitapları"
+    },
+    {
+      "id": "211651",
+      "parent_id": "9934",
+      "name": "Programlama Kitapları",
+      "url": "https://www.hepsiburada.com/programlama-kitaplari-c-211651",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Programlama Kitapları"
+    },
+    {
+      "id": "211652",
+      "parent_id": "9934",
+      "name": "Tasarım Grafik",
+      "url": "https://www.hepsiburada.com/tasarim-grafik-kitaplari-c-211652",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Tasarım Grafik"
+    },
+    {
+      "id": "211658",
+      "parent_id": "9934",
+      "name": "Yeni Başlayanlar İçin",
+      "url": "https://www.hepsiburada.com/yeni-baslayanlar-icin-bilgisayar-kitaplari-c-211658",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > Yeni Başlayanlar İçin"
+    },
+    {
+      "id": "211653",
+      "parent_id": "9934",
+      "name": "İşletim Sistemleri",
+      "url": "https://www.hepsiburada.com/isletim-sistemi-kitaplari-c-211653",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Bilgisayar Kitapları > İşletim Sistemleri"
+    },
+    {
+      "id": "1503600",
+      "parent_id": "214049",
+      "name": "Yabancı Dil Kartları",
+      "url": "https://www.hepsiburada.com/yabanci-dil-kartlari-c-1503600",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Yabancı Dil Eğitimi > Yabancı Dil Kartları"
+    },
+    {
+      "id": "217908",
+      "parent_id": "214049",
+      "name": "Yabancı Dil Roman ve Öyküler",
+      "url": "https://www.hepsiburada.com/yabanci-dil-roman-oykuler-c-217908",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Yabancı Dil Eğitimi > Yabancı Dil Roman ve Öyküler"
+    },
+    {
+      "id": "214164",
+      "parent_id": "214049",
+      "name": "Yabancı Dil Öğretici Kitaplar ve Eğitim Setleri",
+      "url": "https://www.hepsiburada.com/yabanci-dil-egitim-setleri-c-214164",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Yabancı Dil Eğitimi > Yabancı Dil Öğretici Kitaplar ve Eğitim Setleri"
+    },
+    {
+      "id": "214057",
+      "parent_id": "214049",
+      "name": "İngilizce Sanat ve Mimarlık",
+      "url": "https://www.hepsiburada.com/ingilizce-sanat-mimarlik-kitaplari-c-214057",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Yabancı Dil Eğitimi > İngilizce Sanat ve Mimarlık"
+    },
+    {
+      "id": "214050",
+      "parent_id": "214049",
+      "name": "İngilizce Yeme-İçme Kültürü",
+      "url": "https://www.hepsiburada.com/ingilizce-yeme-icme-kulturu-kitaplari-c-214050",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Eğitim > Yabancı Dil Eğitimi > İngilizce Yeme-İçme Kültürü"
+    },
+    {
+      "id": "9963",
+      "parent_id": "9961",
+      "name": "Alternatif Uygulamalar",
+      "url": "https://www.hepsiburada.com/alternatif-uygulama-kitaplari-c-9963",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > Alternatif Uygulamalar"
+    },
+    {
+      "id": "9968",
+      "parent_id": "9961",
+      "name": "Evrendeki Zeki Hayat",
+      "url": "https://www.hepsiburada.com/evrendeki-zeki-hayat-kitaplari-c-9968",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > Evrendeki Zeki Hayat"
+    },
+    {
+      "id": "9965",
+      "parent_id": "9961",
+      "name": "Ezoterizm (Gizli Öğreticilik)",
+      "url": "https://www.hepsiburada.com/ezoterizm-gizli-ogreticilik-kitaplari-c-9965",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > Ezoterizm (Gizli Öğreticilik)"
+    },
+    {
+      "id": "9967",
+      "parent_id": "9961",
+      "name": "Kendini Bilmek",
+      "url": "https://www.hepsiburada.com/kendini-bilmek-kitaplari-c-9967",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > Kendini Bilmek"
+    },
+    {
+      "id": "9966",
+      "parent_id": "9961",
+      "name": "Parapsikoloji",
+      "url": "https://www.hepsiburada.com/parapsikoloji-kitaplari-c-9966",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > Parapsikoloji"
+    },
+    {
+      "id": "9964",
+      "parent_id": "9961",
+      "name": "Ruhculuk",
+      "url": "https://www.hepsiburada.com/ruhculuk-kitaplari-c-9964",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > Ruhculuk"
+    },
+    {
+      "id": "9962",
+      "parent_id": "9961",
+      "name": "Yeni Çağ ve Yeni Çağ Bilim",
+      "url": "https://www.hepsiburada.com/yeni-cag-bilim-kitaplari-c-9962",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > Yeni Çağ ve Yeni Çağ Bilim"
+    },
+    {
+      "id": "9993",
+      "parent_id": "9961",
+      "name": "İnsan ve Toplum",
+      "url": "https://www.hepsiburada.com/insan-toplum-kitaplari-c-9993",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Kişisel Gelişim & Psikoloji > Ruhsal & Metafizik > İnsan ve Toplum"
+    },
+    {
+      "id": "213087",
+      "parent_id": "213089",
+      "name": "Diyet",
+      "url": "https://www.hepsiburada.com/diyet-kitaplari-c-213087",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Sağlık, Spor ve Diyet > Beslenme & Diyet > Diyet"
+    },
+    {
+      "id": "1503110",
+      "parent_id": "80220104",
+      "name": "Meditasyon",
+      "url": "https://www.hepsiburada.com/meditasyon-kitaplari-c-1503110",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Sağlık, Spor ve Diyet > Yoga ve Meditasyon > Meditasyon"
+    },
+    {
+      "id": "1503111",
+      "parent_id": "80220104",
+      "name": "Yoga",
+      "url": "https://www.hepsiburada.com/yoga-kitaplari-c-1503111",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Sağlık, Spor ve Diyet > Yoga ve Meditasyon > Yoga"
+    },
+    {
+      "id": "80700016",
+      "parent_id": "80700013",
+      "name": "Biyografi",
+      "url": "https://www.hepsiburada.com/biyografi-c-80700016",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Edebiyat > Biyografi"
+    },
+    {
+      "id": "60000013",
+      "parent_id": "80700013",
+      "name": "Dünya Klasikleri",
+      "url": "https://www.hepsiburada.com/ingilizce-dunya-klasikleri-kitaplari-c-60000013",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Edebiyat > Dünya Klasikleri"
+    },
+    {
+      "id": "15043815",
+      "parent_id": "80700013",
+      "name": "Roman",
+      "url": "https://www.hepsiburada.com/ingilizce-roman-kitaplari-c-15043815",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Edebiyat > Roman"
+    },
+    {
+      "id": "80700015",
+      "parent_id": "80700013",
+      "name": "Çizgi Roman",
+      "url": "https://www.hepsiburada.com/ingilizce-cizgi-romanlar-c-80700015",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Edebiyat > Çizgi Roman"
+    },
+    {
+      "id": "80700014",
+      "parent_id": "80700013",
+      "name": "Şiir",
+      "url": "https://www.hepsiburada.com/ingilizce-siir-kitaplari-c-80700014",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Edebiyat > Şiir"
+    },
+    {
+      "id": "15039803",
+      "parent_id": "80700022",
+      "name": "Dekorasyon",
+      "url": "https://www.hepsiburada.com/ingilizce-dekorasyon-kitaplari-c-15039803",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Sanat > Dekorasyon"
+    },
+    {
+      "id": "15039804",
+      "parent_id": "80700022",
+      "name": "Mimarlık",
+      "url": "https://www.hepsiburada.com/ingilizce-mimarlik-kitaplari-c-15039804",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Sanat > Mimarlık"
+    },
+    {
+      "id": "15039805",
+      "parent_id": "80700022",
+      "name": "Tasarım / Grafik",
+      "url": "https://www.hepsiburada.com/ingilizce-grafik-tasarim-kitaplari-c-15039805",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Sanat > Tasarım / Grafik"
+    },
+    {
+      "id": "80700011",
+      "parent_id": "80700009",
+      "name": "Araştırma",
+      "url": "https://www.hepsiburada.com/ingilizce-arastirma-kitaplari-c-80700011",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Tarih, Araştırma ve Popüler Bilim > Araştırma"
+    },
+    {
+      "id": "80700012",
+      "parent_id": "80700009",
+      "name": "Popüler Bilim",
+      "url": "https://www.hepsiburada.com/populer-bilim-c-80700012",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Tarih, Araştırma ve Popüler Bilim > Popüler Bilim"
+    },
+    {
+      "id": "80700010",
+      "parent_id": "80700009",
+      "name": "Tarih",
+      "url": "https://www.hepsiburada.com/ingilizce-tarih-kitaplari-c-80700010",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Tarih, Araştırma ve Popüler Bilim > Tarih"
+    },
+    {
+      "id": "80700020",
+      "parent_id": "80700018",
+      "name": "Gençlik",
+      "url": "https://www.hepsiburada.com/genclik-c-80700020",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Çocuk ve Gençlik > Gençlik"
+    },
+    {
+      "id": "60003466",
+      "parent_id": "80700018",
+      "name": "Çocuk",
+      "url": "https://www.hepsiburada.com/ingilizce-cocuk-kitaplari-c-60003466",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > Yabancı Dil Kitaplar (Foreign Languages) > Çocuk ve Gençlik > Çocuk"
+    },
+    {
+      "id": "9926",
+      "parent_id": "1514754",
+      "name": "cocuklar icin oyku kitaplari",
+      "url": "https://www.hepsiburada.com/cocuklar-icin-oyku-kitaplari-c-9926",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > kitaplar > ders kitaplari yardimci kitaplar > Hayat Bilgisi > cocuklar icin oyku kitaplari"
+    },
+    {
+      "id": "405369",
+      "parent_id": "404272",
+      "name": "Stüdyo Donanımları ve Teknolojileri",
+      "url": "https://www.hepsiburada.com/studyo-donanimlari-teknolojileri-c-405369",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > muzik keyboard > Stüdyo & DJ Ekipmanları > Kayıt Teknolojileri > Stüdyo Donanımları ve Teknolojileri"
+    },
+    {
+      "id": "404273",
+      "parent_id": "404272",
+      "name": "Usb/Pcı/Fırewıre Interfaces",
+      "url": "https://www.hepsiburada.com/usb-pci-firewire-interfaces-c-404273",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > muzik keyboard > Stüdyo & DJ Ekipmanları > Kayıt Teknolojileri > Usb/Pcı/Fırewıre Interfaces"
+    },
+    {
+      "id": "80530120",
+      "parent_id": "411405",
+      "name": "Direct Box",
+      "url": "https://www.hepsiburada.com/direct-box-c-80530120",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > muzik keyboard > Stüdyo & DJ Ekipmanları > Stüdyo & Sahne Aksesuarları > Direct Box"
+    },
+    {
+      "id": "80530121",
+      "parent_id": "411405",
+      "name": "Hoparlör Aksesuarları",
+      "url": "https://www.hepsiburada.com/hoparlor-aksesuarlari-c-80530121",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > muzik keyboard > Stüdyo & DJ Ekipmanları > Stüdyo & Sahne Aksesuarları > Hoparlör Aksesuarları"
+    },
+    {
+      "id": "80530122",
+      "parent_id": "411405",
+      "name": "Stagebox",
+      "url": "https://www.hepsiburada.com/stagebox-c-80530122",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > muzik keyboard > Stüdyo & DJ Ekipmanları > Stüdyo & Sahne Aksesuarları > Stagebox"
+    },
+    {
+      "id": "80530123",
+      "parent_id": "411405",
+      "name": "Stüdyo Kabloları",
+      "url": "https://www.hepsiburada.com/studyo-kablolari-c-80530123",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > muzik keyboard > Stüdyo & DJ Ekipmanları > Stüdyo & Sahne Aksesuarları > Stüdyo Kabloları"
+    },
+    {
+      "id": "405067",
+      "parent_id": "402326",
+      "name": "Akustik Piyanolar",
+      "url": "https://www.hepsiburada.com/akustik-piyanolar-c-405067",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > pikaplar > tuslu calgilar > Piyano > Akustik Piyanolar"
+    },
+    {
+      "id": "405066",
+      "parent_id": "402326",
+      "name": "Dijital Piyanolar",
+      "url": "https://www.hepsiburada.com/dijital-piyanolar-c-405066",
+      "level": 5,
+      "path": "Kitap, Muzik, Film, Hobi > pikaplar > tuslu calgilar > Piyano > Dijital Piyanolar"
+    },
+    {
       "id": "26012243",
       "parent_id": "26012218",
       "name": "Hastane Ekipmanları",
@@ -32034,6 +34130,2134 @@
       "url": "https://www.hepsiburada.com/yay-c-80741004",
       "level": 5,
       "path": "Spor, Outdoor > uyku tulumlari > outdoor doga sporlari > Okçuluk > yay"
+    },
+    {
+      "id": "60001169",
+      "parent_id": "28002653",
+      "name": "temizlik sungerleri",
+      "url": "https://www.hepsiburada.com/temizlik-sungerleri-c-60001169",
+      "level": 5,
+      "path": "Supermarket, Pet Shop > deterjan temizlik urunleri > Bulaşık Deterjanları > Elde Yıkama > temizlik sungerleri"
+    },
+    {
+      "id": "60003017",
+      "parent_id": "28003016",
+      "name": "Katı Sabun",
+      "url": "https://www.hepsiburada.com/kati-sabunlar-c-60003017",
+      "level": 5,
+      "path": "Supermarket, Pet Shop > deterjan temizlik urunleri > Genel Temizlik > El Sabunu > Katı Sabun"
+    },
+    {
+      "id": "80361002",
+      "parent_id": "28003016",
+      "name": "Köpük Sabun",
+      "url": "https://www.hepsiburada.com/kopuk-sabun-c-80361002",
+      "level": 5,
+      "path": "Supermarket, Pet Shop > deterjan temizlik urunleri > Genel Temizlik > El Sabunu > Köpük Sabun"
+    },
+    {
+      "id": "60003016",
+      "parent_id": "28003016",
+      "name": "Sıvı Sabun",
+      "url": "https://www.hepsiburada.com/sivi-sabunlar-c-60003016",
+      "level": 5,
+      "path": "Supermarket, Pet Shop > deterjan temizlik urunleri > Genel Temizlik > El Sabunu > Sıvı Sabun"
+    },
+    {
+      "id": "28003118",
+      "parent_id": "60001344",
+      "name": "organik sut urunleri",
+      "url": "https://www.hepsiburada.com/organik-sut-urunleri-c-28003118",
+      "level": 5,
+      "path": "Supermarket, Pet Shop > icecek urunleri > Gazsız İçecek > UHT Süt > organik sut urunleri"
+    },
+    {
+      "id": "60001188",
+      "parent_id": "60001477",
+      "name": "havali silah aksesuarlari",
+      "url": "https://www.hepsiburada.com/havali-silah-aksesuarlari-c-60001188",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kara & Balık Av Malzemeleri > Kara Av Malzemeleri > Tüfek Tabanca Kılıf / Aksesuarları > havali silah aksesuarlari"
+    },
+    {
+      "id": "60004379",
+      "parent_id": "60004382",
+      "name": "Kayak Gözlüğü",
+      "url": "https://www.hepsiburada.com/gozlukler-c-60004379",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Aksesuarları > Kayak Gözlüğü"
+    },
+    {
+      "id": "80096013",
+      "parent_id": "60004382",
+      "name": "Kayak Kaskı",
+      "url": "https://www.hepsiburada.com/kayak-kaski-c-80096013",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Aksesuarları > Kayak Kaskı"
+    },
+    {
+      "id": "60004381",
+      "parent_id": "60004382",
+      "name": "Kayak Maskesi",
+      "url": "https://www.hepsiburada.com/spor-outdoor-maskeleri-bereleri-c-60004381",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Aksesuarları > Kayak Maskesi"
+    },
+    {
+      "id": "80096014",
+      "parent_id": "60004382",
+      "name": "Kayak Çantası",
+      "url": "https://www.hepsiburada.com/kayak-cantasi-c-80096014",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Aksesuarları > Kayak Çantası"
+    },
+    {
+      "id": "80096008",
+      "parent_id": "80096007",
+      "name": "Kayak",
+      "url": "https://www.hepsiburada.com/kayak-c-80096008",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Ekipmanları > Kayak"
+    },
+    {
+      "id": "80096010",
+      "parent_id": "80096007",
+      "name": "Kayak Batonu",
+      "url": "https://www.hepsiburada.com/kayak-batonu-c-80096010",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Ekipmanları > Kayak Batonu"
+    },
+    {
+      "id": "80096009",
+      "parent_id": "80096007",
+      "name": "Kayak Bağlama",
+      "url": "https://www.hepsiburada.com/kayak-baglama-c-80096009",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Ekipmanları > Kayak Bağlama"
+    },
+    {
+      "id": "60004380",
+      "parent_id": "60000200",
+      "name": "Kayak Eldiveni",
+      "url": "https://www.hepsiburada.com/kayak-eldivenleri-c-60004380",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Giyim > Kayak Eldiveni"
+    },
+    {
+      "id": "60004377",
+      "parent_id": "60000200",
+      "name": "Kayak Montu",
+      "url": "https://www.hepsiburada.com/montlar-c-60004377",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Giyim > Kayak Montu"
+    },
+    {
+      "id": "60004378",
+      "parent_id": "60000200",
+      "name": "Kayak Pantolonu",
+      "url": "https://www.hepsiburada.com/pantolonlar-c-60004378",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Giyim > Kayak Pantolonu"
+    },
+    {
+      "id": "80096012",
+      "parent_id": "60000200",
+      "name": "Kayak Çorabı",
+      "url": "https://www.hepsiburada.com/kayak-corabi-c-80096012",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Kayak > Kayak Giyim > Kayak Çorabı"
+    },
+    {
+      "id": "80097016",
+      "parent_id": "80097015",
+      "name": "Snowboard Kaskı",
+      "url": "https://www.hepsiburada.com/snowboard-kaski-c-80097016",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Snowboard > Snowboard Aksesuarları > Snowboard Kaskı"
+    },
+    {
+      "id": "80097018",
+      "parent_id": "80097015",
+      "name": "Snowboard Çantası",
+      "url": "https://www.hepsiburada.com/snowboard-cantasi-c-80097018",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Snowboard > Snowboard Aksesuarları > Snowboard Çantası"
+    },
+    {
+      "id": "80097008",
+      "parent_id": "1301207",
+      "name": "Snowboard",
+      "url": "https://www.hepsiburada.com/snowboard-c-80097008",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Snowboard > Snowboard Ekipmanları > Snowboard"
+    },
+    {
+      "id": "80097009",
+      "parent_id": "1301207",
+      "name": "Snowboard Bağlama",
+      "url": "https://www.hepsiburada.com/snowboard-baglama-c-80097009",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Snowboard > Snowboard Ekipmanları > Snowboard Bağlama"
+    },
+    {
+      "id": "80097011",
+      "parent_id": "80097010",
+      "name": "Snowboard Ayakkabısı",
+      "url": "https://www.hepsiburada.com/snowboard-ayakkabisi-c-80097011",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Snowboard > Snowboard Giyim > Snowboard Ayakkabısı"
+    },
+    {
+      "id": "80097012",
+      "parent_id": "80097010",
+      "name": "Snowboard Montu",
+      "url": "https://www.hepsiburada.com/snowboard-montu-c-80097012",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Snowboard > Snowboard Giyim > Snowboard Montu"
+    },
+    {
+      "id": "1302130",
+      "parent_id": "80097010",
+      "name": "Snowboard Pantolonu",
+      "url": "https://www.hepsiburada.com/snowboard-pantolonu-c-1302130",
+      "level": 6,
+      "path": "Spor, Outdoor > Outdoor > Kış Sporları > Snowboard > Snowboard Giyim > Snowboard Pantolonu"
+    },
+    {
+      "id": "80485028",
+      "parent_id": "80697032",
+      "name": "dis giyim urunleri",
+      "url": "https://www.hepsiburada.com/dis-giyim-urunleri-c-80485028",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Giyim > Yelek > dis giyim urunleri"
+    },
+    {
+      "id": "60003849",
+      "parent_id": "80697032",
+      "name": "topuklu bot",
+      "url": "https://www.hepsiburada.com/topuklu-bot-c-60003849",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Giyim > Yelek > topuklu bot"
+    },
+    {
+      "id": "60007091",
+      "parent_id": "60007054",
+      "name": "Amortisör Aksesuarları",
+      "url": "https://www.hepsiburada.com/bisiklet-amortisor-aksesuarlari-c-60007091",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Amortisör & Maşa Grubu > Amortisör Aksesuarları"
+    },
+    {
+      "id": "60007067",
+      "parent_id": "60007054",
+      "name": "Maşa",
+      "url": "https://www.hepsiburada.com/bisiklet-masasi-c-60007067",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Amortisör & Maşa Grubu > Maşa"
+    },
+    {
+      "id": "60007066",
+      "parent_id": "60007054",
+      "name": "Orta Amortisör",
+      "url": "https://www.hepsiburada.com/orta-amortisor-c-60007066",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Amortisör & Maşa Grubu > Orta Amortisör"
+    },
+    {
+      "id": "60007065",
+      "parent_id": "60007054",
+      "name": "Ön Amortisör",
+      "url": "https://www.hepsiburada.com/on-amortisor-c-60007065",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Amortisör & Maşa Grubu > Ön Amortisör"
+    },
+    {
+      "id": "60007139",
+      "parent_id": "60007049",
+      "name": "Fren Ayakları",
+      "url": "https://www.hepsiburada.com/fren-ayagi-c-60007139",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Ayakları"
+    },
+    {
+      "id": "60007063",
+      "parent_id": "60007049",
+      "name": "Fren Balatası",
+      "url": "https://www.hepsiburada.com/bisiklet-fren-balatasi-c-60007063",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Balatası"
+    },
+    {
+      "id": "60007061",
+      "parent_id": "60007049",
+      "name": "Fren Boruları",
+      "url": "https://www.hepsiburada.com/bisiklet-fren-hortumu-c-60007061",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Boruları"
+    },
+    {
+      "id": "60007059",
+      "parent_id": "60007049",
+      "name": "Fren Kolu",
+      "url": "https://www.hepsiburada.com/fren-kolu-c-60007059",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Kolu"
+    },
+    {
+      "id": "60007062",
+      "parent_id": "60007049",
+      "name": "Fren Pabucu",
+      "url": "https://www.hepsiburada.com/fren-pabucu-c-60007062",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Pabucu"
+    },
+    {
+      "id": "60007064",
+      "parent_id": "60007049",
+      "name": "Fren Rotoru",
+      "url": "https://www.hepsiburada.com/fren-rotoru-c-60007064",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Rotoru"
+    },
+    {
+      "id": "60007138",
+      "parent_id": "60007049",
+      "name": "Fren Takımı",
+      "url": "https://www.hepsiburada.com/bisiklet-fren-takimi-c-60007138",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Takımı"
+    },
+    {
+      "id": "60007060",
+      "parent_id": "60007049",
+      "name": "Fren Teli",
+      "url": "https://www.hepsiburada.com/bisiklet-fren-teli-c-60007060",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Fren Teli"
+    },
+    {
+      "id": "60007142",
+      "parent_id": "60007049",
+      "name": "Kaliper",
+      "url": "https://www.hepsiburada.com/bisiklet-fren-kaliperi-c-60007142",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Fren Grubu > Kaliper"
+    },
+    {
+      "id": "60007083",
+      "parent_id": "60007057",
+      "name": "Furş Yatağı",
+      "url": "https://www.hepsiburada.com/furs-yatagi-c-60007083",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Gidon Grubu > Furş Yatağı"
+    },
+    {
+      "id": "60007081",
+      "parent_id": "60007057",
+      "name": "Gidon",
+      "url": "https://www.hepsiburada.com/gidon-c-60007081",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Gidon Grubu > Gidon"
+    },
+    {
+      "id": "60007143",
+      "parent_id": "60007057",
+      "name": "Gidon Bandı",
+      "url": "https://www.hepsiburada.com/gidon-bandi-c-60007143",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Gidon Grubu > Gidon Bandı"
+    },
+    {
+      "id": "60007082",
+      "parent_id": "60007057",
+      "name": "Gidon Boynu",
+      "url": "https://www.hepsiburada.com/gidon-boynu-c-60007082",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Gidon Grubu > Gidon Boynu"
+    },
+    {
+      "id": "60007080",
+      "parent_id": "60007056",
+      "name": "Arka Göbek",
+      "url": "https://www.hepsiburada.com/arka-gobek-c-60007080",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Göbek Grubu > Arka Göbek"
+    },
+    {
+      "id": "60007079",
+      "parent_id": "60007056",
+      "name": "Orta Göbek",
+      "url": "https://www.hepsiburada.com/orta-gobek-c-60007079",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Göbek Grubu > Orta Göbek"
+    },
+    {
+      "id": "60007078",
+      "parent_id": "60007056",
+      "name": "Ön Göbek",
+      "url": "https://www.hepsiburada.com/on-gobek-c-60007078",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Göbek Grubu > Ön Göbek"
+    },
+    {
+      "id": "60007089",
+      "parent_id": "60007058",
+      "name": "Jant Takımı",
+      "url": "https://www.hepsiburada.com/bisiklet-jant-takimi-c-60007089",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Jant Grubu > Jant Takımı"
+    },
+    {
+      "id": "60007090",
+      "parent_id": "60007058",
+      "name": "Jant Teli",
+      "url": "https://www.hepsiburada.com/jant-teli-c-60007090",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Jant Grubu > Jant Teli"
+    },
+    {
+      "id": "60007149",
+      "parent_id": "60007058",
+      "name": "Çember",
+      "url": "https://www.hepsiburada.com/jant-cemberi-c-60007149",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Jant Grubu > Çember"
+    },
+    {
+      "id": "60007148",
+      "parent_id": "60007146",
+      "name": "Kadro",
+      "url": "https://www.hepsiburada.com/bisiklet-kadrosu-c-60007148",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Kadro Grubu > Kadro"
+    },
+    {
+      "id": "60007147",
+      "parent_id": "60007146",
+      "name": "Kulak",
+      "url": "https://www.hepsiburada.com/kadro-kulagi-c-60007147",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Kadro Grubu > Kulak"
+    },
+    {
+      "id": "60007069",
+      "parent_id": "60007050",
+      "name": "Dış Lastik",
+      "url": "https://www.hepsiburada.com/bisiklet-dis-lastik-c-60007069",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Lastik Grubu > Dış Lastik"
+    },
+    {
+      "id": "60007070",
+      "parent_id": "60007050",
+      "name": "Yama & Tamir Malzemeleri",
+      "url": "https://www.hepsiburada.com/lastik-tamir-kiti-c-60007070",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Lastik Grubu > Yama & Tamir Malzemeleri"
+    },
+    {
+      "id": "60007068",
+      "parent_id": "60007050",
+      "name": "İç Lastik",
+      "url": "https://www.hepsiburada.com/ic-lastik-c-60007068",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Lastik Grubu > İç Lastik"
+    },
+    {
+      "id": "60007084",
+      "parent_id": "60007052",
+      "name": "Sele",
+      "url": "https://www.hepsiburada.com/bisiklet-selesi-c-60007084",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Sele Grubu > Sele"
+    },
+    {
+      "id": "60007085",
+      "parent_id": "60007052",
+      "name": "Sele Borusu",
+      "url": "https://www.hepsiburada.com/sele-borusu-c-60007085",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Sele Grubu > Sele Borusu"
+    },
+    {
+      "id": "60007145",
+      "parent_id": "60007052",
+      "name": "Sele Borusu Adaptörü",
+      "url": "https://www.hepsiburada.com/sele-borusu-adaptoru-c-60007145",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Sele Grubu > Sele Borusu Adaptörü"
+    },
+    {
+      "id": "60007144",
+      "parent_id": "60007052",
+      "name": "Sele Kelepçesi",
+      "url": "https://www.hepsiburada.com/sele-kelepcesi-c-60007144",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Sele Grubu > Sele Kelepçesi"
+    },
+    {
+      "id": "60007072",
+      "parent_id": "60007051",
+      "name": "Arka Aktarıcı",
+      "url": "https://www.hepsiburada.com/arka-aktarici-c-60007072",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Arka Aktarıcı"
+    },
+    {
+      "id": "60007073",
+      "parent_id": "60007051",
+      "name": "Ayna Kol",
+      "url": "https://www.hepsiburada.com/bisiklet-aynakol-c-60007073",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Ayna Kol"
+    },
+    {
+      "id": "60007074",
+      "parent_id": "60007051",
+      "name": "Ruble",
+      "url": "https://www.hepsiburada.com/bisiklet-rublesi-c-60007074",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Ruble"
+    },
+    {
+      "id": "60007077",
+      "parent_id": "60007051",
+      "name": "Vites Boruları",
+      "url": "https://www.hepsiburada.com/bisiklet-vites-borusu-c-60007077",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Vites Boruları"
+    },
+    {
+      "id": "60007075",
+      "parent_id": "60007051",
+      "name": "Vites Kolu",
+      "url": "https://www.hepsiburada.com/vites-kolu-c-60007075",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Vites Kolu"
+    },
+    {
+      "id": "80857585",
+      "parent_id": "60007051",
+      "name": "Vites Seti",
+      "url": "https://www.hepsiburada.com/vites-seti-c-80857585",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Vites Seti"
+    },
+    {
+      "id": "60007076",
+      "parent_id": "60007051",
+      "name": "Vites Teli",
+      "url": "https://www.hepsiburada.com/vites-teli-c-60007076",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Vites Teli"
+    },
+    {
+      "id": "60007071",
+      "parent_id": "60007051",
+      "name": "Ön Aktarıcı",
+      "url": "https://www.hepsiburada.com/on-aktarici-c-60007071",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Bisiklet > Yedek Parça & Bakım > Vites Grubu > Ön Aktarıcı"
+    },
+    {
+      "id": "60008003",
+      "parent_id": "60008004",
+      "name": "Takı Yapımı Malzemeleri",
+      "url": "https://www.hepsiburada.com/taki-yapim-malzemesi-c-60008003",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Bale > boncuk payetler > Takı Yapımı Malzemeleri"
+    },
+    {
+      "id": "60008008",
+      "parent_id": "60008004",
+      "name": "miyuki",
+      "url": "https://www.hepsiburada.com/miyuki-c-60008008",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Bale > boncuk payetler > miyuki"
+    },
+    {
+      "id": "60008007",
+      "parent_id": "60008004",
+      "name": "taki aparati",
+      "url": "https://www.hepsiburada.com/taki-aparati-c-60008007",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Bale > boncuk payetler > taki aparati"
+    },
+    {
+      "id": "372245",
+      "parent_id": "372243",
+      "name": "Plastik Uçlu Dartlar",
+      "url": "https://www.hepsiburada.com/plastik-uclu-dartlar-c-372245",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Dart > Dartlar > Plastik Uçlu Dartlar"
+    },
+    {
+      "id": "372244",
+      "parent_id": "372243",
+      "name": "Çelik Uçlu Dartlar",
+      "url": "https://www.hepsiburada.com/celik-uclu-dartlar-c-372244",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Dart > Dartlar > Çelik Uçlu Dartlar"
+    },
+    {
+      "id": "60004376",
+      "parent_id": "60003831",
+      "name": "Outdoor Kar Botu",
+      "url": "https://www.hepsiburada.com/outdoor-kar-botlari-c-60004376",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Kayak - Snowboard > Gözlük > Outdoor Kar Botu"
+    },
+    {
+      "id": "27079374",
+      "parent_id": "369359",
+      "name": "Hazır Raketler",
+      "url": "https://www.hepsiburada.com/hazir-raketler-c-27079374",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Masa Tenisi > Masa Tenisi Raketleri > Hazır Raketler"
+    },
+    {
+      "id": "27090084",
+      "parent_id": "369359",
+      "name": "Tahtalar",
+      "url": "https://www.hepsiburada.com/tahtalar-c-27090084",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Masa Tenisi > Masa Tenisi Raketleri > Tahtalar"
+    },
+    {
+      "id": "19151",
+      "parent_id": "60002957",
+      "name": "Gripler",
+      "url": "https://www.hepsiburada.com/tenis-gripler-c-19151",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Tenis > Tenis Aksesuarları > Gripler"
+    },
+    {
+      "id": "361306",
+      "parent_id": "60002957",
+      "name": "Kordajlar (Strings)",
+      "url": "https://www.hepsiburada.com/kordajlar-strings-c-361306",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Tenis > Tenis Aksesuarları > Kordajlar (Strings)"
+    },
+    {
+      "id": "363147",
+      "parent_id": "60002957",
+      "name": "Tenis Ekipmanları",
+      "url": "https://www.hepsiburada.com/tenis-ekipmanlari-c-363147",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Tenis > Tenis Aksesuarları > Tenis Ekipmanları"
+    },
+    {
+      "id": "60004714",
+      "parent_id": "16032934",
+      "name": "Altın Bileklik",
+      "url": "https://www.hepsiburada.com/altin-bileklikler-c-60004714",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > Altın Bileklik"
+    },
+    {
+      "id": "60001611",
+      "parent_id": "16032934",
+      "name": "Bijuteri Bileklik",
+      "url": "https://www.hepsiburada.com/bijuteri-bileklikler-c-60001611",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > Bijuteri Bileklik"
+    },
+    {
+      "id": "60007547",
+      "parent_id": "16032934",
+      "name": "Doğal Taş Bileklik",
+      "url": "https://www.hepsiburada.com/dogal-tas-bileklik-c-60007547",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > Doğal Taş Bileklik"
+    },
+    {
+      "id": "530218",
+      "parent_id": "16032934",
+      "name": "Gümüş Bileklik",
+      "url": "https://www.hepsiburada.com/gumus-bileklikler-c-530218",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > Gümüş Bileklik"
+    },
+    {
+      "id": "16032959",
+      "parent_id": "16032934",
+      "name": "Pırlanta Bileklik",
+      "url": "https://www.hepsiburada.com/pirlanta-bileklikler-c-16032959",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > Pırlanta Bileklik"
+    },
+    {
+      "id": "60005559",
+      "parent_id": "16032934",
+      "name": "Zirkon Bileklik",
+      "url": "https://www.hepsiburada.com/swarovski-bileklikler-c-60005559",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > Zirkon Bileklik"
+    },
+    {
+      "id": "80857380",
+      "parent_id": "16032934",
+      "name": "Çelik Bileklik",
+      "url": "https://www.hepsiburada.com/celik-bileklik-c-80857380",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > Çelik Bileklik"
+    },
+    {
+      "id": "16033002",
+      "parent_id": "16032934",
+      "name": "İnci Bileklik",
+      "url": "https://www.hepsiburada.com/inci-bileklikler-c-16033002",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > Voleybol > bileklikler > İnci Bileklik"
+    },
+    {
+      "id": "60005663",
+      "parent_id": "20029255",
+      "name": "Motosiklet Yazlık Eldiven",
+      "url": "https://www.hepsiburada.com/motosiklet-yazlik-eldiven-c-60005663",
+      "level": 6,
+      "path": "Spor, Outdoor > Spor / Fitness > Spor Branşları > kasklar > motosiklet eldivenleri > Motosiklet Yazlık Eldiven"
+    },
+    {
+      "id": "12024561",
+      "parent_id": "12053359",
+      "name": "abiye elbiseler",
+      "url": "https://www.hepsiburada.com/abiye-elbiseler-c-12024561",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > Giyim > Bolero > abiye elbiseler"
+    },
+    {
+      "id": "16032932",
+      "parent_id": "12053359",
+      "name": "kolyeler",
+      "url": "https://www.hepsiburada.com/kolyeler-c-16032932",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > Giyim > Bolero > kolyeler"
+    },
+    {
+      "id": "60006714",
+      "parent_id": "12095600",
+      "name": "Eşofman Altı",
+      "url": "https://www.hepsiburada.com/esofman-alti-c-60006714",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > Giyim > Eşofman > Eşofman Altı"
+    },
+    {
+      "id": "60006715",
+      "parent_id": "12095600",
+      "name": "Eşofman Takımı",
+      "url": "https://www.hepsiburada.com/bayan-esofman-takimi-c-60006715",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > Giyim > Eşofman > Eşofman Takımı"
+    },
+    {
+      "id": "60006716",
+      "parent_id": "12095600",
+      "name": "Eşofman Üstü",
+      "url": "https://www.hepsiburada.com/esofman-ustu-c-60006716",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > Giyim > Eşofman > Eşofman Üstü"
+    },
+    {
+      "id": "80843000",
+      "parent_id": "60000682",
+      "name": "Aksesuar",
+      "url": "https://www.hepsiburada.com/aksesuar-c-80843000",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Aksesuar"
+    },
+    {
+      "id": "60000686",
+      "parent_id": "60000682",
+      "name": "Babydoll",
+      "url": "https://www.hepsiburada.com/babydoll-c-60000686",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Babydoll"
+    },
+    {
+      "id": "60004879",
+      "parent_id": "60000682",
+      "name": "Fantezi Kostüm",
+      "url": "https://www.hepsiburada.com/bayan-fantezi-kostumleri-c-60004879",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Fantezi Kostüm"
+    },
+    {
+      "id": "60004876",
+      "parent_id": "60000682",
+      "name": "Fantezi İç Giyim",
+      "url": "https://www.hepsiburada.com/bayan-fantezi-ic-giyim-urunleri-c-60004876",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Fantezi İç Giyim"
+    },
+    {
+      "id": "60000684",
+      "parent_id": "60000682",
+      "name": "Jartiyer",
+      "url": "https://www.hepsiburada.com/jartiyerler-c-60000684",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Jartiyer"
+    },
+    {
+      "id": "60004880",
+      "parent_id": "60000682",
+      "name": "Jartiyer Takım",
+      "url": "https://www.hepsiburada.com/jartiyer-takimlari-c-60004880",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Jartiyer Takım"
+    },
+    {
+      "id": "60004878",
+      "parent_id": "60000682",
+      "name": "Jartiyer Çorabı",
+      "url": "https://www.hepsiburada.com/jartiyer-coraplari-c-60004878",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Jartiyer Çorabı"
+    },
+    {
+      "id": "60004877",
+      "parent_id": "60000682",
+      "name": "Vücut Çorabı",
+      "url": "https://www.hepsiburada.com/vucut-coraplari-c-60004877",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bayan giyim modelleri > İç Giyim > Fantezi Giyim > Vücut Çorabı"
+    },
+    {
+      "id": "60002920",
+      "parent_id": "60001549",
+      "name": "Fırça ve Moplar",
+      "url": "https://www.hepsiburada.com/firca-moplar-c-60002920",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > Beyaz Eşya / Mutfak > Ev Gereçleri > Fırça ve Moplar"
+    },
+    {
+      "id": "60002919",
+      "parent_id": "60001549",
+      "name": "Plastik Temizlik Malzemeleri",
+      "url": "https://www.hepsiburada.com/plastik-temizlik-malzemeleri-c-60002919",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > Beyaz Eşya / Mutfak > Ev Gereçleri > Plastik Temizlik Malzemeleri"
+    },
+    {
+      "id": "60003184",
+      "parent_id": "60001549",
+      "name": "Pratik Ev Gereçleri",
+      "url": "https://www.hepsiburada.com/pratik-ev-gerecleri-c-60003184",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > Beyaz Eşya / Mutfak > Ev Gereçleri > Pratik Ev Gereçleri"
+    },
+    {
+      "id": "60002925",
+      "parent_id": "60001549",
+      "name": "Çöp Kovaları",
+      "url": "https://www.hepsiburada.com/cop-kovalari-c-60002925",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > Beyaz Eşya / Mutfak > Ev Gereçleri > Çöp Kovaları"
+    },
+    {
+      "id": "60000039",
+      "parent_id": "22535",
+      "name": "Cam Tencere",
+      "url": "https://www.hepsiburada.com/cam-tencereler-c-60000039",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > dokum tencereler > Tencere Setleri Tencereler > Cam Tencere"
+    },
+    {
+      "id": "60000275",
+      "parent_id": "22535",
+      "name": "Emaye Tencere",
+      "url": "https://www.hepsiburada.com/emaye-tencereler-c-60000275",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > dokum tencereler > Tencere Setleri Tencereler > Emaye Tencere"
+    },
+    {
+      "id": "60005719",
+      "parent_id": "22535",
+      "name": "Granit Tencere",
+      "url": "https://www.hepsiburada.com/granit-tencereler-c-60005719",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > dokum tencereler > Tencere Setleri Tencereler > Granit Tencere"
+    },
+    {
+      "id": "60003221",
+      "parent_id": "22535",
+      "name": "Porselen Tencere",
+      "url": "https://www.hepsiburada.com/porselen-tencereler-c-60003221",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > dokum tencereler > Tencere Setleri Tencereler > Porselen Tencere"
+    },
+    {
+      "id": "60000277",
+      "parent_id": "22535",
+      "name": "Teflon Tencere",
+      "url": "https://www.hepsiburada.com/teflon-tencereler-c-60000277",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > dokum tencereler > Tencere Setleri Tencereler > Teflon Tencere"
+    },
+    {
+      "id": "60006193",
+      "parent_id": "22535",
+      "name": "Titanyum Tencere",
+      "url": "https://www.hepsiburada.com/titanyum-tencereler-c-60006193",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > dokum tencereler > Tencere Setleri Tencereler > Titanyum Tencere"
+    },
+    {
+      "id": "233735",
+      "parent_id": "60003715",
+      "name": "Bardak Altlıkları",
+      "url": "https://www.hepsiburada.com/bardak-altliklari-c-233735",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > fincanlar > Bardaklar > Bardak Altlıkları"
+    },
+    {
+      "id": "233299",
+      "parent_id": "60003715",
+      "name": "Su Bardakları",
+      "url": "https://www.hepsiburada.com/su-bardaklari-c-233299",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > fincanlar > Bardaklar > Su Bardakları"
+    },
+    {
+      "id": "22352",
+      "parent_id": "60003715",
+      "name": "cay bardaklari",
+      "url": "https://www.hepsiburada.com/cay-bardaklari-c-22352",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > fincanlar > Bardaklar > cay bardaklari"
+    },
+    {
+      "id": "22351",
+      "parent_id": "60003715",
+      "name": "kupalar",
+      "url": "https://www.hepsiburada.com/kupalar-c-22351",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > fincanlar > Bardaklar > kupalar"
+    },
+    {
+      "id": "22339",
+      "parent_id": "60003715",
+      "name": "mesrubat bardaklari",
+      "url": "https://www.hepsiburada.com/mesrubat-bardaklari-c-22339",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > fincanlar > Bardaklar > mesrubat bardaklari"
+    },
+    {
+      "id": "60007555",
+      "parent_id": "60003715",
+      "name": "plastik bardak",
+      "url": "https://www.hepsiburada.com/plastik-bardak-c-60007555",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > beyaz esya ankastreler > fincanlar > Bardaklar > plastik bardak"
+    },
+    {
+      "id": "60008837",
+      "parent_id": "60008824",
+      "name": "Dahili Klavye",
+      "url": "https://www.hepsiburada.com/dahili-klavye-yedek-parcalari-c-60008837",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > Bilgisayar Yedek Parçaları > Dizüstü Bilgisayar Laptop > Dahili Klavye"
+    },
+    {
+      "id": "60008836",
+      "parent_id": "60008824",
+      "name": "Ekran Menteşesi",
+      "url": "https://www.hepsiburada.com/ekran-mentesesi-c-60008836",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > Bilgisayar Yedek Parçaları > Dizüstü Bilgisayar Laptop > Ekran Menteşesi"
+    },
+    {
+      "id": "60008835",
+      "parent_id": "60008824",
+      "name": "Kasa & Kasa Parçaları",
+      "url": "https://www.hepsiburada.com/laptop-kasa-yedek-parcasi-c-60008835",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > Bilgisayar Yedek Parçaları > Dizüstü Bilgisayar Laptop > Kasa & Kasa Parçaları"
+    },
+    {
+      "id": "60008827",
+      "parent_id": "60008825",
+      "name": "Batarya",
+      "url": "https://www.hepsiburada.com/tablet-bataryasi-c-60008827",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > Bilgisayar Yedek Parçaları > Tablet > Batarya"
+    },
+    {
+      "id": "60008826",
+      "parent_id": "60008825",
+      "name": "Ekran (LCD Panel)",
+      "url": "https://www.hepsiburada.com/tablet-ekran-lcd-panel-c-60008826",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > Bilgisayar Yedek Parçaları > Tablet > Ekran (LCD Panel)"
+    },
+    {
+      "id": "60008833",
+      "parent_id": "60008825",
+      "name": "Tuş Takımı",
+      "url": "https://www.hepsiburada.com/tablet-tus-takimi-c-60008833",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > Bilgisayar Yedek Parçaları > Tablet > Tuş Takımı"
+    },
+    {
+      "id": "80131007",
+      "parent_id": "162",
+      "name": "Barkod Etiketi",
+      "url": "https://www.hepsiburada.com/barkod-etiketi-c-80131007",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > barkod okuyucular > Barkod Ürünleri > Barkod Etiketi"
+    },
+    {
+      "id": "106502",
+      "parent_id": "162",
+      "name": "Barkod, Etiket Yazıcı",
+      "url": "https://www.hepsiburada.com/barkod-yazicilar-c-106502",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > barkod okuyucular > Barkod Ürünleri > Barkod, Etiket Yazıcı"
+    },
+    {
+      "id": "95088",
+      "parent_id": "162",
+      "name": "El Terminalleri",
+      "url": "https://www.hepsiburada.com/el-terminalleri-c-95088",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > barkod okuyucular > Barkod Ürünleri > El Terminalleri"
+    },
+    {
+      "id": "80137035",
+      "parent_id": "162",
+      "name": "Ribon",
+      "url": "https://www.hepsiburada.com/ribon-c-80137035",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > bilgisayar sistemleri ve ekipmanlari > barkod okuyucular > Barkod Ürünleri > Ribon"
+    },
+    {
+      "id": "60002251",
+      "parent_id": "60007729",
+      "name": "seramikler karolar",
+      "url": "https://www.hepsiburada.com/seramikler-karolar-c-60002251",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > cep telefonu aksesuarlari > Cep Telefonu Yedek Parçaları > Hoparlör > seramikler karolar"
+    },
+    {
+      "id": "80322220",
+      "parent_id": "60003764",
+      "name": "Kevgir",
+      "url": "https://www.hepsiburada.com/kevgir-c-80322220",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > elektrikli mutfak aletleri > Mutfak Tartıları > servis aletleri > Kevgir"
+    },
+    {
+      "id": "80330140",
+      "parent_id": "60003764",
+      "name": "Mutfak Kepçesi",
+      "url": "https://www.hepsiburada.com/mutfak-kepcesi-c-80330140",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > elektrikli mutfak aletleri > Mutfak Tartıları > servis aletleri > Mutfak Kepçesi"
+    },
+    {
+      "id": "80322219",
+      "parent_id": "60003764",
+      "name": "Mutfak Makası",
+      "url": "https://www.hepsiburada.com/mutfak-makasi-c-80322219",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > elektrikli mutfak aletleri > Mutfak Tartıları > servis aletleri > Mutfak Makası"
+    },
+    {
+      "id": "80320062",
+      "parent_id": "60003764",
+      "name": "Mutfak Maşası",
+      "url": "https://www.hepsiburada.com/mutfak-masasi-c-80320062",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > elektrikli mutfak aletleri > Mutfak Tartıları > servis aletleri > Mutfak Maşası"
+    },
+    {
+      "id": "60005539",
+      "parent_id": "60003764",
+      "name": "Mutfak Spatulası",
+      "url": "https://www.hepsiburada.com/mutfak-spatulasi-c-60005539",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > elektrikli mutfak aletleri > Mutfak Tartıları > servis aletleri > Mutfak Spatulası"
+    },
+    {
+      "id": "80667011",
+      "parent_id": "60003764",
+      "name": "Servis Setleri",
+      "url": "https://www.hepsiburada.com/servis-setleri-c-80667011",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > elektrikli mutfak aletleri > Mutfak Tartıları > servis aletleri > Servis Setleri"
+    },
+    {
+      "id": "18021495",
+      "parent_id": "18021333",
+      "name": "Kanepe, Çekyat",
+      "url": "https://www.hepsiburada.com/kanepeler-cekyatlar-c-18021495",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > sobalar isiticilar > Infrared Isıtıcılar > kanepe koltuklar > Kanepe, Çekyat"
+    },
+    {
+      "id": "60000854",
+      "parent_id": "18021333",
+      "name": "Köşe Koltuk Takımı",
+      "url": "https://www.hepsiburada.com/kose-koltuk-takimlari-c-60000854",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > sobalar isiticilar > Infrared Isıtıcılar > kanepe koltuklar > Köşe Koltuk Takımı"
+    },
+    {
+      "id": "80577112",
+      "parent_id": "18021333",
+      "name": "Sofa",
+      "url": "https://www.hepsiburada.com/sofa-c-80577112",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > sobalar isiticilar > Infrared Isıtıcılar > kanepe koltuklar > Sofa"
+    },
+    {
+      "id": "18021494",
+      "parent_id": "18021333",
+      "name": "Tekli Koltuk, Berjer",
+      "url": "https://www.hepsiburada.com/tekli-koltuk-berjerler-c-18021494",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > sobalar isiticilar > Infrared Isıtıcılar > kanepe koltuklar > Tekli Koltuk, Berjer"
+    },
+    {
+      "id": "18021388",
+      "parent_id": "18021336",
+      "name": "TV Sehpası",
+      "url": "https://www.hepsiburada.com/tv-sehpalari-c-18021388",
+      "level": 6,
+      "path": "Spor, Outdoor > kramponlar > tv aksesuarlari > tv uniteleri > tv sehpalari uniteleri > TV Sehpası"
+    },
+    {
+      "id": "20024657",
+      "parent_id": "20024662",
+      "name": "Oto Aydınlatma Lambaları",
+      "url": "https://www.hepsiburada.com/oto-aydinlatma-lambalari-c-20024657",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > Scooter Patenler Kaykaylar > Scooterlar > flash lambalar > Oto Aydınlatma Lambaları"
+    },
+    {
+      "id": "60007976",
+      "parent_id": "60007979",
+      "name": "Örgü & Dantel Malzemeleri",
+      "url": "https://www.hepsiburada.com/orgu-dantel-malzemeleri-c-60007976",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > amigurumi > sis tiglar > Örgü & Dantel Malzemeleri"
+    },
+    {
+      "id": "80383005",
+      "parent_id": "80383003",
+      "name": "Bebek Kanguru",
+      "url": "https://www.hepsiburada.com/bebek-kanguru-c-80383005",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek bakim cantalari > Bebek Taşıma > Bebek Kanguru"
+    },
+    {
+      "id": "80383006",
+      "parent_id": "80383003",
+      "name": "Bebek Taşıma Seti",
+      "url": "https://www.hepsiburada.com/bebek-tasima-seti-c-80383006",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek bakim cantalari > Bebek Taşıma > Bebek Taşıma Seti"
+    },
+    {
+      "id": "80444027",
+      "parent_id": "80383003",
+      "name": "Bebek Yuvası",
+      "url": "https://www.hepsiburada.com/bebek-yuvasi-c-80444027",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek bakim cantalari > Bebek Taşıma > Bebek Yuvası"
+    },
+    {
+      "id": "302476",
+      "parent_id": "80383003",
+      "name": "Portbebe",
+      "url": "https://www.hepsiburada.com/portbebe-c-302476",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek bakim cantalari > Bebek Taşıma > Portbebe"
+    },
+    {
+      "id": "302592",
+      "parent_id": "80383032",
+      "name": "Banyo Aksesuar",
+      "url": "https://www.hepsiburada.com/bebek-banyo-malzemeleri-c-302592",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek kuveti > Bebek Banyo > Banyo Aksesuar"
+    },
+    {
+      "id": "80383036",
+      "parent_id": "80383032",
+      "name": "Banyo Köpüğü",
+      "url": "https://www.hepsiburada.com/banyo-kopugu-c-80383036",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek kuveti > Bebek Banyo > Banyo Köpüğü"
+    },
+    {
+      "id": "303172",
+      "parent_id": "80383032",
+      "name": "Banyo Termometresi",
+      "url": "https://www.hepsiburada.com/bebek-dereceleri-c-303172",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek kuveti > Bebek Banyo > Banyo Termometresi"
+    },
+    {
+      "id": "80383035",
+      "parent_id": "80383032",
+      "name": "Bebek Sabunu",
+      "url": "https://www.hepsiburada.com/bebek-sabunu-c-80383035",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek kuveti > Bebek Banyo > Bebek Sabunu"
+    },
+    {
+      "id": "80492098",
+      "parent_id": "301159",
+      "name": "Bebek Bakım Seti",
+      "url": "https://www.hepsiburada.com/bebek-bakim-seti-c-80492098",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek pisik kremi yaglari > Bebek Cilt Bakımı & Kozmetik Ürünleri > Bebek Bakım Seti"
+    },
+    {
+      "id": "302626",
+      "parent_id": "301159",
+      "name": "Güneş Bakım Ürünü",
+      "url": "https://www.hepsiburada.com/bebek-gunes-bakim-urunleri-ve-kremleri-c-302626",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek pisik kremi yaglari > Bebek Cilt Bakımı & Kozmetik Ürünleri > Güneş Bakım Ürünü"
+    },
+    {
+      "id": "80383020",
+      "parent_id": "301159",
+      "name": "Krem & Losyon",
+      "url": "https://www.hepsiburada.com/krem-losyon-c-80383020",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek pisik kremi yaglari > Bebek Cilt Bakımı & Kozmetik Ürünleri > Krem & Losyon"
+    },
+    {
+      "id": "80381049",
+      "parent_id": "80381044",
+      "name": "Bebek Yüz Örtüsü",
+      "url": "https://www.hepsiburada.com/bebek-yuz-ortusu-c-80381049",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Tekstili > Bebek Yüz Örtüsü"
+    },
+    {
+      "id": "80381048",
+      "parent_id": "80381044",
+      "name": "Cibinlik ve Aksesuarı",
+      "url": "https://www.hepsiburada.com/cibinlik-ve-aksesuari-c-80381048",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Tekstili > Cibinlik ve Aksesuarı"
+    },
+    {
+      "id": "23017934",
+      "parent_id": "80381044",
+      "name": "Uyku Seti",
+      "url": "https://www.hepsiburada.com/bebek-nevresim-uyku-setleri-c-23017934",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Tekstili > Uyku Seti"
+    },
+    {
+      "id": "80381046",
+      "parent_id": "80381044",
+      "name": "Yastık Kılıfı",
+      "url": "https://www.hepsiburada.com/bebek-yastik-kilifi-c-80381046",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Tekstili > Yastık Kılıfı"
+    },
+    {
+      "id": "80381047",
+      "parent_id": "80381044",
+      "name": "Çarşaf",
+      "url": "https://www.hepsiburada.com/bebek-carsaf-c-80381047",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Tekstili > Çarşaf"
+    },
+    {
+      "id": "80381050",
+      "parent_id": "301127",
+      "name": "Bebek Banyo Tekstili",
+      "url": "https://www.hepsiburada.com/bebek-banyo-tekstili-c-80381050",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Çocuk Odaları > Bebek Banyo Tekstili"
+    },
+    {
+      "id": "23012883",
+      "parent_id": "301127",
+      "name": "Dekorasyon",
+      "url": "https://www.hepsiburada.com/bebek-dekorasyon-urunleri-c-23012883",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Çocuk Odaları > Dekorasyon"
+    },
+    {
+      "id": "23012961",
+      "parent_id": "301127",
+      "name": "bebek odasi mobilyalari",
+      "url": "https://www.hepsiburada.com/bebek-odasi-mobilyalari-c-23012961",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Çocuk Odaları > bebek odasi mobilyalari"
+    },
+    {
+      "id": "302201",
+      "parent_id": "301127",
+      "name": "masa sandalye",
+      "url": "https://www.hepsiburada.com/masa-sandalye-c-302201",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yataklari > Bebek Çocuk Odaları > masa sandalye"
+    },
+    {
+      "id": "80382017",
+      "parent_id": "60002062",
+      "name": "Aktivite Merkezi",
+      "url": "https://www.hepsiburada.com/aktivite-merkezi-c-80382017",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yurutecleri > Bebek Aktivite ve Oyun > Aktivite Merkezi"
+    },
+    {
+      "id": "23032027",
+      "parent_id": "60002062",
+      "name": "Oyun Halısı ve Matı",
+      "url": "https://www.hepsiburada.com/oyun-halilari-aktivite-merkezleri-c-23032027",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > bebek yurutecleri > Bebek Aktivite ve Oyun > Oyun Halısı ve Matı"
+    },
+    {
+      "id": "80383013",
+      "parent_id": "309942",
+      "name": "Göğüs Ucu Kremi",
+      "url": "https://www.hepsiburada.com/gogus-ucu-kremi-c-80383013",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > catlak kremi > Anne Kozmetik Ürünleri > Göğüs Ucu Kremi"
+    },
+    {
+      "id": "60002061",
+      "parent_id": "309942",
+      "name": "anne giyim kozmetik bakim urunleri",
+      "url": "https://www.hepsiburada.com/anne-giyim-kozmetik-bakim-urunleri-c-60002061",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > catlak kremi > Anne Kozmetik Ürünleri > anne giyim kozmetik bakim urunleri"
+    },
+    {
+      "id": "309403",
+      "parent_id": "23020380",
+      "name": "Anne İçecek, Yiyecekleri",
+      "url": "https://www.hepsiburada.com/anne-icecekleri-ve-yiyecekleri-c-309403",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > Emzirme Ürünleri > Anne İçecek, Yiyecekleri"
+    },
+    {
+      "id": "80382025",
+      "parent_id": "23020380",
+      "name": "Emzirme Sütyeni",
+      "url": "https://www.hepsiburada.com/emzirme-sutyeni-c-80382025",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > Emzirme Ürünleri > Emzirme Sütyeni"
+    },
+    {
+      "id": "80418114",
+      "parent_id": "23020380",
+      "name": "Emzirme Önlüğü",
+      "url": "https://www.hepsiburada.com/emzirme-onlugu-c-80418114",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > Emzirme Ürünleri > Emzirme Önlüğü"
+    },
+    {
+      "id": "308599",
+      "parent_id": "23020380",
+      "name": "Hamile ve Emzirme Yastığı",
+      "url": "https://www.hepsiburada.com/emzirme-yastiklari-c-308599",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > Emzirme Ürünleri > Hamile ve Emzirme Yastığı"
+    },
+    {
+      "id": "80382022",
+      "parent_id": "23020380",
+      "name": "Omuz Örtüsü & Müslin Bez",
+      "url": "https://www.hepsiburada.com/muslin-bez-c-80382022",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > Emzirme Ürünleri > Omuz Örtüsü & Müslin Bez"
+    },
+    {
+      "id": "301139",
+      "parent_id": "23020380",
+      "name": "Süt Saklama Poşeti ve Kabı",
+      "url": "https://www.hepsiburada.com/sut-saklama-poset-kaplari-c-301139",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > Emzirme Ürünleri > Süt Saklama Poşeti ve Kabı"
+    },
+    {
+      "id": "301140",
+      "parent_id": "23020380",
+      "name": "gogus pedleri koruyucular",
+      "url": "https://www.hepsiburada.com/gogus-pedleri-koruyucular-c-301140",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > Emzirme Ürünleri > gogus pedleri koruyucular"
+    },
+    {
+      "id": "301192",
+      "parent_id": "80383040",
+      "name": "bebek battaniyeleri",
+      "url": "https://www.hepsiburada.com/bebek-battaniyeleri-c-301192",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > alistirma kulodu > bebek battaniyeleri"
+    },
+    {
+      "id": "304012",
+      "parent_id": "80383040",
+      "name": "bebek nevresim takimlari uyku setleri",
+      "url": "https://www.hepsiburada.com/bebek-nevresim-takimlari-uyku-setleri-c-304012",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > alistirma kulodu > bebek nevresim takimlari uyku setleri"
+    },
+    {
+      "id": "23021020",
+      "parent_id": "80383040",
+      "name": "bebek yastiklari",
+      "url": "https://www.hepsiburada.com/bebek-yastiklari-c-23021020",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > alistirma kulodu > bebek yastiklari"
+    },
+    {
+      "id": "23021021",
+      "parent_id": "80383040",
+      "name": "bebek yorganlari",
+      "url": "https://www.hepsiburada.com/bebek-yorganlari-c-23021021",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > alistirma kulodu > bebek yorganlari"
+    },
+    {
+      "id": "305661",
+      "parent_id": "23021015",
+      "name": "Ana Kucağı Oto Koltukları",
+      "url": "https://www.hepsiburada.com/ana-kucagi-oto-koltuklari-c-305661",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > ana kucaklari > Ana Kucağı Oto Koltukları"
+    },
+    {
+      "id": "60002072",
+      "parent_id": "301163",
+      "name": "Bebek Beslenme",
+      "url": "https://www.hepsiburada.com/bebek-beslenme-urunleri-c-60002072",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > bebek mamalari > Bebek Beslenme"
+    },
+    {
+      "id": "303497",
+      "parent_id": "301163",
+      "name": "Biberon Maması",
+      "url": "https://www.hepsiburada.com/biberon-mamalari-c-303497",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > bebek mamalari > Biberon Maması"
+    },
+    {
+      "id": "60002073",
+      "parent_id": "301163",
+      "name": "Devam Sütü",
+      "url": "https://www.hepsiburada.com/devam-sutleri-c-60002073",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > bebek mamalari > Devam Sütü"
+    },
+    {
+      "id": "302132",
+      "parent_id": "301163",
+      "name": "Kavanoz Mama",
+      "url": "https://www.hepsiburada.com/kavanoz-mamalari-c-302132",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > bebek mamalari > Kavanoz Mama"
+    },
+    {
+      "id": "303496",
+      "parent_id": "301163",
+      "name": "Kaşık Maması",
+      "url": "https://www.hepsiburada.com/kasik-mamalari-c-303496",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > bebek mamalari > Kaşık Maması"
+    },
+    {
+      "id": "60002070",
+      "parent_id": "301163",
+      "name": "bebek besikleri",
+      "url": "https://www.hepsiburada.com/bebek-besikleri-c-60002070",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > gogus pompalari > bebek mamalari > bebek besikleri"
+    },
+    {
+      "id": "60003014",
+      "parent_id": "302243",
+      "name": "Alıştırma Mayoları",
+      "url": "https://www.hepsiburada.com/alistirma-mayolari-c-60003014",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > haciyatmaz > Deniz Plaj Malzemeleri > Alıştırma Mayoları"
+    },
+    {
+      "id": "306878",
+      "parent_id": "302243",
+      "name": "Bebek Güneş Kremi",
+      "url": "https://www.hepsiburada.com/bebek-gunes-kremleri-c-306878",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > haciyatmaz > Deniz Plaj Malzemeleri > Bebek Güneş Kremi"
+    },
+    {
+      "id": "306724",
+      "parent_id": "302243",
+      "name": "Deniz Malzemeleri",
+      "url": "https://www.hepsiburada.com/deniz-malzemeleri-c-306724",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > haciyatmaz > Deniz Plaj Malzemeleri > Deniz Malzemeleri"
+    },
+    {
+      "id": "296872",
+      "parent_id": "302243",
+      "name": "Deniz ve Havuz Oyuncağı",
+      "url": "https://www.hepsiburada.com/plaj-oyuncaklari-c-296872",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > haciyatmaz > Deniz Plaj Malzemeleri > Deniz ve Havuz Oyuncağı"
+    },
+    {
+      "id": "315056",
+      "parent_id": "302243",
+      "name": "Güneş Gözlükleri",
+      "url": "https://www.hepsiburada.com/cocuk-gunes-gozlukleri-c-315056",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > haciyatmaz > Deniz Plaj Malzemeleri > Güneş Gözlükleri"
+    },
+    {
+      "id": "60000516",
+      "parent_id": "301132",
+      "name": "Mama Sandalyesi",
+      "url": "https://www.hepsiburada.com/mama-sandalyesi-c-60000516",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > hoppala kangurular > mama sandalyeleri > Mama Sandalyesi"
+    },
+    {
+      "id": "60000514",
+      "parent_id": "301132",
+      "name": "Mama Sandalyesi Aksesuar",
+      "url": "https://www.hepsiburada.com/mama-sandalyesi-aksesuarlari-c-60000514",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > hoppala kangurular > mama sandalyeleri > Mama Sandalyesi Aksesuar"
+    },
+    {
+      "id": "80138065",
+      "parent_id": "301132",
+      "name": "Mama Sandalyesi Oyuncağı",
+      "url": "https://www.hepsiburada.com/puset-mama-sandalyesi-oyuncaklari-c-80138065",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > hoppala kangurular > mama sandalyeleri > Mama Sandalyesi Oyuncağı"
+    },
+    {
+      "id": "60000513",
+      "parent_id": "301132",
+      "name": "Portatif Mama Sandalyesi",
+      "url": "https://www.hepsiburada.com/portatif-mama-sandalyeleri-c-60000513",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > hoppala kangurular > mama sandalyeleri > Portatif Mama Sandalyesi"
+    },
+    {
+      "id": "80383041",
+      "parent_id": "80383037",
+      "name": "Kirli Bebek Bezi Atık Sistemi",
+      "url": "https://www.hepsiburada.com/kirli-bebek-bezi-atik-sistemi-c-80383041",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > klozet adaptoru > Bebek Tuvalet > Kirli Bebek Bezi Atık Sistemi"
+    },
+    {
+      "id": "302591",
+      "parent_id": "80383037",
+      "name": "Lazımlık, Oturak",
+      "url": "https://www.hepsiburada.com/bebek-tuvaletleri-c-302591",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > klozet adaptoru > Bebek Tuvalet > Lazımlık, Oturak"
+    },
+    {
+      "id": "80383039",
+      "parent_id": "80383037",
+      "name": "Çocuk Basamağı",
+      "url": "https://www.hepsiburada.com/cocuk-basamagi-c-80383039",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > klozet adaptoru > Bebek Tuvalet > Çocuk Basamağı"
+    },
+    {
+      "id": "291087",
+      "parent_id": "80381037",
+      "name": "Çocuk Koltuğu",
+      "url": "https://www.hepsiburada.com/cocuk-koltugu-c-291087",
+      "level": 6,
+      "path": "Spor, Outdoor > patenler > cocuk patenleri > oyuncak kutulari > Oyun Odası Mobilyası > Çocuk Koltuğu"
+    },
+    {
+      "id": "271886",
+      "parent_id": "15245",
+      "name": "Cilt Sistemleri Sarf Malzemeleri",
+      "url": "https://www.hepsiburada.com/cilt-sistemleri-sarf-malzemeleri-c-271886",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Ciltleme Makinesi & Malzemeler > Cilt Sistemleri Sarf Malzemeleri"
+    },
+    {
+      "id": "15248",
+      "parent_id": "15245",
+      "name": "Isısal Cilt Makinaları",
+      "url": "https://www.hepsiburada.com/isisal-cilt-makinalari-c-15248",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Ciltleme Makinesi & Malzemeler > Isısal Cilt Makinaları"
+    },
+    {
+      "id": "15246",
+      "parent_id": "15245",
+      "name": "Plastik Spiralli Cilt Makineleri",
+      "url": "https://www.hepsiburada.com/plastik-spiralli-cilt-makineleri-c-15246",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Ciltleme Makinesi & Malzemeler > Plastik Spiralli Cilt Makineleri"
+    },
+    {
+      "id": "293179",
+      "parent_id": "15245",
+      "name": "Pvc Helezon Spiralli Cilt Makinaleri",
+      "url": "https://www.hepsiburada.com/pvc-helezon-spiralli-cilt-makinaleri-c-293179",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Ciltleme Makinesi & Malzemeler > Pvc Helezon Spiralli Cilt Makinaleri"
+    },
+    {
+      "id": "285411",
+      "parent_id": "15239",
+      "name": "Kart ve Fotoğraf Kesme Aparatları",
+      "url": "https://www.hepsiburada.com/kart-fotograf-kesme-aparatlari-c-285411",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Laminasyon Makinesi & Malzemeler > Kart ve Fotoğraf Kesme Aparatları"
+    },
+    {
+      "id": "15241",
+      "parent_id": "15239",
+      "name": "Laminasyon Makinesi",
+      "url": "https://www.hepsiburada.com/laminasyon-makineleri-c-15241",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Laminasyon Makinesi & Malzemeler > Laminasyon Makinesi"
+    },
+    {
+      "id": "15456",
+      "parent_id": "15239",
+      "name": "Laminasyon Poşetleri",
+      "url": "https://www.hepsiburada.com/laminasyon-posetleri-c-15456",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Laminasyon Makinesi & Malzemeler > Laminasyon Poşetleri"
+    },
+    {
+      "id": "15240",
+      "parent_id": "15239",
+      "name": "OFİS & KİŞİSEL MODELLER",
+      "url": "https://www.hepsiburada.com/kisiye-ozel-kaminasyon-makineleri-c-15240",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Laminasyon Makinesi & Malzemeler > OFİS & KİŞİSEL MODELLER"
+    },
+    {
+      "id": "276992",
+      "parent_id": "15239",
+      "name": "Soğuk Laminasyon Modelleri",
+      "url": "https://www.hepsiburada.com/soguk-laminasyon-modelleri-c-276992",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Laminasyon Makinesi & Malzemeler > Soğuk Laminasyon Modelleri"
+    },
+    {
+      "id": "60002790",
+      "parent_id": "15365",
+      "name": "Pil Şarj Cihazları",
+      "url": "https://www.hepsiburada.com/pil-sarj-cihazlari-c-60002790",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Piller & Şarj Cihazları > Pil Şarj Cihazları"
+    },
+    {
+      "id": "15247",
+      "parent_id": "271765",
+      "name": "tel spiralli cilt makineleri",
+      "url": "https://www.hepsiburada.com/tel-spiralli-cilt-makineleri-c-15247",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ofis Ürünleri > Ofis Teknolojileri > Yazarkasa > tel spiralli cilt makineleri"
+    },
+    {
+      "id": "80147050",
+      "parent_id": "15389",
+      "name": "Beyaz Etiket",
+      "url": "https://www.hepsiburada.com/beyaz-etiketler-c-80147050",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Etiket, Etiket Makinesi > Beyaz Etiket"
+    },
+    {
+      "id": "15445",
+      "parent_id": "15389",
+      "name": "Etiketleme Sarf Malzemeleri",
+      "url": "https://www.hepsiburada.com/etiketleme-sarf-malzemeleri-c-15445",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Etiket, Etiket Makinesi > Etiketleme Sarf Malzemeleri"
+    },
+    {
+      "id": "80147051",
+      "parent_id": "15389",
+      "name": "Kılçık Tabancası ve Malzemeleri",
+      "url": "https://www.hepsiburada.com/kilcik-tabancasi-c-80147051",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Etiket, Etiket Makinesi > Kılçık Tabancası ve Malzemeleri"
+    },
+    {
+      "id": "80147049",
+      "parent_id": "15389",
+      "name": "Lazer Etiket",
+      "url": "https://www.hepsiburada.com/lazer-etiketleri-c-80147049",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Etiket, Etiket Makinesi > Lazer Etiket"
+    },
+    {
+      "id": "15165",
+      "parent_id": "15389",
+      "name": "Sürekli Form Etiketi",
+      "url": "https://www.hepsiburada.com/surekli-form-etiketleri-c-15165",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Etiket, Etiket Makinesi > Sürekli Form Etiketi"
+    },
+    {
+      "id": "60007331",
+      "parent_id": "277922",
+      "name": "hisir ortu",
+      "url": "https://www.hepsiburada.com/hisir-ortu-c-60007331",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Koli Bandı > hisir ortu"
+    },
+    {
+      "id": "15155",
+      "parent_id": "15153",
+      "name": "CD, Mektup ve Kare Elvan Zarfı",
+      "url": "https://www.hepsiburada.com/dvd-cd-zarflari-c-15155",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Zarf > CD, Mektup ve Kare Elvan Zarfı"
+    },
+    {
+      "id": "15404",
+      "parent_id": "15153",
+      "name": "Hava Kabarcıklı Zarf",
+      "url": "https://www.hepsiburada.com/hava-kabarcikli-zarflar-c-15404",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Zarf > Hava Kabarcıklı Zarf"
+    },
+    {
+      "id": "15154",
+      "parent_id": "15153",
+      "name": "Para Zarf",
+      "url": "https://www.hepsiburada.com/para-zarflari-c-15154",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Zarf > Para Zarf"
+    },
+    {
+      "id": "15159",
+      "parent_id": "15153",
+      "name": "Torba Zarf",
+      "url": "https://www.hepsiburada.com/torba-zarflar-c-15159",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Gönderi ve Paketleme > Zarf > Torba Zarf"
+    },
+    {
+      "id": "21036200",
+      "parent_id": "15421",
+      "name": "Krapon Kağıdı",
+      "url": "https://www.hepsiburada.com/krapon-kagidi-mukavvalar-c-21036200",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Okul Aktivite ve Boya > El İşi Malzemeleri > Krapon Kağıdı"
+    },
+    {
+      "id": "15541",
+      "parent_id": "15421",
+      "name": "Mukavva",
+      "url": "https://www.hepsiburada.com/mukavvalar-c-15541",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > Kırtasiye Ürünleri > Okul Aktivite ve Boya > El İşi Malzemeleri > Mukavva"
+    },
+    {
+      "id": "80158003",
+      "parent_id": "292999",
+      "name": "Hobi Boyaları",
+      "url": "https://www.hepsiburada.com/hobi-boyalari-c-80158003",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > boyalar boya kalemleri > Mum Boya > pastel boyalar > Hobi Boyaları"
+    },
+    {
+      "id": "60000727",
+      "parent_id": "60000061",
+      "name": "Dizaltı",
+      "url": "https://www.hepsiburada.com/dizalti-coraplar-c-60000727",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > erkek klasik ayakkabilar > kulotlu coraplar > Kadın Çoraplar > Dizaltı"
+    },
+    {
+      "id": "60000729",
+      "parent_id": "60000061",
+      "name": "Soket Çorap",
+      "url": "https://www.hepsiburada.com/bayan-soket-coraplar-c-60000729",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > erkek klasik ayakkabilar > kulotlu coraplar > Kadın Çoraplar > Soket Çorap"
+    },
+    {
+      "id": "60000730",
+      "parent_id": "60000061",
+      "name": "Çorap Tayt",
+      "url": "https://www.hepsiburada.com/corap-taytlar-c-60000730",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > erkek klasik ayakkabilar > kulotlu coraplar > Kadın Çoraplar > Çorap Tayt"
+    },
+    {
+      "id": "292991",
+      "parent_id": "21028264",
+      "name": "Boyama Araçları",
+      "url": "https://www.hepsiburada.com/boyama-araclari-c-292991",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Boyama Araçları"
+    },
+    {
+      "id": "21000013",
+      "parent_id": "21028264",
+      "name": "Boyanabilir Obje",
+      "url": "https://www.hepsiburada.com/dekorasyon-boyama-objeleri-c-21000013",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Boyanabilir Obje"
+    },
+    {
+      "id": "293009",
+      "parent_id": "21028264",
+      "name": "Hi-Lite Magic",
+      "url": "https://www.hepsiburada.com/hi-lite-magic-c-293009",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Hi-Lite Magic"
+    },
+    {
+      "id": "292980",
+      "parent_id": "21028264",
+      "name": "Kendin Yap Seti",
+      "url": "https://www.hepsiburada.com/kendin-yap-setleri-c-292980",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Kendin Yap Seti"
+    },
+    {
+      "id": "293008",
+      "parent_id": "21028264",
+      "name": "Marble Efekt",
+      "url": "https://www.hepsiburada.com/marble-efekt-c-293008",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Marble Efekt"
+    },
+    {
+      "id": "292974",
+      "parent_id": "21028264",
+      "name": "Medium",
+      "url": "https://www.hepsiburada.com/mediumlar-c-292974",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Medium"
+    },
+    {
+      "id": "292984",
+      "parent_id": "21028264",
+      "name": "Rölyef Pasta",
+      "url": "https://www.hepsiburada.com/rolyef-pastalar-c-292984",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Rölyef Pasta"
+    },
+    {
+      "id": "289774",
+      "parent_id": "21028264",
+      "name": "Sanatsal Hobi Ürünleri",
+      "url": "https://www.hepsiburada.com/sanatsal-hobi-urunleri-c-289774",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Sanatsal Hobi Ürünleri"
+    },
+    {
+      "id": "21029206",
+      "parent_id": "21028264",
+      "name": "Sanatsal Kağıt",
+      "url": "https://www.hepsiburada.com/sanatsal-kagitlar-c-21029206",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Sanatsal Kağıt"
+    },
+    {
+      "id": "293012",
+      "parent_id": "21028264",
+      "name": "Su Bazlı Yaldız",
+      "url": "https://www.hepsiburada.com/su-bazli-yaldizlar-c-293012",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Su Bazlı Yaldız"
+    },
+    {
+      "id": "292988",
+      "parent_id": "21028264",
+      "name": "Terebentin",
+      "url": "https://www.hepsiburada.com/terebentinler-c-292988",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Terebentin"
+    },
+    {
+      "id": "293002",
+      "parent_id": "21028264",
+      "name": "Yardımcı Malzeme",
+      "url": "https://www.hepsiburada.com/yardimci-malzemeler-c-293002",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Yardımcı Malzeme"
+    },
+    {
+      "id": "292976",
+      "parent_id": "21028264",
+      "name": "Çatlatma",
+      "url": "https://www.hepsiburada.com/catlatma-boyalar-c-292976",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Çatlatma"
+    },
+    {
+      "id": "292968",
+      "parent_id": "21028264",
+      "name": "Şişe Vernik",
+      "url": "https://www.hepsiburada.com/sise-vernikler-c-292968",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Şişe Vernik"
+    },
+    {
+      "id": "292989",
+      "parent_id": "21028264",
+      "name": "Şövale",
+      "url": "https://www.hepsiburada.com/sovaleler-c-292989",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > keceli boyama kalemleri > tuvaller > Hobi Boya Malzemeleri > Şövale"
+    },
+    {
+      "id": "60003881",
+      "parent_id": "60002362",
+      "name": "Babet",
+      "url": "https://www.hepsiburada.com/cocuk-babetler-c-60003881",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > Babet"
+    },
+    {
+      "id": "60002363",
+      "parent_id": "60002362",
+      "name": "Ev Ayakkabısı",
+      "url": "https://www.hepsiburada.com/ev-ayakkabisi-c-60002363",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > Ev Ayakkabısı"
+    },
+    {
+      "id": "60003885",
+      "parent_id": "60002362",
+      "name": "Panduf",
+      "url": "https://www.hepsiburada.com/cocuk-panduflar-c-60003885",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > Panduf"
+    },
+    {
+      "id": "60002367",
+      "parent_id": "60002362",
+      "name": "Terlik",
+      "url": "https://www.hepsiburada.com/cocuk-terlikleri-c-60002367",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > Terlik"
+    },
+    {
+      "id": "60002365",
+      "parent_id": "60002362",
+      "name": "cocuk botlar",
+      "url": "https://www.hepsiburada.com/cocuk-botlar-c-60002365",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > cocuk botlar"
+    },
+    {
+      "id": "60003882",
+      "parent_id": "60002362",
+      "name": "cocuk gunluk ayakkabilar",
+      "url": "https://www.hepsiburada.com/cocuk-gunluk-ayakkabilar-c-60003882",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > cocuk gunluk ayakkabilar"
+    },
+    {
+      "id": "60002366",
+      "parent_id": "60002362",
+      "name": "cocuk sandaletler",
+      "url": "https://www.hepsiburada.com/cocuk-sandaletler-c-60002366",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > cocuk sandaletler"
+    },
+    {
+      "id": "60002438",
+      "parent_id": "60002362",
+      "name": "spor ayakkabi",
+      "url": "https://www.hepsiburada.com/spor-ayakkabi-c-60002438",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Ayakkabı > spor ayakkabi"
+    },
+    {
+      "id": "60006840",
+      "parent_id": "60002724",
+      "name": "Abiye & Düğün Elbiseleri",
+      "url": "https://www.hepsiburada.com/kiz-cocuk-abiye-dugun-elbiseleri-c-60006840",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Abiye & Düğün Elbiseleri"
+    },
+    {
+      "id": "60006225",
+      "parent_id": "60002724",
+      "name": "Bikini & Mayo",
+      "url": "https://www.hepsiburada.com/cocuk-bikini-c-60006225",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Bikini & Mayo"
+    },
+    {
+      "id": "60005473",
+      "parent_id": "60002724",
+      "name": "Bluz & Tunik",
+      "url": "https://www.hepsiburada.com/cocuk-bluz-c-60005473",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Bluz & Tunik"
+    },
+    {
+      "id": "60004857",
+      "parent_id": "60002724",
+      "name": "Body",
+      "url": "https://www.hepsiburada.com/cocuk-body-c-60004857",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Body"
+    },
+    {
+      "id": "60002736",
+      "parent_id": "60002724",
+      "name": "Etek",
+      "url": "https://www.hepsiburada.com/cocuk-etekler-c-60002736",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Etek"
+    },
+    {
+      "id": "60002735",
+      "parent_id": "60002724",
+      "name": "Gömlek",
+      "url": "https://www.hepsiburada.com/cocuk-gomlekleri-c-60002735",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Gömlek"
+    },
+    {
+      "id": "60002734",
+      "parent_id": "60002724",
+      "name": "Mont",
+      "url": "https://www.hepsiburada.com/cocuk-mont-c-60002734",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Mont"
+    },
+    {
+      "id": "60002737",
+      "parent_id": "60002724",
+      "name": "Pantolon",
+      "url": "https://www.hepsiburada.com/cocuk-pantolonlar-c-60002737",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Pantolon"
+    },
+    {
+      "id": "60002742",
+      "parent_id": "60002724",
+      "name": "Pijama Takımı",
+      "url": "https://www.hepsiburada.com/cocuk-pijamalar-c-60002742",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Pijama Takımı"
+    },
+    {
+      "id": "60006975",
+      "parent_id": "60002724",
+      "name": "Sweatshirt",
+      "url": "https://www.hepsiburada.com/kiz-cocuk-sweatshirt-c-60006975",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Sweatshirt"
+    },
+    {
+      "id": "60004844",
+      "parent_id": "60002724",
+      "name": "Süveter & Hırka",
+      "url": "https://www.hepsiburada.com/cocuk-hirkalar-c-60004844",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Süveter & Hırka"
+    },
+    {
+      "id": "60005263",
+      "parent_id": "60002724",
+      "name": "Tayt",
+      "url": "https://www.hepsiburada.com/cocuk-taytlari-c-60005263",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Tayt"
+    },
+    {
+      "id": "60004856",
+      "parent_id": "60002724",
+      "name": "Tulum",
+      "url": "https://www.hepsiburada.com/cocuk-tulumlar-c-60004856",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Tulum"
+    },
+    {
+      "id": "80073002",
+      "parent_id": "60002724",
+      "name": "Yağmurluk",
+      "url": "https://www.hepsiburada.com/kiz-cocuk-yagmurluk-c-80073002",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Yağmurluk"
+    },
+    {
+      "id": "60004847",
+      "parent_id": "60002724",
+      "name": "Yelek",
+      "url": "https://www.hepsiburada.com/cocuk-yelekler-c-60004847",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > Giyim > Yelek"
+    },
+    {
+      "id": "60003889",
+      "parent_id": "60002739",
+      "name": "cocuk spor ayakkabilar",
+      "url": "https://www.hepsiburada.com/cocuk-spor-ayakkabilar-c-60003889",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > cocuk esofmanlar > cocuk spor ayakkabilar"
+    },
+    {
+      "id": "60000114",
+      "parent_id": "60002730",
+      "name": "erkek cocuk sandalet",
+      "url": "https://www.hepsiburada.com/erkek-cocuk-sandalet-c-60000114",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > cocuk t shirt > erkek cocuk sandalet"
+    },
+    {
+      "id": "60002741",
+      "parent_id": "60002729",
+      "name": "cocuk atletler",
+      "url": "https://www.hepsiburada.com/cocuk-atletler-c-60002741",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > İç Giyim > cocuk atletler"
+    },
+    {
+      "id": "60002740",
+      "parent_id": "60002729",
+      "name": "cocuk kulotlar",
+      "url": "https://www.hepsiburada.com/cocuk-kulotlar-c-60002740",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > İç Giyim > cocuk kulotlar"
+    },
+    {
+      "id": "60002743",
+      "parent_id": "60002729",
+      "name": "Çorap",
+      "url": "https://www.hepsiburada.com/cocuk-coraplar-c-60002743",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > İç Giyim > Çorap"
+    },
+    {
+      "id": "60005126",
+      "parent_id": "60002729",
+      "name": "İlk Sütyen",
+      "url": "https://www.hepsiburada.com/ilk-sutyen-c-60005126",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Kız Çocuk > İç Giyim > İlk Sütyen"
+    },
+    {
+      "id": "12087260",
+      "parent_id": "80088005",
+      "name": "erkek cocuk terlikleri",
+      "url": "https://www.hepsiburada.com/erkek-cocuk-terlikleri-c-12087260",
+      "level": 6,
+      "path": "Spor, Outdoor > suluklar mataralar > okul cantasi > Çocuk Aksesuarları > Toka & Saç Aksesuarları > erkek cocuk terlikleri"
     }
   ]
 }

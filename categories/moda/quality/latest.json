@@ -1,19 +1,8 @@
 {
-  "status": "PASS",
-  "productCount": 300,
+  "status": "FAIL",
+  "productCount": 0,
   "minimumProducts": 200,
   "date": "2026-09-14",
-  "generatedAt": "2026-09-14T11:47:45+03:00",
-  "blockError": null,
-  "detailAttempted": 300,
-  "detailRefreshed": 300,
-  "detailFailed": 0,
-  "detailSuccessRate": 100.0,
-  "detailCoverage": {
-    "winner_merchant": 98.3,
-    "sellers_count": 98.3,
-    "review_count": 100.0,
-    "question_count": 98.7,
-    "minimum_price_30d": 98.3
-  }
+  "generatedAt": "2026-09-14T23:03:19+03:00",
+  "blockError": "guvenlik-engeli"
 }
