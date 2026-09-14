@@ -33,6 +33,15 @@ if ! run_collector; then
 fi
 "$NODE_BIN" scripts/quality_check.cjs --profile "$PROFILE"
 
+echo "DETAIL_RUN_START profile=$PROFILE"
+if "$PYTHON_BIN" scripts/run_with_timeout.py --timeout 4200 --heartbeat 60 -- \
+  "$PYTHON_BIN" scripts/hb_detail_pw.py --profile "$PROFILE"; then
+  "$PYTHON_BIN" scripts/hb_detail_merge.py --profile "$PROFILE" --of 1
+else
+  echo "Detay turu zaman asimi/hatasi: kalanlar yarin tamamlanir (resume)." >&2
+  "$PYTHON_BIN" scripts/hb_detail_merge.py --profile "$PROFILE" --of 1 || true
+fi
+
 run_date=$(TZ=Europe/Istanbul date +%F)
 if [[ "$PROFILE" == "elektronik" ]]; then
   git add data snapshots lists reports quality taxonomy scripts 2>/dev/null || true
