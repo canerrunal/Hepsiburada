@@ -23,7 +23,7 @@ echo "DAILY_RUN_START profile=$PROFILE time=$(TZ=Europe/Istanbul date +%FT%T%z)"
 
 run_collector() {
   "$PYTHON_BIN" scripts/run_with_timeout.py --timeout 1200 --heartbeat 30 -- \
-    "$NODE_BIN" scripts/collect.cjs --profile "$PROFILE"
+    "$PYTHON_BIN" scripts/hb_collect_pw.py --profile "$PROFILE"
 }
 
 if ! run_collector; then
@@ -34,7 +34,11 @@ fi
 "$NODE_BIN" scripts/quality_check.cjs --profile "$PROFILE"
 
 run_date=$(TZ=Europe/Istanbul date +%F)
-git add "categories/$PROFILE" taxonomy 2>/dev/null || true
+if [[ "$PROFILE" == "elektronik" ]]; then
+  git add data snapshots lists reports quality taxonomy scripts 2>/dev/null || true
+else
+  git add "categories/$PROFILE" taxonomy 2>/dev/null || true
+fi
 if ! git diff --cached --quiet; then
   git commit -m "data: Hepsiburada ${PROFILE} günlük raporu ${run_date}" 2>/dev/null || true
   git push origin main 2>/dev/null || echo "PUSH_ATLANDI (uzak yazma yok)"
