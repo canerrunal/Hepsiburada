@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T15:00:57.001Z",
+  "generatedAt": "2026-09-15T15:05:57.888Z",
   "observedDate": "2026-09-15",
-  "sourceCommit": "44a5755a562c9d8efdfa9883522abad407912add",
+  "sourceCommit": "7327b2936157cc1b3ee60afb5670a2ff299ed479",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -17209,7 +17209,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T15:00:56.910Z",
+    "observedAt": "2026-09-15T15:05:57.764Z",
     "summary": {
       "activeCount": 5,
       "staleCount": 0,
@@ -17231,9 +17231,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:00:01+03:00",
+        "updatedAt": "2026-09-15T18:05:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 3660.3,
+        "elapsedSeconds": 3960.3,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17255,9 +17255,9 @@
         "pid": 28800,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:00:01+03:00",
+        "updatedAt": "2026-09-15T18:05:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 3660.3,
+        "elapsedSeconds": 3960.3,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17267,7 +17267,7 @@
       },
       {
         "pid": 28793,
-        "elapsed": "01:01:56",
+        "elapsed": "01:06:57",
         "stat": "Ss+",
         "cpu": 0,
         "memory": 0,
@@ -17280,7 +17280,7 @@
       },
       {
         "pid": 28798,
-        "elapsed": "01:01:56",
+        "elapsed": "01:06:57",
         "stat": "SN+",
         "cpu": 0,
         "memory": 0,
@@ -17293,7 +17293,7 @@
       },
       {
         "pid": 28799,
-        "elapsed": "01:01:56",
+        "elapsed": "01:06:57",
         "stat": "SN+",
         "cpu": 0,
         "memory": 0,
@@ -17321,9 +17321,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:00:01+03:00",
+        "updatedAt": "2026-09-15T18:05:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 3660.3,
+        "elapsedSeconds": 3960.3,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17343,9 +17343,9 @@
         "pid": 28800,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:00:01+03:00",
+        "updatedAt": "2026-09-15T18:05:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 3660.3,
+        "elapsedSeconds": 3960.3,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17626,9 +17626,9 @@
       "pid": 28801,
       "status": "RUNNING",
       "startedAt": "2026-09-15T16:59:00+03:00",
-      "updatedAt": "2026-09-15T18:00:01+03:00",
+      "updatedAt": "2026-09-15T18:05:01+03:00",
       "finishedAt": null,
-      "elapsedSeconds": 3660.3,
+      "elapsedSeconds": 3960.3,
       "timeoutSeconds": 21600,
       "heartbeatSeconds": 60,
       "exitCode": null,
@@ -17650,9 +17650,9 @@
       "pid": 28800,
       "status": "RUNNING",
       "startedAt": "2026-09-15T16:59:00+03:00",
-      "updatedAt": "2026-09-15T18:00:01+03:00",
+      "updatedAt": "2026-09-15T18:05:01+03:00",
       "finishedAt": null,
-      "elapsedSeconds": 3660.3,
+      "elapsedSeconds": 3960.3,
       "timeoutSeconds": 21600,
       "heartbeatSeconds": 60,
       "exitCode": null,
@@ -17662,7 +17662,7 @@
     },
     {
       "pid": 28793,
-      "elapsed": "01:01:56",
+      "elapsed": "01:06:57",
       "stat": "Ss+",
       "cpu": 0,
       "memory": 0,
@@ -17675,7 +17675,7 @@
     },
     {
       "pid": 28798,
-      "elapsed": "01:01:56",
+      "elapsed": "01:06:57",
       "stat": "SN+",
       "cpu": 0,
       "memory": 0,
@@ -17688,7 +17688,7 @@
     },
     {
       "pid": 28799,
-      "elapsed": "01:01:56",
+      "elapsed": "01:06:57",
       "stat": "SN+",
       "cpu": 0,
       "memory": 0,
@@ -17698,6 +17698,128 @@
       "live": true,
       "source": "process-list",
       "tracked": false
+    }
+  ],
+  "schedules": [
+    {
+      "name": "hepsiburada-dashboard",
+      "schedule": "*/5 * * * *",
+      "nextRun": "2026-09-15T18:10:00+03:00",
+      "lastRun": "2026-09-15T18:00:59.755785+03:00",
+      "lastStatus": "ok",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-elektronik",
+      "schedule": "30 22 * * *",
+      "nextRun": "2026-09-15T22:30:00+03:00",
+      "lastRun": "2026-09-14T22:33:42.241372+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-moda",
+      "schedule": "0 23 * * *",
+      "nextRun": "2026-09-15T23:00:00+03:00",
+      "lastRun": "2026-09-14T23:03:49.787227+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-supermarket",
+      "schedule": "30 23 * * *",
+      "nextRun": "2026-09-15T23:30:00+03:00",
+      "lastRun": "2026-09-14T23:33:54.493862+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-kozmetik",
+      "schedule": "0 0 * * *",
+      "nextRun": "2026-09-16T00:00:00+03:00",
+      "lastRun": "2026-09-15T00:03:56.753950+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-anne-bebek",
+      "schedule": "30 0 * * *",
+      "nextRun": "2026-09-16T00:30:00+03:00",
+      "lastRun": "2026-09-15T00:34:00.032023+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-finalize",
+      "schedule": "30 4 * * *",
+      "nextRun": "2026-09-16T04:30:00+03:00",
+      "lastRun": "2026-09-15T04:30:29.275379+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-discovery",
+      "schedule": "0 15 * * *",
+      "nextRun": "2026-09-16T15:00:00+03:00",
+      "lastRun": "2026-09-15T15:03:01.535785+03:00",
+      "lastStatus": "ok",
+      "mode": "no-agent"
+    }
+  ],
+  "scanPlan": [
+    {
+      "task": "Profil: elektronik",
+      "time": "22:30",
+      "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
+      "target": "1000 ürün + detay"
+    },
+    {
+      "task": "Profil: moda",
+      "time": "23:00",
+      "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
+      "target": "1000 ürün + detay"
+    },
+    {
+      "task": "Profil: supermarket",
+      "time": "23:30",
+      "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
+      "target": "1000 ürün + detay"
+    },
+    {
+      "task": "Profil: kozmetik",
+      "time": "00:00",
+      "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
+      "target": "1000 ürün + detay"
+    },
+    {
+      "task": "Profil: anne-bebek-oyuncak",
+      "time": "00:30",
+      "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
+      "target": "1000 ürün + detay"
+    },
+    {
+      "task": "Taksonomi keşif (4 shard)",
+      "time": "15:00",
+      "workers": "4 paralel (shard-0..3)",
+      "target": "kategori ağacı + merge"
+    },
+    {
+      "task": "Taksonomi ürün tarama (4 shard)",
+      "time": "keşif sonrası",
+      "workers": "4 paralel (shard-0..3)",
+      "target": "kategori-ürün üyelikleri"
+    },
+    {
+      "task": "Finalize + Telegram özeti",
+      "time": "04:30",
+      "workers": "1",
+      "target": "yayın + Telegram"
+    },
+    {
+      "task": "Dashboard durum üretici",
+      "time": "5 dakikada bir",
+      "workers": "1",
+      "target": "status.json"
     }
   ],
   "publication": {
