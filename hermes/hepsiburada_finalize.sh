@@ -2,7 +2,7 @@
 set -euo pipefail
 PROJECT_DIR="/Users/canerunal/Documents/Hepsiburada"
 NODE_BIN="/Users/canerunal/.local/bin/node"
-PYTHON_BIN="/usr/bin/python3"
+PYTHON_BIN="/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3"
 HERMES_BIN="/Users/canerunal/.hermes/bin/hermes"
 TELEGRAM_TO="telegram:6180022743"
 cd "$PROJECT_DIR"

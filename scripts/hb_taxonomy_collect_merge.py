@@ -3,9 +3,24 @@
 import argparse
 import gzip
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+EXPECTED_ROOT_COUNT = 9
+
+try:
+    from atomic_io import atomic_write_text
+except ImportError:
+    from scripts.atomic_io import atomic_write_text
+
+
+def write_gzip_ndjson(path, rows):
+    temporary = path.with_name(f".{path.name}.{os.getpid()}.tmp")
+    with gzip.open(temporary, "wt", encoding="utf-8") as fh:
+        for item in rows:
+            fh.write(json.dumps(item, ensure_ascii=False) + "\n")
+    os.replace(temporary, path)
 
 
 def main():
@@ -35,16 +50,20 @@ def main():
                             target[key] = item
                     else:
                         target.append(item)
+    summary_dates = {s.get("date") for s in summaries}
+    root_ids = {root.get("root_id") for s in summaries for root in s.get("roots", []) if root.get("root_id")}
+    all_roots_pass = all(s.get("status") == "PASS" for s in summaries)
+    valid_run = summary_dates == {args.date} and len(root_ids) >= EXPECTED_ROOT_COUNT and all_roots_pass
     final_summary = {
         "marketplace": "hepsiburada", "date": args.date, "status": "PASS" if all(s.get("status") == "PASS" for s in summaries) else "INSUFFICIENT_SOURCE",
         "shards": summaries, "productCount": len(products), "rankingCount": len(rankings),
-        "rootCount": sum(len(s.get("roots", [])) for s in summaries),
+        "rootCount": len(root_ids), "expectedRootCount": EXPECTED_ROOT_COUNT,
+        "dateConsistent": summary_dates == {args.date}, "allRootsPass": all_roots_pass,
     }
-    with gzip.open(out / "products.ndjson.gz", "wt", encoding="utf-8") as fh:
-        for item in products.values(): fh.write(json.dumps(item, ensure_ascii=False) + "\n")
-    with gzip.open(out / "rankings.ndjson.gz", "wt", encoding="utf-8") as fh:
-        for item in rankings: fh.write(json.dumps(item, ensure_ascii=False) + "\n")
-    (out / "summary.json").write_text(json.dumps(final_summary, ensure_ascii=False, indent=2))
+    final_summary["status"] = "PASS" if valid_run else "INSUFFICIENT_SOURCE"
+    write_gzip_ndjson(out / "products.ndjson.gz", products.values())
+    write_gzip_ndjson(out / "rankings.ndjson.gz", rankings)
+    atomic_write_text(out / "summary.json", json.dumps(final_summary, ensure_ascii=False, indent=2))
     print(f"TAXCOLLECT_MERGE_{final_summary['status']} products={len(products)} rankings={len(rankings)}")
     return 0 if final_summary["status"] == "PASS" else 2
 

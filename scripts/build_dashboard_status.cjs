@@ -4,20 +4,69 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { workerStatus } = require('./worker_status.cjs');
 
 const ROOT = path.resolve(__dirname, '..');
 const PROFILES = ['elektronik', 'moda', 'supermarket', 'kozmetik', 'anne-bebek-oyuncak'];
 const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Istanbul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
-const read = (f) => fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
+const read = (f) => {
+  try { return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null; } catch (_) { return null; }
+};
 const dir = (p) => p === 'elektronik' ? ROOT : path.join(ROOT, 'categories', p);
 const commit = (() => { try { return execFileSync('git', ['rev-parse', 'HEAD'], { cwd: ROOT, encoding: 'utf8' }).trim(); } catch (_) { return null; } })();
-const activeJobs = (() => {
-  try {
-    return execFileSync('ps', ['ax', '-o', 'command='], { encoding: 'utf8' }).split('\n')
-      .filter((line) => /hb_(collect|detail|taxonomy)|run_profile\.sh/.test(line))
-      .map((command) => ({ command: command.trim().slice(0, 240) }));
-  } catch (_) { return []; }
-})();
+const workers = workerStatus();
+
+function taxonomyFileStats(file) {
+  const data = read(file) || {};
+  const rows = Array.isArray(data.categories) ? data.categories : [];
+  const roots = rows.filter((row) => Number(row.level) === 1);
+  const byRoot = {};
+  const byLevel = {};
+  let maxDepth = 0;
+  for (const row of rows) {
+    const root = row.root_name || (row.full_path || row.path || row.name || '').split('>')[0].trim() || 'unknown';
+    byRoot[root] = (byRoot[root] || 0) + 1;
+    const level = Number(row.level) || 0;
+    byLevel[level] = (byLevel[level] || 0) + 1;
+    maxDepth = Math.max(maxDepth, level);
+  }
+  return {
+    file: path.relative(ROOT, file),
+    status: data.status || 'UNKNOWN',
+    date: data.date || null,
+    categoryCount: Number(data.count || rows.length),
+    rootCount: roots.length,
+    maxDepth,
+    emptyIdCount: rows.filter((row) => !row.id).length,
+    byRoot,
+    byLevel,
+  };
+}
+
+function taxonomyTreeStats() {
+  const taxonomyDir = path.join(ROOT, 'taxonomy');
+  const primary = taxonomyFileStats(path.join(taxonomyDir, 'catalog.json'));
+  const shardFiles = fs.existsSync(taxonomyDir)
+    ? fs.readdirSync(taxonomyDir).filter((name) => /^catalog-.+\.json$/.test(name)).sort().map((name) => taxonomyFileStats(path.join(taxonomyDir, name)))
+    : [];
+  const uniqueIds = new Set();
+  for (const shard of shardFiles) {
+    const data = read(path.join(ROOT, shard.file)) || {};
+    for (const row of (data.categories || [])) if (row.id) uniqueIds.add(row.id);
+  }
+  return {
+    primary,
+    shards: shardFiles,
+    shardCategoryRows: shardFiles.reduce((sum, shard) => sum + shard.categoryCount, 0),
+    shardUniqueCategoryIds: uniqueIds.size,
+  };
+}
+
+function atomicWriteJson(file, value) {
+  const temporary = `${file}.${process.pid}.tmp`;
+  fs.writeFileSync(temporary, JSON.stringify(value, null, 2));
+  fs.renameSync(temporary, file);
+}
 
 const profiles = PROFILES.map((profile) => {
   const root = dir(profile);
@@ -32,7 +81,7 @@ const profiles = PROFILES.map((profile) => {
     lastSuccessfulRun: quality.status === 'PASS' ? (quality.generatedAt || null) : null,
     nextScheduledTime: cfg.dailyRunTime || null,
     productTarget: Number(cfg.minimumProducts || 1000),
-    productCount: Number(data.count || quality.productCount || 0),
+    productCount: Number(data.count || (Array.isArray(data.products) ? data.products.length : 0) || quality.productCount || 0),
     detailSuccessRate: quality.detailSuccessRate ?? null,
     stockCoverage: quality.detail?.stockCoverage ?? quality.detailCoverage?.stock_status ?? null,
     sellerCoverage: quality.detail?.coverage?.seller_count ?? quality.detailCoverage?.seller_count ?? null,
@@ -44,6 +93,7 @@ const profiles = PROFILES.map((profile) => {
 const taxonomy = read(path.join(ROOT, 'taxonomy', 'catalog.json')) || {};
 const taxonomyStatus = read(path.join(ROOT, 'taxonomy', 'status.json')) || {};
 const taxonomySnapshot = read(path.join(ROOT, 'taxonomy', 'snapshots', date, 'summary.json')) || {};
+const tree = taxonomyTreeStats();
 const output = {
   marketplace: 'hepsiburada',
   generatedAt: new Date().toISOString(),
@@ -56,9 +106,11 @@ const output = {
     categoryCount: taxonomy.count || (taxonomy.categories || []).length || 0,
     rootCategoryCount: (taxonomy.categories || []).filter((c) => c.level === 1).length,
     productMembershipRows: taxonomySnapshot.rankingCount ?? null,
+    tree,
   },
   profiles,
-  activeHermesJobs: activeJobs,
+  workers,
+  activeHermesJobs: workers.active,
   publication: { status: process.env.VERI_MIMARI_INGEST_URL && process.env.VERI_MIMARI_INGEST_SECRET ? 'configured' : 'not_configured' },
   definitions: {
     productCount: 'Unique product records in a profile snapshot.',
@@ -67,5 +119,5 @@ const output = {
   },
 };
 fs.mkdirSync(path.join(ROOT, 'dashboard'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'dashboard', 'status.json'), JSON.stringify(output, null, 2));
+atomicWriteJson(path.join(ROOT, 'dashboard', 'status.json'), output);
 console.log(`DASHBOARD_STATUS_OK profiles=${profiles.length} taxonomy=${output.taxonomy.status}`);

@@ -13,7 +13,7 @@
     .value { font-size:28px; font-weight:700; margin-top:8px; }
     .status { display:inline-block; padding:4px 9px; border-radius:999px; font-size:12px; font-weight:700; }
     .PASS { background:#164d35; color:#72e3a6; } .FAIL,.STALE,.INSUFFICIENT_SOURCE { background:#5a2529; color:#ff9b9b; }
-    .UNKNOWN,.IN_PROGRESS { background:#574819; color:#f6d878; }
+    .UNKNOWN,.IN_PROGRESS { background:#574819; color:#f6d878; } .RUNNING { background:#173f62; color:#8dccff; }
     table { width:100%; border-collapse:collapse; background:#191e28; border-radius:12px; overflow:hidden; }
     th,td { text-align:left; padding:12px; border-bottom:1px solid #2b3442; } th { color:#9aa6b2; font-size:12px; }
     code { color:#a9d5ff; } @media(max-width:700px){body{padding:16px} th:nth-child(n+4),td:nth-child(n+4){display:none}}
@@ -25,8 +25,10 @@
   <section class="grid" id="summary"></section>
   <h2>Profil havuzları</h2>
   <table><thead><tr><th>Profil</th><th>Durum</th><th>Ürün</th><th>Detay</th><th>Stok</th><th>Gözlem tarihi</th></tr></thead><tbody id="profiles"></tbody></table>
+  <h2>Kategori ağacı</h2>
+  <div class="card"><div class="muted" id="treeMeta">—</div><table><thead id="treeHead"></thead><tbody id="tree"></tbody></table></div>
   <h2>Operasyon</h2>
-  <div class="card"><div class="muted">Aktif Hermes işleri</div><pre id="jobs">—</pre><div class="muted">Kaynak commit: <code id="commit">—</code></div></div>
+  <div class="card"><div class="muted" id="workerMeta">—</div><pre id="jobs">—</pre><div class="muted">Kaynak commit: <code id="commit">—</code></div></div>
   <script>
     const esc = (v) => String(v ?? '—').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
     const badge = (v) => `<span class="status ${esc(v)}">${esc(v)}</span>`;
@@ -34,10 +36,27 @@
       document.querySelector('#meta').textContent = `Gözlem: ${d.observedDate || '—'} · Üretim: ${d.generatedAt || '—'} · Yayın: ${d.publication?.status || '—'}`;
       const t = d.taxonomy || {};
       document.querySelector('#summary').innerHTML = [
-        ['Taxonomy', badge(t.status)], ['Ürün taraması', badge(t.productCollectionStatus)], ['Kategori', t.categoryCount], ['Kök kategori', t.rootCategoryCount], ['Üyelik satırı', t.productMembershipRows]
+        ['Taxonomy', badge(t.status)], ['Ürün taraması', badge(t.productCollectionStatus)], ['Kategori', t.categoryCount], ['Kök kategori', t.rootCategoryCount], ['Aktif işçi', d.workers?.summary?.activeCount ?? 0]
       ].map(([k,v]) => `<div class="card"><div class="muted">${k}</div><div class="value">${v}</div></div>`).join('');
       document.querySelector('#profiles').innerHTML = (d.profiles || []).map((p) => `<tr><td>${esc(p.profile)}</td><td>${badge(p.status)}</td><td>${esc(p.productCount)} / ${esc(p.productTarget)}</td><td>${esc(p.detailSuccessRate)}%</td><td>${esc(p.stockCoverage)}%</td><td>${esc(p.observedDate)}</td></tr>`).join('');
-      document.querySelector('#jobs').textContent = (d.activeHermesJobs || []).map((j) => j.command).join('\n') || 'Aktif iş yok';
+      const tree = t.tree || {};
+      const shardRows = tree.shards || [];
+      const shardNames = shardRows.map((shard) => (shard.file || '').split('/').pop().replace(/\.json$/, '')).filter(Boolean);
+      const byRoot = {};
+      for (const shard of shardRows) for (const [root, count] of Object.entries(shard.byRoot || {})) {
+        byRoot[root] ||= {};
+        const shardName = (shard.file || '').split('/').pop().replace(/\.json$/, '');
+        byRoot[root][shardName] = count;
+      }
+      document.querySelector('#treeMeta').textContent = `Ana katalog: ${tree.primary?.status || '—'} · ${tree.primary?.categoryCount ?? 0} kayıt · ${tree.primary?.maxDepth ?? 0} seviye | Shard toplamı: ${tree.shardCategoryRows ?? 0} · benzersiz ID: ${tree.shardUniqueCategoryIds ?? 0}`;
+      document.querySelector('#treeHead').innerHTML = `<tr><th>Kök</th>${shardNames.map((name) => `<th>${esc(name)}</th>`).join('')}<th>Toplam geçici</th></tr>`;
+      document.querySelector('#tree').innerHTML = Object.entries(byRoot).sort().map(([root, counts]) => {
+        const total = shardNames.reduce((sum, name) => sum + Number(counts[name] || 0), 0);
+        return `<tr><td>${esc(root)}</td>${shardNames.map((name) => `<td>${esc(counts[name] || 0)}</td>`).join('')}<td>${esc(total)}</td></tr>`;
+      }).join('') || `<tr><td colspan="${shardNames.length + 2}">Kategori ağacı henüz oluşmadı</td></tr>`;
+      const active = d.workers?.active || d.activeHermesJobs || [];
+      document.querySelector('#workerMeta').textContent = `Aktif: ${d.workers?.summary?.activeCount ?? active.length} · Stale: ${d.workers?.summary?.staleCount ?? 0} · İzlenen koşu: ${d.workers?.summary?.trackedRunCount ?? 0}`;
+      document.querySelector('#jobs').textContent = active.map((j) => `[${j.component || 'worker'}] pid=${j.pid || '—'} ${j.status || 'RUNNING'} ${j.command || ''}`).join('\n') || 'Aktif iş yok';
       document.querySelector('#commit').textContent = d.sourceCommit || '—';
     }).catch((e) => { document.querySelector('#meta').textContent = `Durum okunamadı: ${e.message}`; });
   </script>

@@ -7,15 +7,22 @@ import argparse
 import csv
 import datetime
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TAX = ROOT / "taxonomy"
+EXPECTED_ROOT_COUNT = 9
+
+try:
+    from atomic_io import atomic_write_text
+except ImportError:
+    from scripts.atomic_io import atomic_write_text
 
 
 def write_status(status, reason, shards):
     TAX.mkdir(parents=True, exist_ok=True)
-    (TAX / "status.json").write_text(json.dumps({
+    atomic_write_text(TAX / "status.json", json.dumps({
         "marketplace": "hepsiburada", "date": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).strftime("%Y-%m-%d"),
         "status": status, "reason": reason, "shards": shards,
     }, ensure_ascii=False, indent=2))
@@ -27,15 +34,20 @@ def main():
     args = ap.parse_args()
     merged = {}
     shards = {}
+    shard_dates = set()
     for tag in args.tags.split(","):
         p = TAX / f"catalog-{tag}.json"
         if not p.exists():
             shards[tag] = {"status": "MISSING"}
             continue
         d = json.loads(p.read_text())
+        shard_dates.add(d.get("date"))
         state_path = TAX / f"crawl-state-{tag}.json"
         state = json.loads(state_path.read_text()) if state_path.exists() else {}
-        shards[tag] = {"status": d.get("status"), "count": d.get("count"), "queue": len(state.get("queued", []))}
+        shard_rows = d.get("categories", [])
+        shard_roots = {r.get("id") for r in shard_rows if int(r.get("level", 0)) == 1 and r.get("id")}
+        shards[tag] = {"status": d.get("status"), "count": d.get("count"), "queue": len(state.get("queued", [])),
+                       "rootCount": len(shard_roots), "emptyIdCount": sum(1 for r in shard_rows if not r.get("id"))}
         if d.get("status") != "COMPLETE" or state.get("queued"):
             write_status("IN_PROGRESS", f"shard {tag} tamamlanmadi", shards)
             print(f"TAXMERGE_WAIT shard={tag} status={d.get('status')} queue={len(state.get('queued', []))}")
@@ -44,6 +56,15 @@ def main():
             old = merged.get(r["id"])
             if old is None or (r["level"], len(r["path"])) < (old["level"], len(old["path"])):
                 merged[r["id"]] = r
+    if len(shard_dates) != 1 or None in shard_dates:
+        write_status("IN_PROGRESS", f"shard tarihleri uyumsuz: {sorted(shard_dates)}", shards)
+        print(f"TAXMERGE_WAIT dates={sorted(shard_dates)}")
+        return 2
+    root_ids = {r.get("id") for r in merged.values() if int(r.get("level", 0)) == 1 and r.get("id")}
+    if len(root_ids) < EXPECTED_ROOT_COUNT:
+        write_status("IN_PROGRESS", f"kök kategori sayısı yetersiz: {len(root_ids)}/{EXPECTED_ROOT_COUNT}", shards)
+        print(f"TAXMERGE_WAIT roots={len(root_ids)}/{EXPECTED_ROOT_COUNT}")
+        return 2
     date = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).strftime("%Y-%m-%d")
     rows = sorted(merged.values(), key=lambda r: (r["level"], r["path"]))
     for row in rows:
@@ -57,10 +78,11 @@ def main():
         row.setdefault("source_url", row.get("url"))
         row.setdefault("discovered_at", None)
         row.setdefault("is_active", True)
-    (TAX / "catalog.json").write_text(json.dumps(
+    atomic_write_text(TAX / "catalog.json", json.dumps(
         {"marketplace": "hepsiburada", "date": date, "status": "PASS", "count": len(rows), "categories": rows},
         ensure_ascii=False, indent=2))
-    with open(TAX / "catalog.csv", "w", newline="") as f:
+    csv_path = TAX / "catalog.csv"
+    with open(csv_path.with_suffix(csv_path.suffix + ".tmp"), "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["id", "parent_id", "name", "url", "level", "path", "root_id", "root_name",
                     "full_path", "path_ids", "path_slug", "has_children", "child_count", "source_url",
@@ -70,6 +92,7 @@ def main():
                         r["root_id"], r["root_name"], r["full_path"], ">".join(r["path_ids"]),
                         r["path_slug"], r["has_children"], r["child_count"], r["source_url"],
                         r["discovered_at"], r["is_active"]])
+    os.replace(csv_path.with_suffix(csv_path.suffix + ".tmp"), csv_path)
     by_level = {}
     for r in rows:
         by_level[r["level"]] = by_level.get(r["level"], 0) + 1

@@ -10,6 +10,7 @@ import argparse
 import csv
 import datetime
 import json
+import os
 import re
 import sys
 import time
@@ -21,6 +22,11 @@ try:
 except ImportError:
     from scripts.hb_playwright_config import add_browser_mode_args
 from urllib.parse import urlparse
+
+try:
+    from atomic_io import atomic_write_text
+except ImportError:
+    from scripts.atomic_io import atomic_write_text
 
 ROOT = Path(__file__).resolve().parent.parent
 TAX = ROOT / "taxonomy"
@@ -161,10 +167,10 @@ def main():
                 "is_active": True,
             })
         rows = sorted(cats.values(), key=lambda r: (r["level"], r["path"]))
-        catalog_path.write_text(json.dumps(
+        atomic_write_text(catalog_path, json.dumps(
             {"date": today(), "status": "LIVE-CRAWL", "count": len(rows), "categories": rows},
             ensure_ascii=False, indent=2))
-        with open(csv_path, "w", newline="") as f:
+        with open(csv_path.with_suffix(csv_path.suffix + ".tmp"), "w", newline="") as f:
             w = csv.writer(f)
             w.writerow(["id", "parent_id", "name", "url", "level", "path", "root_id", "root_name",
                         "full_path", "path_ids", "path_slug", "has_children", "child_count", "source_url",
@@ -174,7 +180,8 @@ def main():
                             r["root_id"], r["root_name"], r["full_path"], ">".join(r["path_ids"]),
                             r["path_slug"], r["has_children"], r["child_count"], r["source_url"],
                             r["discovered_at"], r["is_active"]])
-        state_path.write_text(json.dumps(
+        os.replace(csv_path.with_suffix(csv_path.suffix + ".tmp"), csv_path)
+        atomic_write_text(state_path, json.dumps(
             {"date": today(), "queued": list(queue), "visited_count": len(visited),
              "poison": sorted(poison)}, ensure_ascii=False))
 
@@ -237,8 +244,8 @@ def main():
                         queue.appendleft((cid, parent, name, url, level, path))
                         time.sleep(20)
                         continue
-                    print(f"CRAWL_ERR {str(e)[:60]} {url[:60]}", flush=True)
-                time.sleep(2.5)
+                print(f"CRAWL_ERR {str(e)[:60]} {url[:60]}", flush=True)
+            time.sleep(float(os.environ.get("HB_CRAWL_DELAY", "2.5")))
         finally:
             if ctx is not None:
                 ctx.close()
@@ -248,7 +255,7 @@ def main():
         final_catalog = json.loads(catalog_path.read_text())
         final_catalog["status"] = "COMPLETE"
         final_catalog["completed_at"] = stamp()
-        catalog_path.write_text(json.dumps(final_catalog, ensure_ascii=False, indent=2))
+        atomic_write_text(catalog_path, json.dumps(final_catalog, ensure_ascii=False, indent=2))
     print(f"CRAWL_OK tag={args.tag or 'main'} pages={pages_done} cats={len(cats)} queue_left={len(queue)}")
     return 0
 

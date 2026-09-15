@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TAX = ROOT / "taxonomy"
+EXPECTED_ROOT_COUNT = 9
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 STATE_JS = """() => {
   const vf = window.MORIA && window.MORIA.VERTICALFILTER ? Object.values(window.MORIA.VERTICALFILTER) : [];
@@ -61,7 +62,7 @@ def goto_with_retry(page, url, attempts=3):
     raise last_error
 
 
-def load_categories():
+def load_categories(allow_partial=False):
     file = TAX / "catalog.json"
     if not file.exists():
         raise SystemExit("taxonomy/catalog.json yok")
@@ -69,6 +70,15 @@ def load_categories():
     rows = data.get("categories", [])
     if not rows:
         raise SystemExit("taxonomy katalogu bos")
+    status = str(data.get("status", "")).upper()
+    roots = [r for r in rows if int(r.get("level", 0)) == 1]
+    invalid_roots = [r for r in roots if not r.get("id") or not (r.get("source_url") or r.get("url"))]
+    if not allow_partial and status not in {"PASS", "COMPLETE"}:
+        raise SystemExit(f"taxonomy katalogu hazir degil: status={status or 'UNKNOWN'}")
+    if not allow_partial and len({r.get("id") for r in roots}) < EXPECTED_ROOT_COUNT:
+        raise SystemExit(f"taxonomy kokleri eksik: {len(roots)}/{EXPECTED_ROOT_COUNT}")
+    if invalid_roots:
+        raise SystemExit(f"taxonomy koklerinde kimlik veya URL eksik: {len(invalid_roots)}")
     return data, rows
 
 
@@ -80,13 +90,14 @@ def main():
     ap.add_argument("--max-products", type=int, default=1000)
     ap.add_argument("--max-pages-per-category", type=int, default=100)
     ap.add_argument("--request-delay-ms", type=int, default=1500)
+    ap.add_argument("--allow-partial", action="store_true", help="Sadece tanı için eksik katalogla devam et")
     try:
         from hb_playwright_config import add_browser_mode_args
     except ImportError:
         from scripts.hb_playwright_config import add_browser_mode_args
     add_browser_mode_args(ap)
     args = ap.parse_args()
-    catalog, rows = load_categories()
+    catalog, rows = load_categories(args.allow_partial)
     roots = [r for r in rows if int(r.get("level", 0)) == 1]
     if args.root_id:
         roots = [r for r in roots if r.get("id") in args.root_id]
@@ -96,7 +107,9 @@ def main():
     out_dir = TAX / "snapshots" / date
     out_dir.mkdir(parents=True, exist_ok=True)
     summary = {"marketplace": "hepsiburada", "date": date, "targetPerRoot": args.max_products,
-               "catalogDate": catalog.get("date"), "roots": [], "shard": args.shard, "of": args.of}
+               "catalogDate": catalog.get("date"), "catalogStatus": catalog.get("status"),
+               "catalogRootCount": len([r for r in rows if int(r.get("level", 0)) == 1]),
+               "roots": [], "shard": args.shard, "of": args.of}
     products_out = []
     rankings_out = []
 

@@ -12,7 +12,7 @@ for source in "$PROJECT_DIR"/hermes/hepsiburada_*.sh; do
 done
 
 job_id_for_name() {
-  /usr/bin/python3 - "$JOBS_FILE" "$1" <<'PY'
+  /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3 - "$JOBS_FILE" "$1" <<'PY'
 import json, pathlib, sys
 file, name = pathlib.Path(sys.argv[1]), sys.argv[2]
 if file.exists():

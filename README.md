@@ -21,6 +21,15 @@ Marketplace bağımsız veri sözleşmesi, Hepsiburada Playwright adapter’ı, 
 - `quality/latest.json` + `categories/<profil>/quality/latest.json`
 - `reports/latest.md`, `reports/telegram-latest.txt` (Telegram kısa özet; bot hazır olunca gönderilir)
 
+## Operasyonel mimari
+
+- Her shard ve profil koşusu `scripts/run_with_timeout.py` üzerinden çalışır; süreç grubu, timeout ve sinyal kapanışı birlikte yönetilir.
+- Koşu manifestleri `.runtime/runs/YYYY-MM-DD/*.json` altında tutulur. Bu klasör git dışıdır; `dashboard/status.json` aktif, tamamlanmış ve stale koşuları buradan izler.
+- Katalog ve özet dosyaları atomik yazılır. Yarım kalmış JSON/CSV/GZIP çıktısı son geçerli snapshot'ın üzerine geçemez.
+- Ürün toplama, taxonomy katalog durumu `PASS/COMPLETE`, dokuz kök kategori ve dolu kök kimlikleri doğrulanmadan başlayamaz.
+- Taxonomy merge aynı tarihli ve tamamlanmış shard'ları kabul eder; eksik kök, uyumsuz tarih veya açık kuyrukta `IN_PROGRESS` bırakır.
+- Dashboard; ana katalog ile shard keşiflerini ayrı gösterir. Shard satırları ürün üyelik satırlarıyla karıştırılmaz.
+
 ## Günlük çalışma
 
 ```bash

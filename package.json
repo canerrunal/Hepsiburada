@@ -15,6 +15,6 @@
     "collect:anne-bebek-oyuncak": "node scripts/collect.cjs --profile anne-bebek-oyuncak",
     "quality": "node scripts/quality_check.cjs",
     "dashboard:status": "node scripts/build_dashboard_status.cjs",
-    "test": "node --test scripts/discover_hepsiburada_taxonomy.test.cjs scripts/quality_check.test.cjs scripts/dashboard_status.test.cjs"
+    "test": "node --test scripts/discover_hepsiburada_taxonomy.test.cjs scripts/quality_check.test.cjs scripts/dashboard_status.test.cjs scripts/worker_status.test.cjs"
   }
 }
