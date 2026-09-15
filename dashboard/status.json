@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T16:00:03.187Z",
+  "generatedAt": "2026-09-15T16:05:03.984Z",
   "observedDate": "2026-09-15",
-  "sourceCommit": "c59211cb8312eed37f8942abbef5e147315a9e1f",
+  "sourceCommit": "d72b2977804f3f3527e4c4d8037c6eb6834fac42",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -17302,12 +17302,12 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T16:00:03.061Z",
+    "observedAt": "2026-09-15T16:05:03.858Z",
     "summary": {
-      "activeCount": 2,
+      "activeCount": 1,
       "staleCount": 0,
       "trackedRunCount": 14,
-      "osProcessCount": 2
+      "osProcessCount": 1
     },
     "active": [
       {
@@ -17324,33 +17324,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:00:01+03:00",
+        "updatedAt": "2026-09-15T19:05:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 7260.6,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false,
-        "live": true,
-        "source": "runtime-registry"
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-b1f840a9ae",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "2",
-          "--of",
-          "4"
-        ],
-        "pid": 28800,
-        "status": "RUNNING",
-        "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:00:01+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 7260.6,
+        "elapsedSeconds": 7560.6,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17375,9 +17351,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:00:01+03:00",
+        "updatedAt": "2026-09-15T19:05:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 7260.6,
+        "elapsedSeconds": 7560.6,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17395,14 +17371,14 @@
           "4"
         ],
         "pid": 28800,
-        "status": "RUNNING",
+        "status": "FAILED",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:00:01+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 7260.6,
+        "updatedAt": "2026-09-15T19:04:05+03:00",
+        "finishedAt": "2026-09-15T19:04:05+03:00",
+        "elapsedSeconds": 7504.6,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
-        "exitCode": null,
+        "exitCode": 2,
         "timeout": false
       },
       {
@@ -17680,33 +17656,9 @@
       "pid": 28801,
       "status": "RUNNING",
       "startedAt": "2026-09-15T16:59:00+03:00",
-      "updatedAt": "2026-09-15T19:00:01+03:00",
+      "updatedAt": "2026-09-15T19:05:01+03:00",
       "finishedAt": null,
-      "elapsedSeconds": 7260.6,
-      "timeoutSeconds": 21600,
-      "heartbeatSeconds": 60,
-      "exitCode": null,
-      "timeout": false,
-      "live": true,
-      "source": "runtime-registry"
-    },
-    {
-      "runId": "2026-09-15-taxonomy-products-b1f840a9ae",
-      "component": "taxonomy-products",
-      "command": [
-        "/usr/bin/python3",
-        "scripts/hb_taxonomy_collect.py",
-        "--shard",
-        "2",
-        "--of",
-        "4"
-      ],
-      "pid": 28800,
-      "status": "RUNNING",
-      "startedAt": "2026-09-15T16:59:00+03:00",
-      "updatedAt": "2026-09-15T19:00:01+03:00",
-      "finishedAt": null,
-      "elapsedSeconds": 7260.6,
+      "elapsedSeconds": 7560.6,
       "timeoutSeconds": 21600,
       "heartbeatSeconds": 60,
       "exitCode": null,
@@ -17719,8 +17671,8 @@
     {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-15T19:05:00+03:00",
-      "lastRun": "2026-09-15T18:55:04.769738+03:00",
+      "nextRun": "2026-09-15T19:10:00+03:00",
+      "lastRun": "2026-09-15T19:00:07.469880+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
