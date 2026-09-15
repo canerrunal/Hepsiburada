@@ -1,11 +1,11 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T20:03:28.302Z",
+  "generatedAt": "2026-09-15T20:05:33.460Z",
   "observedDate": "2026-09-15",
-  "sourceCommit": "054e578c2416c65228379b583c4c80b712204ec4",
+  "sourceCommit": "c0134ccbf6ac9f604a2139de5b98e6e63d933b22",
   "taxonomy": {
     "status": "PASS",
-    "productCollectionStatus": "RUNNING",
+    "productCollectionStatus": "INSUFFICIENT_SOURCE",
     "observedDate": "2026-09-15",
     "categoryCount": 5616,
     "rootCategoryCount": 9,
@@ -17302,14 +17302,16 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T20:03:28.153Z",
+    "observedAt": "2026-09-15T20:05:33.333Z",
     "summary": {
-      "activeCount": 4,
+      "activeCount": 0,
       "staleCount": 0,
       "trackedRunCount": 30,
-      "osProcessCount": 4
+      "osProcessCount": 0
     },
-    "active": [
+    "active": [],
+    "stale": [],
+    "recentRuns": [
       {
         "runId": "2026-09-15-taxonomy-products-1f0c116c31",
         "component": "taxonomy-products",
@@ -17327,17 +17329,15 @@
           "5000"
         ],
         "pid": 40579,
-        "status": "RUNNING",
+        "status": "CANCELLED",
         "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
+        "updatedAt": "2026-09-15T23:03:39+03:00",
+        "finishedAt": "2026-09-15T23:03:39+03:00",
+        "elapsedSeconds": 476.9,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false,
-        "live": true,
-        "source": "runtime-registry"
+        "exitCode": 143,
+        "timeout": false
       },
       {
         "runId": "2026-09-15-taxonomy-products-2da515c43b",
@@ -17356,17 +17356,15 @@
           "5000"
         ],
         "pid": 40581,
-        "status": "RUNNING",
+        "status": "CANCELLED",
         "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
+        "updatedAt": "2026-09-15T23:03:39+03:00",
+        "finishedAt": "2026-09-15T23:03:39+03:00",
+        "elapsedSeconds": 476.9,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false,
-        "live": true,
-        "source": "runtime-registry"
+        "exitCode": 143,
+        "timeout": false
       },
       {
         "runId": "2026-09-15-taxonomy-products-45c0e9f282",
@@ -17385,17 +17383,15 @@
           "5000"
         ],
         "pid": 40578,
-        "status": "RUNNING",
+        "status": "CANCELLED",
         "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
+        "updatedAt": "2026-09-15T23:03:39+03:00",
+        "finishedAt": "2026-09-15T23:03:39+03:00",
+        "elapsedSeconds": 476.9,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false,
-        "live": true,
-        "source": "runtime-registry"
+        "exitCode": 143,
+        "timeout": false
       },
       {
         "runId": "2026-09-15-taxonomy-products-b342e119e2",
@@ -17414,21 +17410,16 @@
           "5000"
         ],
         "pid": 40580,
-        "status": "RUNNING",
+        "status": "CANCELLED",
         "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
+        "updatedAt": "2026-09-15T23:03:39+03:00",
+        "finishedAt": "2026-09-15T23:03:39+03:00",
+        "elapsedSeconds": 476.9,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false,
-        "live": true,
-        "source": "runtime-registry"
-      }
-    ],
-    "stale": [],
-    "recentRuns": [
+        "exitCode": 143,
+        "timeout": false
+      },
       {
         "runId": "2026-09-15-listing-collector-fa0529fcb9",
         "component": "listing-collector",
@@ -17447,114 +17438,6 @@
         "timeoutSeconds": 1200,
         "heartbeatSeconds": 30,
         "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-1f0c116c31",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "3",
-          "--of",
-          "4",
-          "--category-scope",
-          "root",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 40579,
-        "status": "RUNNING",
-        "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-2da515c43b",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "1",
-          "--of",
-          "4",
-          "--category-scope",
-          "root",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 40581,
-        "status": "RUNNING",
-        "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-45c0e9f282",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "0",
-          "--of",
-          "4",
-          "--category-scope",
-          "root",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 40578,
-        "status": "RUNNING",
-        "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": null,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-b342e119e2",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "2",
-          "--of",
-          "4",
-          "--category-scope",
-          "root",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 40580,
-        "status": "RUNNING",
-        "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:02:42+03:00",
-        "finishedAt": null,
-        "elapsedSeconds": 420,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": null,
         "timeout": false
       },
       {
@@ -17915,130 +17798,13 @@
       }
     ]
   },
-  "activeHermesJobs": [
-    {
-      "runId": "2026-09-15-taxonomy-products-1f0c116c31",
-      "component": "taxonomy-products",
-      "command": [
-        "/usr/bin/python3",
-        "scripts/hb_taxonomy_collect.py",
-        "--shard",
-        "3",
-        "--of",
-        "4",
-        "--category-scope",
-        "root",
-        "--headed",
-        "--request-delay-ms",
-        "5000"
-      ],
-      "pid": 40579,
-      "status": "RUNNING",
-      "startedAt": "2026-09-15T22:55:42+03:00",
-      "updatedAt": "2026-09-15T23:02:42+03:00",
-      "finishedAt": null,
-      "elapsedSeconds": 420,
-      "timeoutSeconds": 21600,
-      "heartbeatSeconds": 60,
-      "exitCode": null,
-      "timeout": false,
-      "live": true,
-      "source": "runtime-registry"
-    },
-    {
-      "runId": "2026-09-15-taxonomy-products-2da515c43b",
-      "component": "taxonomy-products",
-      "command": [
-        "/usr/bin/python3",
-        "scripts/hb_taxonomy_collect.py",
-        "--shard",
-        "1",
-        "--of",
-        "4",
-        "--category-scope",
-        "root",
-        "--headed",
-        "--request-delay-ms",
-        "5000"
-      ],
-      "pid": 40581,
-      "status": "RUNNING",
-      "startedAt": "2026-09-15T22:55:42+03:00",
-      "updatedAt": "2026-09-15T23:02:42+03:00",
-      "finishedAt": null,
-      "elapsedSeconds": 420,
-      "timeoutSeconds": 21600,
-      "heartbeatSeconds": 60,
-      "exitCode": null,
-      "timeout": false,
-      "live": true,
-      "source": "runtime-registry"
-    },
-    {
-      "runId": "2026-09-15-taxonomy-products-45c0e9f282",
-      "component": "taxonomy-products",
-      "command": [
-        "/usr/bin/python3",
-        "scripts/hb_taxonomy_collect.py",
-        "--shard",
-        "0",
-        "--of",
-        "4",
-        "--category-scope",
-        "root",
-        "--headed",
-        "--request-delay-ms",
-        "5000"
-      ],
-      "pid": 40578,
-      "status": "RUNNING",
-      "startedAt": "2026-09-15T22:55:42+03:00",
-      "updatedAt": "2026-09-15T23:02:42+03:00",
-      "finishedAt": null,
-      "elapsedSeconds": 420,
-      "timeoutSeconds": 21600,
-      "heartbeatSeconds": 60,
-      "exitCode": null,
-      "timeout": false,
-      "live": true,
-      "source": "runtime-registry"
-    },
-    {
-      "runId": "2026-09-15-taxonomy-products-b342e119e2",
-      "component": "taxonomy-products",
-      "command": [
-        "/usr/bin/python3",
-        "scripts/hb_taxonomy_collect.py",
-        "--shard",
-        "2",
-        "--of",
-        "4",
-        "--category-scope",
-        "root",
-        "--headed",
-        "--request-delay-ms",
-        "5000"
-      ],
-      "pid": 40580,
-      "status": "RUNNING",
-      "startedAt": "2026-09-15T22:55:42+03:00",
-      "updatedAt": "2026-09-15T23:02:42+03:00",
-      "finishedAt": null,
-      "elapsedSeconds": 420,
-      "timeoutSeconds": 21600,
-      "heartbeatSeconds": 60,
-      "exitCode": null,
-      "timeout": false,
-      "live": true,
-      "source": "runtime-registry"
-    }
-  ],
+  "activeHermesJobs": [],
   "schedules": [
     {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-15T23:05:00+03:00",
-      "lastRun": "2026-09-15T22:55:35.183963+03:00",
+      "nextRun": "2026-09-15T23:10:00+03:00",
+      "lastRun": "2026-09-15T23:03:31.490787+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
