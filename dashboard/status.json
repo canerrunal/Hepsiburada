@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T15:15:58.275Z",
+  "generatedAt": "2026-09-15T15:20:58.361Z",
   "observedDate": "2026-09-15",
-  "sourceCommit": "766a3ef17d82ac21247921521cb40a4c3dfff64b",
+  "sourceCommit": "4f27389b9596230e6815bedc279ff36517266da0",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -16911,6 +16911,99 @@
       "shardUniqueCategoryIds": 5616
     }
   },
+  "taxonomyCollectionPlan": {
+    "policy": {
+      "basis": "subcategory_count_excluding_root",
+      "over_1000_subcategories": 4000,
+      "500_to_999_subcategories": 2500,
+      "under_500_subcategories": 2000
+    },
+    "roots": [
+      {
+        "rootId": "2147483639",
+        "rootName": "Anne, Bebek, Oyuncak",
+        "categoryCount": 311,
+        "subcategoryCount": 310,
+        "target": 2000,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 0
+      },
+      {
+        "rootId": "2147483638",
+        "rootName": "Elektronik",
+        "categoryCount": 426,
+        "subcategoryCount": 425,
+        "target": 2000,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 1
+      },
+      {
+        "rootId": "60002028",
+        "rootName": "Ev, Yasam, Kirtasiye, Ofis",
+        "categoryCount": 578,
+        "subcategoryCount": 577,
+        "target": 2500,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 2
+      },
+      {
+        "rootId": "60001501",
+        "rootName": "Kitap, Muzik, Film, Hobi",
+        "categoryCount": 642,
+        "subcategoryCount": 641,
+        "target": 2500,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 3
+      },
+      {
+        "rootId": "60001547",
+        "rootName": "Kozmetik, Kisisel Bakim",
+        "categoryCount": 187,
+        "subcategoryCount": 186,
+        "target": 2000,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 0
+      },
+      {
+        "rootId": "2147483636",
+        "rootName": "Moda",
+        "categoryCount": 417,
+        "subcategoryCount": 416,
+        "target": 2000,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 1
+      },
+      {
+        "rootId": "60002705",
+        "rootName": "Oto, Bahce, Yapi Market",
+        "categoryCount": 1198,
+        "subcategoryCount": 1197,
+        "target": 4000,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 2
+      },
+      {
+        "rootId": "60001546",
+        "rootName": "Spor, Outdoor",
+        "categoryCount": 1630,
+        "subcategoryCount": 1629,
+        "target": 4000,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 3
+      },
+      {
+        "rootId": "2147483619",
+        "rootName": "Supermarket, Pet Shop",
+        "categoryCount": 227,
+        "subcategoryCount": 226,
+        "target": 2000,
+        "targetBasis": "subcategory_count_excluding_root",
+        "assignedShard": 0
+      }
+    ],
+    "totalTarget": 23000,
+    "targetSummary": "23.000 benzersiz ürün · kök hedefleri 4.000 / 2.500 / 2.000"
+  },
   "profiles": [
     {
       "profile": "elektronik",
@@ -17209,7 +17302,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T15:15:58.148Z",
+    "observedAt": "2026-09-15T15:20:58.255Z",
     "summary": {
       "activeCount": 5,
       "staleCount": 0,
@@ -17231,9 +17324,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:15:01+03:00",
+        "updatedAt": "2026-09-15T18:20:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 4560.3,
+        "elapsedSeconds": 4860.3,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17255,9 +17348,9 @@
         "pid": 28800,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:15:01+03:00",
+        "updatedAt": "2026-09-15T18:20:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 4560.3,
+        "elapsedSeconds": 4860.4,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17267,7 +17360,7 @@
       },
       {
         "pid": 28793,
-        "elapsed": "01:16:58",
+        "elapsed": "01:21:58",
         "stat": "Ss+",
         "cpu": 0,
         "memory": 0,
@@ -17280,7 +17373,7 @@
       },
       {
         "pid": 28798,
-        "elapsed": "01:16:58",
+        "elapsed": "01:21:58",
         "stat": "SN+",
         "cpu": 0,
         "memory": 0,
@@ -17293,7 +17386,7 @@
       },
       {
         "pid": 28799,
-        "elapsed": "01:16:58",
+        "elapsed": "01:21:58",
         "stat": "SN+",
         "cpu": 0,
         "memory": 0,
@@ -17321,9 +17414,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:15:01+03:00",
+        "updatedAt": "2026-09-15T18:20:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 4560.3,
+        "elapsedSeconds": 4860.3,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17343,9 +17436,9 @@
         "pid": 28800,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T18:15:01+03:00",
+        "updatedAt": "2026-09-15T18:20:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 4560.3,
+        "elapsedSeconds": 4860.4,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17626,9 +17719,9 @@
       "pid": 28801,
       "status": "RUNNING",
       "startedAt": "2026-09-15T16:59:00+03:00",
-      "updatedAt": "2026-09-15T18:15:01+03:00",
+      "updatedAt": "2026-09-15T18:20:01+03:00",
       "finishedAt": null,
-      "elapsedSeconds": 4560.3,
+      "elapsedSeconds": 4860.3,
       "timeoutSeconds": 21600,
       "heartbeatSeconds": 60,
       "exitCode": null,
@@ -17650,9 +17743,9 @@
       "pid": 28800,
       "status": "RUNNING",
       "startedAt": "2026-09-15T16:59:00+03:00",
-      "updatedAt": "2026-09-15T18:15:01+03:00",
+      "updatedAt": "2026-09-15T18:20:01+03:00",
       "finishedAt": null,
-      "elapsedSeconds": 4560.3,
+      "elapsedSeconds": 4860.4,
       "timeoutSeconds": 21600,
       "heartbeatSeconds": 60,
       "exitCode": null,
@@ -17662,7 +17755,7 @@
     },
     {
       "pid": 28793,
-      "elapsed": "01:16:58",
+      "elapsed": "01:21:58",
       "stat": "Ss+",
       "cpu": 0,
       "memory": 0,
@@ -17675,7 +17768,7 @@
     },
     {
       "pid": 28798,
-      "elapsed": "01:16:58",
+      "elapsed": "01:21:58",
       "stat": "SN+",
       "cpu": 0,
       "memory": 0,
@@ -17688,7 +17781,7 @@
     },
     {
       "pid": 28799,
-      "elapsed": "01:16:58",
+      "elapsed": "01:21:58",
       "stat": "SN+",
       "cpu": 0,
       "memory": 0,
@@ -17704,8 +17797,8 @@
     {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-15T18:20:00+03:00",
-      "lastRun": "2026-09-15T18:11:00.950079+03:00",
+      "nextRun": "2026-09-15T18:25:00+03:00",
+      "lastRun": "2026-09-15T18:16:02.020064+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -17771,31 +17864,31 @@
       "task": "Profil: elektronik",
       "time": "22:30",
       "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
-      "target": "1000 ürün + detay"
+      "target": "1000 ürün + 300"
     },
     {
       "task": "Profil: moda",
       "time": "23:00",
       "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
-      "target": "1000 ürün + detay"
+      "target": "1000 ürün + 300"
     },
     {
       "task": "Profil: supermarket",
       "time": "23:30",
       "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
-      "target": "1000 ürün + detay"
+      "target": "1000 ürün + 300"
     },
     {
       "task": "Profil: kozmetik",
       "time": "00:00",
       "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
-      "target": "1000 ürün + detay"
+      "target": "1000 ürün + 300"
     },
     {
       "task": "Profil: anne-bebek-oyuncak",
       "time": "00:30",
       "workers": "1 (vitrin) + 1 (detay), global kilitle sıralı",
-      "target": "1000 ürün + detay"
+      "target": "1000 ürün + 300"
     },
     {
       "task": "Taksonomi keşif (4 shard)",
@@ -17807,18 +17900,18 @@
       "task": "Taksonomi ürün tarama (4 shard)",
       "time": "keşif sonrası",
       "workers": "4 paralel (shard-0..3)",
-      "target": "kategori-ürün üyelikleri"
+      "target": "23.000 benzersiz ürün · kök hedefleri 4.000 / 2.500 / 2.000"
     },
     {
       "task": "Finalize + Telegram özeti",
       "time": "04:30",
       "workers": "1",
-      "target": "yayın + Telegram"
+      "target": "GitHub commit + push + dashboard + Telegram"
     },
     {
-      "task": "Dashboard durum üretici",
+      "task": "Dashboard durum üretici (sayfa yenileme)",
       "time": "5 dakikada bir",
-      "workers": "1",
+      "workers": "UI",
       "target": "status.json"
     }
   ],
