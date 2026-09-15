@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T20:25:34.802Z",
+  "generatedAt": "2026-09-15T20:33:29.141Z",
   "observedDate": "2026-09-15",
-  "sourceCommit": "93738e5238e8c6418d5e0ba0df25f1eab0856392",
+  "sourceCommit": "b41eebb5b83cbd4310011d9064608b974a3cbc76",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "INSUFFICIENT_SOURCE",
@@ -17302,16 +17302,56 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T20:25:34.672Z",
+    "observedAt": "2026-09-15T20:33:29.015Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
-      "trackedRunCount": 30,
+      "trackedRunCount": 32,
       "osProcessCount": 0
     },
     "active": [],
     "stale": [],
     "recentRuns": [
+      {
+        "runId": "2026-09-15-listing-collector-65be80b2eb",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "supermarket"
+        ],
+        "pid": 41827,
+        "status": "FAILED",
+        "startedAt": "2026-09-15T23:33:02+03:00",
+        "updatedAt": "2026-09-15T23:33:28+03:00",
+        "finishedAt": "2026-09-15T23:33:28+03:00",
+        "elapsedSeconds": 26.5,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-15-listing-collector-8cdf170c97",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "supermarket"
+        ],
+        "pid": 41774,
+        "status": "FAILED",
+        "startedAt": "2026-09-15T23:30:35+03:00",
+        "updatedAt": "2026-09-15T23:31:02+03:00",
+        "finishedAt": "2026-09-15T23:31:02+03:00",
+        "elapsedSeconds": 26.7,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
       {
         "runId": "2026-09-15-taxonomy-products-1f0c116c31",
         "component": "taxonomy-products",
@@ -17751,68 +17791,16 @@
         "heartbeatSeconds": 60,
         "exitCode": 2,
         "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-226cdd05bf",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "1",
-          "--of",
-          "4"
-        ],
-        "pid": 28802,
-        "status": "FAILED",
-        "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T17:58:23+03:00",
-        "finishedAt": "2026-09-15T17:58:23+03:00",
-        "elapsedSeconds": 3562.3,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-85183a5565",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "0",
-          "--of",
-          "4"
-        ],
-        "pid": 28803,
-        "status": "FAILED",
-        "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T17:50:06+03:00",
-        "finishedAt": "2026-09-15T17:50:06+03:00",
-        "elapsedSeconds": 3065.2,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
       }
     ]
   },
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-supermarket",
-      "schedule": "30 23 * * *",
-      "nextRun": "2026-09-15T23:30:00+03:00",
-      "lastRun": "2026-09-14T23:33:54.493862+03:00",
-      "lastStatus": "error",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-15T23:30:00+03:00",
-      "lastRun": "2026-09-15T23:20:37.082773+03:00",
+      "nextRun": "2026-09-15T23:35:00+03:00",
+      "lastRun": "2026-09-15T23:25:37.013030+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -17861,6 +17849,14 @@
       "schedule": "0 23 * * *",
       "nextRun": "2026-09-16T23:00:00+03:00",
       "lastRun": "2026-09-15T23:03:27.983344+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-supermarket",
+      "schedule": "30 23 * * *",
+      "nextRun": "2026-09-16T23:30:00+03:00",
+      "lastRun": "2026-09-15T23:33:28.855938+03:00",
       "lastStatus": "error",
       "mode": "no-agent"
     }
