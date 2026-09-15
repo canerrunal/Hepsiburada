@@ -1,15 +1,15 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T20:55:38.610Z",
-  "observedDate": "2026-09-15",
-  "sourceCommit": "71d78ce24533c2f968f7cb1b2321eb05402df5e9",
+  "generatedAt": "2026-09-15T21:03:33.338Z",
+  "observedDate": "2026-09-16",
+  "sourceCommit": "9dbdda35e98b69b548eece1813123169035fca3d",
   "taxonomy": {
     "status": "PASS",
-    "productCollectionStatus": "INSUFFICIENT_SOURCE",
+    "productCollectionStatus": "NOT_RUN",
     "observedDate": "2026-09-15",
     "categoryCount": 5616,
     "rootCategoryCount": 9,
-    "productMembershipRows": 69,
+    "productMembershipRows": null,
     "tree": {
       "primary": {
         "file": "taxonomy/catalog.json",
@@ -17302,16 +17302,56 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T20:55:38.484Z",
+    "observedAt": "2026-09-15T21:03:33.212Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
-      "trackedRunCount": 32,
+      "trackedRunCount": 34,
       "osProcessCount": 0
     },
     "active": [],
     "stale": [],
     "recentRuns": [
+      {
+        "runId": "2026-09-16-listing-collector-149badd569",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "kozmetik"
+        ],
+        "pid": 42426,
+        "status": "FAILED",
+        "startedAt": "2026-09-16T00:03:06+03:00",
+        "updatedAt": "2026-09-16T00:03:32+03:00",
+        "finishedAt": "2026-09-16T00:03:32+03:00",
+        "elapsedSeconds": 26.8,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-16-listing-collector-0b1121a3b1",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "kozmetik"
+        ],
+        "pid": 42378,
+        "status": "FAILED",
+        "startedAt": "2026-09-16T00:00:39+03:00",
+        "updatedAt": "2026-09-16T00:01:06+03:00",
+        "finishedAt": "2026-09-16T00:01:06+03:00",
+        "elapsedSeconds": 27,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
       {
         "runId": "2026-09-15-listing-collector-65be80b2eb",
         "component": "listing-collector",
@@ -17747,68 +17787,16 @@
         "heartbeatSeconds": 60,
         "exitCode": 143,
         "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-0819968f32",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "3",
-          "--of",
-          "4"
-        ],
-        "pid": 28801,
-        "status": "FAILED",
-        "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:38:42+03:00",
-        "finishedAt": "2026-09-15T19:38:42+03:00",
-        "elapsedSeconds": 9581.2,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-b1f840a9ae",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "2",
-          "--of",
-          "4"
-        ],
-        "pid": 28800,
-        "status": "FAILED",
-        "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:04:05+03:00",
-        "finishedAt": "2026-09-15T19:04:05+03:00",
-        "elapsedSeconds": 7504.6,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
       }
     ]
   },
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-kozmetik",
-      "schedule": "0 0 * * *",
-      "nextRun": "2026-09-16T00:00:00+03:00",
-      "lastRun": "2026-09-15T00:03:56.753950+03:00",
-      "lastStatus": "error",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-16T00:00:00+03:00",
-      "lastRun": "2026-09-15T23:50:40.085324+03:00",
+      "nextRun": "2026-09-16T00:05:00+03:00",
+      "lastRun": "2026-09-15T23:55:41.178424+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -17857,6 +17845,14 @@
       "schedule": "30 23 * * *",
       "nextRun": "2026-09-16T23:30:00+03:00",
       "lastRun": "2026-09-15T23:33:28.855938+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-kozmetik",
+      "schedule": "0 0 * * *",
+      "nextRun": "2026-09-17T00:00:00+03:00",
+      "lastRun": "2026-09-16T00:03:33.054878+03:00",
       "lastStatus": "error",
       "mode": "no-agent"
     }
