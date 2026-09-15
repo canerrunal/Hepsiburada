@@ -1,13 +1,36 @@
 {
   "marketplace": "hepsiburada",
   "date": "2026-09-15",
-  "status": "IN_PROGRESS",
-  "reason": "shard a tamamlanmadi",
+  "status": "PASS",
+  "reason": "tum shard tamamlandi",
   "shards": {
-    "a": {
-      "status": "LIVE-CRAWL",
-      "count": 3976,
-      "queue": 0
+    "shard-0": {
+      "status": "COMPLETE",
+      "count": 9,
+      "queue": 0,
+      "rootCount": 9,
+      "emptyIdCount": 0
+    },
+    "shard-1": {
+      "status": "COMPLETE",
+      "count": 9,
+      "queue": 0,
+      "rootCount": 9,
+      "emptyIdCount": 0
+    },
+    "shard-2": {
+      "status": "COMPLETE",
+      "count": 9,
+      "queue": 0,
+      "rootCount": 9,
+      "emptyIdCount": 0
+    },
+    "shard-3": {
+      "status": "COMPLETE",
+      "count": 9,
+      "queue": 0,
+      "rootCount": 9,
+      "emptyIdCount": 0
     }
   }
 }
