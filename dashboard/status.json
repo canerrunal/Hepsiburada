@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T21:25:41.930Z",
+  "generatedAt": "2026-09-15T21:33:36.573Z",
   "observedDate": "2026-09-16",
-  "sourceCommit": "f7161aaabb9806d16e494a1c0107a1722a68fd7f",
+  "sourceCommit": "418aab931144550420639d622c42b6b238503a83",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -17302,16 +17302,56 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T21:25:41.803Z",
+    "observedAt": "2026-09-15T21:33:36.427Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
-      "trackedRunCount": 34,
+      "trackedRunCount": 36,
       "osProcessCount": 0
     },
     "active": [],
     "stale": [],
     "recentRuns": [
+      {
+        "runId": "2026-09-16-listing-collector-f3fde5772e",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "anne-bebek-oyuncak"
+        ],
+        "pid": 43022,
+        "status": "FAILED",
+        "startedAt": "2026-09-16T00:33:09+03:00",
+        "updatedAt": "2026-09-16T00:33:36+03:00",
+        "finishedAt": "2026-09-16T00:33:36+03:00",
+        "elapsedSeconds": 27,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-16-listing-collector-709fa6c053",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "anne-bebek-oyuncak"
+        ],
+        "pid": 42991,
+        "status": "FAILED",
+        "startedAt": "2026-09-16T00:30:41+03:00",
+        "updatedAt": "2026-09-16T00:31:09+03:00",
+        "finishedAt": "2026-09-16T00:31:09+03:00",
+        "elapsedSeconds": 27.2,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
       {
         "runId": "2026-09-16-listing-collector-149badd569",
         "component": "listing-collector",
@@ -17737,74 +17777,16 @@
         "heartbeatSeconds": 60,
         "exitCode": 143,
         "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-4cdb5d67a9",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "0",
-          "--of",
-          "4",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 37797,
-        "status": "CANCELLED",
-        "startedAt": "2026-09-15T21:34:11+03:00",
-        "updatedAt": "2026-09-15T21:43:50+03:00",
-        "finishedAt": "2026-09-15T21:43:50+03:00",
-        "elapsedSeconds": 578.8,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 143,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-d12fcd2168",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "3",
-          "--of",
-          "4",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 37795,
-        "status": "CANCELLED",
-        "startedAt": "2026-09-15T21:34:11+03:00",
-        "updatedAt": "2026-09-15T21:43:50+03:00",
-        "finishedAt": "2026-09-15T21:43:50+03:00",
-        "elapsedSeconds": 578.8,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 143,
-        "timeout": false
       }
     ]
   },
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-anne-bebek",
-      "schedule": "30 0 * * *",
-      "nextRun": "2026-09-16T00:30:00+03:00",
-      "lastRun": "2026-09-15T00:34:00.032023+03:00",
-      "lastStatus": "error",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-16T00:30:00+03:00",
-      "lastRun": "2026-09-16T00:20:43.590990+03:00",
+      "nextRun": "2026-09-16T00:35:00+03:00",
+      "lastRun": "2026-09-16T00:25:44.416817+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -17853,6 +17835,14 @@
       "schedule": "0 0 * * *",
       "nextRun": "2026-09-17T00:00:00+03:00",
       "lastRun": "2026-09-16T00:03:33.054878+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-anne-bebek",
+      "schedule": "30 0 * * *",
+      "nextRun": "2026-09-17T00:30:00+03:00",
+      "lastRun": "2026-09-16T00:33:36.269003+03:00",
       "lastStatus": "error",
       "mode": "no-agent"
     }
