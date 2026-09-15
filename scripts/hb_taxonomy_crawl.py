@@ -88,6 +88,45 @@ def goto_with_retry(page, url, attempts=3):
     raise last_error
 
 
+def fam_of(url):
+    """Aile anahtari: (slug ilk kelime, id ilk 6 hane) — ör. ('araba','600084')."""
+    try:
+        seg = urlparse(url).path.rstrip("/").rsplit("/", 1)[-1]
+        m = re.match(r"^([a-z0-9]+)[a-z0-9\-]*-c-(\d+)$", seg)
+        if not m:
+            return None
+        return (m.group(1), m.group(2)[:6])
+    except Exception:
+        return None
+
+
+def stub_row(cid, parent, name, url, level, path, cats):
+    parent_row = cats.get(parent, {})
+    parent_ids = parent_row.get("path_ids") or ([parent] if parent else [cid])
+    return {"id": cid, "parent_id": parent, "name": name or seg_name(url), "url": url,
+            "level": level, "path": path, "path_ids": parent_ids + [cid],
+            "root_id": parent_row.get("root_id") or parent_ids[0],
+            "root_name": parent_row.get("root_name") or parent_row.get("name") or name,
+            "discovered_at": stamp(), "unvisited": True, "blocked": True}
+
+
+def flag_blocked(cats, cid, parent, name, url, level, path):
+    """Engellenen dugumu isaretle: varsa bayrakla, yoksa taslak satir ekle."""
+    entry = cats.get(cid)
+    if entry is None:
+        cats[cid] = stub_row(cid, parent, name, url, level, path, cats)
+    else:
+        entry["unvisited"] = True
+        entry["blocked"] = True
+
+
+def seg_name(url):
+    try:
+        return urlparse(url).path.rstrip("/").rsplit("/", 1)[-1].rsplit("-c-", 1)[0].replace("-", " ")
+    except Exception:
+        return url
+
+
 def _legacy_save(*a, **k):
     raise RuntimeError("save_now kullan")
 
@@ -115,6 +154,7 @@ def main():
 
     cats, queue, visited = {}, deque(), set()
     poison = set()
+    fam_blocks = {}
     # Tohumlar bastan seviye-1 kayitli (yanlis ebeveyn onler)
     for name, url in SEEDS:
         cid = url.rsplit("-c-", 1)[1]
@@ -127,6 +167,7 @@ def main():
                 for cid, parent, name, url, level, path in s.get("queued", []):
                     queue.append((cid, parent, name, url, level, path))
                 poison.update(s.get("poison", []))
+                fam_blocks.update(s.get("fam_blocks", {}))
         except Exception:
             pass
     if catalog_path.exists():
@@ -174,16 +215,16 @@ def main():
             w = csv.writer(f)
             w.writerow(["id", "parent_id", "name", "url", "level", "path", "root_id", "root_name",
                         "full_path", "path_ids", "path_slug", "has_children", "child_count", "source_url",
-                        "discovered_at", "is_active"])
+                        "discovered_at", "is_active", "unvisited", "blocked"])
             for r in rows:
                 w.writerow([r["id"], r["parent_id"], r["name"], r["url"], r["level"], r["path"],
                             r["root_id"], r["root_name"], r["full_path"], ">".join(r["path_ids"]),
                             r["path_slug"], r["has_children"], r["child_count"], r["source_url"],
-                            r["discovered_at"], r["is_active"]])
+                            r["discovered_at"], r["is_active"], r.get("unvisited", False), r.get("blocked", False)])
         os.replace(csv_path.with_suffix(csv_path.suffix + ".tmp"), csv_path)
         atomic_write_text(state_path, json.dumps(
             {"date": today(), "queued": list(queue), "visited_count": len(visited),
-             "poison": sorted(poison)}, ensure_ascii=False))
+             "poison": sorted(poison), "fam_blocks": fam_blocks}, ensure_ascii=False))
 
     from playwright.sync_api import sync_playwright
     pages_done, blocks = 0, 0
@@ -196,6 +237,10 @@ def main():
             while queue and pages_done < args.max_pages:
                 cid, parent, name, url, level, path = queue.popleft()
                 if cid in visited or cid in poison:
+                    continue
+                fam = fam_of(url)
+                if fam and fam_blocks.get(f"{fam[0]}|{fam[1]}", 0) >= 5:
+                    flag_blocked(cats, cid, parent, name, url, level, path)
                     continue
                 visited.add(cid)
                 try:
@@ -236,6 +281,13 @@ def main():
                         print(f"CRAWL_BLOCK {blocks}/3 {url[:70]}", flush=True)
                         if blocks >= 2:
                             poison.add(cid)
+                            flag_blocked(cats, cid, parent, name, url, level, path)
+                            fam = fam_of(url)
+                            if fam:
+                                key = f"{fam[0]}|{fam[1]}"
+                                fam_blocks[key] = fam_blocks.get(key, 0) + 1
+                                if fam_blocks[key] == 5:
+                                    print(f"CRAWL_FAMILY_SKIP {key} (5 zehir)", flush=True)
                             blocks = 0
                             save_now()
                             time.sleep(10)

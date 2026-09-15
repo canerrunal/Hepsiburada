@@ -137,7 +137,9 @@
       "name": "Bebek Güvenlik",
       "url": "https://www.hepsiburada.com/bebek-guvenlik-malzemeleri-c-301128",
       "level": 2,
-      "path": "Anne, Bebek, Oyuncak > Bebek Güvenlik"
+      "path": "Anne, Bebek, Oyuncak > Bebek Güvenlik",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "305641",
@@ -593,7 +595,9 @@
       "name": "guvenlik kameralari",
       "url": "https://www.hepsiburada.com/guvenlik-kameralari-c-161837",
       "level": 2,
-      "path": "Elektronik > guvenlik kameralari"
+      "path": "Elektronik > guvenlik kameralari",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "17793",
@@ -633,7 +637,9 @@
       "name": "kamera sistemleri",
       "url": "https://www.hepsiburada.com/kamera-sistemleri-c-60007380",
       "level": 2,
-      "path": "Elektronik > kamera sistemleri"
+      "path": "Elektronik > kamera sistemleri",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "17453",
@@ -3201,7 +3207,9 @@
       "name": "Güvenlik Sistemleri",
       "url": "https://www.hepsiburada.com/guvenlik-sistemleri-c-161719",
       "level": 3,
-      "path": "Elektronik > ses goruntu sistemleri > Güvenlik Sistemleri"
+      "path": "Elektronik > ses goruntu sistemleri > Güvenlik Sistemleri",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "8003673",
@@ -5289,7 +5297,9 @@
       "name": "Güvenlik",
       "url": "https://www.hepsiburada.com/guvenlik-malzemeleri-c-60003995",
       "level": 3,
-      "path": "Oto, Bahce, Yapi Market > Yapı Market / Hırdavat > Güvenlik"
+      "path": "Oto, Bahce, Yapi Market > Yapı Market / Hırdavat > Güvenlik",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80770002",
@@ -5985,7 +5995,9 @@
       "name": "İş Güvenlik Ürünleri",
       "url": "https://www.hepsiburada.com/is-guvenlik-urunleri-c-13003349",
       "level": 3,
-      "path": "Oto, Bahce, Yapi Market > is guvenlik eldivenleri > İş Güvenlik Ürünleri"
+      "path": "Oto, Bahce, Yapi Market > is guvenlik eldivenleri > İş Güvenlik Ürünleri",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008471",
@@ -6481,7 +6493,9 @@
       "name": "guvenlik cihazlari",
       "url": "https://www.hepsiburada.com/guvenlik-cihazlari-c-60001377",
       "level": 3,
-      "path": "Oto, Bahce, Yapi Market > yangin sonduruculer > guvenlik cihazlari"
+      "path": "Oto, Bahce, Yapi Market > yangin sonduruculer > guvenlik cihazlari",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "13003358",
@@ -10961,7 +10975,9 @@
       "name": "tv ekran koruyucular",
       "url": "https://www.hepsiburada.com/tv-ekran-koruyucular-c-80407000",
       "level": 4,
-      "path": "Elektronik > ses goruntu sistemleri > TV Aksesuarları > tv ekran koruyucular"
+      "path": "Elektronik > ses goruntu sistemleri > TV Aksesuarları > tv ekran koruyucular",
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "18021389",

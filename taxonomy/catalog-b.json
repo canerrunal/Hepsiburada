@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "status": "LIVE-CRAWL",
+  "status": "COMPLETE",
   "count": 5545,
   "categories": [
     {
@@ -7601,7 +7601,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guvenlik-sistemleri-c-161719",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "17175",
@@ -7681,7 +7683,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/is-guvenlik-urunleri-c-13003349",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "161876",
@@ -35501,7 +35505,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guvenlik-kameralari-c-161837",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "17793",
@@ -35561,7 +35567,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kamera-sistemleri-c-60007380",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "157193",
@@ -36441,7 +36449,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tv-ekran-koruyucular-c-80407000",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "18021389",
@@ -36921,7 +36931,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guvenlik-malzemeleri-c-60003995",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80770002",
@@ -38121,7 +38133,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guvenlik-antivirus-programlari-c-60000207",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80058013",
@@ -49221,7 +49235,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yakin-turkiye-tarihi-kitaplari-c-1510776",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80235051",
@@ -49941,7 +49957,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bilgisayar-guvenlik-kitaplari-c-211660",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "211662",
@@ -67141,7 +67159,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/makyaj-bazlari-c-60003970",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "32010996",
@@ -68721,7 +68741,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motorsiklet-alarmlari-c-20029254",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002531",
@@ -68821,7 +68843,9 @@
       "child_count": 5,
       "source_url": "https://www.hepsiburada.com/motosiklet-kilitleri-c-20029248",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006490",
@@ -68961,7 +68985,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motosiklet-saatleri-c-60005696",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005697",
@@ -69181,7 +69207,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/touring-motor-c-80405013",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005660",
@@ -69341,7 +69369,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motosiklet-far-ampul-c-80405005",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80273090",
@@ -74361,7 +74391,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guvenlik-kamera-bataryasi-c-80857364",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007239",
@@ -75521,7 +75553,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-guvenlik-urunleri-c-60007008",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001689",
@@ -75561,7 +75595,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-kapi-cam-guvenlik-urunleri-c-60002694",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "561355",
@@ -75601,7 +75637,9 @@
       "child_count": 4,
       "source_url": "https://www.hepsiburada.com/kedi-mama-kaplari-servisleri-c-560205",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "560118",
@@ -75701,7 +75739,9 @@
       "child_count": 6,
       "source_url": "https://www.hepsiburada.com/kedi-tuvalet-kabi-aksesuarlari-c-560251",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "561673",
@@ -75721,7 +75761,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-tirmalama-urunleri-oyun-evleri-c-561673",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24004170",
@@ -75941,7 +75983,9 @@
       "child_count": 4,
       "source_url": "https://www.hepsiburada.com/kus-yemleri-krakerler-profesyonel-mamalar-c-560885",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "560886",
@@ -79381,7 +79425,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guvenlik-cihazlari-c-60001377",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "13003358",
@@ -80361,7 +80407,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-guvenlik-malzemeleri-c-301128",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80381044",
@@ -80761,7 +80809,9 @@
       "child_count": 14,
       "source_url": "https://www.hepsiburada.com/kadin-takilari-c-80586080",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60004414",
@@ -80841,7 +80891,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ayakkabi-kutusu-c-60000134",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000136",
@@ -80901,7 +80953,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/panduf-c-60003862",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003857",
@@ -81841,7 +81895,9 @@
       "child_count": 2,
       "source_url": "https://www.hepsiburada.com/pipo-seti-aksesuarlari-c-25015202",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "18207",
@@ -82081,7 +82137,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kravat-ignesi-c-16032973",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "25018450",
@@ -82121,7 +82179,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cakmak-c-18137",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857061",
@@ -85441,7 +85501,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/biberon-aksesuarlari-c-23020683",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23031803",
@@ -85461,7 +85523,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/biberon-emzikler-c-23031803",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80677097",
@@ -85481,7 +85545,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/emzik-kutusu-c-80677097",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "301167",
@@ -85501,7 +85567,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/emzik-zinciri-ve-askisi-c-301167",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "297822",
@@ -85521,7 +85589,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yalanci-emzik-c-297822",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80383023",
@@ -85541,7 +85611,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-fircasi-taragi-c-80383023",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80381051",
@@ -85561,7 +85633,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kirli-torbasi-c-80381051",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001188",
@@ -86801,7 +86875,9 @@
       "child_count": 3,
       "source_url": "https://www.hepsiburada.com/taki-yapim-malzemesi-c-60008003",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008008",
@@ -87521,7 +87597,9 @@
       "child_count": 8,
       "source_url": "https://www.hepsiburada.com/kolyeler-c-16032932",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006714",
@@ -87961,7 +88039,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/jartiyer-coraplari-c-60004878",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60004877",
@@ -88521,7 +88601,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/seramikler-karolar-c-60002251",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002746",
@@ -88681,7 +88763,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/erkek-cocuk-semsiye-c-12087257",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "12105746",
@@ -88841,7 +88925,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ev-ayakkabisi-c-60002311",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002307",
@@ -89041,7 +89127,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/plastik-tabak-c-60007550",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007552",
@@ -89061,7 +89149,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/plastik-catal-c-60007552",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007557",
@@ -89121,7 +89211,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cam-seramik-porselen-boyalari-c-292972",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80755010",
@@ -89141,7 +89233,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yurt-disi-turu-c-80755010",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80755009",
@@ -89161,7 +89255,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yurt-ici-turu-c-80755009",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80322220",
@@ -89601,7 +89697,9 @@
       "child_count": 2,
       "source_url": "https://www.hepsiburada.com/nakis-malzemeleri-c-60007986",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001167",
@@ -89861,7 +89959,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dikis-malzemeleri-c-60008012",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80656014",
@@ -89881,7 +89981,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/filografi-malzemeleri-c-80656014",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007981",
@@ -89901,7 +90003,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kece-malzemeleri-c-60007981",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003216",
@@ -89921,7 +90025,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/deniz-hayvani-figur-modelleri-c-60003216",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003218",
@@ -89941,7 +90047,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/fantastik-figur-modelleri-c-60003218",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003215",
@@ -89961,7 +90069,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/vahsi-yasam-figur-modelleri-c-60003215",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003214",
@@ -89981,7 +90091,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ciftlik-yasami-figur-modelleri-c-60003214",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003217",
@@ -90001,7 +90113,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sovalye-asker-figur-modelleri-c-60003217",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80207016",
@@ -90021,7 +90135,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/stres-kupu-c-80207016",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80207018",
@@ -90041,7 +90157,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/stres-oyuncaklari-c-80207018",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032936",
@@ -90061,7 +90179,9 @@
       "child_count": 6,
       "source_url": "https://www.hepsiburada.com/taki-seti-modelleri-c-16032936",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "32011001",
@@ -90081,7 +90201,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/fondotenler-kremler-c-32011001",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "32011000",
@@ -90101,7 +90223,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/fondotenler-likit-c-32011000",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "32011002",
@@ -90121,7 +90245,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/pudrali-fondotenler-c-32011002",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80227101",
@@ -90381,7 +90507,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/orta-sehpalar-c-18021615",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80257040",
@@ -90661,7 +90789,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-halilari-c-10487",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006445",
@@ -90881,7 +91011,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motosiklet-disk-kilitler-c-60005681",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005682",
@@ -90901,7 +91033,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motosiklet-alarmli-disk-kilitler-c-60005682",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005683",
@@ -90981,7 +91115,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motosiklet-kislik-pantolonlar-c-60005662",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005661",
@@ -91001,7 +91137,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motosiklet-yazlik-pantolonlar-c-60005661",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006073",
@@ -91601,7 +91739,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-bilgisayar-c-80857145",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857146",
@@ -91641,7 +91781,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-cep-telefonu-aksesuarlari-c-80857147",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857148",
@@ -91661,7 +91803,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-foto-kamera-c-80857148",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857143",
@@ -91701,7 +91845,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-oyun-konsollari-c-80857149",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857144",
@@ -91721,7 +91867,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-tv-c-80857144",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857274",
@@ -91841,7 +91989,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-cep-telefonu-aksesuarlari-kazaya-karsi-garanti-uzatma-c-80857283",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857284",
@@ -91861,7 +92011,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-cep-telefonu-kazaya-karsi-garanti-uzatma-c-80857284",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857285",
@@ -91881,7 +92033,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-foto-kamera-kazaya-karsi-garanti-uzatma-c-80857285",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857286",
@@ -91901,7 +92055,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-kucuk-ev-aletleri-kazaya-karsi-garanti-uzatma-c-80857286",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857288",
@@ -91921,7 +92077,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hepsiburada-koruma-paketi-tv-kazaya-karsi-garanti-uzatma-c-80857288",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20035737",
@@ -91941,7 +92099,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cila-aksesuarlari-c-20035737",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20035738",
@@ -91961,7 +92121,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hizli-cilalar-c-20035738",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20035739",
@@ -91981,7 +92143,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/renkli-cilalar-c-20035739",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20035736",
@@ -92001,7 +92165,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sivi-cilalar-c-20035736",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20035740",
@@ -92021,7 +92187,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cizik-gidericiler-c-20035740",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024951",
@@ -92681,7 +92849,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gunduz-ledleri-c-20042339",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024611",
@@ -93221,7 +93391,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/lastik-kar-paletleri-c-20024790",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024788",
@@ -94041,7 +94213,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dikiz-aynasi-c-60005476",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007100",
@@ -94081,7 +94255,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bujiler-c-20014361",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007177",
@@ -94341,7 +94517,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yan-ayna-c-60005475",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008363",
@@ -95561,7 +95739,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-el-freni-teli-c-60008401",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001488",
@@ -95621,7 +95801,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-kaliper-tamir-takimi-c-60008403",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008404",
@@ -95641,7 +95823,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-merkezler-aksesuarlari-c-60008404",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008405",
@@ -95661,7 +95845,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-pedali-c-60008405",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008406",
@@ -95681,7 +95867,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-pedal-lastigi-c-60008406",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008407",
@@ -95701,7 +95889,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-pedal-merkezi-c-60008407",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008408",
@@ -95721,7 +95911,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-westinghause-c-60008408",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008409",
@@ -96681,7 +96873,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-amortisor-takozu-c-60008438",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007182",
@@ -96701,7 +96895,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/amortisorler-c-60007182",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20044220",
@@ -96721,7 +96917,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bagaj-amortisorleri-c-20044220",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007134",
@@ -96741,7 +96939,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bijon-c-60007134",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007135",
@@ -96761,7 +96961,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oto-contasi-c-60007135",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007183",
@@ -96781,7 +96983,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/denge-kolu-c-60007183",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008439",
@@ -96801,7 +97005,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-devir-sensoru-c-60008439",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007184",
@@ -96821,7 +97027,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hortumlar-c-60007184",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008440",
@@ -96841,7 +97049,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-km-teli-c-60008440",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008441",
@@ -96861,7 +97071,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-kol-burcu-c-60008441",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008442",
@@ -96881,7 +97093,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-mafsal-istavrozu-c-60008442",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008443",
@@ -96901,7 +97115,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-makas-burcu-c-60008443",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008444",
@@ -96921,7 +97137,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-manifold-c-60008444",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008445",
@@ -96941,7 +97159,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-manifolt-ayar-motoru-c-60008445",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008446",
@@ -96961,7 +97181,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-mesafe-pulu-c-60008446",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007186",
@@ -96981,7 +97203,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/musurler-c-60007186",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008448",
@@ -97001,7 +97225,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-pervanesi-c-60008448",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008449",
@@ -97021,7 +97247,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-pim-saplamasi-c-60008449",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008450",
@@ -97041,7 +97269,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-platin-seti-c-60008450",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008451",
@@ -97061,7 +97291,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-prizdirek-rulmani-c-60008451",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008452",
@@ -97081,7 +97313,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-rolanti-valfi-c-60008452",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008453",
@@ -97101,7 +97335,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-roll-koruk-c-60008453",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008454",
@@ -97121,7 +97357,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-romork-tasiyicisi-c-60008454",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007136",
@@ -97141,7 +97379,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/somunlar-c-60007136",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "26048",
@@ -97161,7 +97401,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/stabilizorler-c-26048",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007137",
@@ -97181,7 +97423,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-sibop-c-60007137",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008459",
@@ -97201,7 +97445,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-tapasi-c-60008459",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008467",
@@ -97221,7 +97467,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-tekerlek-sensoru-c-60008467",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008460",
@@ -97241,7 +97489,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-tel-halat-c-60008460",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008461",
@@ -97261,7 +97511,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-tel-halka-c-60008461",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008463",
@@ -97281,7 +97533,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-termostat-contasi-c-60008463",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008464",
@@ -97301,7 +97555,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-termostat-govdesi-c-60008464",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008465",
@@ -97321,7 +97577,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-torsiyon-burcu-c-60008465",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008466",
@@ -97341,7 +97599,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-torsiyon-tamir-takimi-c-60008466",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008468",
@@ -97361,7 +97621,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-travers-takozu-c-60008468",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008469",
@@ -97381,7 +97643,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-tutucusu-c-60008469",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008470",
@@ -97441,7 +97705,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/suspansiyon-helezon-yaylari-c-60007181",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007187",
@@ -97461,7 +97727,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/zaman-saati-c-60007187",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008447",
@@ -97481,7 +97749,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-on-susturucu-c-60008447",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008456",
@@ -97501,7 +97771,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-saft-burcu-c-60008456",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008455",
@@ -97521,7 +97793,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-sanzimani-c-60008455",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008457",
@@ -97541,7 +97815,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-sanziman-kece-c-60008457",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007180",
@@ -97561,7 +97837,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sasiler-c-60007180",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007212",
@@ -97581,7 +97859,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/aku-ekipmanlari-c-60007212",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007206",
@@ -97601,7 +97881,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/balans-kayisi-c-60007206",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007193",
@@ -97621,7 +97903,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cam-ekipmanlari-c-60007193",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007210",
@@ -97641,7 +97925,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/debimetre-c-60007210",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007192",
@@ -97661,7 +97947,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oto-devirdaim-c-60007192",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008476",
@@ -97701,7 +97989,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/disliler-c-60007202",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008478",
@@ -97781,7 +98071,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/egzoz-parcalari-c-60007201",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008481",
@@ -98121,7 +98413,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-hidrolik-deposu-c-60008500",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008501",
@@ -98141,7 +98435,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-hidrolik-filtresi-c-60008501",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008502",
@@ -98161,7 +98457,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-hortum-baglantisi-c-60008502",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008499",
@@ -98201,7 +98499,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kalorifer-ekipmanlari-c-60007196",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008503",
@@ -98221,7 +98521,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-karburator-flansi-c-60008503",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007190",
@@ -98241,7 +98543,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/karter-c-60007190",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008504",
@@ -98361,7 +98665,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kranklar-c-60007197",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008510",
@@ -98381,7 +98687,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-kurutucu-c-60008510",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007191",
@@ -98401,7 +98709,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motor-besigi-c-60007191",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008511",
@@ -98461,7 +98771,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/motor-takozu-c-60007198",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007200",
@@ -98481,7 +98793,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/araba-piston-c-60007200",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007208",
@@ -98501,7 +98815,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/piyano-horozu-c-60007208",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008514",
@@ -98541,7 +98857,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/pompalar-c-60007194",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006931",
@@ -98561,7 +98879,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/arac-radyatoru-c-60006931",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007189",
@@ -98581,7 +98901,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/radyator-ekipmanlari-c-60007189",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007199",
@@ -98601,7 +98923,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/segmanlar-c-60007199",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007204",
@@ -98621,7 +98945,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/silindir-kapaklari-c-60007204",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007203",
@@ -98641,7 +98967,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/su-fiskiye-memesi-c-60007203",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007211",
@@ -98661,7 +98989,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/termostat-kapagi-c-60007211",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20044235",
@@ -98681,7 +99011,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/triger-kayislari-c-20044235",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20044241",
@@ -98701,7 +99033,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/triger-setleri-c-20044241",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008515",
@@ -98781,7 +99115,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/turbo-borusu-c-60007209",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20044238",
@@ -98801,7 +99137,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/v-kayis-setleri-c-20044238",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20044237",
@@ -98821,7 +99159,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/v-kayislari-c-20044237",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007205",
@@ -98841,7 +99181,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/volan-vidalari-c-60007205",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008518",
@@ -98941,7 +99283,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oto-motor-yataklar-c-60007195",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008473",
@@ -99021,7 +99365,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yag-kapaklari-c-60007207",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008521",
@@ -99421,7 +99767,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/rot-baslari-c-60002132",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002133",
@@ -99701,7 +100049,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/krank-filtreleri-c-20024756",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024752",
@@ -99721,7 +100071,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kutu-ici-performans-filtreleri-c-20024752",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024754",
@@ -99741,7 +100093,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/montaj-aparatlari-c-20024754",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024755",
@@ -99761,7 +100115,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/temizlik-kitleri-c-20024755",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024753",
@@ -99781,7 +100137,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/universal-performans-filtreleri-c-20024753",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20007072",
@@ -99801,7 +100159,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tofas-c-20007072",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "301172",
@@ -99821,7 +100181,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/biberonlar-c-301172",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23028726",
@@ -99841,7 +100203,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-kitaplari-dvd-vcd-c-23028726",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003468",
@@ -99861,7 +100225,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/taraklar-makaslar-c-24003468",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003337",
@@ -99881,7 +100247,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tuvalet-hijyen-malzemeleri-c-24003337",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003340",
@@ -99901,7 +100269,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/surungen-isiticilari-c-24003340",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003342",
@@ -99921,7 +100291,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/terraryum-aksesuarlari-c-24003342",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003341",
@@ -99941,7 +100313,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/terraryumlar-c-24003341",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003317",
@@ -99961,7 +100335,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oyun-evleri-c-24003317",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80635018",
@@ -99981,7 +100357,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/goz-ve-agiz-bakim-urunleri-c-80635018",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003999",
@@ -100001,7 +100379,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-egitim-urunleri-c-24003999",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003312",
@@ -100021,7 +100401,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-otlari-c-24003312",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006582",
@@ -100041,7 +100423,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-koku-giderici-c-60006582",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003511",
@@ -100061,7 +100445,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/parazit-karsiti-urunler-c-24003511",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001694",
@@ -100081,7 +100467,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tarak-fircalar-makaslar-c-24001694",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001692",
@@ -100101,7 +100489,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-sampuanlari-c-24001692",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003586",
@@ -100121,7 +100511,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dogal-kedi-kumlari-c-60003586",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003585",
@@ -100141,7 +100533,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kristal-slica-kedi-kumlari-c-60003585",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006987",
@@ -100161,7 +100555,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-suluklari-su-pinarlari-c-60006987",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006988",
@@ -100181,7 +100577,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-mama-saklama-kaplari-c-60006988",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006989",
@@ -100201,7 +100599,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-servis-altligi-c-60006989",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006990",
@@ -100221,7 +100621,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yavru-kedi-malzemeleri-c-60006990",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000540",
@@ -100241,7 +100643,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yas-kedi-mamalari-c-60000540",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006982",
@@ -100261,7 +100665,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kuru-kedi-mamalari-c-60006982",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006983",
@@ -100281,7 +100687,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tahilsiz-kuru-kedi-mamalari-c-60006983",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000542",
@@ -100301,7 +100709,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yavru-kuru-kedi-mamalari-c-60000542",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002493",
@@ -100321,7 +100731,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/aktivite-oyuncaklari-c-60002493",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003314",
@@ -100341,7 +100753,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-otlu-oyuncaklar-c-24003314",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003315",
@@ -100361,7 +100775,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/olta-oyuncaklar-c-24003315",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003316",
@@ -100381,7 +100797,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/toplar-fareler-c-24003316",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002494",
@@ -100401,7 +100819,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-boyun-tasmalari-c-60002494",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002495",
@@ -100421,7 +100841,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-gogus-tasmalari-c-60002495",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007007",
@@ -100441,7 +100863,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-isimlikleri-c-60007007",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006999",
@@ -100521,7 +100945,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kapali-kedi-tuvaleti-c-60006992",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006994",
@@ -100541,7 +100967,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-kumu-kuregi-c-60006994",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006996",
@@ -100581,7 +101009,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-tuvalet-paspasi-c-60006995",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006993",
@@ -100601,7 +101031,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/otomatik-kedi-tuvaletleri-c-60006993",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001686",
@@ -100621,7 +101053,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tuvalet-kaplari-c-24001686",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007003",
@@ -100641,7 +101075,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cama-asilan-kedi-yataklari-c-60007003",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007002",
@@ -100661,7 +101097,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kedi-radyator-yataklari-askilari-c-60007002",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007001",
@@ -100681,7 +101119,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ic-dis-mekan-kedi-yataklari-c-60007001",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007014",
@@ -100701,7 +101141,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kafes-aksesuarlari-c-60007014",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007010",
@@ -100721,7 +101163,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kanarya-kafesleri-c-60007010",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007013",
@@ -100741,7 +101185,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kus-yuvasi-kulucka-makineleri-c-60007013",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007012",
@@ -100761,7 +101207,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/muhabbet-kusu-kafesleri-c-60007012",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007011",
@@ -100781,7 +101229,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/papagan-kafesleri-standlari-c-60007011",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006583",
@@ -100801,7 +101251,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kus-koku-giderici-c-60006583",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003328",
@@ -100821,7 +101273,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kus-banyo-yuvaliklari-c-24003328",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003327",
@@ -100841,7 +101295,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/parazit-spreyleri-dezenfektanlar-c-24003327",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003326",
@@ -100861,7 +101317,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/vitamin-mineraller-c-24003326",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24004866",
@@ -100881,7 +101339,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guvercin-yemleri-c-24004866",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "562368",
@@ -100901,7 +101361,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kanarya-yemleri-c-562368",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "562369",
@@ -100921,7 +101383,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/papagan-yemleri-c-562369",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007009",
@@ -100941,7 +101405,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yavru-kus-yemleri-c-60007009",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005410",
@@ -100961,7 +101427,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-elbise-c-60005410",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001671",
@@ -100981,7 +101449,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kislik-mont-kazaklar-c-24001671",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003237",
@@ -101001,7 +101471,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/patikler-c-24003237",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001670",
@@ -101021,7 +101493,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yazlik-t-shirtler-c-24001670",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003060",
@@ -101041,7 +101515,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/agility-malzemeleri-c-24003060",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003063",
@@ -101061,7 +101537,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/agizliklar-c-24003063",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002484",
@@ -101081,7 +101559,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/egitim-tasmalari-c-60002484",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003061",
@@ -101101,7 +101581,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/egitmen-malzemeleri-c-24003061",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007157",
@@ -101121,7 +101603,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/furminator-c-60007157",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001659",
@@ -101141,7 +101625,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kene-pire-parazit-urunleri-c-24001659",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006581",
@@ -101161,7 +101647,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-koku-giderici-c-60006581",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001664",
@@ -101181,7 +101669,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/wc-egitim-hijyen-urunleri-c-24001664",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001662",
@@ -101201,7 +101691,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/makas-tras-makineleri-c-24001662",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002488",
@@ -101221,7 +101713,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/saglik-bakim-malzemeleri-c-60002488",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002487",
@@ -101241,7 +101735,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tarak-fircalar-c-60002487",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007158",
@@ -101261,7 +101757,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tuy-toplama-urunleri-c-60007158",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857370",
@@ -101281,7 +101779,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tirmalama-tahtasi-c-80857370",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006981",
@@ -101321,7 +101821,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-sampuanlari-c-24001660",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006963",
@@ -101341,7 +101843,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-mama-saklama-kaplari-c-60006963",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006964",
@@ -101361,7 +101865,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/mama-servisleri-c-60006964",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003293",
@@ -101381,7 +101887,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ozel-beslenme-kaplari-servisler-c-24003293",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003291",
@@ -101401,7 +101909,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/paslanmaz-celik-kopek-su-kabi-c-24003291",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003347",
@@ -101421,7 +101931,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/plastik-melaminler-c-24003347",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006959",
@@ -101441,7 +101953,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/seramik-kopek-mama-su-kaplari-c-60006959",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006961",
@@ -101461,7 +101975,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-su-pinarlari-c-60006961",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006962",
@@ -101481,7 +101997,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-sulugu-c-60006962",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006965",
@@ -101501,7 +102019,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yavru-kopek-malzemeleri-c-60006965",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002485",
@@ -101521,7 +102041,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/egitim-oyuncaklari-c-60002485",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001668",
@@ -101541,7 +102063,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dis-sagligi-ipli-oyuncaklar-c-24001668",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002486",
@@ -101561,7 +102085,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/frizbiler-c-60002486",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003294",
@@ -101581,7 +102107,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/peluslar-c-24003294",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006978",
@@ -101601,7 +102129,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bahce-baglama-guvenlik-urunleri-c-60006978",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003301",
@@ -101621,7 +102151,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-boyun-tasmalari-c-24003301",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002483",
@@ -101641,7 +102173,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/egitim-tasmalari-c-60002483",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006976",
@@ -101661,7 +102195,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gezdirme-kayislari-c-60006976",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003300",
@@ -101681,7 +102217,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-gogus-tasmalari-c-24003300",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002511",
@@ -101701,7 +102239,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/k9-gogus-tasmalari-c-60002511",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002489",
@@ -101721,7 +102261,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/paslanmaz-celik-tasma-aparatlari-c-60002489",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003299",
@@ -101741,7 +102283,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/uzayan-tasmalar-c-24003299",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006977",
@@ -101761,7 +102305,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-zincir-aksesuarlar-c-60006977",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003303",
@@ -101781,7 +102327,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/isimlik-guvenlik-aksesuarlari-c-24003303",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006971",
@@ -101881,7 +102429,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/su-gecirmez-dis-mekan-c-24003288",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24003289",
@@ -101901,7 +102451,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dekoratif-ic-mekan-c-24003289",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006966",
@@ -101921,7 +102473,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/burgu-cubuk-kemikler-c-60006966",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006968",
@@ -101941,7 +102495,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kopek-oyun-cigneme-kemikleri-c-60006968",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006967",
@@ -101961,7 +102517,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yenebilir-pres-kemikler-c-60006967",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000836",
@@ -101981,7 +102539,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yas-kopek-mamalari-c-60000836",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006954",
@@ -102001,7 +102561,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kuru-kopek-mamasi-c-60006954",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80845001",
@@ -102021,7 +102583,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/barf-c-80845001",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000417",
@@ -102041,7 +102605,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/betta-kitleri-c-60000417",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002791",
@@ -102061,7 +102627,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cam-akvaryumlar-c-60002791",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001739",
@@ -102081,7 +102649,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/akvaryum-aydinlatma-urunleri-c-24001739",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000430",
@@ -102101,7 +102671,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/akvaryum-dereceleri-c-60000430",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000429",
@@ -102121,7 +102693,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hava-taslari-c-60000429",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000432",
@@ -102141,7 +102715,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hortum-vantuz-baglanti-parcalari-c-60000432",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000431",
@@ -102161,7 +102737,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kepceler-c-60000431",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000435",
@@ -102181,7 +102759,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/akvaryum-masalari-c-60000435",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000433",
@@ -102201,7 +102781,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sifonlar-kum-temizleyiciler-c-60000433",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000434",
@@ -102221,7 +102803,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/akvaryum-silecekleri-c-60000434",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000436",
@@ -102241,7 +102825,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yavruluklar-beta-bolmeleri-c-60000436",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000437",
@@ -102261,7 +102847,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yemleme-makineleri-c-60000437",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000420",
@@ -102281,7 +102869,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tatli-su-yemleri-c-60000420",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000476",
@@ -102301,7 +102891,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tuzlu-su-yemleri-c-60000476",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000472",
@@ -102321,7 +102913,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/aksesuarlar-c-60000472",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000469",
@@ -102341,7 +102935,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/co2-sistemleri-aksesuarlari-c-60000469",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80654054",
@@ -102361,7 +102957,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/canli-bitkiler-c-80654054",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000470",
@@ -102381,7 +102979,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kumlar-taban-malzemeleri-c-60000470",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000458",
@@ -102401,7 +103001,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dekorlar-susler-c-60000458",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000455",
@@ -102421,7 +103023,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kumlar-c-60000455",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000459",
@@ -102441,7 +103045,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/plastik-posterler-c-60000459",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000456",
@@ -102461,7 +103067,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/renkli-cakillar-c-60000456",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000457",
@@ -102481,7 +103089,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yapay-bitkiler-c-60000457",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000447",
@@ -102501,7 +103111,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/biyolojik-kimyasal-malzemeler-c-60000447",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000450",
@@ -102521,7 +103133,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/filtre-aksesuarlari-yedek-parcalari-c-60000450",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000448",
@@ -102541,7 +103155,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sunger-elyaf-bioball-c-60000448",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000444",
@@ -102561,7 +103177,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/aski-filtreler-c-60000444",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000442",
@@ -102581,7 +103199,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dis-filtreler-c-60000442",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000445",
@@ -102601,7 +103221,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sunger-filtreler-c-60000445",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000443",
@@ -102621,7 +103243,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/uv-filtreler-c-60000443",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000441",
@@ -102641,7 +103265,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ic-filtreler-c-60000441",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "24001761",
@@ -102661,7 +103287,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hava-dagiticilari-c-24001761",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000474",
@@ -102681,7 +103309,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sirkulasyon-sump-motorlari-c-60000474",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000463",
@@ -102701,7 +103331,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/biyolojik-start-bakteri-kulturleri-c-60000463",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000464",
@@ -102721,7 +103353,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ph-gh-kh-duzenleyiciler-c-60000464",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000462",
@@ -102741,7 +103375,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/su-duzenleyiciler-c-60000462",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000466",
@@ -102761,7 +103397,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/testler-c-60000466",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000465",
@@ -102781,7 +103419,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yosun-giderici-kimyasal-temizleyiciler-c-60000465",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000480",
@@ -102801,7 +103441,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/protein-skimmer-reaktorler-c-60000480",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000481",
@@ -102821,7 +103463,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sogutucular-fanlar-c-60000481",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000483",
@@ -102841,7 +103485,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/su-kimyasi-bakim-urunleri-c-60000483",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000482",
@@ -102861,7 +103507,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/akvaryum-tuzlari-c-60000482",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "18021495",
@@ -103421,7 +104069,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tezgah-tipi-testereler-c-13003113",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "13003112",
@@ -103441,7 +104091,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gonye-kesme-makineleri-c-13003112",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "13003114",
@@ -103681,7 +104333,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/daire-testere-bicaklari-c-60004889",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "13003150",
@@ -104941,7 +105595,9 @@
       "child_count": 1,
       "source_url": "https://www.hepsiburada.com/orgu-dantel-malzemeleri-c-60007976",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80383005",
@@ -105061,7 +105717,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/banyo-kopugu-c-80383036",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "303172",
@@ -105321,7 +105979,9 @@
       "child_count": 2,
       "source_url": "https://www.hepsiburada.com/bebek-odasi-mobilyalari-c-23012961",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "302201",
@@ -105461,7 +106121,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/emzirme-sutyeni-c-80382025",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80418114",
@@ -105601,7 +106263,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-nevresim-takimlari-uyku-setleri-c-304012",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23021020",
@@ -105621,7 +106285,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-yastiklari-c-23021020",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23021021",
@@ -105641,7 +106307,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-yorganlari-c-23021021",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "305661",
@@ -105681,7 +106349,9 @@
       "child_count": 3,
       "source_url": "https://www.hepsiburada.com/bebek-beslenme-urunleri-c-60002072",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "303497",
@@ -105861,7 +106531,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/plaj-oyuncaklari-c-296872",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "315056",
@@ -105921,7 +106593,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/mama-sandalyesi-aksesuarlari-c-60000514",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80138065",
@@ -106021,7 +106695,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-basamagi-c-80383039",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "291087",
@@ -106061,7 +106737,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/erkek-bileklikler-c-60004729",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001627",
@@ -106081,7 +106759,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kol-dugmesi-c-60001627",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60004718",
@@ -106101,7 +106781,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/erkek-kolyeler-c-60004718",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60004719",
@@ -106121,7 +106803,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/erkek-kupeler-c-60004719",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002649",
@@ -106141,7 +106825,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tesbihler-c-60002649",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60004717",
@@ -106161,7 +106847,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/erkek-yuzukler-c-60004717",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003796",
@@ -106181,7 +106869,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/anneye-ozel-hediye-setleri-c-60003796",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003797",
@@ -106201,7 +106891,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/babaya-ozel-hediye-setleri-c-60003797",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032974",
@@ -106221,7 +106913,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-igneleri-c-16032974",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003790",
@@ -106241,7 +106935,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dogum-gunu-hediye-setleri-c-60003790",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003793",
@@ -106261,7 +106957,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hosgeldin-bebek-hediye-setleri-c-60003793",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003789",
@@ -106281,7 +106979,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sevgiliye-ozel-hediyeler-c-60003789",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003791",
@@ -106301,7 +107001,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yeni-is-hediye-setleri-c-60003791",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005785",
@@ -106321,7 +107023,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-takilari-c-60005785",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032935",
@@ -106341,7 +107045,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bilezikler-c-16032935",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032971",
@@ -106361,7 +107067,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bros-tac-tarak-c-16032971",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005440",
@@ -106381,7 +107089,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dovme-taki-aksesuarlari-c-60005440",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16041428",
@@ -106401,7 +107111,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/halhal-c-16041428",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032970",
@@ -106421,7 +107133,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hizmalar-c-16032970",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032933",
@@ -106441,7 +107155,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kupeler-c-16032933",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032969",
@@ -106461,7 +107177,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/piercing-c-16032969",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005786",
@@ -106481,7 +107199,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/rozet-aksesuarlari-c-60005786",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001626",
@@ -106501,7 +107221,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sac-aksesuarlari-c-60001626",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003798",
@@ -106521,7 +107243,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/taki-kutusu-c-60003798",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005712",
@@ -106541,7 +107265,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/vucut-zincirleri-c-60005712",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60004509",
@@ -106561,7 +107287,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/celik-takilar-c-60004509",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80586086",
@@ -106581,7 +107309,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sahmeran-c-80586086",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032931",
@@ -106601,7 +107331,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yuzukler-c-16032931",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80529019",
@@ -106621,7 +107353,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/zibin-c-80529019",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007347",
@@ -106641,7 +107375,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-kiyafetleri-giyim-c-60007347",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003247",
@@ -106661,7 +107397,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/not-defterleri-c-60003247",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003245",
@@ -106681,7 +107419,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/vespa-kalemler-c-60003245",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "25018446",
@@ -106701,7 +107441,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/nargile-aksesuarlari-c-25018446",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "25018445",
@@ -106721,7 +107463,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/nargile-cesitleri-c-25018445",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "25018449",
@@ -106741,7 +107485,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/pipo-seti-aksesuar-modelleri-c-25018449",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "25018451",
@@ -106761,7 +107507,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/pipo-setleri-c-25018451",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "25018447",
@@ -106781,7 +107529,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sigara-agizliklar-c-25018447",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007507",
@@ -106801,7 +107551,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/akik-tesbih-c-60007507",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857389",
@@ -106821,7 +107573,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/altin-tespihler-c-80857389",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007514",
@@ -106841,7 +107595,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bijuteri-tesbihler-c-60007514",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007510",
@@ -106861,7 +107617,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gumus-tesbihler-c-60007510",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007503",
@@ -106881,7 +107639,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kehribar-tesbih-c-60007503",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007508",
@@ -106901,7 +107661,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kuka-tesbih-c-60007508",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857552",
@@ -106921,7 +107683,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/lule-tasi-tesbihler-c-80857552",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007509",
@@ -106941,7 +107705,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oltu-tesbih-c-60007509",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "25018448",
@@ -106961,7 +107727,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sigara-tabakalari-c-25018448",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "271886",
@@ -107101,7 +107869,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/laminasyon-posetleri-c-15456",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "15240",
@@ -107821,7 +108591,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-babetler-c-60003881",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002363",
@@ -107861,7 +108633,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-panduflar-c-60003885",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002367",
@@ -107901,7 +108675,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-botlar-c-60002365",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003882",
@@ -107961,7 +108737,9 @@
       "child_count": 4,
       "source_url": "https://www.hepsiburada.com/spor-ayakkabi-c-60002438",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60006840",
@@ -108101,7 +108879,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-mont-c-60002734",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002737",
@@ -108341,7 +109121,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-kulotlar-c-60002740",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002743",
@@ -108361,7 +109143,9 @@
       "child_count": 1,
       "source_url": "https://www.hepsiburada.com/cocuk-coraplar-c-60002743",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005126",
@@ -108421,7 +109205,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/damgalama-aletleri-c-60008005",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008009",
@@ -108441,7 +109227,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/taki-ipi-c-60008009",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60008006",
@@ -108461,7 +109249,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/titanyum-kurdele-c-60008006",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032930",
@@ -108481,7 +109271,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/altin-kolyeler-c-16032930",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001609",
@@ -108501,7 +109293,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bijuteri-kolyeler-c-60001609",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "530220",
@@ -108521,7 +109315,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gumus-kolyeler-c-530220",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857519",
@@ -108541,7 +109337,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kolye-ucu-c-80857519",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032949",
@@ -108561,7 +109359,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/pirlanta-kolyeler-c-16032949",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005557",
@@ -108581,7 +109381,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/swarovski-kolyeler-c-60005557",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857375",
@@ -108601,7 +109403,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/celik-kolye-c-80857375",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032951",
@@ -108621,7 +109425,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/inci-kolyeler-c-16032951",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23020381",
@@ -108641,7 +109447,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hamile-giyim-c-23020381",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000832",
@@ -108661,7 +109469,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/hamile-t-shirt-c-60000832",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002922",
@@ -108681,7 +109491,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/temizlik-bezleri-c-60002922",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001467",
@@ -108701,7 +109513,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/beslenme-cantasi-c-60001467",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001474",
@@ -108721,7 +109535,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/erkek-cocuk-cuzdan-c-60001474",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80085001",
@@ -108741,7 +109557,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gunluk-canta-c-80085001",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000115",
@@ -108761,7 +109579,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/okul-cantasi-c-60000115",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007987",
@@ -108781,7 +109601,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/nakis-kitleri-c-60007987",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007989",
@@ -108801,7 +109623,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/nakis-ipi-c-60007989",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032968",
@@ -108821,7 +109645,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/altin-taki-setleri-c-16032968",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001623",
@@ -108841,7 +109667,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bijuteri-taki-setleri-c-60001623",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032965",
@@ -108861,7 +109689,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/pirlanta-taki-setleri-c-16032965",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60005560",
@@ -108881,7 +109711,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/swarovski-taki-setleri-c-60005560",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80857381",
@@ -108901,7 +109733,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/celik-taki-seti-c-80857381",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "16032967",
@@ -108921,7 +109755,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/inci-taki-setleri-c-16032967",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003695",
@@ -108941,7 +109777,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/eco-armut-koltuklar-c-60003695",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003697",
@@ -108961,7 +109799,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kup-minderler-c-60003697",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003693",
@@ -108981,7 +109821,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oturma-minderleri-c-60003693",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003694",
@@ -109001,7 +109843,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sirt-minderleri-c-60003694",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003696",
@@ -109021,7 +109865,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/xl-armut-koltuklar-c-60003696",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003699",
@@ -109041,7 +109887,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yer-plaj-minderleri-c-60003699",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003698",
@@ -109061,7 +109909,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yuvarlak-minderler-c-60003698",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003700",
@@ -109081,7 +109931,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/dikdortgen-puflar-c-60003700",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003701",
@@ -109101,7 +109953,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kare-puflar-c-60003701",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003702",
@@ -109121,7 +109975,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yuvarlak-puflar-c-60003702",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024952",
@@ -109141,7 +109997,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/alarm-standart-c-20024952",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024955",
@@ -109161,7 +110019,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/alarm-sustali-anahtar-c-20024955",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024957",
@@ -109181,7 +110041,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/arka-park-sensorleri-c-20024957",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024958",
@@ -109201,7 +110063,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kamerali-park-sensorleri-c-20024958",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024959",
@@ -109221,7 +110085,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/on-arka-park-sensorleri-c-20024959",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024941",
@@ -109241,7 +110107,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bijon-aksesuarlari-c-20024941",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024940",
@@ -109261,7 +110129,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/disk-koruyuculari-c-20024940",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024942",
@@ -109281,7 +110151,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gobek-armalari-c-20024942",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024969",
@@ -109301,7 +110173,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/jant-cerceveleri-c-20024969",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024943",
@@ -109321,7 +110195,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sibop-kapaklari-c-20024943",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024946",
@@ -109341,7 +110217,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/esik-nikelajlar-c-20024946",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024947",
@@ -109361,7 +110239,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kapi-koruyucular-c-20024947",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024948",
@@ -109381,7 +110261,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kapi-pimleri-c-20024948",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024949",
@@ -109401,7 +110283,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kapi-seritleri-c-20024949",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024645",
@@ -109421,7 +110305,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/normal-tip-farlar-ampuller-c-20024645",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024642",
@@ -109441,7 +110327,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/xenon-tip-farlar-ampuller-c-20024642",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024646",
@@ -109461,7 +110349,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/gosterge-ampulleri-c-20024646",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024643",
@@ -109481,7 +110371,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/park-ampulleri-c-20024643",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024647",
@@ -109501,7 +110393,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/stop-ampulleri-c-20024647",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024644",
@@ -109521,7 +110415,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tavan-ampulleri-c-20024644",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20035396",
@@ -109541,7 +110437,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ampul-aparatlari-c-20035396",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60003450",
@@ -109561,7 +110459,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/xenon-ampuller-c-60003450",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024980",
@@ -109581,7 +110481,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bagaj-aksesuar-urunleri-c-20024980",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024986",
@@ -109621,7 +110523,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bagaj-sistemleri-c-20024983",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024984",
@@ -109641,7 +110545,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bagaj-spoileri-c-20024984",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024981",
@@ -109661,7 +110567,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bagaj-cantalari-c-20024981",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024982",
@@ -109681,7 +110589,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bagaj-citalari-c-20024982",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024985",
@@ -109701,7 +110611,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bisiklet-bagajlari-c-20024985",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024973",
@@ -109721,7 +110633,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bel-yastiklari-c-20024973",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024974",
@@ -109741,7 +110655,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oto-kemeri-rahatlaticilari-c-20024974",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024975",
@@ -109761,7 +110677,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kemer-yastiklari-c-20024975",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024976",
@@ -109781,7 +110699,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/koltuk-aksesuarlari-c-20024976",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024977",
@@ -109801,7 +110721,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/koltuk-askilari-c-20024977",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024978",
@@ -109821,7 +110743,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/koltuk-cantalari-c-20024978",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024658",
@@ -109841,7 +110765,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/angel-halkalar-c-20024658",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024661",
@@ -109861,7 +110787,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/far-kitleri-c-20024661",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024663",
@@ -109881,7 +110809,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kasa-lambalari-c-20024663",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024664",
@@ -109901,7 +110831,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/lambalar-c-20024664",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024666",
@@ -109921,7 +110853,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ledli-lambalar-c-20024666",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024667",
@@ -109941,7 +110875,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/neon-lambalar-c-20024667",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024668",
@@ -109961,7 +110897,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/sinyal-lambalari-c-20024668",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024669",
@@ -109981,7 +110919,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/stop-lambalar-c-20024669",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024670",
@@ -110001,7 +110941,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tavan-lambalari-c-20024670",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024671",
@@ -110021,7 +110963,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/tepe-lambalari-c-20024671",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "20024659",
@@ -110041,7 +110985,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cakmak-lambalari-c-20024659",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60007977",
@@ -110061,7 +111007,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/orgu-ipleri-c-60007977",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "311645",
@@ -110081,7 +111029,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-havlu-bornozlari-c-311645",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000175",
@@ -110101,7 +111051,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-dekorasyon-askilari-c-60000175",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "304388",
@@ -110121,7 +111073,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-dekorasyon-aydinlatmalari-c-304388",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23020685",
@@ -110141,7 +111095,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/boy-olcerler-c-23020685",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "309734",
@@ -110161,7 +111117,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/duvar-susleri-c-309734",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000236",
@@ -110181,7 +111139,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/mobilya-kulpu-c-60000236",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23022170",
@@ -110201,7 +111161,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-cop-kovasi-c-23022170",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002093",
@@ -110221,7 +111183,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-odasi-urunleri-c-60002093",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80381036",
@@ -110241,7 +111205,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/emzirme-koltugu-c-80381036",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60002069",
@@ -110261,7 +111227,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-arabasi-aksesuarlari-c-60002069",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "305641",
@@ -110281,7 +111249,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-hediyelikleri-c-305641",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80383012",
@@ -110301,7 +111271,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/puset-oyuncagi-c-80383012",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "10351",
@@ -110321,7 +111293,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/anne-bebek-urunleri-c-10351",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80382018",
@@ -110341,7 +111315,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ev-tipi-ana-kucagi-c-80382018",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23021016",
@@ -110361,7 +111337,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oto-koltuklari-c-23021016",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000512",
@@ -110381,7 +111359,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/oto-koltugu-aksesuarlari-c-60000512",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23032025",
@@ -110401,7 +111381,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ana-kucagi-oto-koltugu-yukselticileri-c-23032025",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "80381000",
@@ -110421,7 +111403,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-yiyecek-ve-icecek-c-80381000",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "301161",
@@ -110441,7 +111425,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/bebek-beslenme-gerecleri-c-301161",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "301166",
@@ -110461,7 +111447,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/biberon-isiticilar-sterilizatorler-c-301166",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "21029820",
@@ -110481,7 +111469,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cilt-kapaklari-c-21029820",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "271868",
@@ -110501,7 +111491,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/isisal-cilt-kapaklari-c-271868",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "272011",
@@ -110521,7 +111513,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kutu-tel-spiraller-c-272011",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "21029821",
@@ -110541,7 +111535,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/plastik-tel-spiraller-c-21029821",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "275946",
@@ -110561,7 +111557,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ucgen-profiller-sirtliklar-c-275946",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "276994",
@@ -110581,7 +111579,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/laminasyon-makinasi-kartuslari-c-276994",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "292969",
@@ -110601,7 +111601,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/akrilik-su-bazli-boyalar-c-292969",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "21000722",
@@ -110621,7 +111623,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/batik-boyalari-c-21000722",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "292970",
@@ -110641,7 +111645,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/boncuk-boyalar-c-292970",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "292973",
@@ -110661,7 +111667,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ebru-boya-kitreleri-c-292973",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "292982",
@@ -110681,7 +111689,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/guaj-boyalar-c-292982",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "292971",
@@ -110701,7 +111711,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kumas-boyalari-c-292971",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "21000746",
@@ -110721,7 +111733,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kuru-boya-setleri-c-21000746",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "293013",
@@ -110741,7 +111755,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/metalik-boyalar-c-293013",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "292981",
@@ -110761,7 +111777,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yagli-boyalar-c-292981",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "21034652",
@@ -110781,7 +111799,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ipek-boyalari-c-21034652",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60000710",
@@ -110801,7 +111821,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/anne-bebek-giyim-urunleri-c-60000710",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "10294",
@@ -110821,7 +111843,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kiz-c-10294",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "60001980",
@@ -110841,7 +111865,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-ayakkabilari-c-60001980",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23024589",
@@ -110861,7 +111887,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/cocuk-giyim-urunleri-c-23024589",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23033265",
@@ -110881,7 +111909,9 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/babet-c-23033265",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     },
     {
       "id": "23035476",
@@ -110901,7 +111931,10 @@
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/erkek-cocuk-gomlek-c-23035476",
       "discovered_at": "2026-09-15T10:06:36+03:00",
-      "is_active": true
+      "is_active": true,
+      "unvisited": true,
+      "blocked": true
     }
-  ]
+  ],
+  "completed_at": "2026-09-15T15:31:54+03:00"
 }
