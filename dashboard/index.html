@@ -73,6 +73,20 @@
   <div class="kpis" id="kpis"></div>
 
   <section>
+    <h2>🗓️ Tarama planı <span class="count" id="plancount">0</span></h2>
+    <div class="card" style="padding:6px 6px;">
+      <table><thead><tr><th>Görev</th><th>Saat</th><th>İşçi</th><th>Hedef</th></tr></thead><tbody id="plan"></tbody></table>
+    </div>
+  </section>
+
+  <section>
+    <h2>⏰ Hermes zamanlamaları <span class="count" id="schedcount">0</span></h2>
+    <div class="card" style="padding:6px 6px;">
+      <table><thead><tr><th>Job</th><th>Program</th><th>Son koşu</th><th>Sonraki</th><th>Son durum</th></tr></thead><tbody id="sched"></tbody></table>
+    </div>
+  </section>
+
+  <section>
     <h2>⚙️ Aktif işçiler <span class="count" id="wcount">0</span></h2>
     <div class="card" style="padding:6px 6px;">
       <table><thead><tr><th>Bileşen</th><th>PID</th><th>Durum</th><th>Süre</th><th>Komut</th></tr></thead><tbody id="workers"></tbody></table>
@@ -132,6 +146,19 @@
       ['Ürün taraması', t.productCollectionStatus || '—', `taksonomi: ${t.status || '—'}`],
       ['Yayın', d.publication?.status || '—', 'Veri Mimarı'],
     ].map(([k, v, s]) => `<div class="kpi"><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join('');
+
+    const fmtT = (v) => { if (!v) return '—'; try { return new Date(v).toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); } catch (_) { return String(v); } };
+    const plan = d.scanPlan || [];
+    document.querySelector('#plancount').textContent = plan.length;
+    document.querySelector('#plan').innerHTML = plan.map((p) =>
+      `<tr><td>${esc(p.task)}</td><td class="num">${esc(p.time)}</td><td>${esc(p.workers)}</td><td>${esc(p.target)}</td></tr>`
+    ).join('') || '<tr><td colspan="4">Plan yok</td></tr>';
+
+    const sched = d.schedules || [];
+    document.querySelector('#schedcount').textContent = sched.length;
+    document.querySelector('#sched').innerHTML = sched.map((s) =>
+      `<tr><td class="mono">${esc(s.name)}</td><td class="num">${esc(s.schedule)}</td><td class="num">${esc(fmtT(s.lastRun))}</td><td class="num">${esc(fmtT(s.nextRun))}</td><td>${badge(s.lastStatus === 'ok' ? 'PASS' : (s.lastStatus || 'UNKNOWN'))}</td></tr>`
+    ).join('') || '<tr><td colspan="5">Zamanlama yok</td></tr>';
 
     const workers = d.workers?.active || d.activeHermesJobs || [];
     document.querySelector('#wcount').textContent = workers.length;

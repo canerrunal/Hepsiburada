@@ -16,6 +16,26 @@ const dir = (p) => p === 'elektronik' ? ROOT : path.join(ROOT, 'categories', p);
 const commit = (() => { try { return execFileSync('git', ['rev-parse', 'HEAD'], { cwd: ROOT, encoding: 'utf8' }).trim(); } catch (_) { return null; } })();
 const workers = workerStatus();
 
+function hermesSchedules() {
+  try {
+    const home = process.env.HOME || '/Users/canerunal';
+    const jobsFile = path.join(home, '.hermes', 'cron', 'jobs.json');
+    if (!fs.existsSync(jobsFile)) return [];
+    const jobs = JSON.parse(fs.readFileSync(jobsFile, 'utf8')).jobs || [];
+    return jobs
+      .filter((j) => j && j.enabled !== false && /^hepsiburada/.test(j.name || ''))
+      .map((j) => ({
+        name: j.name,
+        schedule: j.schedule_display || j.schedule?.display || '?',
+        nextRun: j.next_run_at || null,
+        lastRun: j.last_run_at || null,
+        lastStatus: j.last_status || null,
+        mode: j.no_agent ? 'no-agent' : 'agent',
+      }))
+      .sort((a, b) => String(a.nextRun || '').localeCompare(String(b.nextRun || '')));
+  } catch (_) { return []; }
+}
+
 function taxonomyFileStats(file) {
   const data = read(file) || {};
   const rows = Array.isArray(data.categories) ? data.categories : [];
@@ -111,6 +131,17 @@ const output = {
   profiles,
   workers,
   activeHermesJobs: workers.active,
+  schedules: hermesSchedules(),
+  scanPlan: [
+    ...PROFILES.map((p) => {
+      const cfg = read(p === 'elektronik' ? path.join(ROOT, 'config.json') : path.join(ROOT, 'profiles', `${p}.json`)) || {};
+      return { task: `Profil: ${p}`, time: cfg.dailyRunTime || '—', workers: '1 (vitrin) + 1 (detay), global kilitle sıralı', target: `${cfg.minimumProducts || 1000} ürün + detay` };
+    }),
+    { task: 'Taksonomi keşif (4 shard)', time: '15:00', workers: '4 paralel (shard-0..3)', target: 'kategori ağacı + merge' },
+    { task: 'Taksonomi ürün tarama (4 shard)', time: 'keşif sonrası', workers: '4 paralel (shard-0..3)', target: 'kategori-ürün üyelikleri' },
+    { task: 'Finalize + Telegram özeti', time: '04:30', workers: '1', target: 'yayın + Telegram' },
+    { task: 'Dashboard durum üretici', time: '5 dakikada bir', workers: '1', target: 'status.json' },
+  ],
   publication: { status: process.env.VERI_MIMARI_INGEST_URL && process.env.VERI_MIMARI_INGEST_SECRET ? 'configured' : 'not_configured' },
   definitions: {
     productCount: 'Unique product records in a profile snapshot.',
