@@ -76,6 +76,7 @@
     <h2>🗓️ Tarama planı <span class="count" id="plancount">0</span></h2>
     <div class="card" style="padding:6px 6px;">
       <table><thead><tr><th>Görev</th><th>Saat</th><th>İşçi</th><th>Hedef</th></tr></thead><tbody id="plan"></tbody></table>
+      <div id="planNote" class="sub" style="padding:10px 12px 6px;"></div>
     </div>
   </section>
 
@@ -153,6 +154,15 @@
     document.querySelector('#plan').innerHTML = plan.map((p) =>
       `<tr><td>${esc(p.task)}</td><td class="num">${esc(p.time)}</td><td>${esc(p.workers)}</td><td>${esc(p.target)}</td></tr>`
     ).join('') || '<tr><td colspan="4">Plan yok</td></tr>';
+    const collectionPlan = d.taxonomyCollectionPlan || {};
+    const planNote = document.querySelector('#planNote');
+    if (planNote) {
+      const roots = Array.isArray(collectionPlan.roots) ? collectionPlan.roots : [];
+      const rootText = roots.map((r) => `${r.rootName}: ${num(r.subcategoryCount)} alt kategori → ${num(r.target)} ürün`).join(' · ');
+      planNote.textContent = rootText
+        ? `Taksonomi hedef temeli: ${collectionPlan.policy?.basis || 'alt kategori sayısı'} · ${rootText}`
+        : 'Taksonomi hedef planı henüz üretilemedi.';
+    }
 
     const sched = d.schedules || [];
     document.querySelector('#schedcount').textContent = sched.length;

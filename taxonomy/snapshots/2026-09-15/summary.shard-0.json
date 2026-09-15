@@ -1,0 +1,358 @@
+{
+  "marketplace": "hepsiburada",
+  "date": "2026-09-15",
+  "catalogDate": "2026-09-15",
+  "catalogStatus": "PASS",
+  "catalogRootCount": 9,
+  "targetPolicy": {
+    "over_1000_subcategories": 4000,
+    "500_to_999_subcategories": 2500,
+    "under_500_subcategories": 2000
+  },
+  "roots": [
+    {
+      "root_id": "2147483639",
+      "root_name": "Anne, Bebek, Oyuncak",
+      "subcategory_count": 310,
+      "category_count": 311,
+      "unique_product_count": 0,
+      "target": 2000,
+      "target_basis": "subcategory_count_excluding_root",
+      "status": "INSUFFICIENT_SOURCE",
+      "error_count": 311,
+      "errors": [
+        {
+          "category_id": "2147483639",
+          "url": "https://www.hepsiburada.com/anne-bebek-oyuncak-c-2147483639",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60006532",
+          "url": "https://www.hepsiburada.com/3-tekerlekli-bisiklet-c-60006532",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60002062",
+          "url": "https://www.hepsiburada.com/bebek-aktivite-oyun-malzemeleri-c-60002062",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "305668",
+          "url": "https://www.hepsiburada.com/bebek-arabasi-pusetleri-c-305668",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60002069",
+          "url": "https://www.hepsiburada.com/bebek-arabasi-aksesuarlari-c-60002069",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80383015",
+          "url": "https://www.hepsiburada.com/bebek-bakim-ve-saglik-c-80383015",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80383031",
+          "url": "https://www.hepsiburada.com/bebek-banyo-ve-tuvalet-c-80383031",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60002072",
+          "url": "https://www.hepsiburada.com/bebek-beslenme-urunleri-c-60002072",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "301128",
+          "url": "https://www.hepsiburada.com/bebek-guvenlik-malzemeleri-c-301128",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "305641",
+          "url": "https://www.hepsiburada.com/bebek-hediyelikleri-c-305641",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "301127",
+          "url": "https://www.hepsiburada.com/bebek-cocuk-odalari-c-301127",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80383003",
+          "url": "https://www.hepsiburada.com/bebek-tasima-c-80383003",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "23020380",
+          "url": "https://www.hepsiburada.com/emzirme-urunleri-c-23020380",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60000710",
+          "url": "https://www.hepsiburada.com/anne-bebek-giyim-urunleri-c-60000710",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "301132",
+          "url": "https://www.hepsiburada.com/mama-sandalyeleri-c-301132",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "305661",
+          "url": "https://www.hepsiburada.com/ana-kucagi-oto-koltuklari-c-305661",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "23017045",
+          "url": "https://www.hepsiburada.com/oyun-parklari-c-23017045",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "23031884",
+          "url": "https://www.hepsiburada.com/oyuncaklar-c-23031884",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80383012",
+          "url": "https://www.hepsiburada.com/puset-oyuncagi-c-80383012",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80138066",
+          "url": "https://www.hepsiburada.com/aktivite-masasi-c-80138066",
+          "error": "guvenlik-engeli"
+        }
+      ]
+    },
+    {
+      "root_id": "60001547",
+      "root_name": "Kozmetik, Kisisel Bakim",
+      "subcategory_count": 186,
+      "category_count": 187,
+      "unique_product_count": 0,
+      "target": 2000,
+      "target_basis": "subcategory_count_excluding_root",
+      "status": "INSUFFICIENT_SOURCE",
+      "error_count": 187,
+      "errors": [
+        {
+          "category_id": "60001547",
+          "url": "https://www.hepsiburada.com/kozmetik-kisisel-bakim-urunleri-c-60001547",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "2147483603",
+          "url": "https://www.hepsiburada.com/kozmetik-c-2147483603",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "2147483633",
+          "url": "https://www.hepsiburada.com/saglik-kisisel-bakim-urunleri-c-2147483633",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80216054",
+          "url": "https://www.hepsiburada.com/agda-makinesi-c-80216054",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012119",
+          "url": "https://www.hepsiburada.com/dis-ipleri-c-26012119",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012145",
+          "url": "https://www.hepsiburada.com/epilatorler-c-26012145",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012244",
+          "url": "https://www.hepsiburada.com/hasta-bezleri-c-26012244",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60003905",
+          "url": "https://www.hepsiburada.com/ipl-lazerler-c-60003905",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "32010907",
+          "url": "https://www.hepsiburada.com/jel-sabunlar-c-32010907",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012198",
+          "url": "https://www.hepsiburada.com/kayganlastirici-jeller-c-26012198",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80759000",
+          "url": "https://www.hepsiburada.com/kolajen-c-80759000",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012186",
+          "url": "https://www.hepsiburada.com/masaj-aletleri-c-26012186",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "32010986",
+          "url": "https://www.hepsiburada.com/mascaralar-c-32010986",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "32010894",
+          "url": "https://www.hepsiburada.com/nemlendiriciler-c-32010894",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80058002",
+          "url": "https://www.hepsiburada.com/omega-3-balik-yaglari-c-80058002",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012230",
+          "url": "https://www.hepsiburada.com/ortopedik-dizlikler-c-26012230",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60004286",
+          "url": "https://www.hepsiburada.com/ortopedik-terlikler-c-60004286",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "341406",
+          "url": "https://www.hepsiburada.com/parfumler-c-341406",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012177",
+          "url": "https://www.hepsiburada.com/pedometreler-adimsayarlar-c-26012177",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26012196",
+          "url": "https://www.hepsiburada.com/prezervatifler-c-26012196",
+          "error": "guvenlik-engeli"
+        }
+      ]
+    },
+    {
+      "root_id": "2147483619",
+      "root_name": "Supermarket, Pet Shop",
+      "subcategory_count": 226,
+      "category_count": 227,
+      "unique_product_count": 0,
+      "target": 2000,
+      "target_basis": "subcategory_count_excluding_root",
+      "status": "INSUFFICIENT_SOURCE",
+      "error_count": 227,
+      "errors": [
+        {
+          "category_id": "2147483619",
+          "url": "https://www.hepsiburada.com/supermarket-c-2147483619",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80296002",
+          "url": "https://www.hepsiburada.com/hijyenik-pedler-c-80296002",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "28001547",
+          "url": "https://www.hepsiburada.com/kagit-urunleri-c-28001547",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80754000",
+          "url": "https://www.hepsiburada.com/kurbanlik-fiyatlari-c-80754000",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60001496",
+          "url": "https://www.hepsiburada.com/ofis-tuketim-malzemeleri-c-60001496",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80365054",
+          "url": "https://www.hepsiburada.com/aci-sos-c-80365054",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80461108",
+          "url": "https://www.hepsiburada.com/aktar-urunleri-c-80461108",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60001206",
+          "url": "https://www.hepsiburada.com/aluminyum-folyolar-c-60001206",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "28001479",
+          "url": "https://www.hepsiburada.com/baharatlar-c-28001479",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60001048",
+          "url": "https://www.hepsiburada.com/bebek-bezi-c-60001048",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80015000",
+          "url": "https://www.hepsiburada.com/biber-salcasi-c-80015000",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "28002654",
+          "url": "https://www.hepsiburada.com/bulasik-makinasi-tablet-jeller-c-28002654",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80366066",
+          "url": "https://www.hepsiburada.com/bulasik-makinesi-tuzu-c-80366066",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80366067",
+          "url": "https://www.hepsiburada.com/bulasik-sungeri-c-80366067",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60001208",
+          "url": "https://www.hepsiburada.com/buzdolabi-posetleri-c-60001208",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60001322",
+          "url": "https://www.hepsiburada.com/camasir-leke-cikaricilar-c-60001322",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60001088",
+          "url": "https://www.hepsiburada.com/camasir-makinasi-sivi-deterjanlari-c-60001088",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "28002240",
+          "url": "https://www.hepsiburada.com/camasir-makinasi-toz-deterjanlari-c-28002240",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "28002222",
+          "url": "https://www.hepsiburada.com/camasir-sulari-c-28002222",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "28001525",
+          "url": "https://www.hepsiburada.com/deterjan-temizlik-urunleri-c-28001525",
+          "error": "guvenlik-engeli"
+        }
+      ]
+    }
+  ],
+  "shard": 0,
+  "of": 4,
+  "productCount": 0,
+  "rankingCount": 0,
+  "status": "INSUFFICIENT_SOURCE"
+}

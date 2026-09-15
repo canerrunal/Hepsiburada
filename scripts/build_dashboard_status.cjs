@@ -82,6 +82,57 @@ function taxonomyTreeStats() {
   };
 }
 
+function taxonomyCollectionPlan(taxonomy, collectionConfig) {
+  const rows = Array.isArray(taxonomy.categories) ? taxonomy.categories : [];
+  const byId = new Map(rows.filter((row) => row && row.id).map((row) => [String(row.id), row]));
+  const roots = rows.filter((row) => row && (!row.parent_id || !byId.has(String(row.parent_id))));
+  const policy = collectionConfig.rootTargetPolicy || {
+    basis: 'subcategory_count_excluding_root',
+    over_1000_subcategories: 4000,
+    '500_to_999_subcategories': 2500,
+    under_500_subcategories: 2000,
+  };
+  const rootMemo = new Map();
+
+  const rootFor = (id) => {
+    const key = String(id || '');
+    if (rootMemo.has(key)) return rootMemo.get(key);
+    const seen = new Set();
+    let current = byId.get(key);
+    while (current && current.parent_id && byId.has(String(current.parent_id)) && !seen.has(String(current.id))) {
+      seen.add(String(current.id));
+      current = byId.get(String(current.parent_id));
+    }
+    const rootId = current?.id ? String(current.id) : key;
+    rootMemo.set(key, rootId);
+    return rootId;
+  };
+
+  const targetFor = (subcategoryCount) => {
+    if (subcategoryCount > 1000) return Number(policy.over_1000_subcategories || 4000);
+    if (subcategoryCount >= 500) return Number(policy['500_to_999_subcategories'] || 2500);
+    return Number(policy.under_500_subcategories || 2000);
+  };
+
+  const plannedRoots = roots.map((root, index) => {
+    const rootId = String(root.id);
+    const categoryCount = rows.filter((row) => rootFor(row.id) === rootId).length;
+    const subcategoryCount = Math.max(categoryCount - 1, 0);
+    return {
+      rootId,
+      rootName: root.name || rootId,
+      categoryCount,
+      subcategoryCount,
+      target: targetFor(subcategoryCount),
+      targetBasis: policy.basis || 'subcategory_count_excluding_root',
+      assignedShard: index % 4,
+    };
+  });
+  const totalTarget = plannedRoots.reduce((sum, root) => sum + root.target, 0);
+  const targetSummary = `${totalTarget.toLocaleString('tr-TR')} benzersiz ürün · kök hedefleri 4.000 / 2.500 / 2.000`;
+  return { policy, roots: plannedRoots, totalTarget, targetSummary };
+}
+
 function atomicWriteJson(file, value) {
   const temporary = `${file}.${process.pid}.tmp`;
   fs.writeFileSync(temporary, JSON.stringify(value, null, 2));
@@ -113,7 +164,9 @@ const profiles = PROFILES.map((profile) => {
 const taxonomy = read(path.join(ROOT, 'taxonomy', 'catalog.json')) || {};
 const taxonomyStatus = read(path.join(ROOT, 'taxonomy', 'status.json')) || {};
 const taxonomySnapshot = read(path.join(ROOT, 'taxonomy', 'snapshots', date, 'summary.json')) || {};
+const collectionConfig = read(path.join(ROOT, 'taxonomy', 'collection-config.json')) || {};
 const tree = taxonomyTreeStats();
+const collectionPlan = taxonomyCollectionPlan(taxonomy, collectionConfig);
 const output = {
   marketplace: 'hepsiburada',
   generatedAt: new Date().toISOString(),
@@ -128,6 +181,7 @@ const output = {
     productMembershipRows: taxonomySnapshot.rankingCount ?? null,
     tree,
   },
+  taxonomyCollectionPlan: collectionPlan,
   profiles,
   workers,
   activeHermesJobs: workers.active,
@@ -135,12 +189,18 @@ const output = {
   scanPlan: [
     ...PROFILES.map((p) => {
       const cfg = read(p === 'elektronik' ? path.join(ROOT, 'config.json') : path.join(ROOT, 'profiles', `${p}.json`)) || {};
-      return { task: `Profil: ${p}`, time: cfg.dailyRunTime || '—', workers: '1 (vitrin) + 1 (detay), global kilitle sıralı', target: `${cfg.minimumProducts || 1000} ürün + detay` };
+      const detailTarget = Number(cfg.dailyFullDetailTopN || cfg.dailyDetailTopN || 0);
+      return {
+        task: `Profil: ${p}`,
+        time: cfg.dailyRunTime || '—',
+        workers: '1 (vitrin) + 1 (detay), global kilitle sıralı',
+        target: `${cfg.minimumProducts || 1000} ürün + ${detailTarget || 'detay'}`,
+      };
     }),
     { task: 'Taksonomi keşif (4 shard)', time: '15:00', workers: '4 paralel (shard-0..3)', target: 'kategori ağacı + merge' },
-    { task: 'Taksonomi ürün tarama (4 shard)', time: 'keşif sonrası', workers: '4 paralel (shard-0..3)', target: 'kategori-ürün üyelikleri' },
-    { task: 'Finalize + Telegram özeti', time: '04:30', workers: '1', target: 'yayın + Telegram' },
-    { task: 'Dashboard durum üretici', time: '5 dakikada bir', workers: '1', target: 'status.json' },
+    { task: 'Taksonomi ürün tarama (4 shard)', time: 'keşif sonrası', workers: '4 paralel (shard-0..3)', target: collectionPlan.targetSummary },
+    { task: 'Finalize + Telegram özeti', time: '04:30', workers: '1', target: 'GitHub commit + push + dashboard + Telegram' },
+    { task: 'Dashboard durum üretici (sayfa yenileme)', time: '5 dakikada bir', workers: 'UI', target: 'status.json' },
   ],
   publication: { status: process.env.VERI_MIMARI_INGEST_URL && process.env.VERI_MIMARI_INGEST_SECRET ? 'configured' : 'not_configured' },
   definitions: {

@@ -1,0 +1,245 @@
+{
+  "marketplace": "hepsiburada",
+  "date": "2026-09-15",
+  "catalogDate": "2026-09-15",
+  "catalogStatus": "PASS",
+  "catalogRootCount": 9,
+  "targetPolicy": {
+    "over_1000_subcategories": 4000,
+    "500_to_999_subcategories": 2500,
+    "under_500_subcategories": 2000
+  },
+  "roots": [
+    {
+      "root_id": "60002028",
+      "root_name": "Ev, Yasam, Kirtasiye, Ofis",
+      "subcategory_count": 577,
+      "category_count": 578,
+      "unique_product_count": 0,
+      "target": 2500,
+      "target_basis": "subcategory_count_excluding_root",
+      "status": "INSUFFICIENT_SOURCE",
+      "error_count": 578,
+      "errors": [
+        {
+          "category_id": "60002028",
+          "url": "https://www.hepsiburada.com/ev-dekorasyon-c-60002028",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "13003201",
+          "url": "https://www.hepsiburada.com/elektrik-aydinlatma-urunleri-c-13003201",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "455418",
+          "url": "https://www.hepsiburada.com/banyolar-c-455418",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18021300",
+          "url": "https://www.hepsiburada.com/dekorasyon-c-18021300",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "2147483618",
+          "url": "https://www.hepsiburada.com/ev-tekstili-c-2147483618",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18021299",
+          "url": "https://www.hepsiburada.com/mobilyalar-c-18021299",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80227101",
+          "url": "https://www.hepsiburada.com/montaj-hizmeti-c-80227101",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "13006543",
+          "url": "https://www.hepsiburada.com/aplikler-c-13006543",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "13003223",
+          "url": "https://www.hepsiburada.com/avizeler-c-13003223",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18021622",
+          "url": "https://www.hepsiburada.com/ayakkabiliklar-c-18021622",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60005015",
+          "url": "https://www.hepsiburada.com/balonlar-c-60005015",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18021947",
+          "url": "https://www.hepsiburada.com/banyo-bataryalari-c-18021947",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18021983",
+          "url": "https://www.hepsiburada.com/banyo-lavabo-bataryalari-c-18021983",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "457065",
+          "url": "https://www.hepsiburada.com/banyo-mobilyalari-c-457065",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60006510",
+          "url": "https://www.hepsiburada.com/boy-aynasi-c-60006510",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18043090",
+          "url": "https://www.hepsiburada.com/calisma-masalari-c-18043090",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18021928",
+          "url": "https://www.hepsiburada.com/camasir-sepetleri-c-18021928",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60005008",
+          "url": "https://www.hepsiburada.com/cok-amacli-dolaplar-c-60005008",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "18021459",
+          "url": "https://www.hepsiburada.com/dekoratif-masa-saatleri-c-18021459",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60005229",
+          "url": "https://www.hepsiburada.com/dekoratif-saksilar-c-60005229",
+          "error": "guvenlik-engeli"
+        }
+      ]
+    },
+    {
+      "root_id": "60002705",
+      "root_name": "Oto, Bahce, Yapi Market",
+      "subcategory_count": 1197,
+      "category_count": 1198,
+      "unique_product_count": 0,
+      "target": 4000,
+      "target_basis": "subcategory_count_excluding_root",
+      "status": "INSUFFICIENT_SOURCE",
+      "error_count": 1198,
+      "errors": [
+        {
+          "category_id": "60002705",
+          "url": "https://www.hepsiburada.com/yapi-market-bahce-oto-c-60002705",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80857437",
+          "url": "https://www.hepsiburada.com/4-mevsim-lastikler-c-80857437",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "2147483601",
+          "url": "https://www.hepsiburada.com/bahce-malzemeleri-c-2147483601",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80857387",
+          "url": "https://www.hepsiburada.com/hizmetler-c-80857387",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60008737",
+          "url": "https://www.hepsiburada.com/motosiklet-c-60008737",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "2147483631",
+          "url": "https://www.hepsiburada.com/oto-aksesuarlari-c-2147483631",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "2147483620",
+          "url": "https://www.hepsiburada.com/yapi-market-hirdavatlar-c-2147483620",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "17288",
+          "url": "https://www.hepsiburada.com/akim-korumali-prizler-c-17288",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "20033705",
+          "url": "https://www.hepsiburada.com/aku-sarj-cihazlari-c-20033705",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60003762",
+          "url": "https://www.hepsiburada.com/akuler-c-60003762",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "13003091",
+          "url": "https://www.hepsiburada.com/akulu-vidalama-aletleri-c-13003091",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "26027",
+          "url": "https://www.hepsiburada.com/arac-ici-kameralar-c-26027",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "20035765",
+          "url": "https://www.hepsiburada.com/arac-supurgeleri-c-20035765",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "80405015",
+          "url": "https://www.hepsiburada.com/atv-motor-c-80405015",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "60000864",
+          "url": "https://www.hepsiburada.com/avuc-taslamalar-c-60000864",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "20024981",
+          "url": "https://www.hepsiburada.com/bagaj-cantalari-c-20024981",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "34001208",
+          "url": "https://www.hepsiburada.com/bahce-salincaklari-c-34001208",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "34001202",
+          "url": "https://www.hepsiburada.com/bahce-sandalyeleri-c-34001202",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "13003267",
+          "url": "https://www.hepsiburada.com/batarya-musluklari-c-13003267",
+          "error": "guvenlik-engeli"
+        },
+        {
+          "category_id": "34001225",
+          "url": "https://www.hepsiburada.com/benzinli-agac-kesme-makineleri-c-34001225",
+          "error": "guvenlik-engeli"
+        }
+      ]
+    }
+  ],
+  "shard": 2,
+  "of": 4,
+  "productCount": 0,
+  "rankingCount": 0,
+  "status": "INSUFFICIENT_SOURCE"
+}

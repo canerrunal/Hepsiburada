@@ -40,6 +40,12 @@ function processInventory() {
       if (!match) return null;
       const [, pid, elapsed, stat, cpu, memory, command] = match;
       if (!/hb_(taxonomy_crawl|taxonomy_collect|collect_pw|detail_pw)\.py|hepsiburada_(discovery|finalize)\.sh/.test(command)) return null;
+      // A shell/orchestrator command line can contain the child command text,
+      // and run_with_timeout is already represented by the runtime registry.
+      // Keep only the actual collector/orchestrator process to avoid duplicate
+      // worker rows in the dashboard.
+      if (/run_with_timeout\.py/.test(command)) return null;
+      if (/^\s*\/bin\/(?:zsh|bash|sh)\s+-lc\s/.test(command)) return null;
       return { pid: Number(pid), elapsed, stat, cpu: Number(cpu), memory: Number(memory), command: command.trim(), component: componentFor(command) };
     }).filter(Boolean);
   } catch (_) { return []; }
