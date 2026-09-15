@@ -41,7 +41,7 @@ export HB_HEADLESS="${HB_HEADLESS:-1}"
   if [[ "$product_failed" -ne 0 ]]; then
     echo "TAXONOMY_PRODUCT_COLLECTION_INSUFFICIENT_OR_FAILED" >&2
   fi
-  /Users/canerunal/.local/bin/node scripts/build_dashboard_status.cjs
+  bash scripts/finalize_taxonomy_collection.sh
 '
 
 run_date=$(TZ=Europe/Istanbul date +%F)

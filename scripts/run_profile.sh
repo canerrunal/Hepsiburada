@@ -54,9 +54,11 @@ fi
 
 run_date=$(TZ=Europe/Istanbul date +%F)
 if [[ "$PROFILE" == "elektronik" ]]; then
-  git add data snapshots lists reports quality taxonomy scripts 2>/dev/null || true
+  git add data lists reports quality taxonomy scripts 2>/dev/null || true
+  git add -f snapshots 2>/dev/null || true
 else
   git add "categories/$PROFILE" taxonomy 2>/dev/null || true
+  git add -f "categories/$PROFILE/snapshots" 2>/dev/null || true
 fi
 if ! git diff --cached --quiet; then
   git commit -m "data: Hepsiburada ${PROFILE} günlük raporu ${run_date}" 2>/dev/null || true

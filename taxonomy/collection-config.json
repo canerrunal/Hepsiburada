@@ -10,5 +10,11 @@
   "detailConcurrency": 5,
   "detailCoverageMemoryDays": 365,
   "requestDelayMs": 1500,
-  "shards": 4
+  "shards": 4,
+  "rootTargetPolicy": {
+    "basis": "subcategory_count_excluding_root",
+    "over_1000_subcategories": 4000,
+    "500_to_999_subcategories": 2500,
+    "under_500_subcategories": 2000
+  }
 }

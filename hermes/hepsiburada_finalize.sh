@@ -44,4 +44,7 @@ PY
 )"
 echo "$digest"
 echo "$digest" | "$HERMES_BIN" send --to "$TELEGRAM_TO" 2>&1 || echo "TELEGRAM_ATLANDI"
+
+# Also back up taxonomy output, dashboard state and partial snapshots.
+bash scripts/finalize_taxonomy_collection.sh
 echo "FINALIZE_JOB_OK time=$(TZ=Europe/Istanbul date +%FT%T%z)"

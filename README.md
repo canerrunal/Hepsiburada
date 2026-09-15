@@ -29,6 +29,7 @@ Marketplace bağımsız veri sözleşmesi, Hepsiburada Playwright adapter’ı, 
 - Ürün toplama, taxonomy katalog durumu `PASS/COMPLETE`, dokuz kök kategori ve dolu kök kimlikleri doğrulanmadan başlayamaz.
 - Taxonomy merge aynı tarihli ve tamamlanmış shard'ları kabul eder; eksik kök, uyumsuz tarih veya açık kuyrukta `IN_PROGRESS` bırakır.
 - Dashboard; ana katalog ile shard keşiflerini ayrı gösterir. Shard satırları ürün üyelik satırlarıyla karıştırılmaz.
+- Taxonomy ürün hedefi kökün alt kategori sayısına göre dinamik seçilir: `>1000 = 4.000`, `500–999 = 2.500`, `<500 = 2.000` benzersiz ürün.
 
 ## Günlük çalışma
 
