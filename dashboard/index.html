@@ -6,61 +6,168 @@
   <meta http-equiv="refresh" content="300">
   <title>Hepsiburada Veri Merkezi</title>
   <style>
-    :root { color-scheme: dark; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:#10131a; color:#eef2f7; }
-    body { max-width:1200px; margin:0 auto; padding:28px; }
-    h1 { margin:0 0 6px; } .muted { color:#9aa6b2; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:20px 0; }
-    .card { background:#191e28; border:1px solid #2b3442; border-radius:12px; padding:16px; }
-    .value { font-size:28px; font-weight:700; margin-top:8px; }
-    .status { display:inline-block; padding:4px 9px; border-radius:999px; font-size:12px; font-weight:700; }
-    .PASS { background:#164d35; color:#72e3a6; } .FAIL,.STALE,.INSUFFICIENT_SOURCE { background:#5a2529; color:#ff9b9b; }
-    .UNKNOWN,.IN_PROGRESS { background:#574819; color:#f6d878; } .RUNNING { background:#173f62; color:#8dccff; }
-    table { width:100%; border-collapse:collapse; background:#191e28; border-radius:12px; overflow:hidden; }
-    th,td { text-align:left; padding:12px; border-bottom:1px solid #2b3442; } th { color:#9aa6b2; font-size:12px; }
-    code { color:#a9d5ff; } @media(max-width:700px){body{padding:16px} th:nth-child(n+4),td:nth-child(n+4){display:none}}
+    :root {
+      color-scheme: dark;
+      --bg: #0b0e14; --bg2: #101623; --card: #141b2c; --card2: #182034;
+      --line: #263049; --txt: #eef2f9; --mut: #93a1b8; --acc: #6ea8ff;
+      --ok: #3ddc97; --warn: #ffd166; --bad: #ff7b8a; --info: #7dd3fc;
+      --grad: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 55%, #ec4899 100%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(1200px 500px at 20% -10%, #1b2a4d 0%, transparent 60%), radial-gradient(1000px 500px at 90% 0%, #3a1c4d 0%, transparent 55%), var(--bg); color: var(--txt); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 28px 24px 60px; }
+    header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .logo { width: 46px; height: 46px; border-radius: 14px; background: var(--grad); display: flex; align-items: center; justify-content: center; font-size: 24px; box-shadow: 0 8px 30px rgba(139,92,246,.35); }
+    h1 { margin: 0; font-size: 26px; letter-spacing: .2px; }
+    .sub { color: var(--mut); font-size: 13px; margin-top: 4px; }
+    .live { display: flex; align-items: center; gap: 8px; background: rgba(61,220,151,.1); border: 1px solid rgba(61,220,151,.35); padding: 8px 14px; border-radius: 999px; font-size: 13px; }
+    .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 10px var(--ok); animation: pulse 2s infinite; }
+    @keyframes pulse { 50% { opacity: .4; } }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 20px 0 26px; }
+    .kpi { background: linear-gradient(180deg, var(--card2), var(--card)); border: 1px solid var(--line); border-radius: 16px; padding: 16px; position: relative; overflow: hidden; }
+    .kpi::after { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: var(--grad); opacity: .7; }
+    .kpi .k { color: var(--mut); font-size: 12px; text-transform: uppercase; letter-spacing: .8px; }
+    .kpi .v { font-size: 30px; font-weight: 800; margin-top: 6px; font-variant-numeric: tabular-nums; }
+    .kpi .s { color: var(--mut); font-size: 12px; margin-top: 4px; }
+    section { margin-bottom: 28px; }
+    h2 { font-size: 17px; margin: 0 0 12px; display: flex; align-items: center; gap: 10px; }
+    h2 .count { background: #22304d; border-radius: 999px; padding: 2px 10px; font-size: 12px; color: var(--acc); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+    .card { background: linear-gradient(180deg, var(--card2), var(--card)); border: 1px solid var(--line); border-radius: 16px; padding: 18px; }
+    .card h3 { margin: 0 0 2px; font-size: 16px; text-transform: capitalize; }
+    .row { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 5px 0; font-size: 13px; }
+    .row .k { color: var(--mut); }
+    .row .n { font-variant-numeric: tabular-nums; font-weight: 600; }
+    .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11.5px; font-weight: 700; letter-spacing: .3px; }
+    .PASS, .COMPLETE { background: rgba(61,220,151,.14); color: var(--ok); border: 1px solid rgba(61,220,151,.4); }
+    .FAIL, .STALE { background: rgba(255,123,138,.12); color: var(--bad); border: 1px solid rgba(255,123,138,.4); }
+    .RUNNING, .IN_PROGRESS { background: rgba(125,211,252,.12); color: var(--info); border: 1px solid rgba(125,211,252,.4); }
+    .UNKNOWN, .NOT_RUN, .LIVE-CRAWL { background: rgba(255,209,102,.12); color: var(--warn); border: 1px solid rgba(255,209,102,.4); }
+    .bar { height: 8px; background: #0d1322; border-radius: 99px; overflow: hidden; margin-top: 6px; }
+    .bar > i { display: block; height: 100%; background: var(--grad); border-radius: 99px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+    th { color: var(--mut); font-size: 11.5px; text-transform: uppercase; letter-spacing: .6px; }
+    tr:last-child td { border-bottom: none; }
+    td.num { font-variant-numeric: tabular-nums; }
+    code { color: #a9d5ff; font-size: 12px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+    footer { color: var(--mut); font-size: 12px; margin-top: 10px; display: flex; flex-wrap: wrap; gap: 16px; }
+    @media (max-width: 760px) { .wrap { padding: 18px 14px 50px; } th:nth-child(n+5), td:nth-child(n+5) { display: none; } }
   </style>
 </head>
 <body>
-  <h1>Hepsiburada Veri Merkezi</h1>
-  <div class="muted" id="meta">Durum yükleniyor…</div>
-  <div class="muted">Bu sayfa 5 dakikada bir otomatik yenilenir.</div>
-  <section class="grid" id="summary"></section>
-  <h2>Profil havuzları</h2>
-  <table><thead><tr><th>Profil</th><th>Durum</th><th>Ürün</th><th>Detay</th><th>Stok</th><th>Gözlem tarihi</th></tr></thead><tbody id="profiles"></tbody></table>
-  <h2>Kategori ağacı</h2>
-  <div class="card"><div class="muted" id="treeMeta">—</div><table><thead id="treeHead"></thead><tbody id="tree"></tbody></table></div>
-  <h2>Operasyon</h2>
-  <div class="card"><div class="muted" id="workerMeta">—</div><pre id="jobs">—</pre><div class="muted">Kaynak commit: <code id="commit">—</code></div></div>
-  <script>
-    const esc = (v) => String(v ?? '—').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
-    const badge = (v) => `<span class="status ${esc(v)}">${esc(v)}</span>`;
-    fetch('status.json').then((r) => r.json()).then((d) => {
-      document.querySelector('#meta').textContent = `Gözlem: ${d.observedDate || '—'} · Üretim: ${d.generatedAt || '—'} · Yayın: ${d.publication?.status || '—'}`;
-      const t = d.taxonomy || {};
-      document.querySelector('#summary').innerHTML = [
-        ['Taxonomy', badge(t.status)], ['Ürün taraması', badge(t.productCollectionStatus)], ['Kategori', t.categoryCount], ['Kök kategori', t.rootCategoryCount], ['Aktif işçi', d.workers?.summary?.activeCount ?? 0]
-      ].map(([k,v]) => `<div class="card"><div class="muted">${k}</div><div class="value">${v}</div></div>`).join('');
-      document.querySelector('#profiles').innerHTML = (d.profiles || []).map((p) => `<tr><td>${esc(p.profile)}</td><td>${badge(p.status)}</td><td>${esc(p.productCount)} / ${esc(p.productTarget)}</td><td>${esc(p.detailSuccessRate)}%</td><td>${esc(p.stockCoverage)}%</td><td>${esc(p.observedDate)}</td></tr>`).join('');
-      const tree = t.tree || {};
-      const shardRows = tree.shards || [];
-      const shardNames = shardRows.map((shard) => (shard.file || '').split('/').pop().replace(/\.json$/, '')).filter(Boolean);
-      const byRoot = {};
-      for (const shard of shardRows) for (const [root, count] of Object.entries(shard.byRoot || {})) {
-        byRoot[root] ||= {};
-        const shardName = (shard.file || '').split('/').pop().replace(/\.json$/, '');
-        byRoot[root][shardName] = count;
-      }
-      document.querySelector('#treeMeta').textContent = `Ana katalog: ${tree.primary?.status || '—'} · ${tree.primary?.categoryCount ?? 0} kayıt · ${tree.primary?.maxDepth ?? 0} seviye | Shard toplamı: ${tree.shardCategoryRows ?? 0} · benzersiz ID: ${tree.shardUniqueCategoryIds ?? 0}`;
-      document.querySelector('#treeHead').innerHTML = `<tr><th>Kök</th>${shardNames.map((name) => `<th>${esc(name)}</th>`).join('')}<th>Toplam geçici</th></tr>`;
-      document.querySelector('#tree').innerHTML = Object.entries(byRoot).sort().map(([root, counts]) => {
-        const total = shardNames.reduce((sum, name) => sum + Number(counts[name] || 0), 0);
-        return `<tr><td>${esc(root)}</td>${shardNames.map((name) => `<td>${esc(counts[name] || 0)}</td>`).join('')}<td>${esc(total)}</td></tr>`;
-      }).join('') || `<tr><td colspan="${shardNames.length + 2}">Kategori ağacı henüz oluşmadı</td></tr>`;
-      const active = d.workers?.active || d.activeHermesJobs || [];
-      document.querySelector('#workerMeta').textContent = `Aktif: ${d.workers?.summary?.activeCount ?? active.length} · Stale: ${d.workers?.summary?.staleCount ?? 0} · İzlenen koşu: ${d.workers?.summary?.trackedRunCount ?? 0}`;
-      document.querySelector('#jobs').textContent = active.map((j) => `[${j.component || 'worker'}] pid=${j.pid || '—'} ${j.status || 'RUNNING'} ${j.command || ''}`).join('\n') || 'Aktif iş yok';
-      document.querySelector('#commit').textContent = d.sourceCommit || '—';
-    }).catch((e) => { document.querySelector('#meta').textContent = `Durum okunamadı: ${e.message}`; });
-  </script>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="logo">🛒</div>
+      <div>
+        <h1>Hepsiburada Veri Merkezi</h1>
+        <div class="sub" id="meta">Yükleniyor…</div>
+      </div>
+    </div>
+    <div class="live"><span class="dot"></span><span id="clock">—</span>&nbsp;·&nbsp;yenileme <b id="cd">5:00</b></div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <h2>⚙️ Aktif işçiler <span class="count" id="wcount">0</span></h2>
+    <div class="card" style="padding:6px 6px;">
+      <table><thead><tr><th>Bileşen</th><th>PID</th><th>Durum</th><th>Süre</th><th>Komut</th></tr></thead><tbody id="workers"></tbody></table>
+    </div>
+  </section>
+
+  <section>
+    <h2>📦 Profil havuzları <span class="count" id="pcount">0</span></h2>
+    <div class="cards" id="profiles"></div>
+  </section>
+
+  <section>
+    <h2>🌳 Kategori ağacı</h2>
+    <div class="cards">
+      <div class="card"><h3>Seviye dağılımı</h3><div id="levels"></div></div>
+      <div class="card"><h3>Kök kategoriler</h3><div id="roots"></div></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Kaynak commit: <code id="commit">—</code></span>
+    <span id="pub">Yayın: —</span>
+    <span>Sayfa 5 dakikada bir otomatik yenilenir.</span>
+  </footer>
+</div>
+<script>
+  const esc = (v) => String(v ?? '—').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+  const badge = (v) => `<span class="badge ${esc(v)}">${esc(v)}</span>`;
+  const num = (v) => (v === null || v === undefined || v === '' || Number.isNaN(Number(v))) ? '—' : Number(v).toLocaleString('tr-TR');
+  const pct = (v) => (v === null || v === undefined) ? '—' : `%${v}`;
+  const elapsed = (s) => { if (s === null || s === undefined) return '—'; s = Math.floor(s); const h = Math.floor(s/3600), m = Math.floor(s%3600/60); return h ? `${h}s ${m}dk` : `${m}dk ${s%60}sn`; };
+  setInterval(() => {
+    const el = document.querySelector('#clock');
+    if (el) el.textContent = new Date().toLocaleTimeString('tr-TR');
+  }, 1000);
+  let left = 300;
+  setInterval(() => {
+    left = Math.max(0, left - 1);
+    const el = document.querySelector('#cd');
+    if (el) el.textContent = `${Math.floor(left/60)}:${String(left%60).padStart(2,'0')}`;
+  }, 1000);
+
+  fetch('status.json').then((r) => r.json()).then((d) => {
+    document.querySelector('#meta').textContent = `Gözlem: ${d.observedDate || '—'} · Üretim: ${d.generatedAt ? new Date(d.generatedAt).toLocaleString('tr-TR') : '—'}`;
+    document.querySelector('#commit').textContent = (d.sourceCommit || '—').slice(0, 7);
+    document.querySelector('#pub').textContent = `Yayın: ${d.publication?.status || '—'}`;
+    const t = d.taxonomy || {}, tree = t.tree || {}, primary = tree.primary || {};
+    const profiles = d.profiles || [];
+    const passN = profiles.filter((p) => p.status === 'PASS').length;
+    const totalProd = profiles.reduce((s, p) => s + (Number(p.productCount) || 0), 0);
+    const wActive = d.workers?.summary?.activeCount ?? (d.workers?.active || []).length;
+    document.querySelector('#kpis').innerHTML = [
+      ['Kategori', num(t.categoryCount), `${t.rootCategoryCount ?? '—'} kök · ${primary.maxDepth ?? '—'} seviye`],
+      ['Profil PASS', `${passN}/${profiles.length}`, 'kalite kapısı'],
+      ['Havuz ürün', num(totalProd), '5 profil toplamı'],
+      ['Aktif işçi', num(wActive), `stale: ${d.workers?.summary?.staleCount ?? 0}`],
+      ['Ürün taraması', t.productCollectionStatus || '—', `taksonomi: ${t.status || '—'}`],
+      ['Yayın', d.publication?.status || '—', 'Veri Mimarı'],
+    ].map(([k, v, s]) => `<div class="kpi"><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join('');
+
+    const workers = d.workers?.active || d.activeHermesJobs || [];
+    document.querySelector('#wcount').textContent = workers.length;
+    document.querySelector('#workers').innerHTML = workers.map((j) => {
+      const cmd = Array.isArray(j.command) ? j.command.slice(-3).join(' ') : (j.command || '');
+      return `<tr><td>${esc(j.component || 'worker')}</td><td class="num mono">${esc(j.pid)}</td><td>${badge(j.live === false ? 'STALE' : (j.status || 'RUNNING'))}</td><td class="num">${esc(elapsed(j.elapsedSeconds))}</td><td class="mono">${esc(cmd)}</td></tr>`;
+    }).join('') || '<tr><td colspan="5">Aktif iş yok</td></tr>';
+
+    document.querySelector('#pcount').textContent = profiles.length;
+    document.querySelector('#profiles').innerHTML = profiles.map((p) => {
+      const ratio = p.productTarget ? Math.min(100, Math.round(100 * (Number(p.productCount) || 0) / p.productTarget)) : 0;
+      return `<div class="card"><h3>${esc(p.profile)}</h3>
+        <div class="row"><span class="k">Durum</span><span>${badge(p.status)}</span></div>
+        <div class="row"><span class="k">Ürün</span><span class="n">${num(p.productCount)} / ${num(p.productTarget)}</span></div>
+        <div class="bar"><i style="width:${ratio}%"></i></div>
+        <div class="row"><span class="k">Detay başarı</span><span class="n">${pct(p.detailSuccessRate)}</span></div>
+        <div class="row"><span class="k">Stok kapsamı</span><span class="n">${pct(p.stockCoverage)}</span></div>
+        <div class="row"><span class="k">Satıcı kapsamı</span><span class="n">${pct(p.sellerCoverage)}</span></div>
+        <div class="row"><span class="k">Sıradaki koşu</span><span class="n">${esc(p.nextScheduledTime)}</span></div>
+        <div class="row"><span class="k">Gözlem</span><span class="n">${esc(p.observedDate)}</span></div>
+      </div>`;
+    }).join('');
+
+    const byLevel = primary.byLevel || {};
+    const maxL = Math.max(1, ...Object.values(byLevel).map(Number));
+    document.querySelector('#levels').innerHTML = Object.entries(byLevel).sort((a, b) => a[0] - b[0]).map(([lv, c]) =>
+      `<div class="row"><span class="k">Seviye ${esc(lv)}</span><span class="n">${num(c)}</span></div><div class="bar"><i style="width:${Math.round(100 * c / maxL)}%"></i></div>`
+    ).join('') || '—';
+    const shard0 = (tree.shards || [])[0];
+    const roots = shard0 ? shard0.byRoot || {} : {};
+    const rootEntries = Object.entries(roots).sort((a, b) => b[1] - a[1]).slice(0, 12);
+    const maxR = Math.max(1, ...rootEntries.map(([, c]) => c));
+    document.querySelector('#roots').innerHTML = rootEntries.map(([name, c]) =>
+      `<div class="row"><span class="k">${esc(name)}</span><span class="n">${num(c)}</span></div><div class="bar"><i style="width:${Math.round(100 * c / maxR)}%"></i></div>`
+    ).join('') || '—';
+  }).catch((e) => { document.querySelector('#meta').textContent = `Durum okunamadı: ${e.message}`; });
+</script>
 </body>
 </html>
