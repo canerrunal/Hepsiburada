@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-15T16:15:05.282Z",
+  "generatedAt": "2026-09-15T16:20:06.055Z",
   "observedDate": "2026-09-15",
-  "sourceCommit": "5dfd910b4565283dff377b43b023b5005789fed1",
+  "sourceCommit": "a83ed3f6d33c20c8d48a6ec757747f44c8cd55a2",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -17302,7 +17302,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-15T16:15:05.154Z",
+    "observedAt": "2026-09-15T16:20:05.926Z",
     "summary": {
       "activeCount": 1,
       "staleCount": 0,
@@ -17324,9 +17324,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:15:01+03:00",
+        "updatedAt": "2026-09-15T19:20:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 8160.7,
+        "elapsedSeconds": 8460.7,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17351,9 +17351,9 @@
         "pid": 28801,
         "status": "RUNNING",
         "startedAt": "2026-09-15T16:59:00+03:00",
-        "updatedAt": "2026-09-15T19:15:01+03:00",
+        "updatedAt": "2026-09-15T19:20:01+03:00",
         "finishedAt": null,
-        "elapsedSeconds": 8160.7,
+        "elapsedSeconds": 8460.7,
         "timeoutSeconds": 21600,
         "heartbeatSeconds": 60,
         "exitCode": null,
@@ -17656,9 +17656,9 @@
       "pid": 28801,
       "status": "RUNNING",
       "startedAt": "2026-09-15T16:59:00+03:00",
-      "updatedAt": "2026-09-15T19:15:01+03:00",
+      "updatedAt": "2026-09-15T19:20:01+03:00",
       "finishedAt": null,
-      "elapsedSeconds": 8160.7,
+      "elapsedSeconds": 8460.7,
       "timeoutSeconds": 21600,
       "heartbeatSeconds": 60,
       "exitCode": null,
@@ -17671,8 +17671,8 @@
     {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-15T19:20:00+03:00",
-      "lastRun": "2026-09-15T19:10:06.889711+03:00",
+      "nextRun": "2026-09-15T19:25:00+03:00",
+      "lastRun": "2026-09-15T19:15:07.875534+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
