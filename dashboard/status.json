@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-16T20:20:29.660Z",
+  "generatedAt": "2026-09-16T20:25:30.031Z",
   "observedDate": "2026-09-16",
-  "sourceCommit": "51cd3312d70b01f6a4186e733904b1795a027f30",
+  "sourceCommit": "ddb98e51ae9e6c1324665eabed83d9626ad6ec0b",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14330,7 +14330,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-16T20:20:29.537Z",
+    "observedAt": "2026-09-16T20:25:29.916Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
@@ -14775,19 +14775,19 @@
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-dashboard",
-      "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-16T23:25:00+03:00",
-      "lastRun": "2026-09-16T23:15:31.448210+03:00",
-      "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-supermarket",
       "schedule": "30 23 * * *",
       "nextRun": "2026-09-16T23:30:00+03:00",
       "lastRun": "2026-09-15T23:33:28.855938+03:00",
       "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-dashboard",
+      "schedule": "*/5 * * * *",
+      "nextRun": "2026-09-16T23:30:00+03:00",
+      "lastRun": "2026-09-16T23:20:32.123955+03:00",
+      "lastStatus": "ok",
       "mode": "no-agent"
     },
     {
