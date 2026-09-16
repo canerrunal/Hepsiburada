@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-16T20:25:30.031Z",
+  "generatedAt": "2026-09-16T20:33:24.531Z",
   "observedDate": "2026-09-16",
-  "sourceCommit": "ddb98e51ae9e6c1324665eabed83d9626ad6ec0b",
+  "sourceCommit": "52a08aab07eacc37c43f15f83cc0061a3378ea5c",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14330,16 +14330,56 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-16T20:25:29.916Z",
+    "observedAt": "2026-09-16T20:33:24.419Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
-      "trackedRunCount": 48,
+      "trackedRunCount": 50,
       "osProcessCount": 0
     },
     "active": [],
     "stale": [],
     "recentRuns": [
+      {
+        "runId": "2026-09-16-listing-collector-0d3bcf29e7",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "supermarket"
+        ],
+        "pid": 69005,
+        "status": "FAILED",
+        "startedAt": "2026-09-16T23:32:57+03:00",
+        "updatedAt": "2026-09-16T23:33:24+03:00",
+        "finishedAt": "2026-09-16T23:33:24+03:00",
+        "elapsedSeconds": 26.9,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-16-listing-collector-29e4b3d97e",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "supermarket"
+        ],
+        "pid": 68951,
+        "status": "FAILED",
+        "startedAt": "2026-09-16T23:30:30+03:00",
+        "updatedAt": "2026-09-16T23:30:57+03:00",
+        "finishedAt": "2026-09-16T23:30:57+03:00",
+        "elapsedSeconds": 26.5,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 2,
+        "timeout": false
+      },
       {
         "runId": "2026-09-16-listing-collector-28e654f24a",
         "component": "listing-collector",
@@ -14715,78 +14755,16 @@
         "heartbeatSeconds": 30,
         "exitCode": 2,
         "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-1f0c116c31",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "3",
-          "--of",
-          "4",
-          "--category-scope",
-          "root",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 40579,
-        "status": "CANCELLED",
-        "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:03:39+03:00",
-        "finishedAt": "2026-09-15T23:03:39+03:00",
-        "elapsedSeconds": 476.9,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 143,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-15-taxonomy-products-2da515c43b",
-        "component": "taxonomy-products",
-        "command": [
-          "/usr/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "1",
-          "--of",
-          "4",
-          "--category-scope",
-          "root",
-          "--headed",
-          "--request-delay-ms",
-          "5000"
-        ],
-        "pid": 40581,
-        "status": "CANCELLED",
-        "startedAt": "2026-09-15T22:55:42+03:00",
-        "updatedAt": "2026-09-15T23:03:39+03:00",
-        "finishedAt": "2026-09-15T23:03:39+03:00",
-        "elapsedSeconds": 476.9,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 143,
-        "timeout": false
       }
     ]
   },
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-supermarket",
-      "schedule": "30 23 * * *",
-      "nextRun": "2026-09-16T23:30:00+03:00",
-      "lastRun": "2026-09-15T23:33:28.855938+03:00",
-      "lastStatus": "error",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-16T23:30:00+03:00",
-      "lastRun": "2026-09-16T23:20:32.123955+03:00",
+      "nextRun": "2026-09-16T23:35:00+03:00",
+      "lastRun": "2026-09-16T23:25:32.936081+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -14835,6 +14813,14 @@
       "schedule": "0 23 * * *",
       "nextRun": "2026-09-17T23:00:00+03:00",
       "lastRun": "2026-09-16T23:03:21.087752+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-supermarket",
+      "schedule": "30 23 * * *",
+      "nextRun": "2026-09-17T23:30:00+03:00",
+      "lastRun": "2026-09-16T23:33:24.215549+03:00",
       "lastStatus": "error",
       "mode": "no-agent"
     }
