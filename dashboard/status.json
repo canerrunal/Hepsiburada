@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-16T20:50:33.262Z",
+  "generatedAt": "2026-09-16T20:55:33.643Z",
   "observedDate": "2026-09-16",
-  "sourceCommit": "8bed8b6c0f6a09ca03ad4dd8016e19cc42f9cf84",
+  "sourceCommit": "ad328864aae2b3f192d0db040ca07072ad8e8cd7",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14330,7 +14330,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-16T20:50:33.150Z",
+    "observedAt": "2026-09-16T20:55:33.533Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
@@ -14761,19 +14761,19 @@
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-dashboard",
-      "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-16T23:55:00+03:00",
-      "lastRun": "2026-09-16T23:45:35.259913+03:00",
-      "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-kozmetik",
       "schedule": "0 0 * * *",
       "nextRun": "2026-09-17T00:00:00+03:00",
       "lastRun": "2026-09-16T00:03:33.054878+03:00",
       "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-dashboard",
+      "schedule": "*/5 * * * *",
+      "nextRun": "2026-09-17T00:00:00+03:00",
+      "lastRun": "2026-09-16T23:50:35.438849+03:00",
+      "lastStatus": "ok",
       "mode": "no-agent"
     },
     {
