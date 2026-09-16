@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-16T21:20:36.917Z",
+  "generatedAt": "2026-09-16T21:25:37.731Z",
   "observedDate": "2026-09-17",
-  "sourceCommit": "2e724a43e512900a3afacf02af5e00242788f991",
+  "sourceCommit": "9b076f27a9cd4c6b4df78d307b79ee0ec25f5555",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14330,7 +14330,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-16T21:20:36.820Z",
+    "observedAt": "2026-09-16T21:25:37.620Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
@@ -14761,19 +14761,19 @@
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-dashboard",
-      "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-17T00:25:00+03:00",
-      "lastRun": "2026-09-17T00:15:39.177439+03:00",
-      "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-anne-bebek",
       "schedule": "30 0 * * *",
       "nextRun": "2026-09-17T00:30:00+03:00",
       "lastRun": "2026-09-16T00:33:36.269003+03:00",
       "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-dashboard",
+      "schedule": "*/5 * * * *",
+      "nextRun": "2026-09-17T00:30:00+03:00",
+      "lastRun": "2026-09-17T00:20:38.908692+03:00",
+      "lastStatus": "ok",
       "mode": "no-agent"
     },
     {
