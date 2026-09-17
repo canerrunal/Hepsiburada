@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-17T11:50:25.908Z",
+  "generatedAt": "2026-09-17T11:55:26.496Z",
   "observedDate": "2026-09-17",
-  "sourceCommit": "c7fdfeff14eca3e371f5e41230777c7c5388b465",
+  "sourceCommit": "5980409dd5b22b7d34a0058df8407b94f26e5ab6",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14330,7 +14330,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-17T11:50:25.794Z",
+    "observedAt": "2026-09-17T11:55:26.384Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
@@ -14761,18 +14761,18 @@
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-dashboard",
-      "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-17T14:55:00+03:00",
-      "lastRun": "2026-09-17T14:45:28.629487+03:00",
-      "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-discovery",
       "schedule": "0 15 * * *",
       "nextRun": "2026-09-17T15:00:00+03:00",
       "lastRun": "2026-09-16T15:02:46.646572+03:00",
+      "lastStatus": "ok",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-dashboard",
+      "schedule": "*/5 * * * *",
+      "nextRun": "2026-09-17T15:00:00+03:00",
+      "lastRun": "2026-09-17T14:50:28.294599+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
