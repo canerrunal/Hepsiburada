@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "status": "COMPLETE",
   "count": 9,
   "categories": [
@@ -20,7 +20,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/anne-bebek-oyuncak-c-2147483639",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true,
       "unvisited": true,
       "blocked": true
@@ -42,7 +42,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ev-elektronik-urunleri-c-2147483638",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     },
     {
@@ -62,7 +62,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/ev-dekorasyon-c-60002028",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     },
     {
@@ -82,7 +82,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kitaplar-filmler-muzikler-c-60001501",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     },
     {
@@ -102,7 +102,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/kozmetik-kisisel-bakim-urunleri-c-60001547",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     },
     {
@@ -122,7 +122,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/giyim-ayakkabi-c-2147483636",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     },
     {
@@ -144,7 +144,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/yapi-market-bahce-oto-c-60002705",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     },
     {
@@ -164,7 +164,7 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/spor-outdoor-urunleri-c-60001546",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     },
     {
@@ -184,9 +184,9 @@
       "has_children": false,
       "child_count": 0,
       "source_url": "https://www.hepsiburada.com/supermarket-c-2147483619",
-      "discovered_at": "2026-09-16T15:00:59+03:00",
+      "discovered_at": "2026-09-17T15:00:56+03:00",
       "is_active": true
     }
   ],
-  "completed_at": "2026-09-16T15:01:51+03:00"
+  "completed_at": "2026-09-17T15:01:47+03:00"
 }
