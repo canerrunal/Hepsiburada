@@ -18,7 +18,9 @@ if [[ "${HEPSIBURADA_GLOBAL_LOCK_HELD:-0}" != "1" ]]; then
 fi
 
 cd "$PROJECT_DIR"
-export HB_HEADLESS="${HB_HEADLESS:-1}"
+# Hepsiburada headless Chromium'u engelliyor (403 / guvenlik-engeli).
+# Profil isleri varsayilan headful + off-screen calisir.
+export HB_HEADLESS="${HB_HEADLESS:-0}"
 
 echo "DAILY_RUN_START profile=$PROFILE time=$(TZ=Europe/Istanbul date +%FT%T%z)"
 

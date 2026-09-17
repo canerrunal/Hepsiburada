@@ -16,22 +16,26 @@ PRODUCT_FIELDS = (
 
 
 def add_browser_mode_args(parser):
-    """Add mutually exclusive browser mode flags, defaulting to headless."""
+    """Add mutually exclusive browser mode flags, defaulting to headful.
+
+    Hepsiburada headless Chromium'a 403 / guvenlik-engeli donduruyor,
+    bu yuzden varsayilan headful + off-screen penceredir.
+    """
     group = parser.add_mutually_exclusive_group()
     group.add_argument(
         "--headless",
         dest="headless",
         action="store_true",
-        help="Tarayıcıyı arka planda çalıştır (varsayılan)",
+        help="Tarayıcıyı arka planda çalıştır",
     )
     group.add_argument(
         "--headed",
         dest="headless",
         action="store_false",
-        help="Debug için Chrome penceresini görünür aç",
+        help="Hepsiburada icin varsayilan: off-screen headful pencere",
     )
 
-    env_value = os.getenv("HB_HEADLESS", "1").strip().lower()
+    env_value = os.getenv("HB_HEADLESS", "0").strip().lower()
     parser.set_defaults(headless=env_value not in {"0", "false", "no", "off"})
     return parser
 
