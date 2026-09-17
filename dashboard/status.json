@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-17T06:40:48.310Z",
+  "generatedAt": "2026-09-17T06:45:49.048Z",
   "observedDate": "2026-09-17",
-  "sourceCommit": "5dffbaaf52a30642123ce2b67759e2212a1a88a6",
+  "sourceCommit": "50c8c9cf3694b48a97361540fad2c9ce147c5731",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14330,7 +14330,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-17T06:40:48.212Z",
+    "observedAt": "2026-09-17T06:45:48.950Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
@@ -14763,8 +14763,8 @@
     {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-17T09:45:00+03:00",
-      "lastRun": "2026-09-17T09:35:49.772809+03:00",
+      "nextRun": "2026-09-17T09:50:00+03:00",
+      "lastRun": "2026-09-17T09:40:50.918010+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
