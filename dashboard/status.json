@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-17T19:25:26.323Z",
+  "generatedAt": "2026-09-17T20:30:27.252Z",
   "observedDate": "2026-09-17",
-  "sourceCommit": "537bc7976fd1ae7fec5943639de5dc304a6954ee",
+  "sourceCommit": "0bb6eb759b0cd323f1e5cd0275b242030e97acc2",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14035,60 +14035,40 @@
   "profiles": [
     {
       "profile": "elektronik",
-      "status": "STALE",
+      "status": "PASS",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-14",
-      "lastSuccessfulRun": null,
+      "reportDate": "2026-09-17",
+      "lastSuccessfulRun": "2026-09-17T19:35:34.625Z",
       "nextScheduledTime": "22:30",
       "productTarget": 1000,
-      "productCount": 0,
+      "productCount": 1000,
       "detailSuccessRate": null,
-      "stockCoverage": 0,
-      "sellerCoverage": 0,
+      "stockCoverage": null,
+      "sellerCoverage": null,
       "errorCount": 0,
       "quality": {
-        "status": "STALE",
-        "phase": "final",
-        "date": "2026-09-14",
-        "generatedAt": "2026-09-17T01:30:08.803Z",
-        "productCount": 0,
+        "status": "PASS",
+        "phase": "listing",
+        "date": "2026-09-17",
+        "generatedAt": "2026-09-17T19:35:34.625Z",
+        "productCount": 1000,
         "minimumProducts": 1000,
         "duplicateProducts": 0,
         "fieldCoverage": {
-          "marketplace": 0,
-          "product_id": 0,
-          "sku": 0,
-          "title": 0,
-          "url": 0,
-          "price": 0,
-          "source_segment": 0,
-          "source_page": 0
+          "marketplace": 100,
+          "product_id": 100,
+          "sku": 100,
+          "title": 100,
+          "url": 100,
+          "price": 100,
+          "source_segment": 100,
+          "source_page": 100
         },
         "checks": {
-          "productTarget": false,
-          "coreFieldCoverage": false,
+          "productTarget": true,
+          "coreFieldCoverage": true,
           "noDuplicateProducts": true,
-          "dateMatches": false,
-          "detailFileExists": true,
-          "detailSnapshotAligned": false,
-          "detailPlanReached": true,
-          "detailSuccessRate": true,
-          "stockCoverage": false
-        },
-        "detail": {
-          "attempted": 300,
-          "refreshed": 300,
-          "planned": 300,
-          "successRate": 100,
-          "stockCoverage": 0,
-          "coverage": {
-            "merchant_name": 0,
-            "seller_count": 0,
-            "rating": 100,
-            "review_count": 100,
-            "question_count": 95.7,
-            "stock_status": 0
-          }
+          "dateMatches": true
         }
       }
     },
@@ -14330,16 +14310,79 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-17T19:25:26.226Z",
+    "observedAt": "2026-09-17T20:30:27.146Z",
     "summary": {
       "activeCount": 0,
-      "staleCount": 0,
-      "trackedRunCount": 62,
+      "staleCount": 1,
+      "trackedRunCount": 64,
       "osProcessCount": 0
     },
     "active": [],
-    "stale": [],
+    "stale": [
+      {
+        "runId": "2026-09-17-detail-collector-257ab4a24a",
+        "component": "detail-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_detail_pw.py",
+          "--profile",
+          "elektronik"
+        ],
+        "pid": 4631,
+        "status": "STALE",
+        "startedAt": "2026-09-17T22:35:34+03:00",
+        "updatedAt": "2026-09-17T23:29:40+03:00",
+        "finishedAt": null,
+        "elapsedSeconds": 3245.8,
+        "timeoutSeconds": 4200,
+        "heartbeatSeconds": 60,
+        "exitCode": null,
+        "timeout": false,
+        "live": false,
+        "source": "runtime-registry"
+      }
+    ],
     "recentRuns": [
+      {
+        "runId": "2026-09-17-detail-collector-257ab4a24a",
+        "component": "detail-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_detail_pw.py",
+          "--profile",
+          "elektronik"
+        ],
+        "pid": 4631,
+        "status": "RUNNING",
+        "startedAt": "2026-09-17T22:35:34+03:00",
+        "updatedAt": "2026-09-17T23:29:40+03:00",
+        "finishedAt": null,
+        "elapsedSeconds": 3245.8,
+        "timeoutSeconds": 4200,
+        "heartbeatSeconds": 60,
+        "exitCode": null,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-17-listing-collector-334de1c007",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "elektronik"
+        ],
+        "pid": 4567,
+        "status": "SUCCEEDED",
+        "startedAt": "2026-09-17T22:30:26+03:00",
+        "updatedAt": "2026-09-17T22:35:34+03:00",
+        "finishedAt": "2026-09-17T22:35:34+03:00",
+        "elapsedSeconds": 307.6,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 0,
+        "timeout": false
+      },
       {
         "runId": "2026-09-17-taxonomy-products-59db60aec0",
         "component": "taxonomy-products",
@@ -14715,85 +14758,25 @@
         "heartbeatSeconds": 30,
         "exitCode": 2,
         "timeout": false
-      },
-      {
-        "runId": "2026-09-16-taxonomy-products-0030ff80ff",
-        "component": "taxonomy-products",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "0",
-          "--of",
-          "4"
-        ],
-        "pid": 58997,
-        "status": "FAILED",
-        "startedAt": "2026-09-16T15:02:29+03:00",
-        "updatedAt": "2026-09-16T15:02:44+03:00",
-        "finishedAt": "2026-09-16T15:02:44+03:00",
-        "elapsedSeconds": 14.2,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-16-taxonomy-products-51439df8d4",
-        "component": "taxonomy-products",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "1",
-          "--of",
-          "4"
-        ],
-        "pid": 58999,
-        "status": "FAILED",
-        "startedAt": "2026-09-16T15:02:29+03:00",
-        "updatedAt": "2026-09-16T15:02:39+03:00",
-        "finishedAt": "2026-09-16T15:02:39+03:00",
-        "elapsedSeconds": 9.7,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
       }
     ]
   },
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-elektronik",
-      "schedule": "30 22 * * *",
-      "nextRun": "2026-09-17T22:30:00+03:00",
-      "lastRun": "2026-09-16T22:33:17.430804+03:00",
+      "name": "hepsiburada-supermarket",
+      "schedule": "30 23 * * *",
+      "nextRun": "2026-09-17T23:30:00+03:00",
+      "lastRun": "2026-09-16T23:33:24.215549+03:00",
       "lastStatus": "error",
       "mode": "no-agent"
     },
     {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-17T22:30:00+03:00",
-      "lastRun": "2026-09-17T22:20:27.989521+03:00",
+      "nextRun": "2026-09-17T23:35:00+03:00",
+      "lastRun": "2026-09-17T22:25:28.336054+03:00",
       "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
-      "name": "hepsiburada-moda",
-      "schedule": "0 23 * * *",
-      "nextRun": "2026-09-17T23:00:00+03:00",
-      "lastRun": "2026-09-16T23:03:21.087752+03:00",
-      "lastStatus": "error",
-      "mode": "no-agent"
-    },
-    {
-      "name": "hepsiburada-supermarket",
-      "schedule": "30 23 * * *",
-      "nextRun": "2026-09-17T23:30:00+03:00",
-      "lastRun": "2026-09-16T23:33:24.215549+03:00",
-      "lastStatus": "error",
       "mode": "no-agent"
     },
     {
@@ -14826,6 +14809,22 @@
       "nextRun": "2026-09-18T15:00:00+03:00",
       "lastRun": "2026-09-17T15:02:42.462667+03:00",
       "lastStatus": "ok",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-elektronik",
+      "schedule": "30 22 * * *",
+      "nextRun": "2026-09-18T22:30:00+03:00",
+      "lastRun": "2026-09-17T23:30:26.968582+03:00",
+      "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-moda",
+      "schedule": "0 23 * * *",
+      "nextRun": "2026-09-18T23:00:00+03:00",
+      "lastRun": "2026-09-16T23:03:21.087752+03:00",
+      "lastStatus": "error",
       "mode": "no-agent"
     }
   ],
