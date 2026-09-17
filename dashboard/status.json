@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-17T01:25:08.227Z",
+  "generatedAt": "2026-09-17T01:30:11.404Z",
   "observedDate": "2026-09-17",
-  "sourceCommit": "ec1deae9ae768271c195ebc662efd9d22e9ff9f5",
+  "sourceCommit": "8200d77e52b0faa1c1ea4bb908b1cf66228774ba",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14050,7 +14050,7 @@
         "status": "STALE",
         "phase": "final",
         "date": "2026-09-14",
-        "generatedAt": "2026-09-16T01:30:09.765Z",
+        "generatedAt": "2026-09-17T01:30:08.803Z",
         "productCount": 0,
         "minimumProducts": 1000,
         "duplicateProducts": 0,
@@ -14109,7 +14109,7 @@
         "status": "STALE",
         "phase": "final",
         "date": "2026-09-14",
-        "generatedAt": "2026-09-16T01:30:09.834Z",
+        "generatedAt": "2026-09-17T01:30:08.872Z",
         "productCount": 0,
         "minimumProducts": 1000,
         "duplicateProducts": 0,
@@ -14168,7 +14168,7 @@
         "status": "STALE",
         "phase": "final",
         "date": "2026-09-14",
-        "generatedAt": "2026-09-16T01:30:09.904Z",
+        "generatedAt": "2026-09-17T01:30:08.942Z",
         "productCount": 0,
         "minimumProducts": 1000,
         "duplicateProducts": 0,
@@ -14227,7 +14227,7 @@
         "status": "STALE",
         "phase": "final",
         "date": "2026-09-14",
-        "generatedAt": "2026-09-16T01:30:09.977Z",
+        "generatedAt": "2026-09-17T01:30:09.014Z",
         "productCount": 300,
         "minimumProducts": 1000,
         "duplicateProducts": 5,
@@ -14286,7 +14286,7 @@
         "status": "STALE",
         "phase": "final",
         "date": "2026-09-14",
-        "generatedAt": "2026-09-16T01:30:10.049Z",
+        "generatedAt": "2026-09-17T01:30:09.084Z",
         "productCount": 300,
         "minimumProducts": 1000,
         "duplicateProducts": 89,
@@ -14330,7 +14330,7 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-17T01:25:08.104Z",
+    "observedAt": "2026-09-17T01:30:11.304Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 0,
@@ -14761,18 +14761,10 @@
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-finalize",
-      "schedule": "30 4 * * *",
-      "nextRun": "2026-09-17T04:30:00+03:00",
-      "lastRun": "2026-09-16T04:30:12.206042+03:00",
-      "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-17T04:30:00+03:00",
-      "lastRun": "2026-09-17T04:20:09.833563+03:00",
+      "nextRun": "2026-09-17T04:35:00+03:00",
+      "lastRun": "2026-09-17T04:25:10.351731+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -14822,6 +14814,14 @@
       "nextRun": "2026-09-18T00:30:00+03:00",
       "lastRun": "2026-09-17T00:33:32.307036+03:00",
       "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-finalize",
+      "schedule": "30 4 * * *",
+      "nextRun": "2026-09-18T04:30:00+03:00",
+      "lastRun": "2026-09-17T04:30:11.149694+03:00",
+      "lastStatus": "ok",
       "mode": "no-agent"
     }
   ],
