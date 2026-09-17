@@ -34,3 +34,16 @@ def add_browser_mode_args(parser):
     env_value = os.getenv("HB_HEADLESS", "1").strip().lower()
     parser.set_defaults(headless=env_value not in {"0", "false", "no", "off"})
     return parser
+
+
+def browser_launch_args(headless):
+    """Return conservative Chromium flags for the selected browser mode.
+
+    Headful mode is used for the marketplace jobs because the public site
+    currently returns HTTP 403 to headless Chromium. The real-browser window
+    is placed off-screen so the listing page never takes over the desktop.
+    """
+    args = ["--disable-blink-features=AutomationControlled"]
+    if not headless:
+        args.extend(["--window-position=-32000,-32000", "--window-size=1,1"])
+    return args

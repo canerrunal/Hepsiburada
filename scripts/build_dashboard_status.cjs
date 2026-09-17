@@ -167,6 +167,7 @@ const taxonomySnapshot = read(path.join(ROOT, 'taxonomy', 'snapshots', date, 'su
 const collectionConfig = read(path.join(ROOT, 'taxonomy', 'collection-config.json')) || {};
 const tree = taxonomyTreeStats();
 const collectionPlan = taxonomyCollectionPlan(taxonomy, collectionConfig);
+const taxonomyProductWorkersActive = workers.active.some((worker) => worker.component === 'taxonomy-products');
 const output = {
   marketplace: 'hepsiburada',
   generatedAt: new Date().toISOString(),
@@ -174,7 +175,7 @@ const output = {
   sourceCommit: commit,
   taxonomy: {
     status: taxonomyStatus.status || taxonomy.status || 'UNKNOWN',
-    productCollectionStatus: taxonomySnapshot.status || 'NOT_RUN',
+    productCollectionStatus: taxonomyProductWorkersActive ? 'RUNNING' : (taxonomySnapshot.status || 'NOT_RUN'),
     observedDate: taxonomy.date || null,
     categoryCount: taxonomy.count || (taxonomy.categories || []).length || 0,
     rootCategoryCount: (taxonomy.categories || []).filter((c) => c.level === 1).length,
@@ -198,7 +199,7 @@ const output = {
       };
     }),
     { task: 'Taksonomi keşif (4 shard)', time: '15:00', workers: '4 paralel (shard-0..3)', target: 'kategori ağacı + merge' },
-    { task: 'Taksonomi ürün tarama (4 shard)', time: 'keşif sonrası', workers: '4 paralel (shard-0..3)', target: collectionPlan.targetSummary },
+    { task: 'Taksonomi ürün tarama (4 shard)', time: 'keşif sonrası', workers: '4 paralel (kök liste sayfaları)', target: collectionPlan.targetSummary },
     { task: 'Finalize + Telegram özeti', time: '04:30', workers: '1', target: 'GitHub commit + push + dashboard + Telegram' },
     { task: 'Dashboard durum üretici (sayfa yenileme)', time: '5 dakikada bir', workers: 'UI', target: 'status.json' },
   ],

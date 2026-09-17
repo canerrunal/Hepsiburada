@@ -22,8 +22,9 @@ from pathlib import Path
 
 try:
     from hb_playwright_config import add_browser_mode_args
+    from hb_playwright_config import browser_launch_args
 except ImportError:
-    from scripts.hb_playwright_config import add_browser_mode_args
+    from scripts.hb_playwright_config import add_browser_mode_args, browser_launch_args
 
 ROOT = Path(__file__).resolve().parent.parent
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
@@ -133,7 +134,7 @@ def main():
     failed = 0
     consecutive_blocks = 0
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=args.headless, args=["--disable-blink-features=AutomationControlled"])
+        browser = p.chromium.launch(headless=args.headless, args=browser_launch_args(args.headless))
         ctx = None
         try:
             ctx = browser.new_context(locale="tr-TR", user_agent=UA, viewport={"width": 1366, "height": 900})

@@ -140,13 +140,19 @@ def main():
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--of", type=int, default=1)
     ap.add_argument("--max-products", type=int, default=None, help="Tum kokler icin manuel hedef; varsayilan dinamik politika")
-    ap.add_argument("--max-pages-per-category", type=int, default=100)
+    ap.add_argument("--max-pages-per-category", type=int, default=200)
+    ap.add_argument(
+        "--category-scope",
+        choices=("root", "all"),
+        default="root",
+        help="Ürünleri kök liste sayfalarından topla (varsayılan) veya tüm alt kategori sayfalarını tara",
+    )
     ap.add_argument("--request-delay-ms", type=int, default=1500)
     ap.add_argument("--allow-partial", action="store_true", help="Sadece tanı için eksik katalogla devam et")
     try:
-        from hb_playwright_config import add_browser_mode_args
+        from hb_playwright_config import add_browser_mode_args, browser_launch_args
     except ImportError:
-        from scripts.hb_playwright_config import add_browser_mode_args
+        from scripts.hb_playwright_config import add_browser_mode_args, browser_launch_args
     add_browser_mode_args(ap)
     args = ap.parse_args()
     catalog, rows = load_categories(args.allow_partial)
@@ -169,7 +175,7 @@ def main():
     from hb_collect_pw import extract_products, norm_product
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=args.headless, args=["--disable-blink-features=AutomationControlled"])
+        browser = p.chromium.launch(headless=args.headless, args=browser_launch_args(args.headless))
         context = None
         try:
             context = browser.new_context(locale="tr-TR", user_agent=UA, viewport={"width": 1366, "height": 900})
@@ -180,11 +186,17 @@ def main():
                     descendants = [root]
                 subcategory_count = max(len(descendants) - 1, 0)
                 target = target_for_subcategory_count(subcategory_count, args.max_products)
+                scan_categories = [root] if args.category_scope == "root" else descendants
                 unique = {}
                 membership = []
                 errors = []
                 category_rank = 0
-                for category in descendants:
+                print(
+                    f"TAXCOLLECT_ROOT_START shard={args.shard}/{args.of} root={root.get('name')} "
+                    f"scope={args.category_scope} target={target}",
+                    flush=True,
+                )
+                for category in scan_categories:
                     if len(unique) >= target:
                         break
                     stagnant = 0
@@ -241,10 +253,16 @@ def main():
                 status = "PASS" if len(unique) >= target else "INSUFFICIENT_SOURCE"
                 summary["roots"].append({"root_id": root.get("id"), "root_name": root.get("name"),
                                          "subcategory_count": subcategory_count, "category_count": len(descendants),
+                                         "scanned_category_count": len(scan_categories), "scan_scope": args.category_scope,
                                          "unique_product_count": len(unique), "target": target,
                                          "target_basis": "subcategory_count_excluding_root",
                                          "status": status, "error_count": len(errors),
                                          "errors": errors[:20]})
+                print(
+                    f"TAXCOLLECT_ROOT_DONE shard={args.shard}/{args.of} root={root.get('name')} "
+                    f"products={len(unique)}/{target} errors={len(errors)} status={status}",
+                    flush=True,
+                )
         finally:
             if context is not None:
                 context.close()

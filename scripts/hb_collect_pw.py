@@ -16,9 +16,9 @@ import time
 from pathlib import Path
 
 try:
-    from hb_playwright_config import add_browser_mode_args
+    from hb_playwright_config import add_browser_mode_args, browser_launch_args
 except ImportError:
-    from scripts.hb_playwright_config import add_browser_mode_args
+    from scripts.hb_playwright_config import add_browser_mode_args, browser_launch_args
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -200,7 +200,7 @@ def main():
     products = []
     block_error = None
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=args.headless, args=["--disable-blink-features=AutomationControlled"])
+        browser = p.chromium.launch(headless=args.headless, args=browser_launch_args(args.headless))
         ctx = None
         try:
             ctx = browser.new_context(
