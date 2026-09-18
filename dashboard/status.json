@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-18T01:25:08.571Z",
+  "generatedAt": "2026-09-18T01:30:12.219Z",
   "observedDate": "2026-09-18",
-  "sourceCommit": "de307a0771072c2aef0dae7c9fceb085df290931",
+  "sourceCommit": "ce772dd6aad7aa028cb8b1cb7bcacf3daa717e71",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14035,144 +14035,204 @@
   "profiles": [
     {
       "profile": "elektronik",
-      "status": "PASS",
+      "status": "STALE",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-17",
-      "lastSuccessfulRun": "2026-09-17T19:35:34.625Z",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
       "nextScheduledTime": "22:30",
       "productTarget": 1000,
-      "productCount": 1000,
+      "productCount": 0,
       "detailSuccessRate": null,
-      "stockCoverage": null,
-      "sellerCoverage": null,
+      "stockCoverage": 266.4,
+      "sellerCoverage": 100,
       "errorCount": 0,
       "quality": {
-        "status": "PASS",
-        "phase": "listing",
-        "date": "2026-09-17",
-        "generatedAt": "2026-09-17T19:35:34.625Z",
-        "productCount": 1000,
+        "status": "STALE",
+        "phase": "final",
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-18T01:30:09.083Z",
+        "productCount": 0,
         "minimumProducts": 1000,
         "duplicateProducts": 0,
         "fieldCoverage": {
-          "marketplace": 100,
-          "product_id": 100,
-          "sku": 100,
-          "title": 100,
-          "url": 100,
-          "price": 100,
-          "source_segment": 100,
-          "source_page": 100
+          "marketplace": 0,
+          "product_id": 0,
+          "sku": 0,
+          "title": 0,
+          "url": 0,
+          "price": 0,
+          "source_segment": 0,
+          "source_page": 0
         },
         "checks": {
-          "productTarget": true,
-          "coreFieldCoverage": true,
+          "productTarget": false,
+          "coreFieldCoverage": false,
           "noDuplicateProducts": true,
-          "dateMatches": true
+          "dateMatches": false,
+          "detailFileExists": true,
+          "detailSnapshotAligned": false,
+          "detailPlanReached": true,
+          "detailSuccessRate": true,
+          "stockCoverage": true
+        },
+        "detail": {
+          "attempted": 375,
+          "refreshed": 375,
+          "planned": 300,
+          "successRate": 100,
+          "stockCoverage": 266.4,
+          "coverage": {
+            "merchant_name": 211.7,
+            "seller_count": 100,
+            "rating": 266.7,
+            "review_count": 266.7,
+            "question_count": 96,
+            "stock_status": 266.4
+          }
         }
       }
     },
     {
       "profile": "moda",
-      "status": "PASS",
+      "status": "STALE",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-17",
-      "lastSuccessfulRun": "2026-09-17T20:34:11.920Z",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
       "nextScheduledTime": "23:00",
       "productTarget": 1000,
-      "productCount": 1000,
+      "productCount": 0,
       "detailSuccessRate": null,
-      "stockCoverage": null,
-      "sellerCoverage": null,
+      "stockCoverage": 265.1,
+      "sellerCoverage": 100,
       "errorCount": 0,
       "quality": {
-        "status": "PASS",
-        "phase": "listing",
-        "date": "2026-09-17",
-        "generatedAt": "2026-09-17T20:34:11.920Z",
-        "productCount": 1000,
+        "status": "STALE",
+        "phase": "final",
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-18T01:30:09.162Z",
+        "productCount": 0,
         "minimumProducts": 1000,
         "duplicateProducts": 0,
         "fieldCoverage": {
-          "marketplace": 100,
-          "product_id": 100,
-          "sku": 100,
-          "title": 100,
-          "url": 100,
-          "price": 100,
-          "source_segment": 100,
-          "source_page": 100
+          "marketplace": 0,
+          "product_id": 0,
+          "sku": 0,
+          "title": 0,
+          "url": 0,
+          "price": 0,
+          "source_segment": 0,
+          "source_page": 0
         },
         "checks": {
-          "productTarget": true,
-          "coreFieldCoverage": true,
+          "productTarget": false,
+          "coreFieldCoverage": false,
           "noDuplicateProducts": true,
-          "dateMatches": true
+          "dateMatches": false,
+          "detailFileExists": true,
+          "detailSnapshotAligned": false,
+          "detailPlanReached": true,
+          "detailSuccessRate": true,
+          "stockCoverage": true
+        },
+        "detail": {
+          "attempted": 375,
+          "refreshed": 375,
+          "planned": 300,
+          "successRate": 100,
+          "stockCoverage": 265.1,
+          "coverage": {
+            "merchant_name": 172.5,
+            "seller_count": 100,
+            "rating": 266.7,
+            "review_count": 266.7,
+            "question_count": 100,
+            "stock_status": 265.1
+          }
         }
       }
     },
     {
       "profile": "supermarket",
-      "status": "PASS",
+      "status": "STALE",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-18",
-      "lastSuccessfulRun": "2026-09-17T21:36:51.103Z",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
       "nextScheduledTime": "23:30",
       "productTarget": 1000,
-      "productCount": 1000,
+      "productCount": 0,
       "detailSuccessRate": null,
-      "stockCoverage": null,
-      "sellerCoverage": null,
+      "stockCoverage": 266.7,
+      "sellerCoverage": 100,
       "errorCount": 0,
       "quality": {
-        "status": "PASS",
-        "phase": "listing",
-        "date": "2026-09-18",
-        "generatedAt": "2026-09-17T21:36:51.103Z",
-        "productCount": 1000,
+        "status": "STALE",
+        "phase": "final",
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-18T01:30:09.242Z",
+        "productCount": 0,
         "minimumProducts": 1000,
         "duplicateProducts": 0,
         "fieldCoverage": {
-          "marketplace": 100,
-          "product_id": 100,
-          "sku": 100,
-          "title": 100,
-          "url": 100,
-          "price": 100,
-          "source_segment": 100,
-          "source_page": 100
+          "marketplace": 0,
+          "product_id": 0,
+          "sku": 0,
+          "title": 0,
+          "url": 0,
+          "price": 0,
+          "source_segment": 0,
+          "source_page": 0
         },
         "checks": {
-          "productTarget": true,
-          "coreFieldCoverage": true,
+          "productTarget": false,
+          "coreFieldCoverage": false,
           "noDuplicateProducts": true,
-          "dateMatches": true
+          "dateMatches": false,
+          "detailFileExists": true,
+          "detailSnapshotAligned": false,
+          "detailPlanReached": true,
+          "detailSuccessRate": true,
+          "stockCoverage": true
+        },
+        "detail": {
+          "attempted": 375,
+          "refreshed": 375,
+          "planned": 300,
+          "successRate": 100,
+          "stockCoverage": 266.7,
+          "coverage": {
+            "merchant_name": 266.7,
+            "seller_count": 100,
+            "rating": 266.7,
+            "review_count": 266.7,
+            "question_count": 99.2,
+            "stock_status": 266.7
+          }
         }
       }
     },
     {
       "profile": "kozmetik",
-      "status": "PASS",
+      "status": "STALE",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-18",
-      "lastSuccessfulRun": "2026-09-17T22:36:16.845Z",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
       "nextScheduledTime": "00:00",
       "productTarget": 1000,
       "productCount": 300,
       "detailSuccessRate": null,
-      "stockCoverage": null,
-      "sellerCoverage": null,
+      "stockCoverage": 266.7,
+      "sellerCoverage": 100,
       "errorCount": 0,
       "quality": {
-        "status": "PASS",
-        "phase": "listing",
-        "date": "2026-09-18",
-        "generatedAt": "2026-09-17T22:36:16.845Z",
-        "productCount": 1000,
+        "status": "STALE",
+        "phase": "final",
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-18T01:30:09.324Z",
+        "productCount": 300,
         "minimumProducts": 1000,
-        "duplicateProducts": 0,
+        "duplicateProducts": 5,
         "fieldCoverage": {
-          "marketplace": 100,
+          "marketplace": 0,
           "product_id": 100,
           "sku": 100,
           "title": 100,
@@ -14182,36 +14242,56 @@
           "source_page": 100
         },
         "checks": {
-          "productTarget": true,
-          "coreFieldCoverage": true,
-          "noDuplicateProducts": true,
-          "dateMatches": true
+          "productTarget": false,
+          "coreFieldCoverage": false,
+          "noDuplicateProducts": false,
+          "dateMatches": false,
+          "detailFileExists": true,
+          "detailSnapshotAligned": false,
+          "detailPlanReached": true,
+          "detailSuccessRate": true,
+          "stockCoverage": true
+        },
+        "detail": {
+          "attempted": 375,
+          "refreshed": 375,
+          "planned": 300,
+          "successRate": 100,
+          "stockCoverage": 266.7,
+          "coverage": {
+            "merchant_name": 261.3,
+            "seller_count": 100,
+            "rating": 266.7,
+            "review_count": 266.7,
+            "question_count": 99.7,
+            "stock_status": 266.7
+          }
         }
       }
     },
     {
       "profile": "anne-bebek-oyuncak",
-      "status": "PASS",
+      "status": "STALE",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-18",
-      "lastSuccessfulRun": "2026-09-17T23:36:02.546Z",
+      "reportDate": "2026-09-14",
+      "lastSuccessfulRun": null,
       "nextScheduledTime": "00:30",
       "productTarget": 1000,
       "productCount": 300,
       "detailSuccessRate": null,
-      "stockCoverage": null,
-      "sellerCoverage": null,
+      "stockCoverage": 266.7,
+      "sellerCoverage": 100,
       "errorCount": 0,
       "quality": {
-        "status": "PASS",
-        "phase": "listing",
-        "date": "2026-09-18",
-        "generatedAt": "2026-09-17T23:36:02.546Z",
-        "productCount": 1000,
+        "status": "STALE",
+        "phase": "final",
+        "date": "2026-09-14",
+        "generatedAt": "2026-09-18T01:30:09.406Z",
+        "productCount": 300,
         "minimumProducts": 1000,
-        "duplicateProducts": 0,
+        "duplicateProducts": 89,
         "fieldCoverage": {
-          "marketplace": 100,
+          "marketplace": 0,
           "product_id": 100,
           "sku": 100,
           "title": 100,
@@ -14221,16 +14301,36 @@
           "source_page": 100
         },
         "checks": {
-          "productTarget": true,
-          "coreFieldCoverage": true,
-          "noDuplicateProducts": true,
-          "dateMatches": true
+          "productTarget": false,
+          "coreFieldCoverage": false,
+          "noDuplicateProducts": false,
+          "dateMatches": false,
+          "detailFileExists": true,
+          "detailSnapshotAligned": false,
+          "detailPlanReached": true,
+          "detailSuccessRate": true,
+          "stockCoverage": true
+        },
+        "detail": {
+          "attempted": 375,
+          "refreshed": 375,
+          "planned": 300,
+          "successRate": 100,
+          "stockCoverage": 266.7,
+          "coverage": {
+            "merchant_name": 266.7,
+            "seller_count": 100,
+            "rating": 266.7,
+            "review_count": 266.7,
+            "question_count": 98.4,
+            "stock_status": 266.7
+          }
         }
       }
     }
   ],
   "workers": {
-    "observedAt": "2026-09-18T01:25:08.477Z",
+    "observedAt": "2026-09-18T01:30:12.126Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 5,
@@ -14772,18 +14872,10 @@
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-finalize",
-      "schedule": "30 4 * * *",
-      "nextRun": "2026-09-18T04:30:00+03:00",
-      "lastRun": "2026-09-17T04:30:11.149694+03:00",
-      "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-18T04:30:00+03:00",
-      "lastRun": "2026-09-18T04:20:10.062256+03:00",
+      "nextRun": "2026-09-18T04:35:00+03:00",
+      "lastRun": "2026-09-18T04:25:10.843894+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -14833,6 +14925,14 @@
       "nextRun": "2026-09-19T00:30:00+03:00",
       "lastRun": "2026-09-18T03:30:32.740395+03:00",
       "lastStatus": "error",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-finalize",
+      "schedule": "30 4 * * *",
+      "nextRun": "2026-09-19T04:30:00+03:00",
+      "lastRun": "2026-09-18T04:30:11.976191+03:00",
+      "lastStatus": "ok",
       "mode": "no-agent"
     }
   ],
