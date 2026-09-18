@@ -1,8 +1,8 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-17T22:30:30.381Z",
+  "generatedAt": "2026-09-18T00:30:32.981Z",
   "observedDate": "2026-09-18",
-  "sourceCommit": "30eb305411dd14099516a6982f52c2e143f86838",
+  "sourceCommit": "6d225133fe24acfdc0a248fea10643aadcc74f78",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
@@ -14152,27 +14152,27 @@
     },
     {
       "profile": "kozmetik",
-      "status": "STALE",
+      "status": "PASS",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-14",
-      "lastSuccessfulRun": null,
+      "reportDate": "2026-09-18",
+      "lastSuccessfulRun": "2026-09-17T22:36:16.845Z",
       "nextScheduledTime": "00:00",
       "productTarget": 1000,
       "productCount": 300,
       "detailSuccessRate": null,
-      "stockCoverage": 0,
-      "sellerCoverage": 0,
+      "stockCoverage": null,
+      "sellerCoverage": null,
       "errorCount": 0,
       "quality": {
-        "status": "STALE",
-        "phase": "final",
-        "date": "2026-09-14",
-        "generatedAt": "2026-09-17T01:30:09.014Z",
-        "productCount": 300,
+        "status": "PASS",
+        "phase": "listing",
+        "date": "2026-09-18",
+        "generatedAt": "2026-09-17T22:36:16.845Z",
+        "productCount": 1000,
         "minimumProducts": 1000,
-        "duplicateProducts": 5,
+        "duplicateProducts": 0,
         "fieldCoverage": {
-          "marketplace": 0,
+          "marketplace": 100,
           "product_id": 100,
           "sku": 100,
           "title": 100,
@@ -14182,56 +14182,36 @@
           "source_page": 100
         },
         "checks": {
-          "productTarget": false,
-          "coreFieldCoverage": false,
-          "noDuplicateProducts": false,
-          "dateMatches": false,
-          "detailFileExists": true,
-          "detailSnapshotAligned": true,
-          "detailPlanReached": true,
-          "detailSuccessRate": true,
-          "stockCoverage": false
-        },
-        "detail": {
-          "attempted": 300,
-          "refreshed": 300,
-          "planned": 300,
-          "successRate": 100,
-          "stockCoverage": 0,
-          "coverage": {
-            "merchant_name": 0,
-            "seller_count": 0,
-            "rating": 100,
-            "review_count": 100,
-            "question_count": 99,
-            "stock_status": 0
-          }
+          "productTarget": true,
+          "coreFieldCoverage": true,
+          "noDuplicateProducts": true,
+          "dateMatches": true
         }
       }
     },
     {
       "profile": "anne-bebek-oyuncak",
-      "status": "STALE",
+      "status": "PASS",
       "observedDate": "2026-09-14",
-      "reportDate": "2026-09-14",
-      "lastSuccessfulRun": null,
+      "reportDate": "2026-09-18",
+      "lastSuccessfulRun": "2026-09-17T23:36:02.546Z",
       "nextScheduledTime": "00:30",
       "productTarget": 1000,
       "productCount": 300,
       "detailSuccessRate": null,
-      "stockCoverage": 0,
-      "sellerCoverage": 0,
+      "stockCoverage": null,
+      "sellerCoverage": null,
       "errorCount": 0,
       "quality": {
-        "status": "STALE",
-        "phase": "final",
-        "date": "2026-09-14",
-        "generatedAt": "2026-09-17T01:30:09.084Z",
-        "productCount": 300,
+        "status": "PASS",
+        "phase": "listing",
+        "date": "2026-09-18",
+        "generatedAt": "2026-09-17T23:36:02.546Z",
+        "productCount": 1000,
         "minimumProducts": 1000,
-        "duplicateProducts": 89,
+        "duplicateProducts": 0,
         "fieldCoverage": {
-          "marketplace": 0,
+          "marketplace": 100,
           "product_id": 100,
           "sku": 100,
           "title": 100,
@@ -14241,44 +14221,68 @@
           "source_page": 100
         },
         "checks": {
-          "productTarget": false,
-          "coreFieldCoverage": false,
-          "noDuplicateProducts": false,
-          "dateMatches": false,
-          "detailFileExists": true,
-          "detailSnapshotAligned": true,
-          "detailPlanReached": true,
-          "detailSuccessRate": true,
-          "stockCoverage": false
-        },
-        "detail": {
-          "attempted": 300,
-          "refreshed": 300,
-          "planned": 300,
-          "successRate": 100,
-          "stockCoverage": 0,
-          "coverage": {
-            "merchant_name": 0,
-            "seller_count": 0,
-            "rating": 100,
-            "review_count": 100,
-            "question_count": 98.7,
-            "stock_status": 0
-          }
+          "productTarget": true,
+          "coreFieldCoverage": true,
+          "noDuplicateProducts": true,
+          "dateMatches": true
         }
       }
     }
   ],
   "workers": {
-    "observedAt": "2026-09-17T22:30:30.286Z",
+    "observedAt": "2026-09-18T00:30:32.884Z",
     "summary": {
       "activeCount": 0,
-      "staleCount": 3,
-      "trackedRunCount": 68,
+      "staleCount": 5,
+      "trackedRunCount": 72,
       "osProcessCount": 0
     },
     "active": [],
     "stale": [
+      {
+        "runId": "2026-09-18-detail-collector-6070b808f1",
+        "component": "detail-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_detail_pw.py",
+          "--profile",
+          "anne-bebek-oyuncak"
+        ],
+        "pid": 6149,
+        "status": "STALE",
+        "startedAt": "2026-09-18T02:36:02+03:00",
+        "updatedAt": "2026-09-18T03:30:08+03:00",
+        "finishedAt": null,
+        "elapsedSeconds": 3245.8,
+        "timeoutSeconds": 4200,
+        "heartbeatSeconds": 60,
+        "exitCode": null,
+        "timeout": false,
+        "live": false,
+        "source": "runtime-registry"
+      },
+      {
+        "runId": "2026-09-18-detail-collector-ecfb9be59f",
+        "component": "detail-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_detail_pw.py",
+          "--profile",
+          "kozmetik"
+        ],
+        "pid": 5813,
+        "status": "STALE",
+        "startedAt": "2026-09-18T01:36:16+03:00",
+        "updatedAt": "2026-09-18T02:30:22+03:00",
+        "finishedAt": null,
+        "elapsedSeconds": 3245.6,
+        "timeoutSeconds": 4200,
+        "heartbeatSeconds": 60,
+        "exitCode": null,
+        "timeout": false,
+        "live": false,
+        "source": "runtime-registry"
+      },
       {
         "runId": "2026-09-18-detail-collector-93c53eb113",
         "component": "detail-collector",
@@ -14347,6 +14351,86 @@
       }
     ],
     "recentRuns": [
+      {
+        "runId": "2026-09-18-detail-collector-6070b808f1",
+        "component": "detail-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_detail_pw.py",
+          "--profile",
+          "anne-bebek-oyuncak"
+        ],
+        "pid": 6149,
+        "status": "RUNNING",
+        "startedAt": "2026-09-18T02:36:02+03:00",
+        "updatedAt": "2026-09-18T03:30:08+03:00",
+        "finishedAt": null,
+        "elapsedSeconds": 3245.8,
+        "timeoutSeconds": 4200,
+        "heartbeatSeconds": 60,
+        "exitCode": null,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-listing-collector-2544828482",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "anne-bebek-oyuncak"
+        ],
+        "pid": 6075,
+        "status": "SUCCEEDED",
+        "startedAt": "2026-09-18T02:30:32+03:00",
+        "updatedAt": "2026-09-18T02:36:02+03:00",
+        "finishedAt": "2026-09-18T02:36:02+03:00",
+        "elapsedSeconds": 329.8,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 0,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-detail-collector-ecfb9be59f",
+        "component": "detail-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_detail_pw.py",
+          "--profile",
+          "kozmetik"
+        ],
+        "pid": 5813,
+        "status": "RUNNING",
+        "startedAt": "2026-09-18T01:36:16+03:00",
+        "updatedAt": "2026-09-18T02:30:22+03:00",
+        "finishedAt": null,
+        "elapsedSeconds": 3245.6,
+        "timeoutSeconds": 4200,
+        "heartbeatSeconds": 60,
+        "exitCode": null,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-listing-collector-224161745a",
+        "component": "listing-collector",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_collect_pw.py",
+          "--profile",
+          "kozmetik"
+        ],
+        "pid": 5740,
+        "status": "SUCCEEDED",
+        "startedAt": "2026-09-18T01:30:32+03:00",
+        "updatedAt": "2026-09-18T01:36:16+03:00",
+        "finishedAt": "2026-09-18T01:36:16+03:00",
+        "elapsedSeconds": 344.1,
+        "timeoutSeconds": 1200,
+        "heartbeatSeconds": 30,
+        "exitCode": 0,
+        "timeout": false
+      },
       {
         "runId": "2026-09-18-detail-collector-93c53eb113",
         "component": "detail-collector",
@@ -14682,86 +14766,6 @@
         "heartbeatSeconds": 30,
         "exitCode": 2,
         "timeout": false
-      },
-      {
-        "runId": "2026-09-17-listing-collector-8b7f103d90",
-        "component": "listing-collector",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_collect_pw.py",
-          "--profile",
-          "kozmetik"
-        ],
-        "pid": 69722,
-        "status": "FAILED",
-        "startedAt": "2026-09-17T00:03:01+03:00",
-        "updatedAt": "2026-09-17T00:03:27+03:00",
-        "finishedAt": "2026-09-17T00:03:27+03:00",
-        "elapsedSeconds": 26.4,
-        "timeoutSeconds": 1200,
-        "heartbeatSeconds": 30,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-listing-collector-4aaa37da20",
-        "component": "listing-collector",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_collect_pw.py",
-          "--profile",
-          "kozmetik"
-        ],
-        "pid": 69684,
-        "status": "FAILED",
-        "startedAt": "2026-09-17T00:00:34+03:00",
-        "updatedAt": "2026-09-17T00:01:00+03:00",
-        "finishedAt": "2026-09-17T00:01:00+03:00",
-        "elapsedSeconds": 26.7,
-        "timeoutSeconds": 1200,
-        "heartbeatSeconds": 30,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-16-listing-collector-0d3bcf29e7",
-        "component": "listing-collector",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_collect_pw.py",
-          "--profile",
-          "supermarket"
-        ],
-        "pid": 69005,
-        "status": "FAILED",
-        "startedAt": "2026-09-16T23:32:57+03:00",
-        "updatedAt": "2026-09-16T23:33:24+03:00",
-        "finishedAt": "2026-09-16T23:33:24+03:00",
-        "elapsedSeconds": 26.9,
-        "timeoutSeconds": 1200,
-        "heartbeatSeconds": 30,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-16-listing-collector-29e4b3d97e",
-        "component": "listing-collector",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_collect_pw.py",
-          "--profile",
-          "supermarket"
-        ],
-        "pid": 68951,
-        "status": "FAILED",
-        "startedAt": "2026-09-16T23:30:30+03:00",
-        "updatedAt": "2026-09-16T23:30:57+03:00",
-        "finishedAt": "2026-09-16T23:30:57+03:00",
-        "elapsedSeconds": 26.5,
-        "timeoutSeconds": 1200,
-        "heartbeatSeconds": 30,
-        "exitCode": 2,
-        "timeout": false
       }
     ]
   },
@@ -14770,8 +14774,8 @@
     {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-18T01:35:00+03:00",
-      "lastRun": "2026-09-17T23:30:29.856735+03:00",
+      "nextRun": "2026-09-18T03:35:00+03:00",
+      "lastRun": "2026-09-18T01:30:32.492889+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -14819,7 +14823,7 @@
       "name": "hepsiburada-kozmetik",
       "schedule": "0 0 * * *",
       "nextRun": "2026-09-19T00:00:00+03:00",
-      "lastRun": "2026-09-17T00:03:27.711547+03:00",
+      "lastRun": "2026-09-18T02:30:32.562773+03:00",
       "lastStatus": "error",
       "mode": "no-agent"
     },
@@ -14827,7 +14831,7 @@
       "name": "hepsiburada-anne-bebek",
       "schedule": "30 0 * * *",
       "nextRun": "2026-09-19T00:30:00+03:00",
-      "lastRun": "2026-09-17T00:33:32.307036+03:00",
+      "lastRun": "2026-09-18T03:30:32.740395+03:00",
       "lastStatus": "error",
       "mode": "no-agent"
     }
