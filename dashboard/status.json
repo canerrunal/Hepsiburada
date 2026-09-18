@@ -1,12 +1,12 @@
 {
   "marketplace": "hepsiburada",
-  "generatedAt": "2026-09-18T11:55:27.933Z",
+  "generatedAt": "2026-09-18T12:02:46.875Z",
   "observedDate": "2026-09-18",
-  "sourceCommit": "5fb1344456a847b88f677e252706efec807dcb3e",
+  "sourceCommit": "f3a1ccc8dabdbcbe19136adf6729706a5f6db270",
   "taxonomy": {
     "status": "PASS",
     "productCollectionStatus": "NOT_RUN",
-    "observedDate": "2026-09-17",
+    "observedDate": "2026-09-18",
     "categoryCount": 9,
     "rootCategoryCount": 9,
     "productMembershipRows": null,
@@ -14,7 +14,7 @@
       "primary": {
         "file": "taxonomy/catalog.json",
         "status": "PASS",
-        "date": "2026-09-17",
+        "date": "2026-09-18",
         "categoryCount": 9,
         "rootCount": 9,
         "maxDepth": 1,
@@ -13845,7 +13845,7 @@
         {
           "file": "taxonomy/catalog-shard-0.json",
           "status": "COMPLETE",
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "categoryCount": 9,
           "rootCount": 9,
           "maxDepth": 1,
@@ -13868,7 +13868,7 @@
         {
           "file": "taxonomy/catalog-shard-1.json",
           "status": "COMPLETE",
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "categoryCount": 9,
           "rootCount": 9,
           "maxDepth": 1,
@@ -13891,7 +13891,7 @@
         {
           "file": "taxonomy/catalog-shard-2.json",
           "status": "COMPLETE",
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "categoryCount": 9,
           "rootCount": 9,
           "maxDepth": 1,
@@ -13914,7 +13914,7 @@
         {
           "file": "taxonomy/catalog-shard-3.json",
           "status": "COMPLETE",
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "categoryCount": 9,
           "rootCount": 9,
           "maxDepth": 1,
@@ -14330,11 +14330,11 @@
     }
   ],
   "workers": {
-    "observedAt": "2026-09-18T11:55:27.839Z",
+    "observedAt": "2026-09-18T12:02:46.781Z",
     "summary": {
       "activeCount": 0,
       "staleCount": 5,
-      "trackedRunCount": 72,
+      "trackedRunCount": 80,
       "osProcessCount": 0
     },
     "active": [],
@@ -14451,6 +14451,182 @@
       }
     ],
     "recentRuns": [
+      {
+        "runId": "2026-09-18-taxonomy-products-edc6289c0a",
+        "component": "taxonomy-products",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_collect.py",
+          "--shard",
+          "0",
+          "--of",
+          "4"
+        ],
+        "pid": 14895,
+        "status": "FAILED",
+        "startedAt": "2026-09-18T15:02:30+03:00",
+        "updatedAt": "2026-09-18T15:02:44+03:00",
+        "finishedAt": "2026-09-18T15:02:44+03:00",
+        "elapsedSeconds": 14.4,
+        "timeoutSeconds": 21600,
+        "heartbeatSeconds": 60,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-taxonomy-products-c9b44dcbae",
+        "component": "taxonomy-products",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_collect.py",
+          "--shard",
+          "3",
+          "--of",
+          "4"
+        ],
+        "pid": 14892,
+        "status": "FAILED",
+        "startedAt": "2026-09-18T15:02:30+03:00",
+        "updatedAt": "2026-09-18T15:02:40+03:00",
+        "finishedAt": "2026-09-18T15:02:40+03:00",
+        "elapsedSeconds": 10,
+        "timeoutSeconds": 21600,
+        "heartbeatSeconds": 60,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-taxonomy-products-6ba5b4035b",
+        "component": "taxonomy-products",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_collect.py",
+          "--shard",
+          "1",
+          "--of",
+          "4"
+        ],
+        "pid": 14893,
+        "status": "FAILED",
+        "startedAt": "2026-09-18T15:02:30+03:00",
+        "updatedAt": "2026-09-18T15:02:39+03:00",
+        "finishedAt": "2026-09-18T15:02:39+03:00",
+        "elapsedSeconds": 9.7,
+        "timeoutSeconds": 21600,
+        "heartbeatSeconds": 60,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-taxonomy-products-72f1f2a14b",
+        "component": "taxonomy-products",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_collect.py",
+          "--shard",
+          "2",
+          "--of",
+          "4"
+        ],
+        "pid": 14894,
+        "status": "FAILED",
+        "startedAt": "2026-09-18T15:02:30+03:00",
+        "updatedAt": "2026-09-18T15:02:39+03:00",
+        "finishedAt": "2026-09-18T15:02:39+03:00",
+        "elapsedSeconds": 9.9,
+        "timeoutSeconds": 21600,
+        "heartbeatSeconds": 60,
+        "exitCode": 2,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-taxonomy-discovery-a4c4567e7d",
+        "component": "taxonomy-discovery",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_crawl.py",
+          "--seeds",
+          "0,1,2",
+          "--tag",
+          "shard-0"
+        ],
+        "pid": 14840,
+        "status": "SUCCEEDED",
+        "startedAt": "2026-09-18T15:00:28+03:00",
+        "updatedAt": "2026-09-18T15:02:29+03:00",
+        "finishedAt": "2026-09-18T15:02:29+03:00",
+        "elapsedSeconds": 121.3,
+        "timeoutSeconds": 14400,
+        "heartbeatSeconds": 60,
+        "exitCode": 0,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-taxonomy-discovery-8069ea48cf",
+        "component": "taxonomy-discovery",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_crawl.py",
+          "--seeds",
+          "3,4",
+          "--tag",
+          "shard-1"
+        ],
+        "pid": 14842,
+        "status": "SUCCEEDED",
+        "startedAt": "2026-09-18T15:00:28+03:00",
+        "updatedAt": "2026-09-18T15:01:52+03:00",
+        "finishedAt": "2026-09-18T15:01:52+03:00",
+        "elapsedSeconds": 83.5,
+        "timeoutSeconds": 14400,
+        "heartbeatSeconds": 60,
+        "exitCode": 0,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-taxonomy-discovery-9e75722130",
+        "component": "taxonomy-discovery",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_crawl.py",
+          "--seeds",
+          "5,6",
+          "--tag",
+          "shard-2"
+        ],
+        "pid": 14839,
+        "status": "SUCCEEDED",
+        "startedAt": "2026-09-18T15:00:28+03:00",
+        "updatedAt": "2026-09-18T15:01:52+03:00",
+        "finishedAt": "2026-09-18T15:01:52+03:00",
+        "elapsedSeconds": 83.5,
+        "timeoutSeconds": 14400,
+        "heartbeatSeconds": 60,
+        "exitCode": 0,
+        "timeout": false
+      },
+      {
+        "runId": "2026-09-18-taxonomy-discovery-d39b6896d1",
+        "component": "taxonomy-discovery",
+        "command": [
+          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
+          "scripts/hb_taxonomy_crawl.py",
+          "--seeds",
+          "7,8",
+          "--tag",
+          "shard-3"
+        ],
+        "pid": 14841,
+        "status": "SUCCEEDED",
+        "startedAt": "2026-09-18T15:00:28+03:00",
+        "updatedAt": "2026-09-18T15:01:51+03:00",
+        "finishedAt": "2026-09-18T15:01:51+03:00",
+        "elapsedSeconds": 83.3,
+        "timeoutSeconds": 14400,
+        "heartbeatSeconds": 60,
+        "exitCode": 0,
+        "timeout": false
+      },
       {
         "runId": "2026-09-18-detail-collector-6070b808f1",
         "component": "detail-collector",
@@ -14694,196 +14870,16 @@
         "heartbeatSeconds": 60,
         "exitCode": 2,
         "timeout": false
-      },
-      {
-        "runId": "2026-09-17-taxonomy-products-9f06692973",
-        "component": "taxonomy-products",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "3",
-          "--of",
-          "4"
-        ],
-        "pid": 86905,
-        "status": "FAILED",
-        "startedAt": "2026-09-17T15:02:26+03:00",
-        "updatedAt": "2026-09-17T15:02:35+03:00",
-        "finishedAt": "2026-09-17T15:02:35+03:00",
-        "elapsedSeconds": 9.5,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-taxonomy-products-d0a500b54f",
-        "component": "taxonomy-products",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_collect.py",
-          "--shard",
-          "2",
-          "--of",
-          "4"
-        ],
-        "pid": 86908,
-        "status": "FAILED",
-        "startedAt": "2026-09-17T15:02:26+03:00",
-        "updatedAt": "2026-09-17T15:02:35+03:00",
-        "finishedAt": "2026-09-17T15:02:35+03:00",
-        "elapsedSeconds": 9.5,
-        "timeoutSeconds": 21600,
-        "heartbeatSeconds": 60,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-taxonomy-discovery-bcf2964b6a",
-        "component": "taxonomy-discovery",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_crawl.py",
-          "--seeds",
-          "0,1,2",
-          "--tag",
-          "shard-0"
-        ],
-        "pid": 86817,
-        "status": "SUCCEEDED",
-        "startedAt": "2026-09-17T15:00:26+03:00",
-        "updatedAt": "2026-09-17T15:02:26+03:00",
-        "finishedAt": "2026-09-17T15:02:26+03:00",
-        "elapsedSeconds": 119.4,
-        "timeoutSeconds": 14400,
-        "heartbeatSeconds": 60,
-        "exitCode": 0,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-taxonomy-discovery-1587637e18",
-        "component": "taxonomy-discovery",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_crawl.py",
-          "--seeds",
-          "7,8",
-          "--tag",
-          "shard-3"
-        ],
-        "pid": 86815,
-        "status": "SUCCEEDED",
-        "startedAt": "2026-09-17T15:00:26+03:00",
-        "updatedAt": "2026-09-17T15:01:48+03:00",
-        "finishedAt": "2026-09-17T15:01:48+03:00",
-        "elapsedSeconds": 82,
-        "timeoutSeconds": 14400,
-        "heartbeatSeconds": 60,
-        "exitCode": 0,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-taxonomy-discovery-67182d9b1f",
-        "component": "taxonomy-discovery",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_crawl.py",
-          "--seeds",
-          "5,6",
-          "--tag",
-          "shard-2"
-        ],
-        "pid": 86816,
-        "status": "SUCCEEDED",
-        "startedAt": "2026-09-17T15:00:26+03:00",
-        "updatedAt": "2026-09-17T15:01:48+03:00",
-        "finishedAt": "2026-09-17T15:01:48+03:00",
-        "elapsedSeconds": 82,
-        "timeoutSeconds": 14400,
-        "heartbeatSeconds": 60,
-        "exitCode": 0,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-taxonomy-discovery-00d21c70d1",
-        "component": "taxonomy-discovery",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_taxonomy_crawl.py",
-          "--seeds",
-          "3,4",
-          "--tag",
-          "shard-1"
-        ],
-        "pid": 86818,
-        "status": "SUCCEEDED",
-        "startedAt": "2026-09-17T15:00:26+03:00",
-        "updatedAt": "2026-09-17T15:01:47+03:00",
-        "finishedAt": "2026-09-17T15:01:47+03:00",
-        "elapsedSeconds": 81.2,
-        "timeoutSeconds": 14400,
-        "heartbeatSeconds": 60,
-        "exitCode": 0,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-listing-collector-2f5302bf80",
-        "component": "listing-collector",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_collect_pw.py",
-          "--profile",
-          "anne-bebek-oyuncak"
-        ],
-        "pid": 70392,
-        "status": "FAILED",
-        "startedAt": "2026-09-17T00:33:05+03:00",
-        "updatedAt": "2026-09-17T00:33:32+03:00",
-        "finishedAt": "2026-09-17T00:33:32+03:00",
-        "elapsedSeconds": 26.7,
-        "timeoutSeconds": 1200,
-        "heartbeatSeconds": 30,
-        "exitCode": 2,
-        "timeout": false
-      },
-      {
-        "runId": "2026-09-17-listing-collector-c4528cec10",
-        "component": "listing-collector",
-        "command": [
-          "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3",
-          "scripts/hb_collect_pw.py",
-          "--profile",
-          "anne-bebek-oyuncak"
-        ],
-        "pid": 70343,
-        "status": "FAILED",
-        "startedAt": "2026-09-17T00:30:38+03:00",
-        "updatedAt": "2026-09-17T00:31:05+03:00",
-        "finishedAt": "2026-09-17T00:31:05+03:00",
-        "elapsedSeconds": 27,
-        "timeoutSeconds": 1200,
-        "heartbeatSeconds": 30,
-        "exitCode": 2,
-        "timeout": false
       }
     ]
   },
   "activeHermesJobs": [],
   "schedules": [
     {
-      "name": "hepsiburada-discovery",
-      "schedule": "0 15 * * *",
-      "nextRun": "2026-09-18T15:00:00+03:00",
-      "lastRun": "2026-09-17T15:02:42.462667+03:00",
-      "lastStatus": "ok",
-      "mode": "no-agent"
-    },
-    {
       "name": "hepsiburada-dashboard",
       "schedule": "*/5 * * * *",
-      "nextRun": "2026-09-18T15:00:00+03:00",
-      "lastRun": "2026-09-18T14:50:29.459379+03:00",
+      "nextRun": "2026-09-18T15:05:00+03:00",
+      "lastRun": "2026-09-18T14:55:30.239547+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     },
@@ -14932,6 +14928,14 @@
       "schedule": "30 4 * * *",
       "nextRun": "2026-09-19T04:30:00+03:00",
       "lastRun": "2026-09-18T04:30:11.976191+03:00",
+      "lastStatus": "ok",
+      "mode": "no-agent"
+    },
+    {
+      "name": "hepsiburada-discovery",
+      "schedule": "0 15 * * *",
+      "nextRun": "2026-09-19T15:00:00+03:00",
+      "lastRun": "2026-09-18T15:02:46.615025+03:00",
       "lastStatus": "ok",
       "mode": "no-agent"
     }
